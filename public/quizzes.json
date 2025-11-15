@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "quizzes": [
+    {
+      "id": "bible-basics",
+      "title": "Bible Basics",
+      "description": "A quick refresher on milestones in the Bible.",
+      "questions": [
+        {
+          "id": "bb-q1",
+          "number": 1,
+          "question": "Which book opens with the words, \"In the beginning\"?",
+          "type": "multiple_choice",
+          "options": [
+            { "id": "a", "letter": "A", "text": "Genesis" },
+            { "id": "b", "letter": "B", "text": "Exodus" },
+            { "id": "c", "letter": "C", "text": "Psalms" },
+            { "id": "d", "letter": "D", "text": "John" }
+          ],
+          "answer": "a",
+          "explanation": "Genesis 1:1 begins with \"In the beginning God created...\"."
+        },
+        {
+          "id": "bb-q2",
+          "number": 2,
+          "question": "True or False: Paul wrote letters to the church in Corinth.",
+          "type": "true_false",
+          "options": [
+            { "id": "true", "letter": "T", "text": "True" },
+            { "id": "false", "letter": "F", "text": "False" }
+          ],
+          "answer": "true",
+          "explanation": "First and Second Corinthians are letters authored by Paul."
+        },
+        {
+          "id": "bb-q3",
+          "number": 3,
+          "question": "Who interpreted Pharaoh's dreams about famine?",
+          "type": "multiple_choice",
+          "options": [
+            { "id": "a", "letter": "A", "text": "Moses" },
+            { "id": "b", "letter": "B", "text": "Joseph" },
+            { "id": "c", "letter": "C", "text": "Daniel" },
+            { "id": "d", "letter": "D", "text": "Samuel" }
+          ],
+          "answer": "b",
+          "explanation": "Joseph interpreted Pharaoh's dreams in Genesis 41."
+        }
+      ]
+    },
+    {
+      "id": "web-trivia",
+      "title": "Web Trivia Sprint",
+      "description": "Front-end fundamentals and platform knowledge.",
+      "questions": [
+        {
+          "id": "wt-q1",
+          "number": 1,
+          "question": "Which HTML element semantically represents a navigational section?",
+          "type": "multiple_choice",
+          "options": [
+            { "id": "a", "letter": "A", "text": "<section>" },
+            { "id": "b", "letter": "B", "text": "<nav>" },
+            { "id": "c", "letter": "C", "text": "<main>" },
+            { "id": "d", "letter": "D", "text": "<aside>" }
+          ],
+          "answer": "b",
+          "explanation": "<nav> identifies a navigation block for screen readers and search engines."
+        },
+        {
+          "id": "wt-q2",
+          "number": 2,
+          "question": "True or False: localStorage persists across browser restarts for the same origin.",
+          "type": "true_false",
+          "options": [
+            { "id": "true", "letter": "T", "text": "True" },
+            { "id": "false", "letter": "F", "text": "False" }
+          ],
+          "answer": "true",
+          "explanation": "localStorage keeps data until explicitly cleared by code or the user."
+        },
+        {
+          "id": "wt-q3",
+          "number": 3,
+          "question": "Which HTTP status typically indicates a resource was not found?",
+          "type": "multiple_choice",
+          "options": [
+            { "id": "a", "letter": "A", "text": "200" },
+            { "id": "b", "letter": "B", "text": "201" },
+            { "id": "c", "letter": "C", "text": "301" },
+            { "id": "d", "letter": "D", "text": "404" }
+          ],
+          "answer": "d",
+          "explanation": "HTTP 404 means the resource could not be found at the requested URL."
+        }
+      ]
+    }
+  ]
+}
