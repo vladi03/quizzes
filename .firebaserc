@@ -1,5 +1,17 @@
 {
   "projects": {
     "default": "netware-326600"
+  },
+  "targets": {
+    "netware-326600": {
+      "hosting": {
+        "prod": [
+          "netware-326600"
+        ],
+        "dev": [
+          "netware-326600-dev"
+        ]
+      }
+    }
   }
 }

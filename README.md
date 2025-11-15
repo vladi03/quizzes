@@ -5,13 +5,14 @@ A fully client-side quizzes experience built with Vite, React, and TypeScript. Q
 ## Scripts
 
 ```bash
-npm install        # install dependencies
-npm run dev        # start the dev server
-npm test           # run the Vitest + RTL suite once
-npm run test:watch # optional watch mode
-npm run build      # type-check and build static assets in dist/
-npm run preview    # serve the production build locally
-npm run deploy:firebase # build + deploy to Firebase Hosting (requires auth)
+npm install              # install dependencies
+npm run dev              # start the dev server
+npm test                 # run the Vitest + RTL suite once
+npm run test:watch       # optional watch mode
+npm run build            # type-check and build static assets in dist/
+npm run preview          # serve the production build locally
+npm run deploy:firebase  # build + deploy to Firebase prod site
+npm run deploy:firebase:dev # build + deploy to Firebase dev site
 ```
 
 ## Architecture at a Glance
@@ -46,6 +47,7 @@ Vitest + React Testing Library cover application routing, list rendering, quiz-t
 The repo includes `.firebaserc` and `firebase.json` pre-configured for the `netware-326600` project/site (the default Hosting site shares the same ID). To deploy:
 
 1. Authenticate once: `npx firebase login`.
-2. Build the SPA and deploy: `npm run deploy:firebase`.
+2. Build + deploy to **prod**: `npm run deploy:firebase` (alias for `deploy:firebase:prod`).
+3. Build + deploy to **dev**: `npm run deploy:firebase:dev`.
 
-The deploy script runs `npm run build` and pushes the `dist/` directory using the Hosting settings (SPA rewrites to `/index.html`, clean URLs, trailing slash removal). If you need to deploy to a different site, change the `site` value inside `firebase.json` accordingly.
+The dev and prod sites are defined in `.firebaserc` (`netware-326600` for prod, `netware-326600-dev` for dev) and targeted via `firebase.json`. Both share the same SPA settings (rewrites to `/index.html`, clean URLs, no trailing slash). Use the dev site for validation and promote to prod once satisfied.
