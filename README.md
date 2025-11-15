@@ -11,6 +11,7 @@ npm test           # run the Vitest + RTL suite once
 npm run test:watch # optional watch mode
 npm run build      # type-check and build static assets in dist/
 npm run preview    # serve the production build locally
+npm run deploy:firebase # build + deploy to Firebase Hosting (requires auth)
 ```
 
 ## Architecture at a Glance
@@ -39,3 +40,12 @@ Visit the bottom of the dashboard and use **Export Quiz Data** or **Export Quiz 
 ## Testing
 
 Vitest + React Testing Library cover application routing, list rendering, quiz-taking flows, localStorage utilities, error guards, export logic, and responsive layout toggles. Run `npm test` to validate before deploying.
+
+## Firebase Hosting
+
+The repo includes `.firebaserc` and `firebase.json` pre-configured for the `netware-326600` project/site (the default Hosting site shares the same ID). To deploy:
+
+1. Authenticate once: `npx firebase login`.
+2. Build the SPA and deploy: `npm run deploy:firebase`.
+
+The deploy script runs `npm run build` and pushes the `dist/` directory using the Hosting settings (SPA rewrites to `/index.html`, clean URLs, trailing slash removal). If you need to deploy to a different site, change the `site` value inside `firebase.json` accordingly.
