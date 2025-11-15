@@ -4,6 +4,7 @@ import { AppLayout } from './components/AppLayout'
 import { StatusMessage } from './components/StatusMessage'
 import { QuizDetailPage } from './pages/QuizDetailPage'
 import { QuizListPage } from './pages/QuizListPage'
+import { QuizReviewPage } from './pages/QuizReviewPage'
 
 export default function App() {
   return (
@@ -11,6 +12,10 @@ export default function App() {
       <Routes>
         <Route path="/" element={<QuizListPage />} />
         <Route path="/quiz/:quizId" element={<QuizDetailPage />} />
+        <Route
+          path="/quiz/:quizId/review/:attemptId"
+          element={<QuizReviewPage />}
+        />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </AppLayout>

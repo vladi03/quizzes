@@ -21,8 +21,17 @@ npm run deploy:firebase:dev # build + deploy to Firebase dev site
 - Routes:
   - `/` &mdash; dashboard with available and completed quizzes, export tools, and error handling for missing quiz data.
   - `/quiz/:quizId` &mdash; sequential quiz experience with per-question feedback, explanations, and result summaries.
+  - `/quiz/:quizId/review/:attemptId` &mdash; read-only review mode to step through a captured attempt.
 - Export buttons create downloadable JSON blobs for quizzes and attempt history without leaving the page.
 - Responsive cards/grids mirror the provided mockups (`public/design/layout_*.png`).
+
+## Quizzes & Attempts
+
+- The Available Quizzes list automatically hides any quiz that has at least one attempt stored in `localStorage`. After you finish *all* quizzes, an “All caught up” notice points you toward the Completed section for retakes/reviews.
+- Completed quizzes now show:
+  - A summary of the most recent score.
+  - A responsive table listing every attempt with completion date, `% score`, `X of Y` correctness, and a **Review** action.
+- Review mode is read-only: no changes are written to storage, and each question highlights the correct answer plus what the user selected (with explanations on every step).
 
 ## Data contracts
 
@@ -51,3 +60,4 @@ The repo includes `.firebaserc` and `firebase.json` pre-configured for the `netw
 3. Build + deploy to **dev**: `npm run deploy:firebase:dev`.
 
 The dev and prod sites are defined in `.firebaserc` (`netware-326600` for prod, `netware-326600-dev` for dev) and targeted via `firebase.json`. Both share the same SPA settings (rewrites to `/index.html`, clean URLs, no trailing slash). Use the dev site for validation and promote to prod once satisfied.
+Current dev URL: https://netware-326600-dev.web.app

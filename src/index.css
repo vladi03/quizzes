@@ -72,3 +72,13 @@ button:disabled {
 .button--secondary:hover {
   background-color: rgba(79, 70, 229, 0.2);
 }
+
+.button--ghost {
+  background-color: transparent;
+  color: var(--primary);
+  border: 1px solid rgba(79, 70, 229, 0.4);
+}
+
+.button--ghost:hover {
+  background-color: rgba(79, 70, 229, 0.08);
+}

@@ -152,6 +152,35 @@
   gap: 1rem;
 }
 
+.attempts-table-wrapper {
+  margin-top: 1.25rem;
+  overflow-x: auto;
+}
+
+.attempts-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.attempts-table th,
+.attempts-table td {
+  padding: 0.65rem 0.5rem;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+}
+
+.attempts-table th {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+}
+
+.attempts-table td:last-child {
+  text-align: right;
+}
+
 .quiz-detail-page {
   max-width: 720px;
   margin: 0 auto;
@@ -181,6 +210,13 @@
   gap: 1rem;
 }
 
+.question-card--review {
+  border: 1px solid rgba(79, 70, 229, 0.25);
+  border-radius: 1rem;
+  padding: 1rem 1.25rem;
+  background-color: rgba(79, 70, 229, 0.015);
+}
+
 .options-list {
   display: flex;
   flex-direction: column;
@@ -208,8 +244,36 @@
   background-color: rgba(79, 70, 229, 0.1);
 }
 
+.options-list--review .option {
+  cursor: default;
+}
+
+.option--review {
+  border-style: dashed;
+}
+
+.option--correct {
+  border-color: rgba(22, 163, 74, 0.6);
+  background-color: rgba(22, 163, 74, 0.08);
+}
+
+.option--selected.option--correct {
+  box-shadow: inset 0 0 0 2px rgba(22, 163, 74, 0.3);
+}
+
+.option--selected:not(.option--correct) {
+  box-shadow: inset 0 0 0 2px rgba(79, 70, 229, 0.4);
+}
+
 .option--disabled {
   opacity: 0.75;
+}
+
+.option-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-left: auto;
 }
 
 .badge {
@@ -217,6 +281,48 @@
   background-color: rgba(15, 23, 42, 0.08);
   padding: 0.2rem 0.5rem;
   border-radius: 999px;
+}
+
+.pill {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-radius: 999px;
+  padding: 0.1rem 0.6rem;
+  border: 1px solid currentColor;
+}
+
+.pill--correct {
+  color: var(--success);
+  background-color: rgba(22, 163, 74, 0.1);
+  border-color: rgba(22, 163, 74, 0.4);
+}
+
+.pill--selected {
+  color: var(--primary);
+  background-color: rgba(79, 70, 229, 0.08);
+  border-color: rgba(79, 70, 229, 0.4);
+}
+
+.review-explanation {
+  border-radius: 0.9rem;
+  padding: 0.9rem 1rem;
+  background-color: rgba(15, 23, 42, 0.04);
+}
+
+.review-explanation h4 {
+  margin: 0 0 0.4rem;
+}
+
+.review-navigation {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.review-navigation button {
+  min-width: 120px;
 }
 
 .form-error {
@@ -291,5 +397,29 @@
 
   .question-actions {
     justify-content: center;
+  }
+
+  .attempts-table thead {
+    display: none;
+  }
+
+  .attempts-table tr {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0.4rem 0;
+  }
+
+  .attempts-table td {
+    border: none;
+    padding: 0.3rem 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.75rem;
+  }
+
+  .attempts-table td::before {
+    content: attr(data-label);
+    font-weight: 600;
+    color: var(--muted);
   }
 }
