@@ -21,7 +21,7 @@ npm run deploy:firebase:dev # build + deploy to Firebase dev site
 - Routes:
   - `/` &mdash; dashboard with available and completed quizzes, export tools, and error handling for missing quiz data.
   - `/quiz/:quizId` &mdash; sequential quiz experience with per-question feedback, explanations, and result summaries.
-  - `/quiz/:quizId/review/:attemptId` &mdash; read-only review mode to step through a captured attempt.
+  - `/quiz/:quizId/review/:attemptId` &mdash; read-only review mode to step through a captured attempt. The final question swaps the "Next" button for "Finish Review," which sends you straight back to the dashboard.
 - Export buttons create downloadable JSON blobs for quizzes and attempt history without leaving the page.
 - Responsive cards/grids mirror the provided mockups (`public/design/layout_*.png`).
 
@@ -31,7 +31,7 @@ npm run deploy:firebase:dev # build + deploy to Firebase dev site
 - Completed quizzes now show:
   - A summary of the most recent score.
   - A responsive table listing every attempt with completion date, `% score`, `X of Y` correctness, and a **Review** action.
-- Review mode is read-only: no changes are written to storage, and each question highlights the correct answer plus what the user selected (with explanations on every step).
+- Review mode is read-only: no changes are written to storage, and each question highlights the correct answer plus what the user selected (with explanations on every step). During the live quiz flow, when you check an answer we now surface the same “Correct answer” / “You chose this” pills so the styling stays consistent even when you pick the wrong option.
 
 ## Data contracts
 
@@ -61,3 +61,9 @@ The repo includes `.firebaserc` and `firebase.json` pre-configured for the `netw
 
 The dev and prod sites are defined in `.firebaserc` (`netware-326600` for prod, `netware-326600-dev` for dev) and targeted via `firebase.json`. Both share the same SPA settings (rewrites to `/index.html`, clean URLs, no trailing slash). Use the dev site for validation and promote to prod once satisfied.
 Current dev URL: https://netware-326600-dev.web.app
+
+## CI/CD
+
+- `.github/workflows/deploy-prod-on-main.yml` deploys automatically whenever `main` is updated. The workflow checks out the repo, runs `npm ci`, executes the Vitest suite, builds, installs the Firebase CLI, and deploys to the `prod` hosting target.
+- Add a `FIREBASE_TOKEN_PROD` secret to the repository settings (use `firebase login:ci` to generate the token).
+- Manual production deploys remain available via `firebase deploy --only hosting:prod`, but the GitHub Action keeps the hosted site in sync with `main`.

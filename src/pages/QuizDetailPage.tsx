@@ -192,25 +192,47 @@ export function QuizDetailPage() {
             {currentQuestion?.number}. {currentQuestion?.question}
           </h3>
           <div className="options-list">
-            {currentQuestion?.options.map((option) => (
-              <label
-                key={option.id}
-                className={`option ${
-                  selectedOptionId === option.id ? 'option--selected' : ''
-                } ${isFeedbackVisible ? 'option--disabled' : ''}`}
-              >
-                <input
-                  type="radio"
-                  name={`question-${currentQuestion.id}`}
-                  value={option.id}
-                  checked={selectedOptionId === option.id}
-                  onChange={() => handleOptionChange(option.id)}
-                  disabled={isFeedbackVisible}
-                />
-                <span className="badge">{option.letter}</span>
-                <span>{option.text}</span>
-              </label>
-            ))}
+            {currentQuestion?.options.map((option) => {
+              const isAnswerRevealed = Boolean(currentAnswer && isFeedbackVisible)
+              const isCorrectOption =
+                isAnswerRevealed && option.id === currentQuestion?.answer
+              const isSelectedOption =
+                isAnswerRevealed && selectedOptionId === option.id
+              const shouldShowSelected =
+                !currentAnswer?.isCorrect && isSelectedOption
+
+              const classes = ['option']
+              if (selectedOptionId === option.id) classes.push('option--selected')
+              if (isFeedbackVisible) classes.push('option--disabled')
+              if (isCorrectOption) classes.push('option--correct')
+
+              return (
+                <label key={option.id} className={classes.join(' ')}>
+                  <input
+                    type="radio"
+                    name={`question-${currentQuestion.id}`}
+                    value={option.id}
+                    checked={selectedOptionId === option.id}
+                    onChange={() => handleOptionChange(option.id)}
+                    disabled={isFeedbackVisible}
+                  />
+                  <span className="badge">{option.letter}</span>
+                  <span>{option.text}</span>
+                  {(isCorrectOption || shouldShowSelected) && (
+                    <span className="option-tags">
+                      {isCorrectOption && (
+                        <span className="pill pill--correct">Correct answer</span>
+                      )}
+                      {shouldShowSelected && (
+                        <span className="pill pill--selected">
+                          You chose this
+                        </span>
+                      )}
+                    </span>
+                  )}
+                </label>
+              )
+            })}
           </div>
           {validationError && (
             <p className="form-error" role="alert">

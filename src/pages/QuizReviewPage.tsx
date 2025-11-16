@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { Link, useNavigate, useParams } from 'react-router-dom'
 import { Card } from '../components/Card'
 import { StatusMessage } from '../components/StatusMessage'
 import { useQuizData } from '../hooks/useQuizData'
@@ -8,6 +8,7 @@ export function QuizReviewPage() {
   const { quizId = '', attemptId = '' } = useParams()
   const { quizzes, attempts } = useQuizData()
   const [currentIndex, setCurrentIndex] = useState(0)
+  const navigate = useNavigate()
 
   const quiz = useMemo(
     () => quizzes.find((item) => item.id === quizId),
@@ -43,10 +44,23 @@ export function QuizReviewPage() {
     (item) => item.questionId === currentQuestion?.id,
   )
   const totalQuestions = questions.length
+  const isLastQuestion = currentIndex === totalQuestions - 1
   const completedDate = new Date(attempt.completedAt).toLocaleString('en-US', {
     dateStyle: 'medium',
     timeStyle: 'short',
   })
+
+  const goToPrevious = () => {
+    setCurrentIndex((prev) => Math.max(prev - 1, 0))
+  }
+
+  const goForward = () => {
+    if (isLastQuestion) {
+      navigate('/')
+    } else {
+      setCurrentIndex((prev) => Math.min(prev + 1, totalQuestions - 1))
+    }
+  }
 
   return (
     <div className="quiz-detail-page quiz-review-page">
@@ -96,21 +110,18 @@ export function QuizReviewPage() {
           <div className="review-navigation">
             <button
               type="button"
-              onClick={() => setCurrentIndex((prev) => Math.max(prev - 1, 0))}
+              onClick={goToPrevious}
               disabled={currentIndex === 0}
             >
               Previous
             </button>
             <button
               type="button"
-              onClick={() =>
-                setCurrentIndex((prev) =>
-                  Math.min(prev + 1, totalQuestions - 1),
-                )
-              }
-              disabled={currentIndex === totalQuestions - 1}
+              onClick={goForward}
+              aria-label={isLastQuestion ? 'Finish Review' : 'Next'}
+              disabled={false}
             >
-              Next
+              {isLastQuestion ? 'Finish Review' : 'Next'}
             </button>
           </div>
         </div>
