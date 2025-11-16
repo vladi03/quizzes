@@ -10,43 +10,46 @@
 
 ## In-Progress Feature Branch
 
-- **Branch**: `feature/hide-taken-quizzes-and-review`
-- **Purpose**: Implement the "Hide taken quizzes & review attempts" task from `tasks/quizzes-spa-task-hide-taken-and-review.md`.
+- **Branch**: `feature/review-finish-answer-styling-prod-deploy`
+- **Purpose**: Implement the follow-up task defined in `tasks/quizzes-spa-task-review-answer-styling-prod-deploy.md`.
 - **Feature goals**:
-  1. Hide quizzes that already have at least one attempt from the **Available Quizzes** list (even after refresh, using localStorage attempts).
-  2. Enhance **Completed Quizzes** with a full attempts table and a read-only Review flow so users can step through past submissions.
-- **Baseline verification**: On branch creation we ran `npm install`, `npm test`, and `npm run build`. Added regression tests covering the pre-change behavior for Available/Completed quizzes so future steps can safely change expectations.
-- **Latest dev deploy**: `npm run deploy:firebase:dev` &rarr; https://netware-326600-dev.web.app
+  1. Improve the quiz **review navigation** so the final question shows a “Finish Review” action that returns to the dashboard.
+  2. Align **in-quiz wrong-answer feedback** with the styling/text already used on the review page (`Correct answer` / `You chose this` pills).
+  3. Add an automated **GitHub Actions workflow** that deploys to Firebase **prod** anytime `main` is updated (post-merge).
+- **Baseline verification (this branch)**:
+  - `npm install`, `npm test`, and `npm run build` all succeed on branch creation (see commands from 18:58 UTC).
+  - Current review behavior: “Previous”/“Next” buttons are always shown; reaching the last question still displays “Next” (no return to home).
+  - Current in-quiz feedback: after an incorrect submission we show plain text (“Incorrect. Keep going!” + explanation) without the pill styling (only review mode shows `Correct answer` / `You chose this`).
+  - Deployment process so far is manual (`npm run deploy:firebase:dev` for testing; prod deploy must be run locally).
 
-Additional implementation details and decisions for this branch are documented inline as the work progresses.
+Additional implementation details will be captured below as the work progresses.
 
-### Hiding taken quizzes
+### Review navigation updates
 
-- Determining if a quiz is "taken" relies on the existing `quizAttempts` entries persisted in `localStorage`.
-- A helper, `getTakenQuizIds`, returns a `Set` of quiz ids that appear in the attempts array (one or more attempts qualifies).
-- The Available Quizzes list now filters out any quiz whose id is in that set. After page refresh, this still holds because attempts are read from `localStorage`.
-- When every quiz is taken, users see an "All caught up" message that points them toward the Completed section for retakes/reviews.
+- `QuizReviewPage` now checks whether the current slide is the last one. When it is:
+  - The “Next” button label changes to **Finish Review** and clicking it calls `navigate('/')`.
+  - Previous/Next buttons remain accessible for earlier questions so users can still backtrack before finishing.
+- Tests in `QuizReviewPage.test.tsx` cover:
+  - Rendering of `Previous`/`Next` on initial load.
+  - Transition to the last question and visibility of `Finish Review`.
+  - Successful navigation back to the dashboard after finishing (MemoryRouter renders a stub `<p>Home dashboard</p>` during the test).
 
-### Attempts table & review route
+### In-quiz feedback styling alignment
 
-- `getAttemptsByQuizId(attempts, quizId)` exposes every attempt sorted by `completedAt` (most recent first). This powers the Completed section's table, which shows **Completed**, **% Score**, **Correct**, and a **Review** action for each attempt.
-- Each attempts table lives inside the quiz card and carries `aria-label="<quiz title> completed attempts"` for accessibility. Review links route to `/quiz/:quizId/review/:attemptId`.
-- `QuizReviewPage` reuses context data to look up the quiz + attempt. The UI:
-  - Displays attempt metadata (title, completion date) and steps through questions with Previous/Next actions.
-  - Shows all answer options read-only, with badges indicating the correct answer and what the user selected.
-  - Presents the explanation per question and never writes to `localStorage` (fully read-only).
-- If either the quiz or attempt is missing, the page shows an error message with a link back to the dashboard.
-- Styling adjustments:
-  - Attempts tables stay scrollable on desktop and collapse into stacked rows on screens < 720px via `data-label` attributes.
-  - Review mode highlights correct answers with `.pill--correct` and user selections with `.pill--selected` so the difference remains clear in light themes.
+- When a player checks an answer:
+  - We reuse the `.pill`, `.pill--correct`, `.pill--selected`, and `.option-tags` classes already defined for review mode so the inline badges match.
+  - Correct options receive the **Correct answer** pill; whichever option the player picked receives **You chose this** (or **You chose this (correct)** if it was a match).
+  - The existing feedback alert (“Correct!” / “Incorrect. Keep going!”) and explanations remain below the options.
+- The quiz detail tests now confirm that a wrong submission displays both pills, keeping parity with the review page rendering.
 
-### Branch wrap-up
+### Prod deployment workflow
 
-- Summary:
-  - Added helpers/tests for taken quiz tracking and attempts-by-quiz, plus UI changes that hide taken quizzes and surface a responsive attempts table.
-  - Introduced `/quiz/:quizId/review/:attemptId` with read-only navigation, highlighting, and dedicated tests.
-  - Updated docs + README to describe the new flow and deployed to the Firebase dev site for validation.
-- Suggested commit messages for squash/merge:
-  1. `feat: hide taken quizzes`
-  2. `feat: add attempts table and review mode`
-- Branch `feature/hide-taken-quizzes-and-review` is now ready for review/merge.
+- `.github/workflows/deploy-prod-on-main.yml` runs on every push to `main`. Steps:
+  1. `npm ci`
+  2. `npm test`
+  3. `npm run build`
+  4. Install Firebase CLI globally
+  5. `firebase deploy --only hosting:prod --non-interactive`
+- Assumes secrets:
+  - `FIREBASE_TOKEN_PROD` — Firebase CI token with permission to deploy project `netware-326600`.
+- Dev deployments remain manual/local via `npm run deploy:firebase:dev`, while prod deploys are now gated behind passing tests/build on GitHub Actions.

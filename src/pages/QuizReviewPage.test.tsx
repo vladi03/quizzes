@@ -55,6 +55,7 @@ function renderWithRouter(quizAttempts: QuizAttempt[]) {
             path="/quiz/:quizId/review/:attemptId"
             element={<QuizReviewPage />}
           />
+          <Route path="/" element={<p>Home dashboard</p>} />
         </Routes>
       </QuizContext.Provider>
     </MemoryRouter>,
@@ -62,6 +63,17 @@ function renderWithRouter(quizAttempts: QuizAttempt[]) {
 }
 
 describe('QuizReviewPage', () => {
+  it('renders previous/next navigation controls across questions', () => {
+    renderWithRouter([attempt])
+
+    const previous = screen.getByRole('button', { name: /Previous/i })
+    const next = screen.getByRole('button', { name: /Next/i })
+
+    expect(previous).toBeInTheDocument()
+    expect(previous).toBeDisabled()
+    expect(next).toBeInTheDocument()
+  })
+
   it('renders the review details for a valid quiz/attempt', () => {
     renderWithRouter([attempt])
 
@@ -87,6 +99,18 @@ describe('QuizReviewPage', () => {
     ).toBeInTheDocument()
     expect(setItemSpy).not.toHaveBeenCalled()
     setItemSpy.mockRestore()
+  })
+
+  it('shows Finish Review on the last question and returns home', async () => {
+    const user = userEvent.setup()
+    renderWithRouter([attempt])
+
+    await user.click(screen.getByRole('button', { name: /Next/i }))
+    const finishButton = screen.getByRole('button', { name: /Finish Review/i })
+    expect(finishButton).toBeInTheDocument()
+
+    await user.click(finishButton)
+    expect(screen.getByText(/Home dashboard/i)).toBeInTheDocument()
   })
 
   it('shows an error state when the attempt is missing', () => {

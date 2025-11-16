@@ -56,6 +56,27 @@ describe('QuizDetailPage', () => {
     ).toBeInTheDocument()
   })
 
+  it('hides the selected pill when the answer is correct', async () => {
+    const user = userEvent.setup()
+    renderForQuiz()
+
+    await user.click(screen.getByLabelText(/Blue/i))
+    await user.click(screen.getByText(/Check answer/i))
+
+    expect(screen.queryByText(/You chose this/i)).not.toBeInTheDocument()
+  })
+
+  it('shows review-style tags when the wrong option is submitted', async () => {
+    const user = userEvent.setup()
+    renderForQuiz()
+
+    await user.click(screen.getByLabelText(/Green/i))
+    await user.click(screen.getByText(/Check answer/i))
+
+    expect(screen.getByText(/Correct answer/i)).toBeInTheDocument()
+    expect(screen.getByText(/You chose this/)).toBeInTheDocument()
+  })
+
   it('records an attempt after finishing every question', async () => {
     const user = userEvent.setup()
     const recordAttempt = vi.fn()
