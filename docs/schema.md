@@ -12,6 +12,7 @@ This SPA expects JSON payloads that match the following structures. They are int
       "id": "bible-basics",
       "title": "Bible Basics",
       "description": "Short teaser",
+      "groupId": "Millennial Views",
       "questions": [
         {
           "id": "bb-q1",
@@ -36,6 +37,7 @@ This SPA expects JSON payloads that match the following structures. They are int
 | --- | --- | --- |
 | `version` | number | Increase when changing shape so clients can react. |
 | `quizzes` | `Quiz[]` | Each quiz contains metadata and ordered questions. |
+| `groupId` | string | **Required.** Category label (e.g., `Millennial Views`, `Resurrection`, `Salvation (Justification and Sanctification)`, `Election`, `Judgment`) that powers grouping and filters. |
 | `questions[].type` | enum | `multiple_choice` or `true_false`. |
 | `questions[].options` | `Option[]` | Each option has a stable `id`, display `letter`, and `text`. |
 | `questions[].answer` | string | The `id` of the correct option. |

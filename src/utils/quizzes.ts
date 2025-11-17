@@ -8,15 +8,27 @@ export async function loadQuizzes(): Promise<QuizCollection> {
     throw new Error('Unable to load quizzes. Please try again later.')
   }
 
+  let payload: QuizCollection
   try {
-    const payload = (await response.json()) as QuizCollection
-    if (!payload?.quizzes) {
-      throw new Error('Malformed quiz payload')
-    }
-    return payload
-  } catch (error) {
+    payload = (await response.json()) as QuizCollection
+  } catch {
     throw new Error('Quiz data could not be parsed.')
   }
+
+  if (!payload?.quizzes) {
+    throw new Error('Malformed quiz payload')
+  }
+
+  payload.quizzes.forEach((quiz) => {
+    if (typeof quiz.groupId !== 'string' || quiz.groupId.trim().length === 0) {
+      throw new Error(
+        `Quiz "${quiz.title}" is missing the required groupId field.`,
+      )
+    }
+    quiz.groupId = quiz.groupId.trim()
+  })
+
+  return payload
 }
 
 /**
