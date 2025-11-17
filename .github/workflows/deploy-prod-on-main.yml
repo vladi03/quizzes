@@ -3,6 +3,8 @@ name: Deploy to Firebase Prod on main
 on:
   push:
     branches: ['main']
+    tags:
+      - 'prod-*'
 
 jobs:
   build-and-deploy-prod:

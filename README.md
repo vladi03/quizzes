@@ -70,6 +70,6 @@ Current dev URL: https://netware-326600-dev.web.app
 
 ## CI/CD
 
-- `.github/workflows/deploy-prod-on-main.yml` deploys automatically whenever `main` is updated. The workflow checks out the repo, runs `npm ci`, executes the Vitest suite, builds, installs the Firebase CLI, and deploys to the `prod` hosting target.
+- `.github/workflows/deploy-prod-on-main.yml` deploys automatically whenever `main` is updated or a tag named `prod-*` is pushed. Use the tag trigger as a manual fallback (`git tag prod-YYYY-MM-DD && git push origin prod-YYYY-MM-DD`) if you need to redeploy a known-good build without touching `main`.
 - Add a `FIREBASE_TOKEN_PROD` secret to the repository settings (use `firebase login:ci` to generate the token).
 - Manual production deploys remain available via `firebase deploy --only hosting:prod`, but the GitHub Action keeps the hosted site in sync with `main`.
