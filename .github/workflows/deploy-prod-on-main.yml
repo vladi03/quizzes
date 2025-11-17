@@ -5,6 +5,12 @@ on:
     branches: ['main']
     tags:
       - 'prod-*'
+  workflow_dispatch:
+    inputs:
+      target_ref:
+        description: 'Branch or tag to deploy (e.g., main or prod-2025-11-17)'
+        required: true
+        default: 'main'
 
 jobs:
   build-and-deploy-prod:
@@ -12,6 +18,9 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.target_ref || github.ref }}
+          fetch-depth: 0
 
       - name: Set up Node
         uses: actions/setup-node@v4

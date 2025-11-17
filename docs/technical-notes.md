@@ -60,5 +60,5 @@ Additional implementation details for each feature area will be appended below a
 
 - Validation commands: `npm test -- --watch=false` and `npm run build` both succeeded after the new search/filter features landed.
 - Firebase dev deploy: `firebase deploy --only hosting:dev` (netware-326600-dev.web.app) published the updated static assets.
-- Prod workflow: `.github/workflows/deploy-prod-on-main.yml` now triggers on pushes to `main` **and** any tag named `prod-*`. Tagging (e.g., `git tag prod-2025-11-17 && git push origin prod-2025-11-17`) lets us redeploy manually if a hotfix is needed without touching `main`.
+- Prod workflow: `.github/workflows/deploy-prod-on-main.yml` now triggers on pushes to `main`, any tag named `prod-*`, **or** a manual dispatch. The manual workflow input (`target_ref`) accepts any branch/tag so ops can redeploy a known-good tag directly from the Actions UI without touching `main`.
 - Suggested commits: `feat: add quiz grouping schema + validation`, `feat: add live search and responsive group filters to dashboard`.

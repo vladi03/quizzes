@@ -70,6 +70,6 @@ Current dev URL: https://netware-326600-dev.web.app
 
 ## CI/CD
 
-- `.github/workflows/deploy-prod-on-main.yml` deploys automatically whenever `main` is updated or a tag named `prod-*` is pushed. Use the tag trigger as a manual fallback (`git tag prod-YYYY-MM-DD && git push origin prod-YYYY-MM-DD`) if you need to redeploy a known-good build without touching `main`.
+- `.github/workflows/deploy-prod-on-main.yml` deploys automatically whenever `main` is updated or a tag named `prod-*` is pushed. Use the tag trigger as a manual fallback (`git tag prod-YYYY-MM-DD && git push origin prod-YYYY-MM-DD`) if you need to redeploy a known-good build without touching `main`. You can also run the workflow manually from the Actions tab and supply any branch/tag (e.g., select `prod-2025-11-17`) via the `target_ref` input.
 - Add a `FIREBASE_TOKEN_PROD` secret to the repository settings (use `firebase login:ci` to generate the token).
 - Manual production deploys remain available via `firebase deploy --only hosting:prod`, but the GitHub Action keeps the hosted site in sync with `main`.
