@@ -3,7 +3,7 @@ import { screen, within } from '@testing-library/react'
 import { afterEach, describe, expect, it, vi } from 'vitest'
 import { sampleQuiz } from '../__mocks__/quizSample'
 import { renderWithProviders } from '../test-utils'
-import type { QuizAttempt } from '../types/quiz'
+import type { Quiz, QuizAttempt } from '../types/quiz'
 import { QuizListPage } from './QuizListPage'
 
 const baseAttempt: QuizAttempt = {
@@ -18,9 +18,29 @@ const baseAttempt: QuizAttempt = {
   answers: [],
 }
 
+const makeQuiz = (overrides: Partial<Quiz>): Quiz => ({
+  ...sampleQuiz,
+  ...overrides,
+  questions: overrides.questions ?? sampleQuiz.questions,
+})
+
 describe('QuizListPage', () => {
   afterEach(() => {
     window.location.hash = '#/'
+  })
+
+  it('baseline: renders quiz sections with default responsive class', () => {
+    const { container } = renderWithProviders(<QuizListPage />, {
+      quizzes: [sampleQuiz],
+    })
+
+    expect(
+      screen.getByRole('heading', { name: /Available Quizzes/i }),
+    ).toBeInTheDocument()
+    expect(
+      screen.getByRole('heading', { name: /Completed Quizzes/i }),
+    ).toBeInTheDocument()
+    expect(container.querySelector('.quiz-grid')).toHaveClass('quiz-grid--grid')
   })
 
   it('renders every available quiz entry', () => {
@@ -199,6 +219,196 @@ describe('QuizListPage', () => {
     })
 
     expect(document.querySelector('.quiz-grid--stack')).toBeTruthy()
+    window.matchMedia = original
+  })
+
+  it('filters quizzes using the live search input and hides grouping during search', async () => {
+    const user = userEvent.setup()
+    const soteriologyQuiz = makeQuiz({
+      id: 'grace-alone',
+      title: 'Grace Alone',
+      description: 'Soteriology overview',
+      groupId: 'Salvation (Justification and Sanctification)',
+    })
+    const eschatologyQuiz = makeQuiz({
+      id: 'millennial-hope',
+      title: 'Millennial Hope',
+      description: 'Eschatology walkthrough',
+      groupId: 'Millennial Views',
+    })
+
+    renderWithProviders(<QuizListPage />, {
+      quizzes: [soteriologyQuiz, eschatologyQuiz],
+    })
+
+    expect(
+      screen.getByRole('heading', {
+        name: /Salvation \(Justification and Sanctification\)/i,
+      }),
+    ).toBeInTheDocument()
+
+    const input = screen.getByPlaceholderText(/Search quizzes/i)
+    await user.type(input, 'hope')
+
+    expect(screen.getByText('Millennial Hope')).toBeInTheDocument()
+    expect(screen.queryByText('Grace Alone')).not.toBeInTheDocument()
+    expect(
+      screen.queryByRole('heading', {
+        name: /Salvation \(Justification and Sanctification\)/i,
+      }),
+    ).not.toBeInTheDocument()
+
+    await user.clear(input)
+    expect(
+      screen.getByRole('heading', {
+        name: /Salvation \(Justification and Sanctification\)/i,
+      }),
+    ).toBeInTheDocument()
+  })
+
+  it('shows a no results message when search terms match nothing (case-insensitive)', async () => {
+    const user = userEvent.setup()
+    const resurrectionQuiz = makeQuiz({
+      id: 'resurrection-timeline',
+      title: 'Resurrection Timeline',
+      description: 'Walk through the resurrection passages',
+      groupId: 'Resurrection',
+    })
+
+    renderWithProviders(<QuizListPage />, { quizzes: [resurrectionQuiz] })
+
+    const input = screen.getByPlaceholderText(/Search quizzes/i)
+    await user.type(input, 'RESURRECTION')
+    expect(screen.getByText('Resurrection Timeline')).toBeInTheDocument()
+
+    await user.clear(input)
+    await user.type(input, 'no matches please')
+    expect(screen.getByText(/No quizzes found/i)).toBeInTheDocument()
+  })
+
+  it('filters both sections when selecting a group on desktop', async () => {
+    const user = userEvent.setup()
+    const graceQuiz = makeQuiz({
+      id: 'grace-alone',
+      title: 'Grace Alone',
+      description: 'Soteriology overview',
+      groupId: 'Salvation (Justification and Sanctification)',
+    })
+    const hopeQuiz = makeQuiz({
+      id: 'millennial-hope',
+      title: 'Millennial Hope',
+      description: 'Eschatology walkthrough',
+      groupId: 'Millennial Views',
+    })
+    const atonementQuiz = makeQuiz({
+      id: 'atonement',
+      title: 'Atonement Quiz',
+      description: 'Completed soteriology quiz',
+      groupId: 'Salvation (Justification and Sanctification)',
+    })
+    const judgmentQuiz = makeQuiz({
+      id: 'judgment-seat',
+      title: 'Judgment Seat',
+      description: 'Completed judgment quiz',
+      groupId: 'Judgment',
+    })
+
+    renderWithProviders(<QuizListPage />, {
+      quizzes: [graceQuiz, hopeQuiz, atonementQuiz, judgmentQuiz],
+      attempts: [
+        { ...baseAttempt, attemptId: 'atonement', quizId: atonementQuiz.id, quizTitle: atonementQuiz.title },
+        { ...baseAttempt, attemptId: 'judgment', quizId: judgmentQuiz.id, quizTitle: judgmentQuiz.title },
+      ],
+    })
+
+    await user.click(
+      screen.getByRole('button', {
+        name: /Salvation \(Justification and Sanctification\)/i,
+      }),
+    )
+
+    expect(screen.getByText('Grace Alone')).toBeInTheDocument()
+    expect(screen.getByText('Atonement Quiz')).toBeInTheDocument()
+    expect(screen.queryByText('Millennial Hope')).not.toBeInTheDocument()
+    expect(screen.queryByText('Judgment Seat')).not.toBeInTheDocument()
+
+    await user.click(screen.getByRole('button', { name: /All/i }))
+    expect(screen.getByText('Millennial Hope')).toBeInTheDocument()
+    expect(screen.getByText('Judgment Seat')).toBeInTheDocument()
+  })
+
+  it('search overrides the currently selected group filter', async () => {
+    const user = userEvent.setup()
+    const graceQuiz = makeQuiz({
+      id: 'grace-alone',
+      title: 'Grace Alone',
+      description: 'Soteriology overview',
+      groupId: 'Salvation (Justification and Sanctification)',
+    })
+    const hopeQuiz = makeQuiz({
+      id: 'millennial-hope',
+      title: 'Millennial Hope',
+      description: 'Eschatology walkthrough',
+      groupId: 'Millennial Views',
+    })
+
+    renderWithProviders(<QuizListPage />, {
+      quizzes: [graceQuiz, hopeQuiz],
+    })
+
+    await user.click(
+      screen.getByRole('button', {
+        name: /Salvation \(Justification and Sanctification\)/i,
+      }),
+    )
+    expect(screen.queryByText('Millennial Hope')).not.toBeInTheDocument()
+
+    const input = screen.getByPlaceholderText(/Search quizzes/i)
+    await user.type(input, 'millennial')
+    expect(screen.getByText('Millennial Hope')).toBeInTheDocument()
+  })
+
+  it('renders a hamburger menu for group filters on mobile and closes after selection', async () => {
+    const original = window.matchMedia
+    window.matchMedia = vi.fn().mockReturnValue({
+      matches: true,
+      addEventListener: vi.fn(),
+      removeEventListener: vi.fn(),
+    }) as unknown as typeof window.matchMedia
+
+    const user = userEvent.setup()
+    const graceQuiz = makeQuiz({
+      id: 'grace-alone',
+      title: 'Grace Alone',
+      description: 'Soteriology overview',
+      groupId: 'Salvation (Justification and Sanctification)',
+    })
+    const hopeQuiz = makeQuiz({
+      id: 'millennial-hope',
+      title: 'Millennial Hope',
+      description: 'Eschatology walkthrough',
+      groupId: 'Millennial Views',
+    })
+
+    renderWithProviders(<QuizListPage />, {
+      quizzes: [graceQuiz, hopeQuiz],
+    })
+
+    const toggle = screen.getByRole('button', {
+      name: /Toggle group filter menu/i,
+    })
+    await user.click(toggle)
+
+    const eschatologyOption = screen.getByRole('menuitem', {
+      name: /Millennial Views/i,
+    })
+    await user.click(eschatologyOption)
+
+    expect(screen.getByText('Millennial Hope')).toBeInTheDocument()
+    expect(
+      screen.queryByRole('menuitem', { name: /Millennial Views/i }),
+    ).not.toBeInTheDocument()
+
     window.matchMedia = original
   })
 })

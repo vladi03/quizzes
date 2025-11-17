@@ -33,6 +33,12 @@ npm run deploy:firebase:dev # build + deploy to Firebase dev site
   - A responsive table listing every attempt with completion date, `% score`, `X of Y` correctness, and a **Review** action.
 - Review mode is read-only: no changes are written to storage, and each question highlights the correct answer plus what the user selected (with explanations on every step). During the live quiz flow, when you check an answer we now surface the same “Correct answer” / “You chose this” pills so the styling stays consistent even when you pick the wrong option.
 
+### Grouping, search, and filters
+
+- Each quiz in `public/quizzes.json` declares a `groupId` from the current taxonomy (`Union with Christ`, `Conversion`, `Regeneration`, `Salvation (Justification and Sanctification)`, `Election`, `Millennial Views`, `Resurrection`, `Judgment`, or `Eternal State`) so the dashboard can cluster cards by topic.
+- A live search box filters as you type (case-insensitive across title, description, and group name). When searching, the UI switches to a flat list of matches and displays a friendly “No quizzes found” state if nothing matches.
+- Topic filters sit next to the search bar: pill buttons on desktop, a hamburger menu on mobile. Selecting a group applies to both Available and Completed lists, and the `All` option resets the filter. Search always takes precedence over the active group filter.
+
 ## Data contracts
 
 The schemas for quiz content and attempt tracking live in `docs/schema.md`. The live quiz catalog sits in `public/quizzes.json`, and attempts are stored under the `quizAttempts` localStorage key.

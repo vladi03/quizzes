@@ -6,50 +6,58 @@
 - **Exports**: Buttons on the main page produce `quizzes-export.json` and `quiz-results-export.json` via `Blob` downloads so users can archive or migrate data offline.
 - **Testing**: Vitest + Testing Library cover routing, storage, page rendering, data exports, layout responsiveness (via a `matchMedia` mock), and quiz flows.
 - **Styling**: Global CSS uses cards/grids inspired by the provided mockups. The `useResponsiveLayout` hook toggles stacked layouts below 720px.
-- **Static updates**: Replace `public/quizzes.json` on any CDN or object storage bucket to refresh questions without a rebuild (documented inline and in README).
+- **Static updates**: Replace `public/quizzes.json` on any CDN or object storage bucket to refresh questions without a rebuild as long as the schema stays compatible with `docs/schema.md`.
 
 ## In-Progress Feature Branch
 
-- **Branch**: `feature/review-finish-answer-styling-prod-deploy`
-- **Purpose**: Implement the follow-up task defined in `tasks/quizzes-spa-task-review-answer-styling-prod-deploy.md`.
+- **Branch**: `feature/grouping-search-hamburger-filter`
+- **Purpose**: Deliver the grouping, live search, and responsive filter menu requested in `tasks/quizzes-spa-task-grouping and search.md`.
 - **Feature goals**:
-  1. Improve the quiz **review navigation** so the final question shows a “Finish Review” action that returns to the dashboard.
-  2. Align **in-quiz wrong-answer feedback** with the styling/text already used on the review page (`Correct answer` / `You chose this` pills).
-  3. Add an automated **GitHub Actions workflow** that deploys to Firebase **prod** anytime `main` is updated (post-merge).
-- **Baseline verification (this branch)**:
-  - `npm install`, `npm test`, and `npm run build` all succeed on branch creation (see commands from 18:58 UTC).
-  - Current review behavior: “Previous”/“Next” buttons are always shown; reaching the last question still displays “Next” (no return to home).
-  - Current in-quiz feedback: after an incorrect submission we show plain text (“Incorrect. Keep going!” + explanation) without the pill styling (only review mode shows `Correct answer` / `You chose this`).
-  - Deployment process so far is manual (`npm run deploy:firebase:dev` for testing; prod deploy must be run locally).
+  1. Extend the quiz schema with a required `groupId` that clusters quizzes by topic/category.
+  2. Add a live search input on the quiz list that filters as the user types and renders a flat list of matches.
+  3. Provide a responsive group filter menu that becomes a hamburger sheet on mobile, including an `All` option that resets filtering.
+- **Baseline verification (branch creation)**:
+  - `npm install`, `npm test -- --watch=false`, and `npm run build` all succeeded at 22:28 UTC before any feature code landed.
+  - `QuizListPage` currently renders `Available` and `Completed` sections with no search or grouping affordances.
+  - Responsive behavior is limited to `useResponsiveLayout`; we will add regression tests to lock in the default layout and search/filter interplay.
 
-Additional implementation details will be captured below as the work progresses.
+Additional implementation details for each feature area will be appended below as they are completed.
 
-### Review navigation updates
+### Baseline regression coverage
 
-- `QuizReviewPage` now checks whether the current slide is the last one. When it is:
-  - The “Next” button label changes to **Finish Review** and clicking it calls `navigate('/')`.
-  - Previous/Next buttons remain accessible for earlier questions so users can still backtrack before finishing.
-- Tests in `QuizReviewPage.test.tsx` cover:
-  - Rendering of `Previous`/`Next` on initial load.
-  - Transition to the last question and visibility of `Finish Review`.
-  - Successful navigation back to the dashboard after finishing (MemoryRouter renders a stub `<p>Home dashboard</p>` during the test).
+- Added `baseline: renders quiz sections with default responsive class` in `src/pages/QuizListPage.test.tsx` to assert the main dashboard renders both sections and keeps the default `.quiz-grid--grid` layout when no responsive overrides apply.
 
-### In-quiz feedback styling alignment
+### Quiz grouping data model
 
-- When a player checks an answer:
-  - We reuse the `.pill`, `.pill--correct`, `.pill--selected`, and `.option-tags` classes already defined for review mode so the inline badges match.
-  - Correct options receive the **Correct answer** pill; whichever option the player picked receives **You chose this** (or **You chose this (correct)** if it was a match).
-  - The existing feedback alert (“Correct!” / “Incorrect. Keep going!”) and explanations remain below the options.
-- The quiz detail tests now confirm that a wrong submission displays both pills, keeping parity with the review page rendering.
+- Every quiz entry inside `public/quizzes.json` now declares a required `groupId` string. The loader (`loadQuizzes`) trims whitespace and throws a descriptive error if `groupId` is blank or missing.
+- The taxonomy mirrors the latest content request:
+  - `Union with Christ` -> `union-3a-*` quizzes.
+  - `Conversion` -> `conversion-*` quizzes.
+  - `Regeneration` -> `regeneration-quiz-1`.
+  - `Salvation (Justification and Sanctification)` -> salvation component quizzes.
+  - `Election` -> `election-*` quizzes (moved out of the Salvation bucket per the new guidance).
+  - `Millennial Views` -> `millennial-*` quizzes.
+  - `Resurrection` -> `resurrection-*` quizzes.
+  - `Judgment` -> `judgment-*` quizzes (split from Eternal State so judgment theology can be filtered independently).
+  - `Eternal State` -> `eternal-state-*` quizzes.
+- Tests in `src/utils/quizzes.test.ts` cover successful parsing, trimming behavior, and the failure mode when `groupId` is absent.
 
-### Prod deployment workflow
+### Live search behavior
 
-- `.github/workflows/deploy-prod-on-main.yml` runs on every push to `main`. Steps:
-  1. `npm ci`
-  2. `npm test`
-  3. `npm run build`
-  4. Install Firebase CLI globally
-  5. `firebase deploy --only hosting:prod --non-interactive`
-- Assumes secrets:
-  - `FIREBASE_TOKEN_PROD` — Firebase CI token with permission to deploy project `netware-326600`.
-- Dev deployments remain manual/local via `npm run deploy:firebase:dev`, while prod deploys are now gated behind passing tests/build on GitHub Actions.
+- The dashboard now includes a search input above the Available/Completed sections. Typing filters both lists on every keystroke (case-insensitive) using `title`, `description`, and `groupId`.
+- When a search term is present, the UI ignores grouping and renders flat card stacks to make results easy to scan. Clearing the input restores grouped sections.
+- A dedicated `StatusMessage` communicates when no quizzes match the current search, and a clear button resets the term without reloading the page.
+- Tests: `filters quizzes using the live search input...`, `shows a no results message when search terms match nothing...`, and `search overrides the currently selected group filter` in `src/pages/QuizListPage.test.tsx`.
+
+### Group filter UX
+
+- Desktop renders group filters as pill buttons (`All` + each `groupId`). Mobile collapses the same options behind a hamburger icon to conserve space.
+- Selecting a group applies to both Available and Completed lists simultaneously. The `All` option resets filtering.
+- The search hint ("Search overrides the group filter.") appears whenever text is entered so users understand precedence.
+- Tests: `filters both sections when selecting a group on desktop` and `renders a hamburger menu for group filters on mobile...` lock in desktop + mobile behavior.
+
+### Dev deployment + QA
+
+- Validation commands: `npm test -- --watch=false` and `npm run build` both succeeded after the new search/filter features landed.
+- Firebase dev deploy: `firebase deploy --only hosting:dev` (netware-326600-dev.web.app) published the updated static assets.
+- Suggested commits: `feat: add quiz grouping schema + validation`, `feat: add live search and responsive group filters to dashboard`.

@@ -4,6 +4,7 @@ export const sampleQuiz: Quiz = {
   id: 'sample-quiz',
   title: 'Sample Quiz',
   description: 'Demo quiz for tests',
+  groupId: 'sample',
   questions: [
     {
       id: 'q1',
