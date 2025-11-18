@@ -9,7 +9,7 @@ import { renderWithProviders } from '../test-utils'
 import type { Quiz, QuizAttempt } from '../types/quiz'
 import { mergeImportedAttempts } from '../utils/resultsTransfer'
 import { ATTEMPTS_STORAGE_KEY } from '../utils/storage'
-import { QuizListPage } from './QuizListPage'
+import { GROUP_FILTER_STORAGE_KEY, QuizListPage } from './QuizListPage'
 
 const baseAttempt: QuizAttempt = {
   attemptId: '1',
@@ -83,6 +83,7 @@ function ResultsImportHarness({
 
 describe('QuizListPage', () => {
   afterEach(() => {
+    window.localStorage.clear()
     window.location.hash = '#/'
   })
 
@@ -107,6 +108,266 @@ describe('QuizListPage', () => {
 
     expect(screen.getByText(sampleQuiz.title)).toBeInTheDocument()
     expect(screen.getByText(/2 questions/i)).toBeInTheDocument()
+  })
+
+  it('baseline: renders the group filter pills with all topics on desktop', () => {
+    const graceQuiz = makeQuiz({
+      id: 'grace-alone',
+      title: 'Grace Alone',
+      groupId: 'soteriology',
+    })
+    const hopeQuiz = makeQuiz({
+      id: 'millennial-hope',
+      title: 'Millennial Hope',
+      groupId: 'eschatology',
+    })
+
+    renderWithProviders(<QuizListPage />, { quizzes: [graceQuiz, hopeQuiz] })
+
+    const filterPills = screen.getByRole('group', {
+      name: /Filter quizzes by group/i,
+    })
+    const pillButtons = within(filterPills).getAllByRole('button')
+    expect(pillButtons).toHaveLength(3)
+    expect(within(filterPills).getByRole('button', { name: /All/i })).toBeInTheDocument()
+    expect(
+      within(filterPills).getByRole('button', { name: /Soteriology/i }),
+    ).toBeInTheDocument()
+    expect(
+      within(filterPills).getByRole('button', { name: /Eschatology/i }),
+    ).toBeInTheDocument()
+  })
+
+  it('baseline: exposes group filters inside the hamburger menu on mobile', async () => {
+    const originalMatchMedia = window.matchMedia
+    window.matchMedia = vi.fn().mockReturnValue({
+      matches: true,
+      addEventListener: vi.fn(),
+      removeEventListener: vi.fn(),
+    }) as unknown as typeof window.matchMedia
+
+    try {
+      const user = userEvent.setup()
+      const graceQuiz = makeQuiz({
+        id: 'grace-alone',
+        title: 'Grace Alone',
+        groupId: 'soteriology',
+      })
+      const hopeQuiz = makeQuiz({
+        id: 'millennial-hope',
+        title: 'Millennial Hope',
+        groupId: 'eschatology',
+      })
+
+      renderWithProviders(<QuizListPage />, { quizzes: [graceQuiz, hopeQuiz] })
+
+      await user.click(
+        screen.getByRole('button', { name: /Toggle group filter menu/i }),
+      )
+      const menu = screen.getByRole('menu')
+      const options = within(menu).getAllByRole('menuitem')
+      expect(options).toHaveLength(3)
+      expect(
+        within(menu).getByRole('menuitem', { name: /All/i }),
+      ).toBeInTheDocument()
+      expect(
+        within(menu).getByRole('menuitem', { name: /Soteriology/i }),
+      ).toBeInTheDocument()
+      expect(
+        within(menu).getByRole('menuitem', { name: /Eschatology/i }),
+      ).toBeInTheDocument()
+    } finally {
+      window.matchMedia = originalMatchMedia
+    }
+  })
+
+  it('baseline: uses attempts data to move quizzes into the completed column', () => {
+    const availableQuiz = makeQuiz({
+      id: 'resurrection-timeline',
+      title: 'Resurrection Timeline',
+      groupId: 'eschatology',
+    })
+    const completedQuiz = makeQuiz({
+      id: 'grace-alone',
+      title: 'Grace Alone',
+      groupId: 'soteriology',
+    })
+
+    renderWithProviders(<QuizListPage />, {
+      quizzes: [availableQuiz, completedQuiz],
+      attempts: [
+        {
+          ...baseAttempt,
+          quizId: completedQuiz.id,
+          quizTitle: completedQuiz.title,
+        },
+      ],
+    })
+
+    const completedHeading = screen.getByRole('heading', {
+      name: /Completed Quizzes/i,
+    })
+    const completedColumn =
+      completedHeading.closest('.section-heading')?.parentElement
+    expect(completedColumn).not.toBeNull()
+    expect(
+      within(completedColumn as HTMLElement).getByText('Grace Alone'),
+    ).toBeInTheDocument()
+
+    const availableHeading = screen.getByRole('heading', {
+      name: /Available Quizzes/i,
+    })
+    const availableColumn =
+      availableHeading.closest('.section-heading')?.parentElement
+    expect(availableColumn).not.toBeNull()
+    expect(
+      within(availableColumn as HTMLElement).queryByText('Grace Alone'),
+    ).not.toBeInTheDocument()
+  })
+
+  it('shows completion checkmarks next to fully completed groups on desktop', () => {
+    const graceQuiz = makeQuiz({
+      id: 'grace-alone',
+      title: 'Grace Alone',
+      groupId: 'soteriology',
+    })
+    const atonementQuiz = makeQuiz({
+      id: 'atonement',
+      title: 'Atonement',
+      groupId: 'soteriology',
+    })
+    const hopeQuiz = makeQuiz({
+      id: 'millennial-hope',
+      title: 'Millennial Hope',
+      groupId: 'millennial-views',
+    })
+
+    renderWithProviders(<QuizListPage />, {
+      quizzes: [graceQuiz, atonementQuiz, hopeQuiz],
+      attempts: [
+        { ...baseAttempt, attemptId: 'a', quizId: graceQuiz.id, quizTitle: graceQuiz.title },
+        { ...baseAttempt, attemptId: 'b', quizId: atonementQuiz.id, quizTitle: atonementQuiz.title },
+      ],
+    })
+
+    const completedButton = screen.getByRole('button', { name: /Soteriology/i })
+    const incompleteButton = screen.getByRole('button', {
+      name: /Millennial Views/i,
+    })
+    expect(
+      completedButton.querySelector('.group-filter__status'),
+    ).not.toBeNull()
+    expect(
+      incompleteButton.querySelector('.group-filter__status'),
+    ).toBeNull()
+  })
+
+  it('persists the selected group filter across remounts', async () => {
+    const user = userEvent.setup()
+    const graceQuiz = makeQuiz({
+      id: 'grace-alone',
+      title: 'Grace Alone',
+      groupId: 'soteriology',
+    })
+    const hopeQuiz = makeQuiz({
+      id: 'millennial-hope',
+      title: 'Millennial Hope',
+      groupId: 'millennial-views',
+    })
+
+    const renderResult = renderWithProviders(<QuizListPage />, {
+      quizzes: [graceQuiz, hopeQuiz],
+    })
+
+    await user.click(
+      screen.getByRole('button', {
+        name: /Millennial Views/i,
+      }),
+    )
+
+    expect(window.localStorage.getItem(GROUP_FILTER_STORAGE_KEY)).toBe(
+      'millennial-views',
+    )
+
+    renderResult.unmount()
+    renderWithProviders(<QuizListPage />, { quizzes: [graceQuiz, hopeQuiz] })
+    const retainedButton = screen.getByRole('button', {
+      name: /Millennial Views/i,
+    })
+
+    expect(retainedButton).toHaveAttribute('aria-pressed', 'true')
+  })
+
+  it('falls back to the All filter when the stored group is missing', () => {
+    window.localStorage.setItem(GROUP_FILTER_STORAGE_KEY, 'retired-group')
+    const graceQuiz = makeQuiz({
+      id: 'grace-alone',
+      title: 'Grace Alone',
+      groupId: 'soteriology',
+    })
+
+    renderWithProviders(<QuizListPage />, {
+      quizzes: [graceQuiz],
+    })
+
+    const allButton = screen.getByRole('button', { name: /All/i })
+    expect(allButton).toHaveAttribute('aria-pressed', 'true')
+    expect(window.localStorage.getItem(GROUP_FILTER_STORAGE_KEY)).toBe('all')
+  })
+
+  it('shows completion checkmarks inside the mobile hamburger menu', async () => {
+    const originalMatchMedia = window.matchMedia
+    window.matchMedia = vi.fn().mockReturnValue({
+      matches: true,
+      addEventListener: vi.fn(),
+      removeEventListener: vi.fn(),
+    }) as unknown as typeof window.matchMedia
+
+    try {
+      const user = userEvent.setup()
+      const graceQuiz = makeQuiz({
+        id: 'grace-alone',
+        title: 'Grace Alone',
+        groupId: 'soteriology',
+      })
+      const atonementQuiz = makeQuiz({
+        id: 'atonement',
+        title: 'Atonement',
+        groupId: 'soteriology',
+      })
+      const hopeQuiz = makeQuiz({
+        id: 'millennial-hope',
+        title: 'Millennial Hope',
+        groupId: 'millennial-views',
+      })
+
+      renderWithProviders(<QuizListPage />, {
+        quizzes: [graceQuiz, atonementQuiz, hopeQuiz],
+        attempts: [
+          { ...baseAttempt, attemptId: 'a', quizId: graceQuiz.id, quizTitle: graceQuiz.title },
+          { ...baseAttempt, attemptId: 'b', quizId: atonementQuiz.id, quizTitle: atonementQuiz.title },
+        ],
+      })
+
+      await user.click(
+        screen.getByRole('button', { name: /Toggle group filter menu/i }),
+      )
+
+      const completedMenuItem = screen.getByRole('menuitem', {
+        name: /Soteriology/i,
+      })
+      const incompleteMenuItem = screen.getByRole('menuitem', {
+        name: /Millennial Views/i,
+      })
+      expect(
+        completedMenuItem.querySelector('.group-filter__status'),
+      ).not.toBeNull()
+      expect(
+        incompleteMenuItem.querySelector('.group-filter__status'),
+      ).toBeNull()
+    } finally {
+      window.matchMedia = originalMatchMedia
+    }
   })
 
   it('summarizes completed quizzes with latest attempt data', () => {

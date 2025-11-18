@@ -38,6 +38,7 @@ npm run deploy:firebase:dev # build + deploy to Firebase dev site
 - Each quiz in `public/quizzes.json` declares a `groupId` from the current taxonomy (`Union with Christ`, `Conversion`, `Regeneration`, `Salvation (Justification and Sanctification)`, `Election`, `Millennial Views`, `Resurrection`, `Judgment`, or `Eternal State`) so the dashboard can cluster cards by topic.
 - A live search box filters as you type (case-insensitive across title, description, and group name). When searching, the UI switches to a flat list of matches and displays a friendly “No quizzes found” state if nothing matches.
 - Topic filters sit next to the search bar: pill buttons on desktop, a hamburger menu on mobile. Selecting a group applies to both Available and Completed lists, and the `All` option resets the filter. Search always takes precedence over the active group filter.
+- Group filters now persist after you navigate away/refresh, and completed groups are indicated with a green checkmark for quick scanning.
 
 ## Data contracts
 
