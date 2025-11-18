@@ -48,6 +48,10 @@ function renderWithRouter(quizAttempts: QuizAttempt[]) {
           error: undefined,
           refreshQuizzes: vi.fn(),
           recordAttempt: vi.fn(),
+          importAttempts: vi.fn().mockReturnValue({
+            importedCount: 0,
+            skippedCount: 0,
+          }),
         }}
       >
         <Routes>

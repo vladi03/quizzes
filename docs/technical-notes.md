@@ -8,57 +8,55 @@
 - **Styling**: Global CSS uses cards/grids inspired by the provided mockups. The `useResponsiveLayout` hook toggles stacked layouts below 720px.
 - **Static updates**: Replace `public/quizzes.json` on any CDN or object storage bucket to refresh questions without a rebuild as long as the schema stays compatible with `docs/schema.md`.
 
-## In-Progress Feature Branch
+## Active Feature Branch
 
-- **Branch**: `feature/grouping-search-hamburger-filter`
-- **Purpose**: Deliver the grouping, live search, and responsive filter menu requested in `tasks/quizzes-spa-task-grouping and search.md`.
-- **Feature goals**:
-  1. Extend the quiz schema with a required `groupId` that clusters quizzes by topic/category.
-  2. Add a live search input on the quiz list that filters as the user types and renders a flat list of matches.
-  3. Provide a responsive group filter menu that becomes a hamburger sheet on mobile, including an `All` option that resets filtering.
+- **Branch**: `feature/import-results`
+- **Purpose**: Implement importing quiz attempts from exported JSON so learners can move progress between devices. Import must deduplicate by `attemptId`.
 - **Baseline verification (branch creation)**:
-  - `npm install`, `npm test -- --watch=false`, and `npm run build` all succeeded at 22:28 UTC before any feature code landed.
-  - `QuizListPage` currently renders `Available` and `Completed` sections with no search or grouping affordances.
-  - Responsive behavior is limited to `useResponsiveLayout`; we will add regression tests to lock in the default layout and search/filter interplay.
+  - Fresh `npm install`, `npm test -- --watch=false`, and `npm run build` all completed successfully at 21:02 UTC before feature work.
+  - Export tools currently ship two actions: `Export Quiz Data` (quizzes catalog) and `Export Quiz Results` (wraps attempts with an `exportedAt` timestamp).
+  - Attempts are stored in `localStorage` under the `quizAttempts` key via `getAttempts`/`writeAttempts` helpers in `src/utils/storage.ts`.
+- **Documentation checkpoints**:
+  1. Record baseline behavior and plan (this section).
+  2. Capture the export/import data contract once finalized.
+  3. Note UI placement, validation, dedup strategy, error messaging, and deployment steps when implemented.
 
-Additional implementation details for each feature area will be appended below as they are completed.
+Additional implementation details for this feature will be logged below as they are delivered.
 
-### Baseline regression coverage
+## Results Export/Import Format
 
-- Added `baseline: renders quiz sections with default responsive class` in `src/pages/QuizListPage.test.tsx` to assert the main dashboard renders both sections and keeps the default `.quiz-grid--grid` layout when no responsive overrides apply.
+- Transfer files are JSON with shape:
+  ```json
+  {
+    "version": 1,
+    "exportedAt": "2025-11-17T21:02:00.000Z",
+    "attempts": []
+  }
+  ```
+- `version` currently equals `1` and is reserved for future schema migrations. Importers accept any numeric value but treat unknown versions the same while the shape matches.
+- Each `attempts[]` entry contains:
+  - `attemptId` (string, unique identifier for deduplication across devices)
+  - `quizId` / `quizTitle`
+  - `startedAt` / `completedAt` ISO timestamps
+  - `scorePercent`, `correctCount`, `totalCount`
+  - `answers[]` with `{ questionId, questionNumber, selectedOptionId, correctOptionId, isCorrect }`
+- Export payloads continue to include an ISO `exportedAt` timestamp for traceability even though only `version` + `attempts` are required to import.
 
-### Quiz grouping data model
+## Import UI & Behavior
 
-- Every quiz entry inside `public/quizzes.json` now declares a required `groupId` string. The loader (`loadQuizzes`) trims whitespace and throws a descriptive error if `groupId` is blank or missing.
-- The taxonomy mirrors the latest content request:
-  - `Union with Christ` -> `union-3a-*` quizzes.
-  - `Conversion` -> `conversion-*` quizzes.
-  - `Regeneration` -> `regeneration-quiz-1`.
-  - `Salvation (Justification and Sanctification)` -> salvation component quizzes.
-  - `Election` -> `election-*` quizzes (moved out of the Salvation bucket per the new guidance).
-  - `Millennial Views` -> `millennial-*` quizzes.
-  - `Resurrection` -> `resurrection-*` quizzes.
-  - `Judgment` -> `judgment-*` quizzes (split from Eternal State so judgment theology can be filtered independently).
-  - `Eternal State` -> `eternal-state-*` quizzes.
-- Tests in `src/utils/quizzes.test.ts` cover successful parsing, trimming behavior, and the failure mode when `groupId` is absent.
+- The **Import Results** button lives next to Export Tools on the dashboard card. It opens a hidden `<input type="file" accept="application/json" />` so desktop and mobile users can pick the exported file.
+- Helper copy explains the intent (“Import results exported from this app on another device.”) and keeps UX consistent regardless of viewport width.
+- Parsing is fully client-side via `File.text()` + `parseResultsTransferJson`. Invalid JSON or any structure missing the `attempts[]` array surface a friendly inline error (“Invalid results file. Please export from this app and try again.”) and leave localStorage untouched.
+- Successful imports call the new `importAttempts` function from `QuizContext`, which merges into state/localStorage immediately so the Completed Quizzes section refreshes without reloading.
+- Status messaging summarizes the outcome (`Imported 2 attempts. Skipped 1 duplicate attempt.`) or states when every attempt was already present. Large payloads (hundreds of attempts) are handled synchronously, so the note “Import happens entirely in-browser and may briefly freeze on very large files.” was added to README to set expectations.
+- Deduplication relies solely on `attemptId`. If the imported file includes attemptIds that already exist locally, those entries are skipped and the counters reflect how many were ignored.
+- Version handling: today every export writes `"version": 1`. The importer accepts any numeric `version` and ignores the value unless a breaking schema change ships later.
 
-### Live search behavior
+## Dev deployment + QA
 
-- The dashboard now includes a search input above the Available/Completed sections. Typing filters both lists on every keystroke (case-insensitive) using `title`, `description`, and `groupId`.
-- When a search term is present, the UI ignores grouping and renders flat card stacks to make results easy to scan. Clearing the input restores grouped sections.
-- A dedicated `StatusMessage` communicates when no quizzes match the current search, and a clear button resets the term without reloading the page.
-- Tests: `filters quizzes using the live search input...`, `shows a no results message when search terms match nothing...`, and `search overrides the currently selected group filter` in `src/pages/QuizListPage.test.tsx`.
-
-### Group filter UX
-
-- Desktop renders group filters as pill buttons (`All` + each `groupId`). Mobile collapses the same options behind a hamburger icon to conserve space.
-- Selecting a group applies to both Available and Completed lists simultaneously. The `All` option resets filtering.
-- The search hint ("Search overrides the group filter.") appears whenever text is entered so users understand precedence.
-- Tests: `filters both sections when selecting a group on desktop` and `renders a hamburger menu for group filters on mobile...` lock in desktop + mobile behavior.
-
-### Dev deployment + QA
-
-- Validation commands: `npm test -- --watch=false` and `npm run build` both succeeded after the new search/filter features landed.
-- Firebase dev deploy: `firebase deploy --only hosting:dev` (netware-326600-dev.web.app) published the updated static assets.
-- Prod workflow: `.github/workflows/deploy-prod-on-main.yml` now triggers on pushes to `main`, any tag named `prod-*`, **or** a manual dispatch. The manual workflow input (`target_ref`) accepts any branch/tag so ops can redeploy a known-good tag directly from the Actions UI without touching `main`.
-- Suggested commits: `feat: add quiz grouping schema + validation`, `feat: add live search and responsive group filters to dashboard`.
+- Validation commands: `npm test -- --watch=false` (Vitest suite including new import/export specs) and `npm run build` (tsc + Vite) both pass on `feature/import-results`.
+- Deployment: `firebase deploy --only hosting:dev` published the updated static bundle to `https://netware-326600-dev.web.app`.
+- QA coverage:
+  - Vitest integration tests (`ExportButtons.test.tsx`, `QuizListPage.test.tsx`) simulate importing a valid export, duplicate files, and invalid JSON to guarantee state + localStorage updates behave as expected.
+  - Manual spot-check recommendation: export attempts on one browser profile, load the dev URL in a different profile/incognito window, and import the file twice to confirm duplicates are ignored while Completed Quizzes updates immediately.
+- Suggested commit message: `feat: import quiz results with attemptId dedup and docs`.

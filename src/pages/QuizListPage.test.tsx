@@ -1,9 +1,14 @@
 import userEvent from '@testing-library/user-event'
-import { screen, within } from '@testing-library/react'
+import { render, screen, within } from '@testing-library/react'
 import { afterEach, describe, expect, it, vi } from 'vitest'
+import { useState } from 'react'
+import { HashRouter } from 'react-router-dom'
 import { sampleQuiz } from '../__mocks__/quizSample'
+import { QuizContext } from '../context/QuizContext'
 import { renderWithProviders } from '../test-utils'
 import type { Quiz, QuizAttempt } from '../types/quiz'
+import { mergeImportedAttempts } from '../utils/resultsTransfer'
+import { ATTEMPTS_STORAGE_KEY } from '../utils/storage'
 import { QuizListPage } from './QuizListPage'
 
 const baseAttempt: QuizAttempt = {
@@ -23,6 +28,58 @@ const makeQuiz = (overrides: Partial<Quiz>): Quiz => ({
   ...overrides,
   questions: overrides.questions ?? sampleQuiz.questions,
 })
+
+const buildResultsFile = (data: unknown) =>
+  new File([JSON.stringify(data)], 'results.json', {
+    type: 'application/json',
+  })
+
+function ResultsImportHarness({
+  initialAttempts = [],
+  quizzes = [sampleQuiz],
+}: {
+  initialAttempts?: QuizAttempt[]
+  quizzes?: Quiz[]
+}) {
+  const [attempts, setAttempts] = useState<QuizAttempt[]>(initialAttempts)
+  const importAttempts = (incoming: QuizAttempt[]) => {
+    let summary = { importedCount: 0, skippedCount: incoming.length }
+    setAttempts((prev) => {
+      const { merged, summary: mergeSummary } = mergeImportedAttempts(
+        prev,
+        incoming,
+      )
+      summary = mergeSummary
+      if (mergeSummary.importedCount > 0) {
+        window.localStorage.setItem(
+          ATTEMPTS_STORAGE_KEY,
+          JSON.stringify(merged),
+        )
+      }
+      return merged
+    })
+    return summary
+  }
+
+  return (
+    <HashRouter>
+      <QuizContext.Provider
+        value={{
+          quizzes,
+          quizVersion: 1,
+          attempts,
+          loading: false,
+          error: undefined,
+          refreshQuizzes: async () => {},
+          recordAttempt: () => {},
+          importAttempts,
+        }}
+      >
+        <QuizListPage />
+      </QuizContext.Provider>
+    </HashRouter>
+  )
+}
 
 describe('QuizListPage', () => {
   afterEach(() => {
@@ -410,5 +467,61 @@ describe('QuizListPage', () => {
     ).not.toBeInTheDocument()
 
     window.matchMedia = original
+  })
+
+  it('imports attempts through the UI and updates completed quizzes', async () => {
+    window.localStorage.clear()
+    const user = userEvent.setup()
+    render(<ResultsImportHarness initialAttempts={[]} />)
+
+    expect(screen.getByText(/No attempts yet/i)).toBeInTheDocument()
+    const input = document.querySelector(
+      'input[type="file"]',
+    ) as HTMLInputElement
+    await user.upload(
+      input,
+      buildResultsFile({ version: 1, attempts: [baseAttempt] }),
+    )
+
+    expect(
+      await screen.findByText(/Imported 1 attempt/i),
+    ).toBeInTheDocument()
+    expect(screen.queryByText(/No attempts yet/i)).not.toBeInTheDocument()
+    expect(
+      screen.queryByRole('link', { name: /Start Quiz/i }),
+    ).not.toBeInTheDocument()
+    expect(
+      screen.getByRole('link', { name: /Retake Quiz/i }),
+    ).toBeInTheDocument()
+    const stored = JSON.parse(
+      window.localStorage.getItem(ATTEMPTS_STORAGE_KEY) ?? '[]',
+    )
+    expect(stored).toHaveLength(1)
+    expect(stored[0].attemptId).toBe(baseAttempt.attemptId)
+  })
+
+  it('skips duplicate attemptIds on repeated imports', async () => {
+    window.localStorage.setItem(
+      ATTEMPTS_STORAGE_KEY,
+      JSON.stringify([baseAttempt]),
+    )
+    const user = userEvent.setup()
+    render(<ResultsImportHarness initialAttempts={[baseAttempt]} />)
+
+    const input = document.querySelector(
+      'input[type="file"]',
+    ) as HTMLInputElement
+    await user.upload(
+      input,
+      buildResultsFile({ version: 1, attempts: [baseAttempt] }),
+    )
+
+    expect(
+      await screen.findByText(/No new attempts were imported/i),
+    ).toBeInTheDocument()
+    const stored = JSON.parse(
+      window.localStorage.getItem(ATTEMPTS_STORAGE_KEY) ?? '[]',
+    )
+    expect(stored).toHaveLength(1)
   })
 })
