@@ -150,7 +150,7 @@ export function QuizListPage() {
         {isFullyCompleted && (
           <>
             <span className="group-filter__status" aria-hidden="true">
-              ✓
+              {'\u2713'}
             </span>
             <span className="sr-only">Completed group</span>
           </>
