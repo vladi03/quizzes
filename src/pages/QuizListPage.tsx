@@ -10,6 +10,7 @@ import {
   getMostRecentAttemptByQuiz,
   getTakenQuizIds,
 } from '../utils/attempts'
+import { buildGroupCompletionMap } from '../utils/groupCompletion'
 import type { Quiz } from '../types/quiz'
 
 type GroupSection = {
@@ -17,6 +18,8 @@ type GroupSection = {
   label: string
   quizzes: Quiz[]
 }
+
+export const GROUP_FILTER_STORAGE_KEY = 'quizActiveGroupFilter'
 
 const attemptsDateFormatter = new Intl.DateTimeFormat('en-US', {
   dateStyle: 'medium',
@@ -51,12 +54,25 @@ const groupQuizzes = (entries: Quiz[]): GroupSection[] => {
     .sort((a, b) => a.label.localeCompare(b.label))
 }
 
+const readStoredGroupFilter = (): 'all' | string => {
+  if (typeof window === 'undefined') {
+    return 'all'
+  }
+  const stored = window.localStorage.getItem(GROUP_FILTER_STORAGE_KEY)
+  if (!stored || stored.trim().length === 0) {
+    return 'all'
+  }
+  return stored
+}
+
 export function QuizListPage() {
   const { quizzes, attempts, loading, error } = useQuizData()
   const layout = useResponsiveLayout()
   const isMobile = layout === 'stack'
   const [searchTerm, setSearchTerm] = useState('')
-  const [activeGroupId, setActiveGroupId] = useState<'all' | string>('all')
+  const [activeGroupId, setActiveGroupId] = useState<'all' | string>(() =>
+    readStoredGroupFilter(),
+  )
   const [isGroupMenuOpen, setGroupMenuOpen] = useState(false)
 
   const normalizedSearch = searchTerm.trim().toLowerCase()
@@ -112,6 +128,36 @@ export function QuizListPage() {
       setActiveGroupId('all')
     }
   }, [groupFilterOptions, activeGroupId])
+
+  useEffect(() => {
+    if (typeof window === 'undefined') {
+      return
+    }
+    window.localStorage.setItem(GROUP_FILTER_STORAGE_KEY, activeGroupId)
+  }, [activeGroupId])
+
+  const groupCompletion = useMemo(
+    () => buildGroupCompletionMap(quizzes, attempts),
+    [quizzes, attempts],
+  )
+
+  const renderGroupFilterLabel = (optionId: string, label: string) => {
+    const isFullyCompleted =
+      optionId !== 'all' && Boolean(groupCompletion[optionId])
+    return (
+      <>
+        <span>{label}</span>
+        {isFullyCompleted && (
+          <>
+            <span className="group-filter__status" aria-hidden="true">
+              ✓
+            </span>
+            <span className="sr-only">Completed group</span>
+          </>
+        )}
+      </>
+    )
+  }
 
   const visibleAvailable = useMemo(() => {
     return availableQuizzes.filter((quiz) => {
@@ -309,7 +355,7 @@ export function QuizListPage() {
                       aria-pressed={activeGroupId === option.id}
                       role="menuitem"
                     >
-                      {option.label}
+                      {renderGroupFilterLabel(option.id, option.label)}
                     </button>
                   ))}
                 </div>
@@ -333,7 +379,7 @@ export function QuizListPage() {
                   onClick={() => handleGroupSelect(option.id)}
                   aria-pressed={activeGroupId === option.id}
                 >
-                  {option.label}
+                  {renderGroupFilterLabel(option.id, option.label)}
                 </button>
               ))}
             </div>

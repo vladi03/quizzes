@@ -10,6 +10,49 @@
 
 ## Active Feature Branch
 
+- **Branch**: `feature/group-check-remember`
+- **Purpose**: Surface completion status for each quiz group and keep the user-selected group filter sticky across navigation so learners stay in context.
+- **Feature goals**:
+  - Show a green completion indicator beside any group whose quizzes have all been attempted at least once.
+  - Persist the currently selected group filter (including `All`) so visiting a quiz and returning — or even refreshing — keeps the same view applied.
+- **Baseline verification (2025-11-18)**:
+  - `npm install`
+  - `npm test`
+  - `npm run build`
+- **Baseline coverage additions**:
+  - `QuizListPage.test.tsx` now asserts that the desktop pills and mobile hamburger both render every group filter option.
+  - A baseline test confirms attempts data moves quizzes into the Completed column, giving us confidence that future completion logic hooks into proven behavior.
+- **Documentation checkpoints**:
+  1. Record baseline behavior and acceptance tests (this section).
+  2. Capture the helper logic and memoization strategy that powers group completion checkmarks.
+  3. Describe the filter persistence mechanism (storage key, hydration timing, invalidation) and the dev deployment summary.
+
+### Group completion indicators
+
+- Definition: a group is marked complete only when **every quiz** belonging to that `groupId` has at least one attempt persisted under the `quizAttempts` key.
+- Helpers: `src/utils/groupCompletion.ts` introduces `isGroupFullyCompleted` for targeted checks and `buildGroupCompletionMap` for a memoized `groupId -> boolean` lookup that `QuizListPage` reuses for both desktop pills and the mobile hamburger menu.
+- Rendering: `group-filter__status` adds a green circular checkmark and comes with an `sr-only` announcement so assistive tech can hear "Completed group" without mutating the button label.
+- Tests: dedicated unit coverage for the helpers plus new `QuizListPage` specs ensure the icon appears only on fully completed groups in both layouts.
+
+### Remembering group filters
+
+- Behavior: whichever group filter a learner selects (including `All`) now sticks while they navigate into a quiz and back or even refresh the page; clearing the group filter still requires tapping the `All` pill.
+- Storage: the chosen `groupId` is written to `localStorage` under the `quizActiveGroupFilter` key, and a lazy initializer rehydrates state when `QuizListPage` mounts.
+- Guard rails: when quizzes are refreshed and the stored `groupId` is no longer valid, the component reverts to `All` and overwrites the storage key immediately so stale values never accumulate.
+- Tests: new `QuizListPage` specs assert that selecting a filter writes the storage key, re-renders pick up the stored value, and missing groups fall back to the default.
+- Search precedence: typing into the search box still flattens the list and ignores group filters temporarily, but the remembered selection is waiting once the search term clears.
+
+### Mini changelog & commit suggestions
+
+- Added `buildGroupCompletionMap` + `isGroupFullyCompleted` helpers and surfaced the resulting green checkmarks in both desktop pills and the mobile hamburger menu.
+- Persisted `activeGroupId` via `quizActiveGroupFilter` storage so reloading the dashboard—or completing a quiz and routing back—keeps the previously selected topic filter.
+- Expanded `QuizListPage` and helper test coverage (24 specs total) plus updated README/docs to advertise the UX change.
+- Suggested commits:
+  1. `feat: show completion checkmarks for quiz groups`
+  2. `feat: persist quiz group filter selection`
+
+## Historical Feature Branch (feature/import-results)
+
 - **Branch**: `feature/import-results`
 - **Purpose**: Implement importing quiz attempts from exported JSON so learners can move progress between devices. Import must deduplicate by `attemptId`.
 - **Baseline verification (branch creation)**:
