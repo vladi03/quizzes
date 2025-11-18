@@ -27,6 +27,10 @@ function renderForQuiz({
           error: undefined,
           refreshQuizzes: vi.fn(),
           recordAttempt,
+          importAttempts: vi.fn().mockReturnValue({
+            importedCount: 0,
+            skippedCount: 0,
+          }),
         }}
       >
         <Routes>

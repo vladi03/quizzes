@@ -53,6 +53,18 @@ The schemas for quiz content and attempt tracking live in `docs/schema.md`. The 
 
 Visit the bottom of the dashboard and use **Export Quiz Data** or **Export Quiz Results**. Each button downloads strongly-typed JSON files you can re-import elsewhere or archive for reporting.
 
+### Transferring results between devices
+
+1. **On Device A:** open the dashboard, click **Export Quiz Results**, and keep the downloaded `quiz-results-export.json`.
+2. **On Device B:** load the SPA, scroll to the Export Tools card, and click **Import Results**. Pick the exported JSON file.
+3. The importer validates the payload shape, merges attempts into localStorage, and reports how many attempts were added or skipped as duplicates.
+
+Notes:
+
+- Deduplication is keyed on `attemptId`, so importing the same file multiple times is safe.
+- Transfer files include a `"version": 1` field. Future versions will continue to import as long as the `attempts[]` structure matches.
+- Everything runs client-side; importing hundreds of attempts is supported but can briefly pause the UI while the browser parses the file.
+
 ## Testing
 
 Vitest + React Testing Library cover application routing, list rendering, quiz-taking flows, localStorage utilities, error guards, export logic, and responsive layout toggles. Run `npm test` to validate before deploying.

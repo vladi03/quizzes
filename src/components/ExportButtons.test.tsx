@@ -19,9 +19,15 @@ const attempt: QuizAttempt = {
   answers: [],
 }
 
+const buildFile = (data: unknown) =>
+  new File([JSON.stringify(data)], 'results.json', {
+    type: 'application/json',
+  })
+
 describe('ExportButtons', () => {
   beforeEach(() => {
     vi.restoreAllMocks()
+    window.localStorage.clear()
   })
 
   it('exports quiz catalog', async () => {
@@ -42,7 +48,7 @@ describe('ExportButtons', () => {
     )
   })
 
-  it('exports quiz results', async () => {
+  it('exports quiz results with transfer metadata', async () => {
     const user = userEvent.setup()
     const spy = vi.spyOn(downloadModule, 'downloadJson').mockImplementation(
       () => {},
@@ -54,8 +60,75 @@ describe('ExportButtons', () => {
 
     await user.click(screen.getByText(/Export Quiz Results/i))
     expect(spy.mock.lastCall?.[1]).toBe('quiz-results-export.json')
-    expect(spy.mock.calls[0][0]).toMatchObject({
-      attempts: [attempt],
+    const payload = spy.mock.calls[0]?.[0] as {
+      version?: number
+      attempts?: QuizAttempt[]
+    }
+    expect(payload?.version).toBeGreaterThanOrEqual(1)
+    expect(payload?.attempts?.length).toBe(1)
+    expect(payload?.attempts?.[0]?.attemptId).toBeTruthy()
+  })
+
+  it('renders import controls', () => {
+    renderWithProviders(<ExportButtons />)
+    expect(
+      screen.getByRole('button', { name: /Import Results/i }),
+    ).toBeInTheDocument()
+    expect(
+      screen.getByText(/Import results exported from this app/i),
+    ).toBeInTheDocument()
+  })
+
+  it('imports attempts from a valid file and shows success message', async () => {
+    const user = userEvent.setup()
+    const importAttempts = vi
+      .fn()
+      .mockReturnValue({ importedCount: 1, skippedCount: 0 })
+    renderWithProviders(<ExportButtons />, { importAttempts })
+    const input = document.querySelector(
+      'input[type="file"]',
+    ) as HTMLInputElement
+    await user.upload(
+      input,
+      buildFile({ version: 1, attempts: [attempt] }),
+    )
+
+    expect(importAttempts).toHaveBeenCalledWith([
+      expect.objectContaining({ attemptId: attempt.attemptId }),
+    ])
+    expect(
+      await screen.findByText(/Imported 1 attempt/i),
+    ).toBeInTheDocument()
+  })
+
+  it('shows an error for invalid JSON', async () => {
+    const user = userEvent.setup()
+    const importAttempts = vi.fn()
+    renderWithProviders(<ExportButtons />, { importAttempts })
+    const input = document.querySelector(
+      'input[type="file"]',
+    ) as HTMLInputElement
+    const badFile = new File(['not valid'], 'invalid.json', {
+      type: 'application/json',
     })
+    await user.upload(input, badFile)
+    expect(importAttempts).not.toHaveBeenCalled()
+    expect(
+      await screen.findByText(/Invalid results file/i),
+    ).toBeInTheDocument()
+  })
+
+  it('shows an error when attempts array is missing', async () => {
+    const user = userEvent.setup()
+    const importAttempts = vi.fn()
+    renderWithProviders(<ExportButtons />, { importAttempts })
+    const input = document.querySelector(
+      'input[type="file"]',
+    ) as HTMLInputElement
+    await user.upload(input, buildFile({ version: 1 }))
+    expect(importAttempts).not.toHaveBeenCalled()
+    expect(
+      await screen.findByText(/Invalid results file/i),
+    ).toBeInTheDocument()
   })
 })
