@@ -129,12 +129,14 @@ describe('QuizListPage', () => {
     })
     const pillButtons = within(filterPills).getAllByRole('button')
     expect(pillButtons).toHaveLength(3)
-    expect(within(filterPills).getByRole('button', { name: /All/i })).toBeInTheDocument()
     expect(
-      within(filterPills).getByRole('button', { name: /Soteriology/i }),
+      within(filterPills).getByRole('button', { name: /All \(2\)/i }),
     ).toBeInTheDocument()
     expect(
-      within(filterPills).getByRole('button', { name: /Eschatology/i }),
+      within(filterPills).getByRole('button', { name: /Soteriology \(1\)/i }),
+    ).toBeInTheDocument()
+    expect(
+      within(filterPills).getByRole('button', { name: /Eschatology \(1\)/i }),
     ).toBeInTheDocument()
   })
 
@@ -168,13 +170,13 @@ describe('QuizListPage', () => {
       const options = within(menu).getAllByRole('menuitem')
       expect(options).toHaveLength(3)
       expect(
-        within(menu).getByRole('menuitem', { name: /All/i }),
+        within(menu).getByRole('menuitem', { name: /All \(2\)/i }),
       ).toBeInTheDocument()
       expect(
-        within(menu).getByRole('menuitem', { name: /Soteriology/i }),
+        within(menu).getByRole('menuitem', { name: /Soteriology \(1\)/i }),
       ).toBeInTheDocument()
       expect(
-        within(menu).getByRole('menuitem', { name: /Eschatology/i }),
+        within(menu).getByRole('menuitem', { name: /Eschatology \(1\)/i }),
       ).toBeInTheDocument()
     } finally {
       window.matchMedia = originalMatchMedia
@@ -250,10 +252,15 @@ describe('QuizListPage', () => {
       ],
     })
 
-    const completedButton = screen.getByRole('button', { name: /Soteriology/i })
-    const incompleteButton = screen.getByRole('button', {
-      name: /Millennial Views/i,
+    const completedButton = screen.getByRole('button', {
+      name: /Soteriology \(2\)/i,
     })
+    const incompleteButton = screen.getByRole('button', {
+      name: /Millennial Views \(1\)/i,
+    })
+    expect(
+      within(completedButton).getByText(/Soteriology \(2\)/i),
+    ).toBeInTheDocument()
     expect(
       completedButton.querySelector('.group-filter__status'),
     ).not.toBeNull()
@@ -354,11 +361,14 @@ describe('QuizListPage', () => {
       )
 
       const completedMenuItem = screen.getByRole('menuitem', {
-        name: /Soteriology/i,
+        name: /Soteriology \(2\)/i,
       })
       const incompleteMenuItem = screen.getByRole('menuitem', {
-        name: /Millennial Views/i,
+        name: /Millennial Views \(1\)/i,
       })
+      expect(
+        within(completedMenuItem).getByText(/Soteriology \(2\)/i),
+      ).toBeInTheDocument()
       expect(
         completedMenuItem.querySelector('.group-filter__status'),
       ).not.toBeNull()

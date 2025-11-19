@@ -10,6 +10,7 @@ import {
   getMostRecentAttemptByQuiz,
   getTakenQuizIds,
 } from '../utils/attempts'
+import { getQuizCountByGroup } from '../utils/groupCounts'
 import { buildGroupCompletionMap } from '../utils/groupCompletion'
 import type { Quiz } from '../types/quiz'
 
@@ -17,6 +18,12 @@ type GroupSection = {
   id: string
   label: string
   quizzes: Quiz[]
+}
+
+type GroupFilterOption = {
+  id: string
+  label: string
+  count: number
 }
 
 export const GROUP_FILTER_STORAGE_KEY = 'quizActiveGroupFilter'
@@ -78,6 +85,9 @@ export function QuizListPage() {
   const normalizedSearch = searchTerm.trim().toLowerCase()
   const hasSearch = normalizedSearch.length > 0
 
+  const quizCountByGroup = useMemo(() => getQuizCountByGroup(quizzes), [quizzes])
+  const totalQuizCount = quizzes.length
+
   useEffect(() => {
     if (!isMobile) {
       setGroupMenuOpen(false)
@@ -104,7 +114,7 @@ export function QuizListPage() {
     [quizzes, takenQuizIds],
   )
 
-  const groupFilterOptions = useMemo(() => {
+  const groupFilterOptions: GroupFilterOption[] = useMemo(() => {
     const unique = new Map<string, string>()
     quizzes.forEach((quiz) => {
       if (!unique.has(quiz.groupId)) {
@@ -115,10 +125,14 @@ export function QuizListPage() {
       a[1].localeCompare(b[1]),
     )
     return [
-      { id: 'all', label: 'All' },
-      ...sorted.map(([id, label]) => ({ id, label })),
+      { id: 'all', label: 'All', count: totalQuizCount },
+      ...sorted.map(([id, label]) => ({
+        id,
+        label,
+        count: quizCountByGroup[id] ?? 0,
+      })),
     ]
-  }, [quizzes])
+  }, [quizzes, quizCountByGroup, totalQuizCount])
 
   useEffect(() => {
     if (
@@ -141,12 +155,13 @@ export function QuizListPage() {
     [quizzes, attempts],
   )
 
-  const renderGroupFilterLabel = (optionId: string, label: string) => {
+  const renderGroupFilterLabel = (option: GroupFilterOption) => {
     const isFullyCompleted =
-      optionId !== 'all' && Boolean(groupCompletion[optionId])
+      option.id !== 'all' && Boolean(groupCompletion[option.id])
+    const labelWithCount = `${option.label} (${option.count})`
     return (
       <>
-        <span>{label}</span>
+        <span>{labelWithCount}</span>
         {isFullyCompleted && (
           <>
             <span className="group-filter__status" aria-hidden="true">
@@ -355,7 +370,7 @@ export function QuizListPage() {
                       aria-pressed={activeGroupId === option.id}
                       role="menuitem"
                     >
-                      {renderGroupFilterLabel(option.id, option.label)}
+                      {renderGroupFilterLabel(option)}
                     </button>
                   ))}
                 </div>
@@ -379,7 +394,7 @@ export function QuizListPage() {
                   onClick={() => handleGroupSelect(option.id)}
                   aria-pressed={activeGroupId === option.id}
                 >
-                  {renderGroupFilterLabel(option.id, option.label)}
+                  {renderGroupFilterLabel(option)}
                 </button>
               ))}
             </div>
