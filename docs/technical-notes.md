@@ -10,6 +10,24 @@
 
 ## Active Feature Branch
 
+- **Branch**: `feature/group-quiz-count-display`
+- **Purpose**: Show quiz counts beside every group filter entry (desktop pills and the mobile hamburger menu) and surface the total quiz count on the `All` option.
+- **Baseline verification (2025-02-08)**:
+  - `npm install`
+  - `npm test`
+  - `npm run build`
+- **Implementation notes**:
+  - Added `getQuizCountByGroup` (`src/utils/groupCounts.ts`) to derive a `{ [groupId]: number }` map; it returns an empty object for no quizzes and defaults to `0` if a group key is missing.
+  - Group filter labels now render as `Group Name (count)` while `All` shows the total quiz count from the loaded catalog. Groups are derived from the dataset, so entries with zero quizzes are not rendered, but the helper supports `(0)` counts if future callers supply empty groups.
+  - Completion checkmarks continue to render beside fully completed groups and now sit next to the count text on both desktop and mobile menus.
+  - Dev deployment to Firebase was not run in this environment; execute `firebase deploy --only hosting:dev` when credentials are available.
+- **Mini changelog & commit suggestions**:
+  - Display quiz counts in desktop and mobile group filter labels without altering completion indicators.
+  - Added unit coverage for the new helper and updated `QuizListPage` specs to assert the label format and coexistence with completion icons.
+  - Suggested commit: `feat: display quiz counts in group list`
+
+## Historical Feature Branch (feature/group-check-remember)
+
 - **Branch**: `feature/group-check-remember`
 - **Purpose**: Surface completion status for each quiz group and keep the user-selected group filter sticky across navigation so learners stay in context.
 - **Feature goals**:
@@ -33,23 +51,6 @@
 - Helpers: `src/utils/groupCompletion.ts` introduces `isGroupFullyCompleted` for targeted checks and `buildGroupCompletionMap` for a memoized `groupId -> boolean` lookup that `QuizListPage` reuses for both desktop pills and the mobile hamburger menu.
 - Rendering: `group-filter__status` adds a green circular checkmark and comes with an `sr-only` announcement so assistive tech can hear "Completed group" without mutating the button label.
 - Tests: dedicated unit coverage for the helpers plus new `QuizListPage` specs ensure the icon appears only on fully completed groups in both layouts.
-
-### Remembering group filters
-
-- Behavior: whichever group filter a learner selects (including `All`) now sticks while they navigate into a quiz and back or even refresh the page; clearing the group filter still requires tapping the `All` pill.
-- Storage: the chosen `groupId` is written to `localStorage` under the `quizActiveGroupFilter` key, and a lazy initializer rehydrates state when `QuizListPage` mounts.
-- Guard rails: when quizzes are refreshed and the stored `groupId` is no longer valid, the component reverts to `All` and overwrites the storage key immediately so stale values never accumulate.
-- Tests: new `QuizListPage` specs assert that selecting a filter writes the storage key, re-renders pick up the stored value, and missing groups fall back to the default.
-- Search precedence: typing into the search box still flattens the list and ignores group filters temporarily, but the remembered selection is waiting once the search term clears.
-
-### Mini changelog & commit suggestions
-
-- Added `buildGroupCompletionMap` + `isGroupFullyCompleted` helpers and surfaced the resulting green checkmarks in both desktop pills and the mobile hamburger menu.
-- Persisted `activeGroupId` via `quizActiveGroupFilter` storage so reloading the dashboard—or completing a quiz and routing back—keeps the previously selected topic filter.
-- Expanded `QuizListPage` and helper test coverage (24 specs total) plus updated README/docs to advertise the UX change.
-- Suggested commits:
-  1. `feat: show completion checkmarks for quiz groups`
-  2. `feat: persist quiz group filter selection`
 
 ## Historical Feature Branch (feature/import-results)
 
