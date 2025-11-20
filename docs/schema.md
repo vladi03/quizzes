@@ -70,3 +70,13 @@ Attempts live under the `quizAttempts` key in `localStorage`. Every completed ru
 ```
 
 Clients derive the “Completed quizzes” dashboard by grouping attempts by `quizId` and keeping the record with the latest `completedAt` timestamp.
+
+## Firestore Cloud Sync
+
+When Firebase is enabled, attempts mirror to Firestore so multiple devices stay in sync. Storage layout:
+
+- Collection path: `users/{uid}/quizAttempts`
+- Document ID: `attemptId` (same UUID used locally)
+- Document body: identical to the `quizAttempts` entry above (`quizId`, `quizTitle`, timestamps, aggregate scores, and `answers[]`)
+
+Because the schema matches local storage, the importer/exporter and deduplication logic (`attemptId` uniqueness) apply unchanged on the server. Security rules should restrict access to `users/{uid}/quizAttempts/{attemptId}` so each authenticated user can only read/write their own attempts.
