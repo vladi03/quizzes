@@ -7,6 +7,7 @@
 - **Testing**: Vitest + Testing Library cover routing, storage, page rendering, data exports, layout responsiveness (via a `matchMedia` mock), and quiz flows.
 - **Styling**: Global CSS uses cards/grids inspired by the provided mockups. The `useResponsiveLayout` hook toggles stacked layouts below 720px.
 - **Static updates**: Replace `public/quizzes.json` on any CDN or object storage bucket to refresh questions without a rebuild as long as the schema stays compatible with `docs/schema.md`.
+- **Screenshots**: Run `npm run capture:screens` to regenerate the dashboard/quiz/review PNGs referenced in `docs/ui-functional-description.md`. The script builds the SPA, launches `npm run preview` on an available localhost port, seeds deterministic sample attempts in `localStorage`, and uses Playwright/Chromium for captures. On a new machine, install the browser first with `npx playwright install chromium`.
 
 ## Active Feature Branch
 

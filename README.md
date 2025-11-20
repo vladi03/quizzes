@@ -24,6 +24,7 @@ npm run deploy:firebase:dev # build + deploy to Firebase dev site
   - `/quiz/:quizId/review/:attemptId` &mdash; read-only review mode to step through a captured attempt. The final question swaps the "Next" button for "Finish Review," which sends you straight back to the dashboard.
 - Export buttons create downloadable JSON blobs for quizzes and attempt history without leaving the page.
 - Responsive cards/grids mirror the provided mockups (`public/design/layout_*.png`).
+- Screenshot-backed UI behavior notes live in [`docs/ui-functional-description.md`](docs/ui-functional-description.md).
 
 ## Quizzes & Attempts
 
