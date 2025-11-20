@@ -5,6 +5,7 @@ import { useState } from 'react'
 import { HashRouter } from 'react-router-dom'
 import { sampleQuiz } from '../__mocks__/quizSample'
 import { QuizContext } from '../context/QuizContext'
+import type { SyncStatus } from '../hooks/useCloudSync'
 import { renderWithProviders } from '../test-utils'
 import type { Quiz, QuizAttempt } from '../types/quiz'
 import { mergeImportedAttempts } from '../utils/resultsTransfer'
@@ -33,6 +34,17 @@ const buildResultsFile = (data: unknown) =>
   new File([JSON.stringify(data)], 'results.json', {
     type: 'application/json',
   })
+
+const buildCloudSync = () => ({
+  status: 'disabled' as SyncStatus,
+  isEnabled: false,
+  error: undefined,
+  lastSyncTime: undefined,
+  lastImportedCount: 0,
+  notification: null,
+  triggerSync: vi.fn(),
+  dismissNotification: vi.fn(),
+})
 
 function ResultsImportHarness({
   initialAttempts = [],
@@ -73,6 +85,7 @@ function ResultsImportHarness({
           refreshQuizzes: async () => {},
           recordAttempt: () => {},
           importAttempts,
+          cloudSync: buildCloudSync(),
         }}
       >
         <QuizListPage />

@@ -82,6 +82,43 @@ The repo includes `.firebaserc` and `firebase.json` pre-configured for the `netw
 The dev and prod sites are defined in `.firebaserc` (`netware-326600` for prod, `netware-326600-dev` for dev) and targeted via `firebase.json`. Both share the same SPA settings (rewrites to `/index.html`, clean URLs, no trailing slash). Use the dev site for validation and promote to prod once satisfied.
 Current dev URL: https://netware-326600-dev.web.app
 
+## Firebase Auth + Firestore Setup
+
+Cloud sync relies on Firebase Auth (email/password) and Firestore. Configure them once per environment (dev + prod):
+
+1. **Create Firebase projects** for dev and prod (or add an additional web app under an existing project) and enable the **Email/Password** provider inside the Authentication tab.
+2. **Create a Firestore database** (Native mode). Security rules should scope every user to their own document path, e.g.:
+   ```rules
+   rules_version = '2';
+   service cloud.firestore {
+     match /databases/{database}/documents {
+       match /users/{userId}/quizAttempts/{attemptId} {
+         allow read, write: if request.auth != null && request.auth.uid == userId;
+       }
+     }
+   }
+   ```
+3. From the project settings screen, copy the **Web App config** values and add them to `.env` (or `.env.local`). Required keys are listed in `.env.example`:
+   ```bash
+   VITE_FIREBASE_API_KEY="..."
+   VITE_FIREBASE_AUTH_DOMAIN="..."
+   VITE_FIREBASE_PROJECT_ID="..."
+   VITE_FIREBASE_STORAGE_BUCKET="..."
+   VITE_FIREBASE_MESSAGING_SENDER_ID="..."
+   VITE_FIREBASE_APP_ID="..."
+   VITE_FIREBASE_MEASUREMENT_ID="" # optional
+   ```
+4. Use the dev project's values for day-to-day development and the prod project's values on the production build pipeline (e.g., via GitHub Actions secrets). The SPA reads these keys at build time, so swapping environments only requires updating the env file or CI secrets.
+5. After the env vars are defined, restart `npm run dev`. The **Cloud Sync** entry in the header will show the sign-in form, and authenticated users will be synced to Firestore in the background.
+
+## Cloud Sync UX
+
+- Cloud sync is **opt-in**. Anonymous visitors stay entirely local (same behavior as before), while authenticated users mirror quiz attempts to Firestore in the background.
+- The header now includes a **Cloud Sync** menu: sign up or log in with email/password, then you can sign out or review your sync status (`Synced`, `Syncing`, `Using local data`, or `Cloud disabled` if env vars are missing).
+- Sync triggers on login, on startup when a session is already authenticated, and immediately after completing a quiz. The dedup logic matches the manual import/export flow (keyed on `attemptId`), so the same attempt never lands twice.
+- If remote-only attempts are imported, a toast appears for ~4 seconds (desktop and mobile friendly) letting you know how many results were pulled down.
+- Sync failures leave the app usable (localStorage remains the source of truth). The status badge flips to “Using local data,” and you can hover/tap for the latest error message.
+
 ## CI/CD
 
 - `.github/workflows/deploy-prod-on-main.yml` deploys automatically whenever `main` is updated or a tag named `prod-*` is pushed. Use the tag trigger as a manual fallback (`git tag prod-YYYY-MM-DD && git push origin prod-YYYY-MM-DD`) if you need to redeploy a known-good build without touching `main`. You can also run the workflow manually from the Actions tab and supply any branch/tag (e.g., select `prod-2025-11-17`) via the `target_ref` input.

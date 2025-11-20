@@ -10,21 +10,50 @@
 
 ## Active Feature Branch
 
-- **Branch**: `feature/group-quiz-count-display`
-- **Purpose**: Show quiz counts beside every group filter entry (desktop pills and the mobile hamburger menu) and surface the total quiz count on the `All` option.
-- **Baseline verification (2025-02-08)**:
+- **Branch**: `feature/cloud-sync-firestore`
+- **Purpose**: Introduce optional Firebase Auth + Firestore powered cloud sync so quiz attempts mirror between devices when a user signs in, without disturbing the existing anonymous/local-only flow.
+- **Baseline verification (2025-11-18)**:
   - `npm install`
   - `npm test`
   - `npm run build`
-- **Implementation notes**:
-  - Added `getQuizCountByGroup` (`src/utils/groupCounts.ts`) to derive a `{ [groupId]: number }` map; it returns an empty object for no quizzes and defaults to `0` if a group key is missing.
-  - Group filter labels now render as `Group Name (count)` while `All` shows the total quiz count from the loaded catalog. Groups are derived from the dataset, so entries with zero quizzes are not rendered, but the helper supports `(0)` counts if future callers supply empty groups.
-  - Completion checkmarks continue to render beside fully completed groups and now sit next to the count text on both desktop and mobile menus.
-  - Dev deployment to Firebase was not run in this environment; execute `firebase deploy --only hosting:dev` when credentials are available.
-- **Mini changelog & commit suggestions**:
-  - Display quiz counts in desktop and mobile group filter labels without altering completion indicators.
-  - Added unit coverage for the new helper and updated `QuizListPage` specs to assert the label format and coexistence with completion icons.
-  - Suggested commit: `feat: display quiz counts in group list`
+- **Current behavior snapshot**:
+  - Quiz attempts persist solely in `localStorage` under the `quizAttempts` key via helpers inside `src/utils/storage.ts`.
+  - Users move progress between devices manually with the existing JSON export/import flow, which deduplicates by `attemptId` using the logic shared in `src/utils/resultsTransfer.ts`.
+  - No authentication or cloud storage is wired up; every visitor effectively operates as an anonymous session on a single device.
+- **Feature goals**:
+  - Provide email/password sign-up + login backed by Firebase Auth, store quiz attempts per `uid` in Firestore, and keep the local experience identical for users who skip cloud sync.
+  - Run background sync (push local attempts up, pull remote-only attempts down) on login, startup (when already authenticated), and after quiz completion.
+  - Surface a short-lived notification whenever remote-only attempts are imported so learners understand why new completions appeared.
+  - Remember the signed-in state with local persistence and allow concurrent logins across devices by relying on Firebase Auth sessions.
+
+### Cloud Sync foundation (2025-11-18)
+
+- Added `firebase` dependency and `src/firebase/firebaseClient.ts`, which lazily initializes Firebase only when the required `VITE_FIREBASE_*` env vars exist. When missing, the module exports a disabled flag so the SPA continues running in local-only mode.
+- Created `.env.example` plus README instructions covering Firebase Auth/Firestore setup (per-environment env vars, enabling email/password auth, base Firestore rules).
+- Introduced `AuthProvider`/`useAuth` for email-password auth with local persistence, plus Vitest coverage that verifies auth state hydration, sign-in, sign-up, and sign-out flows (Firebase APIs mocked).
+- Updated the root app tree to wrap everything with `AuthProvider`, and surfaced the new `AccountMenu` in the header. Logged-out users get a Cloud Sync form (sign in/up toggle, validation, error surfacing); logged-in users see an inline pill showing the email with a Sign out action.
+
+### Firestore data model & sync utilities (2025-11-18)
+
+- Data model: Firestore stores quiz attempts under `users/{uid}/quizAttempts/{attemptId}` mirroring the local `QuizAttempt` shape. Each attempt doc uses `attemptId` as the doc ID, and `answers[]` stays identical to the localStorage structure for lossless round-trips.
+- `src/services/quizSyncService.ts` exposes `fetchRemoteAttempts`, `pushAttempts`, and `mergeLocalAndRemote`. Fetch returns every attempt for a UID; push upserts attempts in batches of 400 docs to stay under Firestore limits; merge reuses `mergeImportedAttempts` so JSON-import dedup logic powers the cloud sync flow too.
+- Added targeted tests for `mergeLocalAndRemote` that cover empty inputs, overlap, and full-import scenarios to guard against regressions in the dedup layer before the full sync orchestration hooks into it.
+
+### Background sync, notification UX, and status indicator (2025-11-18)
+
+- Introduced `useCloudSync` to orchestrate background syncs. It wires into `QuizProvider`, reacts to auth state, fetches/pushes attempts via `quizSyncService`, writes merged data back to localStorage, and exposes status/last-sync metadata. Tests live at `src/hooks/useCloudSync.test.tsx`.
+- `QuizContext` now carries a `cloudSync` object inside the value so UI components can render sync status, trigger manual syncs, and consume import notifications without duplicating logic.
+- Added `CloudSyncToast` (auto-dismisses after ~4s) plus toast styling so users see when remote-only attempts were imported.
+- `AccountMenu` renders a lightweight status indicator beside the "Cloud Sync" label (states: Ready, Syncing, Synced, Using local data, Cloud disabled). Status colors mirror success/warning/error semantics so you can tell when the latest push/pull succeeded.
+
+### Dev deployment & validation (2025-11-18)
+
+- Commands: `npm test`, `npm run build`, `npm run deploy:firebase:dev`.
+- Hosted at https://netware-326600-dev.web.app. Verify:
+  - Anonymous users can continue taking quizzes without any auth prompts (everything stays local-only).
+  - Signing up/logging in via the header form persists across reloads (Firebase local persistence).
+  - Completing a quiz while signed in pushes attempts to Firestore; signing into another device pulls them down and shows the 4s toast.
+  - Status badge flips between “Syncing,” “Synced,” or “Using local data” when errors are simulated (e.g., go offline and complete a quiz to see the fallback behavior).
 
 ## Historical Feature Branch (feature/group-check-remember)
 

@@ -5,6 +5,7 @@ import { vi } from 'vitest'
 import { QuizContext } from './context/QuizContext'
 import type { Quiz, QuizAttempt } from './types/quiz'
 import type { ImportSummary } from './utils/resultsTransfer'
+import type { ImportNotification, SyncStatus } from './hooks/useCloudSync'
 
 type RenderOptions = {
   quizzes?: Quiz[]
@@ -15,6 +16,16 @@ type RenderOptions = {
   recordAttempt?: (attempt: QuizAttempt) => void
   refreshQuizzes?: () => Promise<void>
   importAttempts?: (incoming: QuizAttempt[]) => ImportSummary
+  cloudSync?: Partial<{
+    status: SyncStatus
+    isEnabled: boolean
+    error?: string
+    lastSyncTime?: string
+    lastImportedCount: number
+    notification: ImportNotification | null
+    triggerSync: () => Promise<void>
+    dismissNotification: () => void
+  }>
 }
 
 export function renderWithProviders(
@@ -28,8 +39,21 @@ export function renderWithProviders(
     recordAttempt = vi.fn(),
     refreshQuizzes = vi.fn(),
     importAttempts = vi.fn().mockReturnValue({ importedCount: 0, skippedCount: 0 }),
+    cloudSync = {},
   }: RenderOptions = {},
 ) {
+  const cloudSyncDefaults = {
+    status: 'disabled' as SyncStatus,
+    isEnabled: false,
+    error: undefined,
+    lastSyncTime: undefined,
+    lastImportedCount: 0,
+    notification: null,
+    triggerSync: vi.fn(),
+    dismissNotification: vi.fn(),
+    ...cloudSync,
+  }
+
   return render(
     <HashRouter>
       <QuizContext.Provider
@@ -42,6 +66,7 @@ export function renderWithProviders(
           refreshQuizzes,
           recordAttempt,
           importAttempts,
+          cloudSync: cloudSyncDefaults,
         }}
       >
         {ui}
