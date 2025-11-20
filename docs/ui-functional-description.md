@@ -14,6 +14,10 @@ The dashboard mirrors the layout mockups while layering in live capabilities:
 - **Completed quizzes.** Each card summarizes the latest score, attempt tally, and includes an accessible table for drill-ins. `Review` actions deep-link to `/quiz/:quizId/review/:attemptId`, while `Retake Quiz` routes into a fresh attempt.
 - **Export tools.** The footer card contains export buttons for quizzes and attempts along with the import workflow that deduplicates via `attemptId`, matching the JSON transfer docs.
 
+![Account pill shown after signing in](images/ui/cloud-sync-logged-in.png)
+
+Cloud Sync flips into an authenticated pill once the user signs in. The badge shows the latest status (`Synced`, `Syncing`, `Using local data`, or `Cloud disabled`) while the inline email plus `Sign out` button keeps the action consistent with the unauthenticated trigger.
+
 ## Quiz-Taking Flow
 
 ![Quiz-taking screen after checking an answer](images/ui/quiz-question.png)
