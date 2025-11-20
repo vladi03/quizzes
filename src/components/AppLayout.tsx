@@ -17,7 +17,7 @@ export function AppLayout({ children }: AppLayoutProps) {
         <div className="app-header__right">
           <nav className="app-nav">
             <Link to="/">Quizzes</Link>
-            <a href="#export-tools">Export</a>
+            <Link to="/export">Export</Link>
           </nav>
           <AccountMenu />
         </div>

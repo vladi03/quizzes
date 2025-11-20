@@ -2,8 +2,10 @@ import {
   collection,
   doc,
   getDocs,
+  onSnapshot,
   writeBatch,
   type Firestore,
+  type Unsubscribe,
 } from 'firebase/firestore'
 import type { QuizAttempt } from '../types/quiz'
 import { db } from '../firebase/firebaseClient'
@@ -37,6 +39,39 @@ export async function fetchRemoteAttempts(uid: string): Promise<QuizAttempt[]> {
   )
   const snapshot = await getDocs(attemptsRef)
   return snapshot.docs.map((entry) => entry.data() as QuizAttempt)
+}
+
+type SnapshotChangeHandler = (attempts: QuizAttempt[]) => void
+type SnapshotErrorHandler = (error: Error) => void
+
+export function subscribeToRemoteAttempts(
+  uid: string,
+  onChange: SnapshotChangeHandler,
+  onError?: SnapshotErrorHandler,
+): Unsubscribe {
+  if (!uid || !db) {
+    return () => {}
+  }
+  const attemptsRef = collection(
+    db,
+    USERS_COLLECTION,
+    uid,
+    ATTEMPTS_COLLECTION,
+  )
+  return onSnapshot(
+    attemptsRef,
+    (snapshot) => {
+      const attempts = snapshot.docs.map(
+        (entry) => entry.data() as QuizAttempt,
+      )
+      onChange(attempts)
+    },
+    (error) => {
+      if (onError) {
+        onError(error)
+      }
+    },
+  )
 }
 
 export async function pushAttempts(

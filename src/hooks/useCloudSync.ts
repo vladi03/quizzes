@@ -5,6 +5,7 @@ import {
   fetchRemoteAttempts,
   mergeLocalAndRemote,
   pushAttempts,
+  subscribeToRemoteAttempts,
 } from '../services/quizSyncService'
 import { writeAttempts } from '../utils/storage'
 
@@ -37,6 +38,7 @@ export function useCloudSync({
   )
   const attemptsRef = useRef(attempts)
   const syncPromiseRef = useRef<Promise<void> | null>(null)
+  const unsubscribeRef = useRef<(() => void) | null>(null)
 
   useEffect(() => {
     attemptsRef.current = attempts
@@ -47,6 +49,10 @@ export function useCloudSync({
       setStatus('disabled')
       setError(undefined)
       setNotification(null)
+      if (unsubscribeRef.current) {
+        unsubscribeRef.current()
+        unsubscribeRef.current = null
+      }
       return
     }
     setStatus((prev) => (prev === 'disabled' ? 'idle' : prev))
@@ -58,6 +64,10 @@ export function useCloudSync({
       setError(undefined)
       setNotification(null)
       setLastImportedCount(0)
+      if (unsubscribeRef.current) {
+        unsubscribeRef.current()
+        unsubscribeRef.current = null
+      }
     }
   }, [auth.isEnabled, auth.user])
 
@@ -85,8 +95,8 @@ export function useCloudSync({
         currentLocal,
         remoteAttempts,
       )
-      setLastImportedCount(importedCount)
       if (importedCount > 0) {
+        setLastImportedCount(importedCount)
         replaceAttempts(merged)
         setNotification({ id: Date.now(), count: importedCount })
       }
@@ -125,6 +135,47 @@ export function useCloudSync({
     syncPromiseRef.current = promise
     return promise
   }, [auth.isEnabled, auth.user, performSync])
+
+  useEffect(() => {
+    if (!auth.isEnabled || !auth.user) {
+      return
+    }
+    const unsubscribe = subscribeToRemoteAttempts(
+      auth.user.uid,
+      (remoteAttempts) => {
+        const currentLocal = attemptsRef.current
+        const { merged, importedCount } = mergeLocalAndRemote(
+          currentLocal,
+          remoteAttempts,
+        )
+        if (importedCount > 0) {
+          setLastImportedCount(importedCount)
+          // Remote attempts are immutable; attemptId is globally unique so deduplication
+          // can rely on it (documented in TECH_NOTES.md).
+          replaceAttempts(merged)
+          setNotification({ id: Date.now(), count: importedCount })
+        }
+        setStatus((prev) => (prev === 'disabled' ? 'idle' : 'success'))
+        setError(undefined)
+        setLastSyncTime(new Date().toISOString())
+      },
+      (error) => {
+        setStatus('error')
+        setError(
+          error instanceof Error
+            ? error.message
+            : 'Unable to listen for cloud updates.',
+        )
+      },
+    )
+    unsubscribeRef.current = unsubscribe
+    return () => {
+      unsubscribe()
+      if (unsubscribeRef.current === unsubscribe) {
+        unsubscribeRef.current = null
+      }
+    }
+  }, [auth.isEnabled, auth.user, replaceAttempts])
 
   useEffect(() => {
     if (auth.isEnabled && auth.user) {

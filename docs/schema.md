@@ -80,3 +80,40 @@ When Firebase is enabled, attempts mirror to Firestore so multiple devices stay 
 - Document body: identical to the `quizAttempts` entry above (`quizId`, `quizTitle`, timestamps, aggregate scores, and `answers[]`)
 
 Because the schema matches local storage, the importer/exporter and deduplication logic (`attemptId` uniqueness) apply unchanged on the server. Security rules should restrict access to `users/{uid}/quizAttempts/{attemptId}` so each authenticated user can only read/write their own attempts.
+Real-time sync listens to the same collection via Firestore's `onSnapshot` API so the SPA can hydrate immediately after login and react when another device writes new attempts.
+
+## Export Payload (`/export`)
+
+The Export page builds a portable JSON file with the following contract:
+
+```json
+{
+  "version": 1,
+  "exportedAt": "2025-11-19T17:00:00.000Z",
+  "attempts": [
+    {
+      "attemptId": "uuid",
+      "quizId": "bible-basics",
+      "quizTitle": "Bible Basics",
+      "startedAt": "2025-11-18T21:10:00.000Z",
+      "completedAt": "2025-11-18T21:15:00.000Z",
+      "scorePercent": 80,
+      "correctCount": 4,
+      "totalCount": 5,
+      "answers": [
+        {
+          "questionId": "bb-q1",
+          "questionNumber": 1,
+          "selectedOptionId": "b",
+          "correctOptionId": "a",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
+```
+
+- `version` tracks structural changes. The exporter currently writes version `1` and increments when breaking schema adjustments occur.
+- `exportedAt` captures the ISO timestamp when the JSON was produced to help troubleshoot stale backups.
+- `attempts` mirrors the local/Firestore attempt schema, so imports and automatic cloud sync can merge by `attemptId` consistently.
