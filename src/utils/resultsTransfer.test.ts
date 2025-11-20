@@ -1,6 +1,6 @@
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it, vi, afterEach } from 'vitest'
 import type { QuizAttempt } from '../types/quiz'
-import { mergeImportedAttempts } from './resultsTransfer'
+import { buildResultsExportPayload, mergeImportedAttempts } from './resultsTransfer'
 
 const baseAttempt: QuizAttempt = {
   attemptId: 'a',
@@ -18,6 +18,10 @@ const makeAttempt = (id: string, quizId = 'theology-101'): QuizAttempt => ({
   ...baseAttempt,
   attemptId: id,
   quizId,
+})
+
+afterEach(() => {
+  vi.useRealTimers()
 })
 
 describe('mergeImportedAttempts', () => {
@@ -44,5 +48,23 @@ describe('mergeImportedAttempts', () => {
     const { merged, summary } = mergeImportedAttempts(existing, incoming)
     expect(merged).toEqual(existing)
     expect(summary).toEqual({ importedCount: 0, skippedCount: 1 })
+  })
+})
+
+describe('buildResultsExportPayload', () => {
+  it('wraps attempts with metadata', () => {
+    const fixedDate = new Date('2025-01-02T00:00:00.000Z')
+    vi.useFakeTimers()
+    vi.setSystemTime(fixedDate)
+    const payload = buildResultsExportPayload([makeAttempt('1')])
+    expect(payload.version).toBeGreaterThanOrEqual(1)
+    expect(payload.exportedAt).toBe(fixedDate.toISOString())
+    expect(payload.attempts).toHaveLength(1)
+  })
+
+  it('handles empty attempt lists', () => {
+    const payload = buildResultsExportPayload([])
+    expect(payload.attempts).toEqual([])
+    expect(payload.exportedAt).toEqual(expect.any(String))
   })
 })

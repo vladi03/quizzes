@@ -8,6 +8,7 @@ import { useCloudSync } from './useCloudSync'
 const syncMocks = vi.hoisted(() => ({
   fetchRemoteAttempts: vi.fn(),
   pushAttempts: vi.fn(),
+  subscribeToRemoteAttempts: vi.fn(),
   writeAttempts: vi.fn(),
 }))
 
@@ -19,6 +20,7 @@ vi.mock('../services/quizSyncService', async () => {
     ...actual,
     fetchRemoteAttempts: syncMocks.fetchRemoteAttempts,
     pushAttempts: syncMocks.pushAttempts,
+    subscribeToRemoteAttempts: syncMocks.subscribeToRemoteAttempts,
   }
 })
 
@@ -61,6 +63,7 @@ const baseAuth: AuthContextValue = {
 
 beforeEach(() => {
   vi.clearAllMocks()
+  syncMocks.subscribeToRemoteAttempts.mockReturnValue(() => {})
 })
 
 describe('useCloudSync', () => {
@@ -105,6 +108,37 @@ describe('useCloudSync', () => {
     })
     expect(result.current.status).toBe('error')
     expect(result.current.error).toMatch(/Unable to sync/)
+  })
+
+  it('responds to live Firestore updates', async () => {
+    const remoteAttempt = buildAttempt('remote-live')
+    let snapshotHandler: ((attempts: QuizAttempt[]) => void) | undefined
+    syncMocks.subscribeToRemoteAttempts.mockImplementation(
+      (_uid, onChange) => {
+        snapshotHandler = onChange
+        return vi.fn()
+      },
+    )
+    syncMocks.fetchRemoteAttempts.mockResolvedValue([])
+    const { result } = renderHook(() => {
+      const [attempts, setAttempts] = useState<QuizAttempt[]>([])
+      return useCloudSync({ attempts, setAttempts, auth: baseAuth })
+    })
+
+    await act(async () => {
+      snapshotHandler?.([remoteAttempt])
+    })
+
+    await waitFor(() => {
+      expect(syncMocks.writeAttempts).toHaveBeenCalledWith(
+        expect.arrayContaining([remoteAttempt]),
+      )
+    })
+    await waitFor(() => {
+      expect(result.current.notification).not.toBeNull()
+      expect(result.current.lastImportedCount).toBe(1)
+      expect(result.current.status).toBe('success')
+    })
   })
 
   it('disables sync when auth is not enabled', async () => {

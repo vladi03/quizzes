@@ -11,6 +11,13 @@
 
 ## Active Feature Branch
 
+- **Branch**: `feature/login-sync-and-export-page`
+- **Purpose**: Extend cloud sync so server-side quiz attempts hydrate the client immediately after login (and react live to remote updates) plus replace the dead Export header link with a dedicated `/export` route that exposes richer download/copy tooling.
+- **Setup notes (2025-11-19)**:
+  - Re-ran `npm install` on Node `v23.11.0`; npm raised EBADENGINE warnings for Jest/Vitest dependencies that target LTS versions, but install finished successfully.
+  - Dev server not re-run yet; relying on the Vitest suite plus existing Firebase mocks for validation while implementing the new sync/export functionality.
+- **Docs reviewed**: `README.md`, `docs/schema.md`, `docs/technical-notes.md`, and `docs/ui-functional-description.md` to confirm current UX, schemas, and prior cloud-sync assumptions before making changes.
+
 - **Branch**: `feature/cloud-sync-firestore`
 - **Purpose**: Introduce optional Firebase Auth + Firestore powered cloud sync so quiz attempts mirror between devices when a user signs in, without disturbing the existing anonymous/local-only flow.
 - **Baseline verification (2025-11-18)**:
@@ -55,6 +62,25 @@
   - Signing up/logging in via the header form persists across reloads (Firebase local persistence).
   - Completing a quiz while signed in pushes attempts to Firestore; signing into another device pulls them down and shows the 4s toast.
   - Status badge flips between “Syncing,” “Synced,” or “Using local data” when errors are simulated (e.g., go offline and complete a quiz to see the fallback behavior).
+
+### Cloud sync login hydration & Export route (2025-11-19)
+
+- Baseline issues:
+  - The header “Export” link only targeted the `#export-tools` anchor on the dashboard, so the UX felt dead because the page never changed routes (and the card sat at the bottom of a long scroll).
+  - Logging into cloud sync did not hydrate the client with remote-only attempts until another manual action triggered `triggerSync`, so a user finishing a quiz on Device A would not see those results on Device B without refreshing.
+- Cloud sync updates:
+  - `subscribeToRemoteAttempts` (Firestore `onSnapshot`) now streams `users/{uid}/quizAttempts` directly into `useCloudSync`, so the client hydrates immediately after login and reacts live to documents written from other devices without a refresh.
+  - Merge strategy is documented: attempts are immutable and uniquely keyed by `attemptId`, so deduplication simply unions the sets and only imports IDs that do not yet exist locally. If both devices somehow generate the same `attemptId`, the first writer “wins” and duplicates are ignored. This assumption is mirrored in comments within `useCloudSync` and this document.
+  - Remote imports continue to raise `CloudSyncToast` with `importedCount`, and `lastSyncTime` now updates whenever a snapshot arrives (not just after manual syncs).
+  - Error handling: snapshot listener failures (e.g., permission errors) set the sync status to `error` but leave local attempts untouched, matching the “Using local data” experience.
+- Export route:
+  - New `/export` page (wired into `App.tsx` + header nav) surfaces a dedicated console for downloading or copying the attempt JSON. It reuses `buildResultsExportPayload`, shows the attempt count, and renders a read-only preview for quick inspection.
+  - Exporting is available to any visitor (logged in or anonymous) and always reflects the in-memory attempt state, which now includes cloud-synced items immediately after login.
+  - Clipboard support is best-effort; when `navigator.clipboard` is unavailable, the UI falls back to a friendly error message that nudges the user toward the download button.
+- Manual QA note: CLI-only environment prevents exercising the new route and real-time sync through a browser session, so validation relies on the expanded Vitest suite plus code review until a GUI run is available.
+- Suggested commit messages:
+  - `feat: sync quiz results from cloud on login`
+  - `feat: add export page and wire top nav link`
 
 ## Historical Feature Branch (feature/group-check-remember)
 

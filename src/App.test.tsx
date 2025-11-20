@@ -1,4 +1,5 @@
 import { render, screen } from '@testing-library/react'
+import userEvent from '@testing-library/user-event'
 import { HashRouter } from 'react-router-dom'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import App from './App'
@@ -49,5 +50,22 @@ describe('App integration', () => {
     setup()
 
     await screen.findByText(/Quiz data unavailable/i)
+  })
+
+  it('navigates to the export page from the header link', async () => {
+    vi.spyOn(globalThis, 'fetch').mockResolvedValue({
+      ok: true,
+      json: () => Promise.resolve(payload),
+    } as Response)
+
+    setup()
+    await screen.findByText(/Available Quizzes/i)
+
+    await userEvent.click(screen.getByRole('link', { name: /Export/i }))
+
+    await screen.findByText(/Export Quiz Data/i)
+    expect(
+      screen.getByRole('button', { name: /Download Export File/i }),
+    ).toBeInTheDocument()
   })
 })

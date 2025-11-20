@@ -22,6 +22,7 @@ npm run deploy:firebase:dev # build + deploy to Firebase dev site
   - `/` &mdash; dashboard with available and completed quizzes, export tools, and error handling for missing quiz data.
   - `/quiz/:quizId` &mdash; sequential quiz experience with per-question feedback, explanations, and result summaries.
   - `/quiz/:quizId/review/:attemptId` &mdash; read-only review mode to step through a captured attempt. The final question swaps the "Next" button for "Finish Review," which sends you straight back to the dashboard.
+  - `/export` &mdash; a dedicated export console that highlights how many attempts are ready, lets you download the JSON, copy it to the clipboard, and preview the payload before moving to another device.
 - Export buttons create downloadable JSON blobs for quizzes and attempt history without leaving the page.
 - Responsive cards/grids mirror the provided mockups (`public/design/layout_*.png`).
 - Screenshot-backed UI behavior notes live in [`docs/ui-functional-description.md`](docs/ui-functional-description.md).
@@ -54,7 +55,7 @@ The schemas for quiz content and attempt tracking live in `docs/schema.md`. The 
 
 ### Exporting quiz data/results
 
-Visit the bottom of the dashboard and use **Export Quiz Data** or **Export Quiz Results**. Each button downloads strongly-typed JSON files you can re-import elsewhere or archive for reporting.
+Open the **Export** link in the top navigation (or scroll to the dashboard's **Export Tools** card) to grab your data. The Export page highlights how many attempts are bundled, downloads the JSON (`quizspark-results-export.json`), and also lets you copy the payload straight to your clipboard after previewing it so you can paste into issue trackers or cloud storage.
 
 ### Transferring results between devices
 
@@ -115,6 +116,7 @@ Cloud sync relies on Firebase Auth (email/password) and Firestore. Configure the
 ## Cloud Sync UX
 
 - Cloud sync is **opt-in**. Anonymous visitors stay entirely local (same behavior as before), while authenticated users mirror quiz attempts to Firestore in the background.
+- After you log in, any quiz attempts that already live in the cloud hydrate this device automatically, and the Firestore listener keeps streaming new attempts from other devices without a refresh.
 - The header now includes a **Cloud Sync** menu: sign up or log in with email/password, then you can sign out or review your sync status (`Synced`, `Syncing`, `Using local data`, or `Cloud disabled` if env vars are missing).
 - Sync triggers on login, on startup when a session is already authenticated, and immediately after completing a quiz. The dedup logic matches the manual import/export flow (keyed on `attemptId`), so the same attempt never lands twice.
 - If remote-only attempts are imported, a toast appears for ~4 seconds (desktop and mobile friendly) letting you know how many results were pulled down.

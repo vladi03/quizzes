@@ -5,12 +5,14 @@ import { StatusMessage } from './components/StatusMessage'
 import { QuizDetailPage } from './pages/QuizDetailPage'
 import { QuizListPage } from './pages/QuizListPage'
 import { QuizReviewPage } from './pages/QuizReviewPage'
+import { ExportPage } from './pages/ExportPage'
 
 export default function App() {
   return (
     <AppLayout>
       <Routes>
         <Route path="/" element={<QuizListPage />} />
+        <Route path="/export" element={<ExportPage />} />
         <Route path="/quiz/:quizId" element={<QuizDetailPage />} />
         <Route
           path="/quiz/:quizId/review/:attemptId"
