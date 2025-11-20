@@ -228,13 +228,12 @@ Document any setup quirks or assumptions in `TECH_NOTES.md`.
 
 ### 4.3 Branch completion
 
-- [ ] 4.3.1. Summarize key changes in `docs/technical-notes.md` (mini changelog).
 - [x] 4.3.1. Summarize key changes in `docs/technical-notes.md` (mini changelog).
 - [x] 4.3.2. Suggest example commit messages, e.g.:
   - [x] `feat: sync quiz results from cloud on login`
   - [x] `feat: add export page and wire top nav link`
-- [ ] 4.3.3. Commit and push your changes to the feature branch.
-- [ ] 4.3.4. Open a PR and link to this task file.
+- [x] 4.3.3. Commit and push your changes to the feature branch. *(Commit `feat: sync cloud results on login and add export page`, pushed to `feature/login-sync-and-export-page`.)*
+- [x] 4.3.4. Open a PR and link to this task file. *(https://github.com/vladi03/quizzes/pull/9 references this checklist.)*
 
 ### PR Summary:
 - Add Firestore snapshot-based cloud sync so login immediately hydrates local attempts, keeps listening for remote changes, surfaces toast notifications, and documents the merge strategy/tests.
