@@ -12,7 +12,8 @@
     "test:watch": "vitest",
     "deploy:firebase": "npm run deploy:firebase:prod",
     "deploy:firebase:prod": "npm run build && firebase deploy --only hosting:prod",
-    "deploy:firebase:dev": "npm run build && firebase deploy --only hosting:dev"
+    "deploy:firebase:dev": "npm run build && firebase deploy --only hosting:dev",
+    "deploy:firestore": "firebase deploy --only firestore"
   },
   "dependencies": {
     "firebase": "^12.6.0",
