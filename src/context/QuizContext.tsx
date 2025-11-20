@@ -6,6 +6,12 @@ import {
   useMemo,
   useState,
 } from 'react'
+import { useAuth } from '../hooks/useAuth'
+import {
+  type ImportNotification,
+  type SyncStatus,
+  useCloudSync,
+} from '../hooks/useCloudSync'
 import type { Quiz, QuizAttempt } from '../types/quiz'
 import {
   type ImportSummary,
@@ -23,6 +29,16 @@ type QuizContextValue = {
   refreshQuizzes: () => Promise<void>
   recordAttempt: (attempt: QuizAttempt) => void
   importAttempts: (incoming: QuizAttempt[]) => ImportSummary
+  cloudSync: {
+    status: SyncStatus
+    isEnabled: boolean
+    error?: string
+    lastSyncTime?: string
+    lastImportedCount: number
+    notification: ImportNotification | null
+    triggerSync: () => Promise<void>
+    dismissNotification: () => void
+  }
 }
 
 export const QuizContext = createContext<QuizContextValue | undefined>(undefined)
@@ -33,6 +49,7 @@ export function QuizProvider({ children }: { children: ReactNode }) {
   const [attempts, setAttempts] = useState<QuizAttempt[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string>()
+  const auth = useAuth()
 
   const refreshQuizzes = useCallback(async () => {
     setLoading(true)
@@ -55,13 +72,23 @@ export function QuizProvider({ children }: { children: ReactNode }) {
     refreshQuizzes()
   }, [refreshQuizzes])
 
-  const recordAttempt = useCallback((attempt: QuizAttempt) => {
-    setAttempts((prev) => {
-      const next = [...prev, attempt]
-      writeAttempts(next)
-      return next
-    })
-  }, [])
+  const { pushAttempt, ...cloudSync } = useCloudSync({
+    attempts,
+    setAttempts,
+    auth,
+  })
+
+  const recordAttempt = useCallback(
+    (attempt: QuizAttempt) => {
+      setAttempts((prev) => {
+        const next = [...prev, attempt]
+        writeAttempts(next)
+        return next
+      })
+      void pushAttempt(attempt)
+    },
+    [pushAttempt],
+  )
 
   const importAttempts = useCallback(
     (incoming: QuizAttempt[]): ImportSummary => {
@@ -80,12 +107,15 @@ export function QuizProvider({ children }: { children: ReactNode }) {
         summary = mergeSummary
         if (mergeSummary.importedCount > 0) {
           writeAttempts(merged)
+          if (cloudSync.isEnabled) {
+            void cloudSync.triggerSync()
+          }
         }
         return merged
       })
       return summary
     },
-    [],
+    [cloudSync.isEnabled, cloudSync.triggerSync],
   )
 
   const value = useMemo<QuizContextValue>(
@@ -98,6 +128,16 @@ export function QuizProvider({ children }: { children: ReactNode }) {
       refreshQuizzes,
       recordAttempt,
       importAttempts,
+      cloudSync: {
+        status: cloudSync.status,
+        isEnabled: cloudSync.isEnabled,
+        error: cloudSync.error,
+        lastSyncTime: cloudSync.lastSyncTime,
+        lastImportedCount: cloudSync.lastImportedCount,
+        notification: cloudSync.notification,
+        triggerSync: cloudSync.triggerSync,
+        dismissNotification: cloudSync.dismissNotification,
+      },
     }),
     [
       quizzes,
@@ -108,6 +148,14 @@ export function QuizProvider({ children }: { children: ReactNode }) {
       refreshQuizzes,
       recordAttempt,
       importAttempts,
+      cloudSync.status,
+      cloudSync.isEnabled,
+      cloudSync.error,
+      cloudSync.lastSyncTime,
+      cloudSync.lastImportedCount,
+      cloudSync.notification,
+      cloudSync.triggerSync,
+      cloudSync.dismissNotification,
     ],
   )
 

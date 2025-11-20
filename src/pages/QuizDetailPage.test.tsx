@@ -4,8 +4,20 @@ import { MemoryRouter, Route, Routes } from 'react-router-dom'
 import { describe, expect, it, vi } from 'vitest'
 import { sampleQuiz } from '../__mocks__/quizSample'
 import { QuizContext } from '../context/QuizContext'
+import type { SyncStatus } from '../hooks/useCloudSync'
 import type { Quiz, QuizAttempt } from '../types/quiz'
 import { QuizDetailPage } from './QuizDetailPage'
+
+const buildCloudSync = () => ({
+  status: 'disabled' as SyncStatus,
+  isEnabled: false,
+  error: undefined,
+  lastSyncTime: undefined,
+  lastImportedCount: 0,
+  notification: null,
+  triggerSync: vi.fn(),
+  dismissNotification: vi.fn(),
+})
 
 function renderForQuiz({
   recordAttempt = vi.fn(),
@@ -31,6 +43,7 @@ function renderForQuiz({
             importedCount: 0,
             skippedCount: 0,
           }),
+          cloudSync: buildCloudSync(),
         }}
       >
         <Routes>

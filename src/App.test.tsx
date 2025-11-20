@@ -2,6 +2,7 @@ import { render, screen } from '@testing-library/react'
 import { HashRouter } from 'react-router-dom'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import App from './App'
+import { AuthProvider } from './context/AuthContext'
 import { QuizProvider } from './context/QuizContext'
 import { sampleQuiz } from './__mocks__/quizSample'
 
@@ -10,9 +11,11 @@ const payload = { version: 1, quizzes: [sampleQuiz] }
 function setup() {
   return render(
     <HashRouter>
-      <QuizProvider>
-        <App />
-      </QuizProvider>
+      <AuthProvider>
+        <QuizProvider>
+          <App />
+        </QuizProvider>
+      </AuthProvider>
     </HashRouter>,
   )
 }
