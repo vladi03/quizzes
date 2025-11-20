@@ -29,7 +29,7 @@
 ### Cloud Sync foundation (2025-11-18)
 
 - Added `firebase` dependency and `src/firebase/firebaseClient.ts`, which lazily initializes Firebase only when the required `VITE_FIREBASE_*` env vars exist. When missing, the module exports a disabled flag so the SPA continues running in local-only mode.
-- Created `.env.example` plus README instructions covering Firebase Auth/Firestore setup (per-environment env vars, enabling email/password auth, base Firestore rules).
+- Created `.env.example` plus README instructions covering Firebase Auth/Firestore setup (per-environment env vars, enabling email/password auth, base Firestore rules), and checked in `firestore.rules` so `firebase deploy --only firestore` keeps per-user access scoped to `users/{uid}`.
 - Introduced `AuthProvider`/`useAuth` for email-password auth with local persistence, plus Vitest coverage that verifies auth state hydration, sign-in, sign-up, and sign-out flows (Firebase APIs mocked).
 - Updated the root app tree to wrap everything with `AuthProvider`, and surfaced the new `AccountMenu` in the header. Logged-out users get a Cloud Sync form (sign in/up toggle, validation, error surfacing); logged-in users see an inline pill showing the email with a Sign out action.
 
