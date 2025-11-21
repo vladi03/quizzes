@@ -14,12 +14,15 @@ const outputDir = path.join(repoRoot, 'docs', 'images', 'ui')
 const npmCommand = process.platform === 'win32' ? 'npm.cmd' : 'npm'
 const npmCliPath = process.env.npm_execpath
 const useNpmCliProxy = Boolean(npmCliPath && npmCliPath.endsWith('.js'))
+const ENV_LOGIN_USERNAME = 'LOGIN_USERNAME'
+const ENV_LOGIN_PASSWORD = 'LOGIN_PASSORD'
 
 fs.mkdirSync(outputDir, { recursive: true })
 
 const quizzesPath = path.join(repoRoot, 'public', 'quizzes.json')
 const quizzesData = JSON.parse(fs.readFileSync(quizzesPath, 'utf8'))
 const sampleAttempts = buildSampleAttempts(quizzesData.quizzes)
+const loginCredentials = loadLoginCredentials()
 
 async function captureScreenshots() {
   await runNpmCommand(['run', 'build'])
@@ -42,6 +45,29 @@ async function captureScreenshots() {
       const page = await context.newPage()
 
       await captureDashboard(page, baseUrl, path.join(outputDir, 'dashboard.png'))
+
+      let loggedIn = false
+      if (loginCredentials) {
+        try {
+          loggedIn = await loginForScreenshots(page, baseUrl, loginCredentials, {
+            skipNavigation: true,
+          })
+        } catch (error) {
+          console.warn('Skipping logged-in header screenshot:', error)
+        }
+        if (loggedIn) {
+          await captureHeaderLoggedIn(
+            page,
+            baseUrl,
+            path.join(outputDir, 'cloud-sync-logged-in.png'),
+          )
+        }
+      } else {
+        console.warn(
+          `LOGIN credentials not found. Define ${ENV_LOGIN_USERNAME} and ${ENV_LOGIN_PASSWORD} to capture logged-in header shots.`,
+        )
+      }
+
       await captureQuizQuestion(
         page,
         baseUrl,
@@ -70,6 +96,15 @@ async function captureDashboard(page, baseUrl, outputPath) {
   await page.waitForTimeout(500)
   await page.screenshot({ path: outputPath, fullPage: false })
   console.log(`Saved dashboard screenshot to ${outputPath}`)
+}
+
+async function captureHeaderLoggedIn(page, baseUrl, outputPath) {
+  await page.goto(`${baseUrl}/`, { waitUntil: 'networkidle' })
+  await page.waitForSelector('.app-header')
+  await page.waitForSelector('.account-pill')
+  const headerLocator = page.locator('.app-header')
+  await headerLocator.screenshot({ path: outputPath })
+  console.log(`Saved logged-in header screenshot to ${outputPath}`)
 }
 
 async function captureQuizQuestion(page, baseUrl, outputPath) {
@@ -157,6 +192,38 @@ captureScreenshots().catch((error) => {
   console.error('Failed to capture screenshots:', error)
   process.exit(1)
 })
+
+async function loginForScreenshots(page, baseUrl, credentials, options = {}) {
+  const { skipNavigation = false } = options
+  if (!skipNavigation) {
+    await page.goto(`${baseUrl}/`, { waitUntil: 'networkidle' })
+  }
+  await page.waitForSelector('.account-menu')
+  const accountPill = page.locator('.account-pill')
+  if (await accountPill.isVisible()) {
+    return true
+  }
+  const buttonByLabel = page
+    .getByRole('button', { name: /Sign in to Sync/i })
+    .first()
+  const fallbackButton = page.locator('.account-menu').getByRole('button').first()
+  const panelLocator = page.locator('.account-panel')
+  if (!(await panelLocator.isVisible())) {
+    const triggerButton =
+      (await buttonByLabel.count()) > 0 ? buttonByLabel : fallbackButton
+    await triggerButton.waitFor({ state: 'visible' })
+    await triggerButton.click()
+    await page.waitForSelector('.account-panel')
+  }
+  const emailInput = page.getByPlaceholder('you@example.com')
+  const passwordInput = page.getByPlaceholder('At least 6 characters')
+  await emailInput.fill(credentials.username)
+  await passwordInput.fill(credentials.password)
+  await page.getByRole('button', { name: /^Sign in$/i }).click()
+  await page.waitForSelector('.account-pill', { timeout: 15000 })
+  await page.waitForTimeout(400)
+  return true
+}
 
 function startPreviewServer(port) {
   const child = spawnNpmProcess(
@@ -247,4 +314,55 @@ function canBindPort(port) {
     })
     tester.listen(port, PREVIEW_HOST)
   })
+}
+
+function loadLoginCredentials() {
+  let username = readEnvValue(ENV_LOGIN_USERNAME)
+  let password = readEnvValue(ENV_LOGIN_PASSWORD) ?? readEnvValue('LOGIN_PASSWORD')
+  if (!username || !password) {
+    const envFileValues = readEnvFile(path.join(repoRoot, '.env'))
+    username ??= envFileValues[ENV_LOGIN_USERNAME]
+    password ??=
+      envFileValues[ENV_LOGIN_PASSWORD] ?? envFileValues.LOGIN_PASSWORD
+  }
+  if (username && password) {
+    return { username, password }
+  }
+  return null
+}
+
+function readEnvValue(key) {
+  const value = process.env[key]
+  if (!value) {
+    return undefined
+  }
+  return value.trim()
+}
+
+function readEnvFile(filePath) {
+  if (!fs.existsSync(filePath)) {
+    return {}
+  }
+  const result = {}
+  const contents = fs.readFileSync(filePath, 'utf8')
+  for (const line of contents.split(/\r?\n/)) {
+    const trimmed = line.trim()
+    if (!trimmed || trimmed.startsWith('#')) {
+      continue
+    }
+    const match = trimmed.match(/^([A-Za-z_][A-Za-z0-9_]*)\s*=\s*(.*)$/)
+    if (!match) {
+      continue
+    }
+    const key = match[1]
+    let value = match[2].trim()
+    if (
+      (value.startsWith('"') && value.endsWith('"')) ||
+      (value.startsWith("'") && value.endsWith("'"))
+    ) {
+      value = value.slice(1, -1)
+    }
+    result[key] = value
+  }
+  return result
 }
