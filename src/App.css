@@ -19,6 +19,19 @@
   z-index: 10;
 }
 
+.app-header__title {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  flex: 1 1 320px;
+  min-width: 0;
+  flex-wrap: nowrap;
+}
+
+.app-header__title .app-nav {
+  margin-left: auto;
+}
+
 .app-header .brand {
   font-size: 1.35rem;
   font-weight: 700;
@@ -669,6 +682,10 @@
   .app-header,
   .app-footer {
     padding: 1rem;
+  }
+
+  .app-header__title {
+    width: 100%;
   }
 
   .app-main {
