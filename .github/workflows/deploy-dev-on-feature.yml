@@ -47,5 +47,6 @@ jobs:
 
       - name: Deploy to Firebase dev
         env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN_DEV }}
+          # Fallback to prod token when a dev-specific token is not provided
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN_DEV || secrets.FIREBASE_TOKEN_PROD }}
         run: firebase deploy --only hosting:dev --non-interactive

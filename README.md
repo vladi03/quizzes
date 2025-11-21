@@ -126,5 +126,6 @@ Cloud sync relies on Firebase Auth (email/password) and Firestore. Configure the
 ## CI/CD
 
 - `.github/workflows/deploy-prod-on-main.yml` deploys automatically whenever `main` is updated or a tag named `prod-*` is pushed. Use the tag trigger as a manual fallback (`git tag prod-YYYY-MM-DD && git push origin prod-YYYY-MM-DD`) if you need to redeploy a known-good build without touching `main`. You can also run the workflow manually from the Actions tab and supply any branch/tag (e.g., select `prod-2025-11-17`) via the `target_ref` input.
-- Add a `FIREBASE_TOKEN_PROD` secret to the repository settings (use `firebase login:ci` to generate the token).
+- `.github/workflows/deploy-dev-on-feature.yml` mirrors the prod pipeline for every `feature*` branch, builds/tests the branch, and deploys to the `dev` Hosting target. Populate the `DEV_FIREBASE_*` secrets so the generated `.env` matches your dev project. Provide a `FIREBASE_TOKEN_DEV` secret if you want a dedicated CI credential; otherwise the workflow automatically falls back to the existing `FIREBASE_TOKEN_PROD`.
+- Add a `FIREBASE_TOKEN_PROD` secret to the repository settings (use `firebase login:ci` to generate the token). This token doubles for dev deployments unless you override it with `FIREBASE_TOKEN_DEV`.
 - Manual production deploys remain available via `firebase deploy --only hosting:prod`, but the GitHub Action keeps the hosted site in sync with `main`.
