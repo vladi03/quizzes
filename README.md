@@ -110,6 +110,7 @@ Cloud sync relies on Firebase Auth (email/password) and Firestore. Configure the
    VITE_FIREBASE_APP_ID="..."
    VITE_FIREBASE_MEASUREMENT_ID="" # optional
    ```
+   If you want the screenshot automation (`npm run capture:screens`) to authenticate and refresh the logged-in header image, also define `LOGIN_USERNAME` and `LOGIN_PASSORD` in the same env file.
 4. Use the dev project's values for day-to-day development and the prod project's values on the production build pipeline (e.g., via GitHub Actions secrets). The SPA reads these keys at build time, so swapping environments only requires updating the env file or CI secrets.
 5. After the env vars are defined, restart `npm run dev`. The **Cloud Sync** entry in the header will show the sign-in form, and authenticated users will be synced to Firestore in the background.
 

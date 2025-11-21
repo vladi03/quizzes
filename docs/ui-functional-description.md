@@ -16,7 +16,7 @@ The dashboard mirrors the layout mockups while layering in live capabilities:
 
 ![Account pill shown after signing in](images/ui/cloud-sync-logged-in.png)
 
-Cloud Sync flips into an authenticated pill once the user signs in. The badge shows the latest status (`Synced`, `Syncing`, `Using local data`, or `Cloud disabled`) while the inline email plus `Sign out` button keeps the action consistent with the unauthenticated trigger.
+Cloud Sync flips into an authenticated pill once the user signs in. The badge shows the latest status (`Synced`, `Syncing`, `Using local data`, or `Cloud disabled`) while the inline email plus `Sign out` button keeps the action consistent with the unauthenticated trigger. The screenshot automation signs in with the `LOGIN_USERNAME`/`LOGIN_PASSORD` pair from `.env` before refreshing this image so it always reflects the live header state.
 
 ## Quiz-Taking Flow
 
@@ -39,5 +39,5 @@ Cloud Sync flips into an authenticated pill once the user signs in. The badge sh
 
 1. Ensure dependencies are installed (`npm install`).
 2. If this is the first time using Playwright on the machine, also run `npx playwright install chromium` to download the browser once.
-3. Run `npm run capture:screens`. The helper script builds the SPA, launches `npm run preview` on an available localhost port, seeds deterministic attempts in `localStorage`, and captures the dashboard, quiz, and review states with Playwright/Chromium.
+3. Run `npm run capture:screens`. The helper script builds the SPA, launches `npm run preview` on an available localhost port, seeds deterministic attempts in `localStorage`, and captures the dashboard, quiz, review, and logged-in header states with Playwright/Chromium. Define `LOGIN_USERNAME` and `LOGIN_PASSORD` in `.env` so the automation can authenticate before grabbing the header crop (it skips that image otherwise).
 4. Update this markdown file if you add or remove screenshots so future contributors know what each image represents.
