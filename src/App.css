@@ -8,30 +8,61 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem 2rem;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding: 0.75rem 1.75rem;
   background: #fff;
-  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+  border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.05);
   position: sticky;
   top: 0;
   z-index: 10;
 }
 
 .app-header .brand {
-  font-size: 1.4rem;
+  font-size: 1.35rem;
   font-weight: 700;
   color: var(--primary);
+  text-decoration: none;
+  line-height: 1;
 }
 
 .app-nav {
   display: flex;
-  gap: 1rem;
-  font-weight: 500;
+  gap: 1.5rem;
+  font-weight: 600;
+  align-items: center;
+}
+
+.app-nav a {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  padding-bottom: 0.15rem;
+  text-decoration: none;
+}
+
+.app-nav a::after {
+  content: '';
+  position: absolute;
+  inset: auto 0 0;
+  height: 2px;
+  border-radius: 999px;
+  background-color: currentColor;
+  opacity: 0.35;
+}
+
+.app-nav a:hover::after,
+.app-nav a:focus-visible::after {
+  opacity: 0.85;
 }
 
 .app-header__right {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  justify-content: flex-end;
+  gap: 1.25rem;
+  flex-wrap: wrap;
 }
 
 .account-menu {
@@ -115,7 +146,7 @@
 
 .cloud-toast {
   position: fixed;
-  top: 96px;
+  top: 72px;
   right: 1.5rem;
   display: flex;
   align-items: center;
@@ -130,11 +161,11 @@
 
 .account-pill {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0.3rem;
-  padding: 0.6rem 0.9rem;
-  border-radius: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem 1.2rem;
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
   background-color: rgba(79, 70, 229, 0.08);
   border: 1px solid rgba(79, 70, 229, 0.2);
 }
@@ -143,8 +174,8 @@
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  width: 100%;
-  justify-content: space-between;
+  width: auto;
+  justify-content: flex-start;
 }
 
 .account-pill__status {
@@ -154,7 +185,7 @@
 }
 
 .account-pill__email {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
 }
 
 .cloud-status {
