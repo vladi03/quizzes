@@ -11,14 +11,16 @@ export function AppLayout({ children }: AppLayoutProps) {
   return (
     <div className="app-shell">
       <header className="app-header">
-        <Link to="/" className="brand">
-          QuizSpark
-        </Link>
-        <div className="app-header__right">
+        <div className="app-header__title">
+          <Link to="/" className="brand">
+            QuizSpark
+          </Link>
           <nav className="app-nav">
             <Link to="/">Quizzes</Link>
             <Link to="/export">Export</Link>
           </nav>
+        </div>
+        <div className="app-header__right">
           <AccountMenu />
         </div>
       </header>
