@@ -2,6 +2,14 @@
 
 A fully client-side quizzes experience built with Vite, React, and TypeScript. Quizzes are loaded from a static JSON file and all attempt data persists in `localStorage`, making the app ideal for simple CDN or object-storage hosting.
 
+## Deployments
+- Hosting: [Firebase Project netware](https://console.firebase.google.com/u/0/project/netware-326600/hosting/sites)
+
+|URL                               |envirnment|
+|----------------------------------|----------|
+|https://netware-326600.web.app    |PROD      |
+|https://netware-326600-dev.web.app|DEV       |
+
 ## Scripts
 
 ```bash
