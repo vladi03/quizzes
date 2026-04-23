@@ -6,6 +6,11 @@ type QuizManifest = {
   files: string[]
 }
 
+function withCacheBust(url: string): string {
+  const separator = url.includes('?') ? '&' : '?'
+  return `${url}${separator}v=${Date.now()}`
+}
+
 async function parseJsonResponse<T>(
   response: Response,
   errorMessage: string,
@@ -35,7 +40,9 @@ function validateCollection(payload: QuizCollection, source: string): QuizCollec
 }
 
 export async function loadQuizzes(): Promise<QuizCollection> {
-  const manifestResponse = await fetch(QUIZ_MANIFEST_URL)
+  const manifestResponse = await fetch(withCacheBust(QUIZ_MANIFEST_URL), {
+    cache: 'no-store',
+  })
   if (!manifestResponse.ok) {
     throw new Error('Unable to load quiz manifest. Please try again later.')
   }
@@ -51,7 +58,9 @@ export async function loadQuizzes(): Promise<QuizCollection> {
 
   const collections = await Promise.all(
     manifest.files.map(async (fileName) => {
-      const response = await fetch(`/${fileName}`)
+      const response = await fetch(withCacheBust(`/${fileName}`), {
+        cache: 'no-store',
+      })
       if (!response.ok) {
         throw new Error(`Unable to load quiz file "${fileName}".`)
       }
