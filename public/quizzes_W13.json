@@ -1,0 +1,929 @@
+{
+  "version": 1,
+  "quizzes": [
+    {
+      "id": "w13-samuel-1-1",
+      "title": "W13 Quiz 1",
+      "description": "Samuel composition, sources, canonical placement, and textual criticism",
+      "questions": [
+        {
+          "id": "w13-samuel-1-1-q01",
+          "question": "What do the explanatory asides in Samuel indicate?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "The book has no historical setting",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "The book is written only for priests",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "The book addresses later readers who need older terms or customs explained",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "The book was composed before all events",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Examples such as seer versus prophet and Tamar robe suggest a later audience.",
+          "number": 1
+        },
+        {
+          "id": "w13-samuel-1-1-q02",
+          "question": "Why is 1 Samuel 27:6 important for dating Samuel?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It mentions Cyrus directly",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "It names Alexander the Great",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "It denies the monarchy existed",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It refers to kings of Judah, implying a post-division perspective",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "The phrase kings of Judah suggests the narrator looks from after the kingdom divided.",
+          "number": 2
+        },
+        {
+          "id": "w13-samuel-1-1-q03",
+          "question": "Why can Samuel not be the sole author of Samuel?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Samuel dies in 1 Samuel 25 while the narrative continues",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Samuel is never mentioned",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "The book is all poetry",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "The book says David wrote every verse",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The narrative continues long after Samuel death, so he cannot be sole author.",
+          "number": 3
+        },
+        {
+          "id": "w13-samuel-1-1-q04",
+          "question": "Which sources or source-like materials are mentioned?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only Roman annals",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Book of Jashar, poetic units, and records associated with Samuel, Nathan, and Gad",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Only the Mishnah",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Only the Gospel of Luke",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture cites the Book of Jashar, embedded poems, and 1 Chronicles 29:29.",
+          "number": 4
+        },
+        {
+          "id": "w13-samuel-1-1-q05",
+          "question": "How did Samuel-Kings circulate in Hebrew tradition according to the lecture?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "As four unrelated Greek gospels",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "As part of the Psalter",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "As one continuous story later divided in the Septuagint into Kingdoms",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "As a single verse in Deuteronomy",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Eusebius and Jerome are noted for the unity of Samuel-Kings in Hebrew, with LXX divisions into Kingdoms.",
+          "number": 5
+        },
+        {
+          "id": "w13-samuel-1-1-q06",
+          "question": "What narrative role does Samuel play canonically?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It begins the Torah",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "It closes the Writings",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "It replaces Chronicles",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It bridges Judges and Kings",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "Samuel functions as a bridge from judgeship and the no-king problem into royal narratives.",
+          "number": 6
+        },
+        {
+          "id": "w13-samuel-1-1-q07",
+          "question": "Which larger compositional theory is discussed with Samuel?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Deuteronomistic History",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Q source theory only",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Documentary Hypothesis for the Gospels",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "The Synoptic Problem",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Samuel is discussed in relation to Martin Noth Deuteronomistic History proposal.",
+          "number": 7
+        },
+        {
+          "id": "w13-samuel-1-1-q08",
+          "question": "Why is textual criticism especially important for Samuel?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "There are no manuscripts of Samuel",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Samuel has prominent textual problems such as 1 Samuel 13:1 and 14:41",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Every verse is identical in all traditions",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It exists only in Latin",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture highlights difficult MT readings, possible scribal error, and LXX differences.",
+          "number": 8
+        },
+        {
+          "id": "w13-samuel-1-1-q09",
+          "question": "Why is the Septuagint especially important for Samuel?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It was written by Samuel himself",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "It replaces Hebrew completely",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Its witnesses are earlier and may preserve readings from a different Hebrew tradition",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It contains no translation choices",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Earlier Greek witnesses and Qumran evidence make the LXX highly relevant for Samuel.",
+          "number": 9
+        },
+        {
+          "id": "w13-samuel-1-1-q10",
+          "question": "What did Qumran discoveries change about evaluating the LXX?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "They proved the LXX has no Hebrew basis",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "They removed the need for textual criticism",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "They dated Samuel to the New Testament",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "They showed some Greek readings may reflect an alternate Hebrew Vorlage",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "Some Dead Sea Scrolls appear to stand behind Greek translations, especially significant for Samuel.",
+          "number": 10
+        }
+      ],
+      "groupId": "W13 Samuel 1.1"
+    },
+    {
+      "id": "w13-samuel-1-2",
+      "title": "W13 Quiz 2",
+      "description": "Samuel structure, the sha al motif, Hannah song, monarchy, and the Davidic covenant",
+      "questions": [
+        {
+          "id": "w13-samuel-1-2-q01",
+          "question": "What reading strategy does the lecture use for Samuel?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Focus on macro-composition and theological purpose",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Ignore the poems",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Read only genealogies",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Treat each chapter as unrelated",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The course emphasizes Samuel overall structure and framing poems rather than verse-by-verse coverage.",
+          "number": 1
+        },
+        {
+          "id": "w13-samuel-1-2-q02",
+          "question": "What is the proposed macro-structure of Samuel?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Creation, flood, patriarchs, exodus",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Samuel, Saul, David, and appendix sections",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Poetry, proverbs, lamentations, apocalypse",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Only one speech by Moses",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture outlines 1 Sam 1-12, 1 Sam 13-31, 2 Sam 1-20, and 2 Sam 21-24.",
+          "number": 2
+        },
+        {
+          "id": "w13-samuel-1-2-q03",
+          "question": "What does the Hebrew root sha al mean and connect?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Build, linking temples only",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Judge, linking court cases only",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Ask/request, linking Hannah, Samuel, Saul, and the request for a king",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Write, linking scrolls only",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The repeated ask/request motif runs from Hannah petition to Saul and Israel request for monarchy.",
+          "number": 3
+        },
+        {
+          "id": "w13-samuel-1-2-q04",
+          "question": "Why is Hannah song more than private thanksgiving?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It never mentions God",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "It is only a legal code",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "It is written after exile only",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It uses expansive reversal language that exceeds Hannah immediate circumstances",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "The poem speaks of enemies, death and life, and cosmic reversal beyond Hannah personal story.",
+          "number": 4
+        },
+        {
+          "id": "w13-samuel-1-2-q05",
+          "question": "What does Hannah song mention before any king appears?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yahweh king and anointed",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "The fall of Jerusalem",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "The Persian empire",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "The rebuilding of Jericho",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The song climaxes with language about Yahweh king and anointed, signaling the monarchy theme.",
+          "number": 5
+        },
+        {
+          "id": "w13-samuel-1-2-q06",
+          "question": "How is Israel request for a king in 1 Samuel 8 framed?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "As perfect covenant obedience",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Negatively, as wanting to be like the nations and rejecting Yahweh kingship",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "As a request for no ruler",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "As unrelated to Saul",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The request is treated as a theological rejection of Yahweh rule.",
+          "number": 6
+        },
+        {
+          "id": "w13-samuel-1-2-q07",
+          "question": "What role does Saul serve in the narrative?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "A priestly substitute for Aaron",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "The final Messiah",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Historical king, foil to David, and embodiment of Benjamin/Judah tensions",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "The author of Deuteronomy",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Saul is not merely a historical figure; he also functions literarily and theologically in contrast to David.",
+          "number": 7
+        },
+        {
+          "id": "w13-samuel-1-2-q08",
+          "question": "What is the house reversal in 2 Samuel 7?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Solomon destroys the temple before building it",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Saul builds David a palace",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Nathan rejects all covenant promises",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "David will not build Yahweh a house; Yahweh will build David a dynasty",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "Yahweh reverses David plan and promises to build David a house, meaning dynasty.",
+          "number": 8
+        },
+        {
+          "id": "w13-samuel-1-2-q09",
+          "question": "What does the Davidic promise emphasize?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Seed, throne, kingdom, forever, and father-son relationship",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Only immediate military victory",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "No descendants for David",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "A return to Egypt",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The lecture highlights seed, forever language, and royal sonship in 2 Samuel 7.",
+          "number": 9
+        },
+        {
+          "id": "w13-samuel-1-2-q10",
+          "question": "How does the broader canon treat the promised Davidic son?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It says Saul fulfilled it forever",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "It keeps wrestling with the identity because Solomon is not ultimate fulfillment",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "It drops the promise immediately",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It makes Moses David son",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Kings can initially point to Solomon, but his failures prevent final resolution.",
+          "number": 10
+        }
+      ],
+      "groupId": "W13 Samuel 1.2"
+    },
+    {
+      "id": "w13-samuel-1-3",
+      "title": "W13 Quiz 3",
+      "description": "Samuel closing poems, messianic hope, Davidic covenant tension, and unresolved fulfillment",
+      "questions": [
+        {
+          "id": "w13-samuel-1-3-q01",
+          "question": "How does the lecture relate 2 Samuel 22 to Hannah song?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "They contradict every theme",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "They are unrelated fragments",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "They function as bookends around Samuel narrative",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "They both come from Chronicles only",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The lecture reads Hannah poem and David closing poem as framing the book.",
+          "number": 1
+        },
+        {
+          "id": "w13-samuel-1-3-q02",
+          "question": "Which motifs link Hannah poem and David psalm?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only food laws",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Only census totals",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Only temple measurements",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Yahweh as rock, divine thunder, death-to-life deliverance, king and anointed",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "The shared imagery supports the bookend reading and messianic direction.",
+          "number": 2
+        },
+        {
+          "id": "w13-samuel-1-3-q03",
+          "question": "Why does the placement of 2 Samuel 22 matter?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It comes after David moral and familial failures",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "It comes before Hannah is born",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "It replaces 2 Samuel 7",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It appears in Exodus",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Because David has already failed grievously, the poem complicates a simple David-is-the-final-fulfillment reading.",
+          "number": 3
+        },
+        {
+          "id": "w13-samuel-1-3-q04",
+          "question": "Why is 2 Samuel 22:51 emphasized?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It denies any Davidic promise",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Its singular king and anointed language may point beyond David to a future seed",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "It lists the tribes by size",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It announces Cyrus edict",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The singular language raises whether the referent is David or a future messianic figure.",
+          "number": 4
+        },
+        {
+          "id": "w13-samuel-1-3-q05",
+          "question": "What interpretive issue appears in 2 Samuel 23:1?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Whether Moses wrote Kings",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Whether the temple exists in Genesis",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Whether David speaks concerning the anointed of the God of Jacob",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Whether Israel crossed the sea",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Translation differences affect whether the verse is read as oriented toward the anointed figure.",
+          "number": 5
+        },
+        {
+          "id": "w13-samuel-1-3-q06",
+          "question": "How does the lecture read 2 Samuel 23:5?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "David claims his house has been perfectly faithful",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "David cancels the covenant",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "David appoints Saul as heir",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "David admits his house is not so with God yet trusts an everlasting covenant",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "The verse is read as candid about David household failure while resting in God ordered covenant.",
+          "number": 6
+        },
+        {
+          "id": "w13-samuel-1-3-q07",
+          "question": "What does the covenant not yet sprouting suggest?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "The promise remains unrealized and awaits fulfillment",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "The promise has failed permanently",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "The covenant was never made",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "The temple was already rebuilt",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The lecture treats the sprouting language as unfulfilled hope rather than full realization in David house.",
+          "number": 7
+        },
+        {
+          "id": "w13-samuel-1-3-q08",
+          "question": "Why is Uriah appearance among the mighty men significant?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It proves Uriah became king",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "It recalls David grave sin",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "It removes Bathsheba from the story",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It identifies the author",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Naming Uriah at the end reminds readers of David adultery and murder.",
+          "number": 8
+        },
+        {
+          "id": "w13-samuel-1-3-q09",
+          "question": "What resonance is noted in David purchase of the threshing floor?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Roman taxation",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Persian temple rebuilding",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Abrahamic purchase and covenantal themes",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "The fall of Samaria",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The lecture links 2 Samuel 24 to Abrahamic purchase language and covenantal themes.",
+          "number": 9
+        },
+        {
+          "id": "w13-samuel-1-3-q10",
+          "question": "What conclusion does the lecture draw about eternal kingship in Samuel?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is fully realized in Saul",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "It is abandoned by the canon",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "It belongs only to the northern kingdom",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It is anticipated but not realized in David or his immediate house",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "Samuel ends with covenant hope still awaiting a future anointed king.",
+          "number": 10
+        }
+      ],
+      "groupId": "W13 Samuel 1.3"
+    }
+  ]
+}

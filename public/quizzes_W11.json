@@ -1,0 +1,1237 @@
+{
+  "version": 1,
+  "quizzes": [
+    {
+      "id": "w11-joshua-and-canon",
+      "title": "W11 Quiz 1",
+      "description": "The transition from Torah to Joshua and the recognition of the Hebrew canon",
+      "questions": [
+        {
+          "id": "w11-joshua-and-canon-q01",
+          "question": "What transition frames the Joshua and Canon lecture?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "From Torah to Joshua and a discussion of canon",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "From Psalms to Proverbs only",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "From exile to Maccabees",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "From Acts to Romans",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The course has completed the Torah and turns to Joshua while opening a broader discussion of canon.",
+          "number": 1
+        },
+        {
+          "id": "w11-joshua-and-canon-q02",
+          "question": "What is the Hebrew Bible tripartite structure?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Gospels, Acts, Epistles",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Torah, Prophets, and Writings",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Law, Kings, Apocalypse",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Poetry, Letters, Sermons",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The Hebrew Bible is organized as Torah, Neviim, and Ketuvim, or Torah, Prophets, and Writings.",
+          "number": 2
+        },
+        {
+          "id": "w11-joshua-and-canon-q03",
+          "question": "Where does Joshua stand in the Hebrew canonical order?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It closes the Writings",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "It is outside the canon",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "It begins the Prophets section",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It begins the Psalter",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Joshua begins the Former Prophets in the Hebrew arrangement.",
+          "number": 3
+        },
+        {
+          "id": "w11-joshua-and-canon-q04",
+          "question": "How does the lecture characterize canon formation?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "As only a late council-created list",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "As unrelated to Scripture use",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "As a purely modern invention",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "As a historical process of recognition",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "The lecture stresses recognition and use of authoritative writings rather than merely a later council decision.",
+          "number": 4
+        },
+        {
+          "id": "w11-joshua-and-canon-q05",
+          "question": "Why are simple authorship criteria for canonicity problematized?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Many books have unknown or complex authorship and long development",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "No biblical book has an author",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Prophets never wrote anything",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Only Greek books can be canonical",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The lecture notes that books like Judges, Kings, and Jeremiah complicate simplistic prophetic-authorship criteria.",
+          "number": 5
+        },
+        {
+          "id": "w11-joshua-and-canon-q06",
+          "question": "What does Ben Sira grandson prologue help show?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "A rejection of the Torah",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "A repeated reference to the law, prophets, and other books",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "A fixed New Testament table of contents",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "That Joshua was written in Latin",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The prologue repeatedly mentions the law, prophets, and the others, suggesting tripartite canonical awareness.",
+          "number": 6
+        },
+        {
+          "id": "w11-joshua-and-canon-q07",
+          "question": "What does Qumran text 4QMMT possibly indicate?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "That Esther was the only Scripture",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "That Greek replaced Hebrew entirely",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "A reference to Moses, the prophets, and David as authoritative categories",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "That Samuel wrote Chronicles",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The lecture notes 4QMMT language about the book of Moses, prophets, and David as possible evidence for canonical grouping.",
+          "number": 7
+        },
+        {
+          "id": "w11-joshua-and-canon-q08",
+          "question": "Which New Testament texts are used as canon evidence?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Romans 16 only",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Revelation 22 only",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "James 5 only",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Luke 24 and Luke 11:51",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "Luke 24 mentions Law, Prophets, and Psalms, while Luke 11 may reflect a sequence from Abel to Zechariah.",
+          "number": 8
+        },
+        {
+          "id": "w11-joshua-and-canon-q09",
+          "question": "How does the lecture treat the Council of Jamnia theory?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "As debunked due to lack of evidence for a formal canon-fixing event",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "As the decisive proof of the canon",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "As the origin of the Septuagint",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "As the author of Joshua",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The lecture rejects Jamnia as a formal canon-fixing council with a definitive list.",
+          "number": 9
+        },
+        {
+          "id": "w11-joshua-and-canon-q10",
+          "question": "What textual transmission point is made near the end?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "No Hebrew manuscripts exist",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "The Masoretic Text tradition is preserved in later manuscripts and BHS uses major codices such as Leningradensis",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "The Vulgate is the only Hebrew Bible",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Qumran contains only New Testament books",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture notes the Masoretic tradition, Codex Leningradensis, BHS, and Qumran evidence for the Old Testament corpus.",
+          "number": 10
+        }
+      ],
+      "groupId": "W11 Joshua and Canon"
+    },
+    {
+      "id": "w11-joshua-1-1",
+      "title": "W11 Quiz 2",
+      "description": "Joshua introduction, critical models, conquest tensions, and the herem problem",
+      "questions": [
+        {
+          "id": "w11-joshua-1-1-q01",
+          "question": "Where is Joshua placed in the Hebrew Bible?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Among the Minor Prophets",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Inside the Torah",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Among the Former Prophets",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Outside Scripture",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Joshua belongs to the Former Prophets along with Judges, Samuel, and Kings.",
+          "number": 1
+        },
+        {
+          "id": "w11-joshua-1-1-q02",
+          "question": "Which scholarly models for Joshua are discussed?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Synoptic Problem and Johannine signs",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Only Q source theory",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Only Roman imperial history",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Hexateuch, Deuteronomistic History, and Enneateuch",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "The lecture surveys Hexateuch, Deuteronomistic History, and Enneateuch proposals.",
+          "number": 2
+        },
+        {
+          "id": "w11-joshua-1-1-q03",
+          "question": "What critique is raised against strong source reconstructions?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "The Pentateuch has clear canonical integrity and source consensus is lacking",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "There is no Joshua text to reconstruct",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "All sources are in Latin",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "They ignore all historical questions",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The lecturer notes the Pentateuch functions as a strong canonical unit and source theories lack consensus.",
+          "number": 3
+        },
+        {
+          "id": "w11-joshua-1-1-q04",
+          "question": "What does the book itself say about Joshua as author?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It explicitly claims Joshua wrote every verse",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "It is effectively anonymous and includes later shaping indicators",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "It names Ezra in the first verse",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It denies any connection to Joshua",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Tradition associates Joshua with the book, but the text is anonymous and includes death accounts and to-this-day notices.",
+          "number": 4
+        },
+        {
+          "id": "w11-joshua-1-1-q05",
+          "question": "What is the major conquest tension in Joshua?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "The book never mentions land",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "It denies that Israel crossed the Jordan",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "It claims total conquest/rest while also saying much remains unconquered",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It places Moses after David",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Joshua contains both complete-conquest summaries and admissions that land and peoples remain.",
+          "number": 5
+        },
+        {
+          "id": "w11-joshua-1-1-q06",
+          "question": "How does Joshua overlap with Judges?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Both narrate David coronation",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "They are written in Greek only",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Judges removes every conquest issue",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "They share settlement themes and repeated Joshua death notices",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "The lecture notes overlap with Judges, including repeated death notices and differing impressions of settlement.",
+          "number": 6
+        },
+        {
+          "id": "w11-joshua-1-1-q07",
+          "question": "What kind of narrative issue is raised by the wordplay on Ai?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Etiological or ideological storytelling and biblical historiography",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "A mathematical census problem",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "A temple architecture problem",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "A New Testament quotation problem",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Ai as a heap of ruins is used as an example of etiological or ideological narrative questions.",
+          "number": 7
+        },
+        {
+          "id": "w11-joshua-1-1-q08",
+          "question": "Which non-narrative materials are prominent in Joshua 13-21?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Pauline letters",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Boundary and city lists, including priestly materials",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Royal psalms only",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Wisdom speeches by Job",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The allotment section includes lists, Levitical cities, and cities of refuge.",
+          "number": 8
+        },
+        {
+          "id": "w11-joshua-1-1-q09",
+          "question": "What ethical issue does the lecture foreground?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Dietary law in Daniel",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Divorce in Ezra",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "The herem or ban commands in the conquest narratives",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Temple taxes in Nehemiah",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The lecture highlights the moral and theological difficulty of the ban language.",
+          "number": 9
+        },
+        {
+          "id": "w11-joshua-1-1-q10",
+          "question": "Which scholarly response to conquest rhetoric is noted?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Origen denying the Old Testament exists",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Josephus writing Joshua",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Augustine dating Joshua to Rome",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "John Walton reading conquest language as ancient rhetorical convention or hyperbole",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "The lecture mentions John Walton and genre-based readings such as propaganda or hyperbole.",
+          "number": 10
+        }
+      ],
+      "groupId": "W11 Joshua 1.1"
+    },
+    {
+      "id": "w11-joshua-1-2",
+      "title": "W11 Quiz 3",
+      "description": "Joshua as Moses successor, new Exodus, conquest, allotment, and incomplete possession",
+      "questions": [
+        {
+          "id": "w11-joshua-1-2-q01",
+          "question": "How is Joshua marked as Moses true successor?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "He receives Moses title servant of the LORD",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "He becomes Pharaoh",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "He writes Leviticus",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "He rejects the law",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The shared title servant of the LORD signals Joshua legitimacy as Moses successor.",
+          "number": 1
+        },
+        {
+          "id": "w11-joshua-1-2-q02",
+          "question": "What Deuteronomic ideal does Joshua embody?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Accumulating horses and wives",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Torah obedience without turning right or left and meditation day and night",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Rejecting Moses law",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Moving the ark to Egypt",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Joshua is portrayed in terms of steadfast Torah obedience, echoing Deuteronomy and Psalm 1 themes.",
+          "number": 2
+        },
+        {
+          "id": "w11-joshua-1-2-q03",
+          "question": "What is the macro-structure of Joshua in the lecture?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Creation, fall, flood",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Poetry, proverbs, apocalypse",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Conquest, allotment, farewell exhortations",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Exile, return, temple rebuilding",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The lecture outlines Joshua 1-12 as conquest, 13-21 as allotment, and 22-24 as farewell material.",
+          "number": 3
+        },
+        {
+          "id": "w11-joshua-1-2-q04",
+          "question": "What role does Rahab play in Joshua 2?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "She rejects all knowledge of Yahweh",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "She writes the law of Moses",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "She becomes queen of Israel",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "She exemplifies faith based on hearing Yahweh acts",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "Rahab responds in trust after hearing of Yahweh deeds while the nations hearts melt with fear.",
+          "number": 4
+        },
+        {
+          "id": "w11-joshua-1-2-q05",
+          "question": "How are Joshua 3-4 interpreted?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "As a new Exodus crossing centered on the ark and memorial stones",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "As a census of Levites",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "As a wisdom poem",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "As a battle with Babylon",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The Jordan crossing echoes the Red Sea, with waters standing and memorial stones preserving the event.",
+          "number": 5
+        },
+        {
+          "id": "w11-joshua-1-2-q06",
+          "question": "What effect is the Jordan crossing meant to have among the nations?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "They should forget the Exodus",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "They should fear the LORD",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "They should crown Moses",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "They should rebuild Babel",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture emphasizes that the event magnifies Yahweh and spreads fear of him among the nations.",
+          "number": 6
+        },
+        {
+          "id": "w11-joshua-1-2-q07",
+          "question": "What tension follows Joshua 11 summary of rest from war?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Whether Joshua ever crossed the Jordan",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Whether Moses was born in Egypt",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Whether possession of the land secures covenant faithfulness",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Whether the tabernacle had curtains",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Even after conquest summaries, the narrative raises whether land possession is enough for faithfulness.",
+          "number": 7
+        },
+        {
+          "id": "w11-joshua-1-2-q08",
+          "question": "How does the allotment section complicate the idea of complete rest?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "No tribe receives land",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "The ark is destroyed",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "All Canaanites leave instantly",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Joshua is old and much land remains",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "Joshua 13 opens with Joshua old and much land still remaining, shifting from conquest to apportionment.",
+          "number": 8
+        },
+        {
+          "id": "w11-joshua-1-2-q09",
+          "question": "Which tribes are cited as examples of incomplete conquest?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Judah, Ephraim, and Manasseh",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Only Levi",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Only Simeon and Levi before Sinai",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Only Reuben before the flood",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The lecture notes remaining Jebusites, Canaanites, and the issue of iron chariots in tribal allotments.",
+          "number": 9
+        },
+        {
+          "id": "w11-joshua-1-2-q10",
+          "question": "What problem appears in Joshua 18?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "All tribes reject land forever",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Seven tribes delay taking possession, so Joshua orders a survey and division by lot",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Jericho is rebuilt before it falls",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "No one knows where Shiloh is",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Despite the land being described as subdued, seven tribes have not taken possession and must survey the land.",
+          "number": 10
+        }
+      ],
+      "groupId": "W11 Joshua 1.2"
+    },
+    {
+      "id": "w11-joshua-1-3",
+      "title": "W11 Quiz 4",
+      "description": "Joshua 21-24, fulfilled promises, remaining responsibility, covenant loyalty, and future hope",
+      "questions": [
+        {
+          "id": "w11-joshua-1-3-q01",
+          "question": "What does Joshua 21:43-45 emphasize?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Israel never entered the land",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "The land promise was canceled",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "God gave all the land and not one word of his promise failed",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Joshua became a priest",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The passage stacks fulfillment language: all the land, rest, no enemy standing, and no word falling.",
+          "number": 1
+        },
+        {
+          "id": "w11-joshua-1-3-q02",
+          "question": "How can fulfillment language coexist with remaining land?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "The lecture says the text contradicts itself with no purpose",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "The lecture ignores Joshua 23",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "The lecture denies any remaining nations",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "The lecture distinguishes allotment from actual occupation and ongoing responsibility",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "The book can affirm God fulfilled his promise while still presenting Israel responsibility to take and hold allotted land.",
+          "number": 2
+        },
+        {
+          "id": "w11-joshua-1-3-q03",
+          "question": "What crisis occurs in Joshua 22?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "An altar by the eastern tribes nearly causes civil war until explained as a memorial witness",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Jerusalem is destroyed by Babylon",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Saul is crowned king",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "The ark is captured by Philistines",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The western tribes fear apostasy, but the altar is explained as a witness rather than a rival worship site.",
+          "number": 3
+        },
+        {
+          "id": "w11-joshua-1-3-q04",
+          "question": "What does Joshua 23 acknowledge despite rest?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "No enemies ever existed",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Nations remain and must still be inherited",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Moses returns to lead",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "The covenant no longer matters",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Joshua gathers leaders, credits God as the one who fought, and still speaks of remaining nations.",
+          "number": 4
+        },
+        {
+          "id": "w11-joshua-1-3-q05",
+          "question": "What command echoes Joshua 1 in Joshua 23?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Build a tower to heaven",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Return to Egypt for horses",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Be very strong to keep the Law of Moses and do not turn right or left",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Stop reading the law",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Joshua farewell repeats the call to strength and Torah obedience.",
+          "number": 5
+        },
+        {
+          "id": "w11-joshua-1-3-q06",
+          "question": "What will idolatry do according to Joshua warning?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Guarantee permanent peace",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Make Israel immune from judgment",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Remove the need for obedience",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Cause God to stop driving out nations and Israel to perish from the land",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "Joshua warns that foreign gods will reverse Israel fortunes and threaten continued possession of the land.",
+          "number": 6
+        },
+        {
+          "id": "w11-joshua-1-3-q07",
+          "question": "Where does Joshua 24 renew covenant?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Shechem",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Babylon",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Rome",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Mount Carmel",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Joshua 24 gathers Israel at Shechem and rehearses God acts before calling for exclusive service.",
+          "number": 7
+        },
+        {
+          "id": "w11-joshua-1-3-q08",
+          "question": "Why does Joshua say the people cannot serve the LORD?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "They lack enough land surveys",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "They still must deal with idols before a holy and jealous God",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "They forgot how to speak Hebrew",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "They have no tribal leaders",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Joshua warns that they cannot serve a holy, jealous God while idols remain among them.",
+          "number": 8
+        },
+        {
+          "id": "w11-joshua-1-3-q09",
+          "question": "What do Joseph bones signify at the end of Joshua?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "The failure of the land promise",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "The beginning of Roman rule",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Arrival and settlement in continuity with Genesis 50 and Exodus 13",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "A rejection of the patriarchs",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Joseph bones function as a signpost that earlier promises about return to the land have reached a settlement marker.",
+          "number": 9
+        },
+        {
+          "id": "w11-joshua-1-3-q10",
+          "question": "What canonical trajectory does the lecture draw from Joshua ending?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Joshua resolves every problem permanently",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "The Torah is discarded",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Kings never addresses covenant failure",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Former Prophets diagnose the heart problem; Latter Prophets hold out new-covenant Spirit hope",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "Joshua ends with unresolved obedience concerns, pointing toward the broader Former Prophets diagnosis and later prophetic hope.",
+          "number": 10
+        }
+      ],
+      "groupId": "W11 Joshua 1.3"
+    }
+  ]
+}
