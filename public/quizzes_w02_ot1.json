@@ -1,0 +1,476 @@
+{
+    "version": 1,
+    "quizzes": [{
+            "id": "6f2d6b2d-4e11-4f53-9d24-f2f8d53f0a11",
+            "title": "W2 Quiz 1",
+            "description": "Genesis 1:1, bereshit, and the Pentateuch as a unified literary work",
+            "questions": [{
+                    "id": "1d9d10a6-b507-42bd-aee5-2c5f36bb1001",
+                    "question": "What major reading strategy does the lecture argue for regarding the Pentateuch?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "Read it as five unrelated books",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "Read it mainly as scattered law collections",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "Read it as one unified literary work",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "Read it only through later prophets",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "C",
+                    "explanation": "The lecture’s big idea is that Genesis–Deuteronomy should be read as a coherent literary whole.",
+                    "number": 1
+                }, {
+                    "id": "1d9d10a6-b507-42bd-aee5-2c5f36bb1002",
+                    "question": "What is the significance of the Hebrew word 'bereshit' in Genesis 1:1 according to the lecture?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "It only means the first item in a list",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "It suggests a beginning that anticipates an end",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "It refers only to political history",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "It is interchangeable with every Hebrew term for first",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "B",
+                    "explanation": "The lecture argues that reshit often functions over against acharit, so the beginning cues readers to expect an end.",
+                    "number": 2
+                }, {
+                    "id": "1d9d10a6-b507-42bd-aee5-2c5f36bb1003",
+                    "question": "Which Hebrew term is presented as most naturally opposing 'end' rather than simply meaning first in a sequence?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "tekhillah",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "rishon",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "reshit",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "shalom",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "C",
+                    "explanation": "The lecture distinguishes reshit from terms that simply mark the first in a sequence, arguing that reshit anticipates the end.",
+                    "number": 3
+                }, {
+                    "id": "1d9d10a6-b507-42bd-aee5-2c5f36bb1004",
+                    "question": "Why does the lecture say 'rishon' might have seemed like a natural alternative in Genesis 1?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "Because it often means first in a sequence",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "Because it always means firstfruits",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "Because it is the only word Moses used",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "Because it refers to the end of the harvest",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "A",
+                    "explanation": "The lecture notes that rishon commonly means first in a series, which would fit a sequence like the days of creation.",
+                    "number": 4
+                }, {
+                    "id": "1d9d10a6-b507-42bd-aee5-2c5f36bb1005",
+                    "question": "What example is used to show that 'beginning' can refer to an early phase rather than a single starting moment?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "Jeremiah 28:1",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "Psalm 23:1",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "Leviticus 16:1",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "1 Samuel 1:1",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "A",
+                    "explanation": "Jeremiah 28:1 is cited to show that 'beginning' can describe an initial phase, not only the first instant.",
+                    "number": 5
+                }, {
+                    "id": "1d9d10a6-b507-42bd-aee5-2c5f36bb1006",
+                    "question": "What interpretive expectation does Genesis 1:1 create in the lecture’s argument?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "Readers should ignore later poems",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "Readers should look for multiple 'ends' in the Pentateuch",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "Readers should focus only on historical chronology",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "Readers should reject lexical study",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "B",
+                    "explanation": "The lecture previews that Genesis 1:1 invites readers to look for the Pentateuch’s corresponding 'ends.'",
+                    "number": 6
+                }
+            ],
+            "groupId": "W02 Lion King"
+        }, {
+            "id": "7a3e8d91-f5aa-4c4b-a294-2dfd8d1d6d22",
+            "title": "W2 Quiz 2",
+            "description": "Genesis 49 and Numbers 24: latter days, Judah, Balaam, and the coming ruler",
+            "questions": [{
+                    "id": "2c44cf6b-6f64-43f9-a2d8-5b4f0f8e2001",
+                    "question": "What phrase frames Jacob’s speech in Genesis 49 according to the lecture?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "In the wilderness years",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "In the beginning",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "In the last days",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "At the end of exile",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "C",
+                    "explanation": "Genesis 49 is introduced as Jacob declaring what will happen 'in the last days.'",
+                    "number": 1
+                }, {
+                    "id": "2c44cf6b-6f64-43f9-a2d8-5b4f0f8e2002",
+                    "question": "Which son is explicitly linked with 'reshit' in Genesis 49?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "Judah",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "Joseph",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "Levi",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "Reuben",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "D",
+                    "explanation": "The lecture highlights Reuben as Jacob’s firstborn and the 'beginning' of his strength.",
+                    "number": 2
+                }, {
+                    "id": "2c44cf6b-6f64-43f9-a2d8-5b4f0f8e2003",
+                    "question": "What combination of images makes Judah’s section in Genesis 49 especially important?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "Temple, priesthood, and sacrifice",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "Lion imagery and scepter/rulership language",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "Sea imagery and flood language",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "Wisdom sayings and proverbs",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "B",
+                    "explanation": "The Judah oracle combines lion imagery with royal language like the scepter and rule.",
+                    "number": 3
+                }, {
+                    "id": "2c44cf6b-6f64-43f9-a2d8-5b4f0f8e2004",
+                    "question": "How does the lecture describe Balaam’s oracle in Numbers 24 in relation to Genesis 49?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "It rejects Jacob’s last-days framework",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "It deliberately parallels Jacob’s latter-days speech",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "It focuses only on priestly laws",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "It removes all royal imagery",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "B",
+                    "explanation": "The lecture says Numbers 24 mirrors Genesis 49 in structure, audience summons, and latter-days language.",
+                    "number": 4
+                }, {
+                    "id": "2c44cf6b-6f64-43f9-a2d8-5b4f0f8e2005",
+                    "question": "What two symbols identify the coming ruler in Numbers 24?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "A vine and a crown",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "A priest and an altar",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "A star and a scepter",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "A mountain and a river",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "C",
+                    "explanation": "Balaam’s oracle presents a future ruler as a star from Jacob and a scepter from Israel.",
+                    "number": 5
+                }, {
+                    "id": "2c44cf6b-6f64-43f9-a2d8-5b4f0f8e2006",
+                    "question": "Which earlier promise does the lecture say Numbers 24:9 echoes?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "Genesis 12:3",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "Exodus 20:3",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "Leviticus 19:18",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "Deuteronomy 6:4",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "A",
+                    "explanation": "The blessing/curse formula in Numbers 24 is tied back to the Abrahamic promise of Genesis 12:3.",
+                    "number": 6
+                }
+            ],
+            "groupId": "W02 Lion King"
+        }, {
+            "id": "91c2a6f0-91b7-4e4d-9c18-fc855cbf2d33",
+            "title": "W2 Quiz 3",
+            "description": "Deuteronomy 33, lion imagery, and Pentateuchal eschatology and Christology",
+            "questions": [{
+                    "id": "3e91f4fb-6f1b-4f2b-b9fd-8d0a14753001",
+                    "question": "What does Moses predict in Deuteronomy 31:27–29 according to the lecture?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "Israel will permanently obey after his death",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "Israel will rebel and evil will come in the last days",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "Judah alone will inherit the land immediately",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "The nations will stop opposing Israel",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "B",
+                    "explanation": "The lecture emphasizes Moses’ expectation of future rebellion and evil in the last days.",
+                    "number": 1
+                }, {
+                    "id": "3e91f4fb-6f1b-4f2b-b9fd-8d0a14753002",
+                    "question": "What is surprising about the lion imagery in Deuteronomy 33?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "It appears only for Judah",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "It disappears from all tribal blessings",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "It is applied to Gad and Dan rather than Judah",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "It is used only for Moses",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "C",
+                    "explanation": "The lecture highlights the unexpected use of lion imagery for Gad and Dan in Deuteronomy 33.",
+                    "number": 2
+                }, {
+                    "id": "3e91f4fb-6f1b-4f2b-b9fd-8d0a14753003",
+                    "question": "What verse does the lecture argue functions as a compositional insertion interpreting the lion imagery?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "Deuteronomy 32:4",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "Deuteronomy 33:21",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "Deuteronomy 34:10",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "Deuteronomy 30:6",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "B",
+                    "explanation": "The lecture argues that Deuteronomy 33:21 was strategically placed to guide interpretation of the lion passages.",
+                    "number": 3
+                }, {
+                    "id": "3e91f4fb-6f1b-4f2b-b9fd-8d0a14753004",
+                    "question": "Which Hebrew keyword in Deuteronomy 33:21 links the verse back to earlier beginning-first themes?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "shalom",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "torah",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "reshit",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "hesed",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "C",
+                    "explanation": "The lecture points to reshit in Deuteronomy 33:21 as an intentional link with earlier first/beginning themes.",
+                    "number": 4
+                }, {
+                    "id": "3e91f4fb-6f1b-4f2b-b9fd-8d0a14753005",
+                    "question": "Which New Testament passage is used in the lecture to show later biblical authors reading the Judah-lion motif messianically?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "Revelation 5:5",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "Acts 2:38",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "Romans 3:23",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "James 1:2",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "A",
+                    "explanation": "The lecture cites Revelation 5:5, 'lion of the tribe of Judah,' as a later messianic reading of the motif.",
+                    "number": 5
+                }, {
+                    "id": "3e91f4fb-6f1b-4f2b-b9fd-8d0a14753006",
+                    "question": "How does the lecture summarize Pentateuchal eschatology from the three poems?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "A priestly system will replace all kingship",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "In the last days a coming king will arise and the nations will obey him",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "The law alone is the final end of the Pentateuch",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "Israel’s story ends without future expectation",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "B",
+                    "explanation": "The lecture frames the three poems as presenting a last-days ruler whose reign draws the obedience of the nations.",
+                    "number": 6
+                }
+            ],
+            "groupId": "W02 Lion King"
+        }
+    ]
+}

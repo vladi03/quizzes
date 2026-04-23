@@ -1,0 +1,1545 @@
+{
+  "version": 1,
+  "quizzes": [
+    {
+      "id": "w14-final-exam-review-video",
+      "title": "W14 Quiz 1",
+      "description": "Final exam format, true-false sources, and three essay preparation areas",
+      "questions": [
+        {
+          "id": "w14-final-exam-review-video-q01",
+          "question": "How does the final exam differ from the midterm format?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It has no multiple choice, only true/false and essays",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "It has only matching questions",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "It has only oral questions",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It has no essays",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The instructor says the final mirrors the midterm except that there are no multiple-choice questions.",
+          "number": 1
+        },
+        {
+          "id": "w14-final-exam-review-video-q02",
+          "question": "Where will some true/false questions come from?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only Genesis 1",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Textbook quizzes starting around Numbers and moving forward",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Only unassigned readings",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Only maps of Canaan",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "About 10-15 true/false items will be drawn from prior textbook quizzes from Numbers onward.",
+          "number": 2
+        },
+        {
+          "id": "w14-final-exam-review-video-q03",
+          "question": "What is the lecture-based true/false focus?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only temple architecture in Ezekiel",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Only poetry in Psalms",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Idolatry-related material in late Exodus, Leviticus, and Deuteronomy",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Only New Testament epistles",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The larger lecture pool focuses on idolatry passages after the law section in Exodus and in Leviticus and Deuteronomy.",
+          "number": 3
+        },
+        {
+          "id": "w14-final-exam-review-video-q04",
+          "question": "How many possible essay prompts must students prepare?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "One prompt only",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Five prompts, all appearing",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "No essay prompts",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Three possible prompts, of which two will appear",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "The instructor says students should prepare all three essay areas because two will be selected.",
+          "number": 4
+        },
+        {
+          "id": "w14-final-exam-review-video-q05",
+          "question": "What is the first essay area about?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Interrelated idolatry texts in the Pentateuch",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Only Solomon wealth",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Only Ezra and Nehemiah",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Only Greek textual criticism",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Essay one asks about the issue and importance of idolatry-related texts in the Pentateuch.",
+          "number": 5
+        },
+        {
+          "id": "w14-final-exam-review-video-q06",
+          "question": "Which passages are examples for the idolatry essay?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ruth 1, Esther 2, Proverbs 3, Job 1",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Exodus 32, Leviticus 17, Numbers 25, Deuteronomy 9, and Deuteronomy 32:16-21",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Matthew 5 and Romans 8 only",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Only Genesis 1-2",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The review names these Pentateuchal idolatry passages as key examples.",
+          "number": 6
+        },
+        {
+          "id": "w14-final-exam-review-video-q07",
+          "question": "What special interpretive features should be included in the idolatry essay?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only dates of Persian kings",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Only temple dimensions",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Intertextuality, wordplay such as atbash, jealousy, and the nations/Gentiles theme",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Only geography of Galilee",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The instructor expects attention to links, wordplays, and the theological message including jealousy and nations language.",
+          "number": 7
+        },
+        {
+          "id": "w14-final-exam-review-video-q08",
+          "question": "What is the second essay area about?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "The authorship of Romans",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "The Psalms superscriptions only",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "The kings of Persia only",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Conquest or no conquest tensions in Joshua",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "Essay two focuses on Joshua texts that affirm completed conquest while also noting remaining land.",
+          "number": 8
+        },
+        {
+          "id": "w14-final-exam-review-video-q09",
+          "question": "Which Joshua texts are emphasized for the second essay?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Joshua 11, 18, 21:43-45, and 23:1-6",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Genesis 12 and 15 only",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "1 Samuel 8 only",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "2 Kings 25 only",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The review highlights summary/rest passages and texts about remaining inheritance.",
+          "number": 9
+        },
+        {
+          "id": "w14-final-exam-review-video-q10",
+          "question": "What is the third essay area about?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only the Book of Psalms",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Judges authorship indicators and critical issues",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Only New Testament canon",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Only Solomon temple prayer",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Essay three covers Judges authorship clues and critical issues such as independent units, the role of judge, and chronology.",
+          "number": 10
+        }
+      ],
+      "groupId": "W14 Kings"
+    },
+    {
+      "id": "w14-kings-1-1",
+      "title": "W14 Quiz 2",
+      "description": "Kings introduction, composition, sources, purpose, prophetic evaluation, and arrangement",
+      "questions": [
+        {
+          "id": "w14-kings-1-1-q01",
+          "question": "Why can Kings not be a single eyewitness chronicle?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It covers only one afternoon",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "It names no kings",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "It spans from David/Solomon succession to Jehoiachin release centuries later",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It is only a poem",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The narrative runs from about 970 BC to about 560 BC, requiring a later compiler.",
+          "number": 1
+        },
+        {
+          "id": "w14-kings-1-1-q02",
+          "question": "What does the absence of Cyrus edict suggest?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "That Kings was written after the New Testament",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "That the exile never happened",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "That Cyrus appears in every chapter",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "A late-exilic, likely pre-539 composition or a different restoration framing",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "Since Kings ends before the return under Cyrus, the lecture suggests a late-exilic setting, likely before 539/540 BC.",
+          "number": 2
+        },
+        {
+          "id": "w14-kings-1-1-q03",
+          "question": "What is true about the author of Kings?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "The book is anonymous but authoritative",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "The book names Solomon as sole author",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "The book is signed by Elijah",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "The book has no canonical status",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "As with Judges, anonymous authorship does not remove canonical authority.",
+          "number": 3
+        },
+        {
+          "id": "w14-kings-1-1-q04",
+          "question": "Which sources does Kings cite?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "The Gospel of Mark",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Chronicles of the kings and the Book of the Acts of Solomon",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "The Mishnah only",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Roman senate records only",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Kings repeatedly directs readers to source materials such as royal chronicles and acts of Solomon.",
+          "number": 4
+        },
+        {
+          "id": "w14-kings-1-1-q05",
+          "question": "What do until this day notes indicate?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "That the author lived before Moses",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "That all events happened in one day",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Temporal distance and/or incorporation of older source material",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "That no source was used",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Such notices point to a later viewpoint or preserved source layers.",
+          "number": 5
+        },
+        {
+          "id": "w14-kings-1-1-q06",
+          "question": "How does Kings relate to Judges and Samuel?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It replaces them with unrelated wisdom sayings",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "It denies the no-king problem",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "It belongs only to the Torah",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It continues their themes and narrative flow into monarchy",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "Kings continues the succession narrative and monarchy themes prepared by Judges and Samuel.",
+          "number": 6
+        },
+        {
+          "id": "w14-kings-1-1-q07",
+          "question": "How does the lecture describe Kings historical presentation?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Selective, skeletal, and theologically driven",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Exhaustive modern biography",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Random without purpose",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Only legal code",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Kings points elsewhere for fuller detail and selects episodes for theological evaluation.",
+          "number": 7
+        },
+        {
+          "id": "w14-kings-1-1-q08",
+          "question": "Why are Elijah and Elisha central?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are kings of Judah",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Prophets function as covenant enforcers and evaluators of kings",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "They write the temple blueprint",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "They end the Davidic line",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Prophetic narratives receive attention because prophets interpret and enforce covenant standards.",
+          "number": 8
+        },
+        {
+          "id": "w14-kings-1-1-q09",
+          "question": "What does the brief treatment of Omri show?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Omri never existed",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Kings only quotes Assyrian inscriptions",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "The author prioritizes theological purpose over exhaustive political prominence",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Omri was a prophet",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Omri was significant externally but receives brief coverage because Kings selects material theologically.",
+          "number": 9
+        },
+        {
+          "id": "w14-kings-1-1-q10",
+          "question": "How does the lecture treat chronological irregularities in 2 Kings 18-20?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "As proof the book has no purpose",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "As a command to ignore the passage",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "As a late New Testament insertion",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "As deliberate arrangement or recapitulation serving the message",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "The lecture encourages reading non-linear sequencing as message-serving structure.",
+          "number": 10
+        }
+      ],
+      "groupId": "W14 Kings"
+    },
+    {
+      "id": "w14-kings-1-2",
+      "title": "W14 Quiz 3",
+      "description": "Kings purpose, Davidic promise, judgment, Israel and Judah, chronology, and hope",
+      "questions": [
+        {
+          "id": "w14-kings-1-2-q01",
+          "question": "What major question does Kings ask about the Davidic promise?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Whether Solomon or any Davidic son fulfills 2 Samuel 7",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Whether Moses wrote Psalms",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Whether Jericho should be rebuilt",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Whether Egypt replaces Israel",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The book tests whether David descendants fulfill the promised enduring throne.",
+          "number": 1
+        },
+        {
+          "id": "w14-kings-1-2-q02",
+          "question": "What second major purpose does Kings serve?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Explaining Roman law",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Explaining Israel and Judah judgment as covenant unfaithfulness",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Teaching temple music only",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Replacing Deuteronomy",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Kings gives the theological rationale for national defeat and exile.",
+          "number": 2
+        },
+        {
+          "id": "w14-kings-1-2-q03",
+          "question": "What two paradigms are kings measured against?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Moses and Pharaoh only",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Joshua and Caleb only",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "David wholehearted loyalty and Jeroboam sin",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Cyrus and Darius only",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "David is the positive model; Jeroboam golden calf cult becomes the negative model.",
+          "number": 3
+        },
+        {
+          "id": "w14-kings-1-2-q04",
+          "question": "How is the northern kingdom characterized?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Perfectly faithful with one dynasty",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Without any kings",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "As the priestly tribe",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Uniformly evil and politically unstable",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "All northern rulers are evaluated negatively for perpetuating Jeroboam sin, with frequent dynastic turnover.",
+          "number": 4
+        },
+        {
+          "id": "w14-kings-1-2-q05",
+          "question": "How does Judah differ from Israel politically?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Judah lasts longer with Davidic dynastic continuity, except Athaliah interruption",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Judah has no kings",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Judah changes dynasties every year",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Judah never sins",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The Davidic line gives Judah more continuity, though Judah still fails morally and spiritually.",
+          "number": 5
+        },
+        {
+          "id": "w14-kings-1-2-q06",
+          "question": "What point from Michael Kugler is highlighted?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "The Davidic covenant cancels every law",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Sinai covenant obligations remain primary, so the Davidic covenant is not a shield from punishment",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Kings rejects all covenant theology",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Jeroboam is the promised son",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture says the Davidic promise cannot be read simplistically as unconditional security against judgment.",
+          "number": 6
+        },
+        {
+          "id": "w14-kings-1-2-q07",
+          "question": "What sins explain exile in Kings?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only poor military strategy",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Only lack of horses",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Disobedience, idolatry, and injustice",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Only foreign languages",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Kings explains judgment primarily in covenantal terms: idolatry, injustice, and disobedience.",
+          "number": 7
+        },
+        {
+          "id": "w14-kings-1-2-q08",
+          "question": "Which chronological issues complicate Kings?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only modern daylight saving time",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Only Roman consuls",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Only lack of any dates",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Accession-year counting, co-regencies, calendars, and textual variants",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "The lecture notes several technical reasons regnal chronology is difficult.",
+          "number": 8
+        },
+        {
+          "id": "w14-kings-1-2-q09",
+          "question": "What is the three-part outline of Kings?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Solomon; divided monarchy to Israel fall; Judah to Jerusalem fall",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Creation; flood; patriarchs",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Exodus; wilderness; conquest",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Psalms; Proverbs; Job",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The lecture outlines 1 Kings 1-11, 1 Kings 12-2 Kings 17, and 2 Kings 18-25.",
+          "number": 9
+        },
+        {
+          "id": "w14-kings-1-2-q10",
+          "question": "What note of hope appears at the end of Kings?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "The temple is rebuilt by Solomon again",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "A Davidic king is honored in Babylon",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Jeroboam repents",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Assyria restores the northern kingdom",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Jehoiachin elevation in Babylon suggests the Davidic line is not extinguished.",
+          "number": 10
+        }
+      ],
+      "groupId": "W14 Kings"
+    },
+    {
+      "id": "w14-kings-1-3",
+      "title": "W14 Quiz 4",
+      "description": "Solomon succession, conditional Davidic promise, temple dedication, prayer, and warning",
+      "questions": [
+        {
+          "id": "w14-kings-1-3-q01",
+          "question": "How does 1 Kings 1-2 portray Solomon succession?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Adonijah is crowned permanently",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Moses returns to appoint Joshua",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Solomon is legitimate through Bathsheba and the prophet while David appears weak",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "No succession crisis occurs",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The opening shows David frailty and political vulnerability while establishing Solomon legitimacy.",
+          "number": 1
+        },
+        {
+          "id": "w14-kings-1-3-q02",
+          "question": "What central theological question does Kings press?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Who wrote Genesis 1?",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Which tribe built Jericho?",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Which prophet wrote Job?",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Who is the true Davidic king who fulfills 2 Samuel 7?",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "The succession narrative introduces the unresolved search for the promised Davidic king.",
+          "number": 2
+        },
+        {
+          "id": "w14-kings-1-3-q03",
+          "question": "What is the focus of David charge to Solomon?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Obedience to the Mosaic law, echoing Joshua 1",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Accumulating horses",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Rejecting all prophets",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Moving the ark to Egypt",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "David charges Solomon to keep statutes, commands, judgments, and testimonies in Mosaic-law language.",
+          "number": 3
+        },
+        {
+          "id": "w14-kings-1-3-q04",
+          "question": "How is the Davidic promise increasingly framed in Kings?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "As unrelated to covenant fidelity",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "With an if condition tied to obedience",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "As fulfilled by Jeroboam",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "As canceled before Solomon reign",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Kings repeatedly connects dynastic continuity to wholehearted obedience.",
+          "number": 4
+        },
+        {
+          "id": "w14-kings-1-3-q05",
+          "question": "Which early Solomon details foreshadow trouble?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "His refusal to rule",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "His exile to Babylon before becoming king",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Marriage to Pharaoh daughter and spending longer on his own house than the temple",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "His destruction of Jerusalem",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The lecture sees foreign marriage and building priorities as early warning signs.",
+          "number": 5
+        },
+        {
+          "id": "w14-kings-1-3-q06",
+          "question": "Why does 1 Kings 8 appear climactic?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "The northern kingdom falls",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Jehoiachin is released",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Elijah calls fire from heaven",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "The glory fills the temple and Solomon uses promise-fulfillment language",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "The dedication looks like a high point as God presence fills the temple and Solomon celebrates fulfilled words.",
+          "number": 6
+        },
+        {
+          "id": "w14-kings-1-3-q07",
+          "question": "What does Solomon prayer stress about God dwelling?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "God cannot be contained in the temple and must hear from heaven",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "God is trapped inside the temple",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "God cannot hear prayer after Solomon",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "God lives only in Egypt",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The repeated hear from heaven language emphasizes God transcendence beyond the temple.",
+          "number": 7
+        },
+        {
+          "id": "w14-kings-1-3-q08",
+          "question": "What future crises does Solomon prayer anticipate?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only peaceful trade",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Sin, covenant curses, exile, and restoration upon return",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Only David resurrection",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Only the flood returning",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The prayer echoes Deuteronomy 28 and 30 with curses, exile, repentance, forgiveness, and return.",
+          "number": 8
+        },
+        {
+          "id": "w14-kings-1-3-q09",
+          "question": "Why does Solomon pray for foreigners?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "So Israel can become Egypt",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "So the temple can exclude all nations",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "So all nations may know and fear the LORD",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "So foreigners can replace all covenant promises",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The prayer includes an international dimension centered on the LORD name.",
+          "number": 9
+        },
+        {
+          "id": "w14-kings-1-3-q10",
+          "question": "What does God warning in 1 Kings 9 say?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Solomon can never be judged",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "The temple prevents all exile automatically",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Foreign gods will protect Israel",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Obedience brings establishment, but idolatry brings land cutoff and temple rejection",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "God response makes the future explicitly conditional on obedience versus idolatry.",
+          "number": 10
+        }
+      ],
+      "groupId": "W14 Kings"
+    },
+    {
+      "id": "w14-kings-1-4",
+      "title": "W14 Quiz 5",
+      "description": "Solomon decline, Deuteronomy 17 violations, exile, Jehoiachin hope, and Isaiah transition",
+      "questions": [
+        {
+          "id": "w14-kings-1-4-q01",
+          "question": "How does the lecture describe 1 Kings 10 for Solomon?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "The beginning of the end",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "His final perfect obedience",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "The fall of Babylon",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "The start of the exile under Cyrus",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Despite prosperity, 1 Kings 10 is read as the start of Solomon unraveling.",
+          "number": 1
+        },
+        {
+          "id": "w14-kings-1-4-q02",
+          "question": "What Deuteronomy 17 warning does Solomon wealth violate?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "The king must never read the law",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "The king must not multiply wealth",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "The king must destroy the temple",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "The king must live in Egypt",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Gold, silver, and precious goods show Solomon multiplying wealth against the royal law.",
+          "number": 2
+        },
+        {
+          "id": "w14-kings-1-4-q03",
+          "question": "Why are Solomon horses from Egypt significant?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Egyptian horses were required by the law",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "They prove Solomon was a priest",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Deuteronomy 17 forbids multiplying horses and returning to Egypt",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "They replace the ark",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The lecture sees horse importation from Egypt as a direct Deuteronomic violation.",
+          "number": 3
+        },
+        {
+          "id": "w14-kings-1-4-q04",
+          "question": "What happens because of Solomon foreign wives?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "He becomes more obedient than David",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "He abolishes all idolatry",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "He restores the northern kingdom",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "His heart turns away to other gods",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "1 Kings 11 states the precise result Deuteronomy warned about: Solomon heart turns away.",
+          "number": 4
+        },
+        {
+          "id": "w14-kings-1-4-q05",
+          "question": "What conclusion does the lecture draw about Solomon?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "He is not the faithful Davidic ruler hoped for",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "He fully resolves the Davidic promise",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "He never violates Torah",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "He replaces Moses as lawgiver",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Solomon systematic disobedience shows he is not the final righteous Davidic king.",
+          "number": 5
+        },
+        {
+          "id": "w14-kings-1-4-q06",
+          "question": "What is the Deuteronomic baseball metaphor about?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "A literal sport played in Jerusalem",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Repeated royal failures as each king comes to the plate and strikes out",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "The temple dimensions",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "The order of prophetic books",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The metaphor summarizes the repetitive failure pattern among the kings.",
+          "number": 6
+        },
+        {
+          "id": "w14-kings-1-4-q07",
+          "question": "What is Kings primary explanation for Israel defeat and exile?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Bad weather only",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Lack of trade with Sheba",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Idolatry that provoked the LORD to anger",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Too few horses",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The lecture highlights idolatry and provoking the LORD to anger, especially in 2 Kings 17 language.",
+          "number": 7
+        },
+        {
+          "id": "w14-kings-1-4-q08",
+          "question": "What does Jerusalem fall appear to threaten?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only Solomon trade routes",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Only Assyrian records",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Only the memory of Joshua",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Visible covenant hopes tied to land, temple, law, and Davidic kingship",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "The destruction looks catastrophic for the visible signs of covenant hope.",
+          "number": 8
+        },
+        {
+          "id": "w14-kings-1-4-q09",
+          "question": "What is the glimmer of hope in 2 Kings 25?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Jehoiachin is released and honored in Babylon",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Solomon returns from the dead",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Jeroboam rebuilds the temple",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Assyria restores Samaria",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Jehoiachin elevation suggests the Davidic line continues despite exile.",
+          "number": 9
+        },
+        {
+          "id": "w14-kings-1-4-q10",
+          "question": "In the Hebrew canonical order, where does the lecture look next for Davidic hope?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Esther",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Isaiah",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Romans",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Revelation",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture notes that Isaiah follows Kings in the Hebrew order and continues the search for the Davidic king.",
+          "number": 10
+        }
+      ],
+      "groupId": "W14 Kings"
+    }
+  ]
+}

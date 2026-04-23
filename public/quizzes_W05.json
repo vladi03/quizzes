@@ -1,0 +1,757 @@
+{
+  "version": 1,
+  "quizzes": [
+    {
+      "id": "d2111558-9915-4df2-942c-7f88dfe06ecd",
+      "title": "W05 Quiz 1",
+      "description": "Cain, Abel, Lamech, and the contrast between Cain’s line and Seth’s line",
+      "questions": [
+        {
+          "id": "1dbaf4bb-6cf3-4d80-9e24-36468d7a3023",
+          "question": "What does the lecture emphasize more than the reason God preferred Abel’s offering?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "The geography of Eden",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Cain’s response to God’s warning",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "The age of Abel",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "The details of altar construction",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture focuses less on why Abel’s offering was accepted and more on Cain’s angry response and moral accountability.",
+          "number": 1
+        },
+        {
+          "id": "1ed1880d-6b8d-43af-aec8-15bd27845718",
+          "question": "In Genesis 4, what does the image of sin 'crouching at the door' portray?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "A covenant blessing",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "A predatory force waiting to seize Cain",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "A reference to temple worship",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "A description of Abel’s innocence",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The summary says sin is personified as an ambusher lying in wait.",
+          "number": 2
+        },
+        {
+          "id": "f40b963a-360c-4459-a66a-36eeeec57c44",
+          "question": "Which pair of terms in Genesis 4 intentionally echoes Genesis 3 according to the lecture?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Bless and curse",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Seed and offspring",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Desire and rule",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Dust and breath",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The lecture highlights the repeated desire/rule language as an intentional echo of Genesis 3.",
+          "number": 3
+        },
+        {
+          "id": "bde4ef46-f274-4385-8014-0b6513ae627e",
+          "question": "How is Cain’s genealogy structured in the lecture’s description?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "As a segmented genealogy of tribes",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "As a wisdom poem",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "As a linear genealogy building toward Lamech",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "As a covenant lawsuit",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The genealogy is described as linear, tracing one key figure per generation until Lamech.",
+          "number": 4
+        },
+        {
+          "id": "f6b256b3-5518-4be8-abda-3db8e6c6bec5",
+          "question": "What makes Lamech the climax of Cain’s line in Genesis 4?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "He builds the first altar",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "He restores Edenic marriage",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "He boasts of escalating violence and takes two wives",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "He calls on the name of the LORD",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Lamech is marked by polygamy and a poetic boast that escalates vengeance beyond Cain.",
+          "number": 5
+        },
+        {
+          "id": "fcd27b2c-bd03-4818-8e82-123b06f6990f",
+          "question": "What contrast closes Genesis 4 in the lecture’s reading?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "City versus wilderness",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Two lines: one marked by violence and one by worship",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Law versus grace",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Israel versus Egypt",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The ending contrasts Cain’s violent line with Seth’s line, in which people begin calling on the name of the LORD.",
+          "number": 6
+        }
+      ],
+      "groupId": "W05 Genesis 4ff"
+    },
+    {
+      "id": "e02766e1-aae9-4d19-8545-4909f9ef8631",
+      "title": "W05 Quiz 2",
+      "description": "Genesis 5 as a bridge to creation, Enoch as the seventh, and Noah as the tenth",
+      "questions": [
+        {
+          "id": "bdfd5e51-503a-46f0-8428-8392baa7960b",
+          "question": "Why does Genesis 5:1–2 matter so much in the lecture’s reading?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It introduces Egypt",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "It repeats Genesis 1 language about image, male and female, and blessing",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "It replaces genealogy with poetry",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It denies the fall",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture says Genesis 5 intentionally reconnects the story to Genesis 1 by reusing creation language.",
+          "number": 1
+        },
+        {
+          "id": "80817047-dd9d-4fed-a4a3-38c0be7a574c",
+          "question": "What repeated formula dominates most entries in Genesis 5?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "He sinned and repented",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "He reigned and conquered",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Lived, fathered, had other sons and daughters, and died",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Called, sent, and returned",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The genealogy follows a tight repetitive pattern that ends with 'and he died.'",
+          "number": 2
+        },
+        {
+          "id": "3493ae3e-5599-4e26-9f7d-7ab563b807b9",
+          "question": "Which figure is highlighted as the seventh generation and breaks the normal death pattern?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Seth",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Enoch",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Noah",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Lamech",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Enoch is spotlighted as the seventh generation and does not receive the normal 'and he died' ending.",
+          "number": 3
+        },
+        {
+          "id": "9fcc9663-9f99-4a8a-804b-a21582c92a31",
+          "question": "What unusual statement replaces 'and he died' in Enoch’s case?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "He entered the ark",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "He built a city",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "He was no more, because God took him",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "He called on the name of the LORD",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The lecture highlights Enoch’s exceptional outcome: God took him.",
+          "number": 4
+        },
+        {
+          "id": "5ffc7ab2-8e88-420b-874f-cca767dbd8d8",
+          "question": "How is Noah specially marked at the tenth generation?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "By a naming explanation tied to comfort from the cursed ground",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "By kingship language",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "By priestly ordination",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "By the defeat of Egypt",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Noah’s naming is linked to comfort/rest from toil and pain caused by the curse on the ground.",
+          "number": 5
+        },
+        {
+          "id": "e2faa9d3-e055-49fe-a91d-bd3ce4786753",
+          "question": "What major structural observation does the lecture make about Genesis 5?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It ends before the flood begins",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "It closes with Enoch",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "The flood narrative is inserted into the genealogy, which closes only at Genesis 9:29",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It has no link to Genesis 6",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The summary explicitly says the genealogy remains open through the flood narrative and concludes at Genesis 9:29.",
+          "number": 6
+        }
+      ],
+      "groupId": "W05 Genesis 4ff"
+    },
+    {
+      "id": "00e411f6-9124-4696-a249-f0b549dfcfbe",
+      "title": "W05 Quiz 3",
+      "description": "Noah wordplay, divine grief, grace, and the contextual reading of Genesis 6:1–4",
+      "questions": [
+        {
+          "id": "ebd7e684-8e71-41de-8bb7-f095f186c80a",
+          "question": "What literary feature does the lecture emphasize around Noah in Genesis 5–6?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Acrostic poetry",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Extended Hebrew wordplay linking Noah, comfort, grief, and grace",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "A legal code",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "A royal annal",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The summary highlights a network of Hebrew wordplays around Noah, nacham, and chen.",
+          "number": 1
+        },
+        {
+          "id": "f70ec29d-568c-4e66-bdb8-034fed2eac61",
+          "question": "What does Genesis 6:5 mark in the lecture’s interpretation?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "The completion of creation",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "A reversal from God seeing what is good to seeing pervasive human evil",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "The giving of the law",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "The conquest of Canaan",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture says Genesis 6:5 reverses the earlier creation refrain by showing God seeing great wickedness.",
+          "number": 2
+        },
+        {
+          "id": "186244c2-558b-4518-90d7-58be93730054",
+          "question": "Which Hebrew term is tied both to Noah’s naming in Genesis 5:29 and to God’s grief/regret in Genesis 6:6–7?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "tov",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "adam",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "nacham",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "shalom",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The summary connects Noah’s promised comfort with the same root used for God’s grief/comforting in Genesis 6.",
+          "number": 3
+        },
+        {
+          "id": "780da2c9-0531-4044-a0fc-ebefd9abab9c",
+          "question": "What sharp contrast follows God’s judgment declaration in Genesis 6:5–7?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "But Abraham",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "But Moses",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "But Noah found grace/favor",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "But Cain repented",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The narrative pivots with 'But Noah,' who finds chen—grace or favor—in God’s eyes.",
+          "number": 4
+        },
+        {
+          "id": "fd3d8de4-f3d8-400b-8e9b-e5241fbbde34",
+          "question": "How does the lecture describe Noah in a way that parallels Enoch?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "He built a tower",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "He walked with God",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "He ruled over the nations",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "He wrote the law",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Noah is described as righteous and as one who walked with God, paralleling Enoch.",
+          "number": 5
+        },
+        {
+          "id": "03ff3a9d-1840-4af1-be6e-2a5e781fc354",
+          "question": "How does the lecture most likely read the 'sons of God' in Genesis 6:1–4 within the immediate context?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "As fallen angels producing hybrids",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "As a symbolic reference to animals",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "As part of a human-centered reading tied to lineage mixing and escalating arrogance",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "As priests in the tabernacle",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The lecture favors a contextual human-centered reading tied to multiplication, lineages, and human self-assertion.",
+          "number": 6
+        }
+      ],
+      "groupId": "W05 Genesis 4ff"
+    },
+    {
+      "id": "cf26bbba-ef28-4eed-8800-4d38db2a50c5",
+      "title": "W05 Quiz 4",
+      "description": "Exodus 19 as the turning point to law and the method of composition criticism",
+      "questions": [
+        {
+          "id": "fecb9748-62f5-414a-9df0-27951017152f",
+          "question": "How does the lecture describe Exodus 19 in the flow of the Pentateuch?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "As the final song of Moses",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "As a pivot from deliverance to the giving of the law",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "As a wisdom appendix",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "As a genealogy of priests",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Exodus 19 is presented as the major transition from exodus deliverance to the legal material.",
+          "number": 1
+        },
+        {
+          "id": "d01a4f4e-4fca-40d5-958d-472f3d003032",
+          "question": "Why is the Sabbath command used as a test case in the lecture?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "To prove Christians never discuss the law",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "To show the legal code is straightforwardly observed in full today",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "To raise questions about how biblical law remains binding",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "To reject the Ten Commandments entirely",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The Sabbath example is used to probe how and why some laws are considered binding today.",
+          "number": 2
+        },
+        {
+          "id": "5ddd4087-a9b1-454b-8d19-75d0e0ca0777",
+          "question": "What method will be used to analyze Exodus 19?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Allegory",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Composition criticism",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Source skepticism only",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Canonical minimalism",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture explicitly introduces composition criticism as the method for reading Exodus 19.",
+          "number": 3
+        },
+        {
+          "id": "9abff250-0541-4e68-a1f6-0d3ef56660c1",
+          "question": "According to the lecture, composition criticism studies what?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only archaeology behind the text",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Selection, arrangement, adaptation, and writing of texts into a purposeful whole",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Only translation technique",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Only sermon application",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The method is defined in those terms in the summary.",
+          "number": 4
+        },
+        {
+          "id": "b7ae4602-81af-4f45-88b8-6a2ce24f86cb",
+          "question": "What assignment are students told to complete before the next lecture?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Memorize Exodus 20",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Write a paper on Sinai geography",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Make at least ten observations on Exodus 19, especially oddities like repetitions, gaps, and inconsistencies",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Translate Leviticus into Greek",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Students are instructed to produce at least ten observations focused on textual oddities.",
+          "number": 5
+        },
+        {
+          "id": "e823ef06-48b4-4018-aaf7-835a94c08499",
+          "question": "How are students encouraged to make those observations if they do not know Hebrew?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "By reading only one translation",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "By comparing at least three Bible translations",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "By using only a commentary",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "By skipping the assignment",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture tells students to compare multiple translations to notice differences and tensions.",
+          "number": 6
+        }
+      ],
+      "groupId": "W05 Genesis 4ff"
+    }
+  ]
+}

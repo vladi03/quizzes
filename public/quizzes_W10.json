@@ -1,0 +1,1237 @@
+{
+  "version": 1,
+  "quizzes": [
+    {
+      "id": "w10-deut-1-1",
+      "title": "W10 Quiz 1",
+      "description": "Deuteronomy as Moses sermonic explanation of the law and Israel story",
+      "questions": [
+        {
+          "id": "w10-deut-1-1-q01",
+          "question": "How does the lecture primarily define Deuteronomy?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Moses sermon or commentary on Exodus through Numbers",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "A random appendix to Numbers",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "A wisdom book about monarchy",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "A later replacement for Genesis",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The lecture presents Deuteronomy as Moses sermonic exposition of prior Pentateuchal material for the generation about to enter Canaan.",
+          "number": 1
+        },
+        {
+          "id": "w10-deut-1-1-q02",
+          "question": "Where does the title Deuteronomy come from according to the lecture?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "The Hebrew opening word of the book",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "The Septuagint idea of a second copy of the law",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "A phrase in the Psalms",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "A rabbinic title from the exile",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The title reflects the Greek Septuagint rendering associated with Deuteronomy 17-18 and the idea of a second copy of the law.",
+          "number": 2
+        },
+        {
+          "id": "w10-deut-1-1-q03",
+          "question": "What caution does the lecture give about Pentateuchal legal codes?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "They have no theological purpose",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "They are only Roman civil law",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "They are historically situated and not a mechanism of salvation",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "They replace the promises to Abraham",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The laws are normative within their covenant purpose, but the lecture denies that Israel was saved by law keeping.",
+          "number": 3
+        },
+        {
+          "id": "w10-deut-1-1-q04",
+          "question": "Which later event is traditionally associated with Deuteronomy as the book of the law?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "The rebuilding of Jericho",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "The fall of Samaria under Assyria",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "The building of the second temple by Herod",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Josiah reform in 2 Kings 22-23",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "The lecture notes the link between Deuteronomy and the book of the law found in Josiah reform.",
+          "number": 4
+        },
+        {
+          "id": "w10-deut-1-1-q05",
+          "question": "What point is made about ancient Near Eastern treaty forms?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "They include features such as suzerain, witnesses, stipulations, and curses",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "They prove Deuteronomy has no covenant theology",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "They are irrelevant to Deuteronomy",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "They appear only in the New Testament",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The lecture compares Deuteronomy with Hittite and Assyrian treaty forms while warning that genre similarity alone does not settle meaning.",
+          "number": 5
+        },
+        {
+          "id": "w10-deut-1-1-q06",
+          "question": "Which items are discussed as possible indicators of later composition or framing?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only poetry and genealogy",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Exile-resonant texts, kingship legislation, and prophetic expectation",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "References to Rome and Greece",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Descriptions of the second temple sacrifices",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture raises exile-related passages, Deuteronomy 17 kingship law, and Deuteronomy 18 and 34 prophetic themes as dating questions.",
+          "number": 6
+        },
+        {
+          "id": "w10-deut-1-1-q07",
+          "question": "Why does Deuteronomy 1:1-5 raise authorship or perspective questions?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It contains no reference to Moses",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "It is written entirely in Aramaic",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Its third-person frame speaks from beyond the Jordan in Moab",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It identifies Joshua as the author",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The third-person introduction and the phrase beyond the Jordan can sound like a narrator located outside Moses immediate perspective.",
+          "number": 7
+        },
+        {
+          "id": "w10-deut-1-1-q08",
+          "question": "What does Moses begin doing in Deuteronomy 1:5?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Counting only the Levites",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Repeating Genesis word for word",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Writing a royal tax code",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Explaining the law by retelling and interpreting Israel history",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "The lecture emphasizes that Moses explains the law by narrating and interpreting the story, not merely by listing statutes.",
+          "number": 8
+        },
+        {
+          "id": "w10-deut-1-1-q09",
+          "question": "Why will Moses not enter the promised land?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "He fails to treat the LORD as holy in Numbers 20",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "He refuses to leave Egypt",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "He is too young to lead",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "He joins the Canaanite kings",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The lecture links Moses exclusion from the land to Numbers 20:12, where he fails to trust and treat the LORD as holy.",
+          "number": 9
+        },
+        {
+          "id": "w10-deut-1-1-q10",
+          "question": "Which chapters are identified as a major legal core in Deuteronomy?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Genesis 1-11",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Deuteronomy 12-26, with legal material also in chapter 5",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Joshua 1-12",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Psalms 1-2",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture identifies Deuteronomy 12-26 as the major legal section and also notes chapter 5.",
+          "number": 10
+        }
+      ],
+      "groupId": "W10 Deut"
+    },
+    {
+      "id": "w10-deut-1-2",
+      "title": "W10 Quiz 2",
+      "description": "Israel rebellion, heart circumcision, blessings and curses, and the Moab covenant",
+      "questions": [
+        {
+          "id": "w10-deut-1-2-q01",
+          "question": "Why does Deuteronomy say Israel receives the land?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Because of Israel inherent righteousness",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Because Moses defeated every enemy alone",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Because God is fulfilling his promise to the patriarchs",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Because Canaan had no inhabitants",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Moses insists the land is not given because of Israel righteousness but because of God promise to Abraham, Isaac, and Jacob.",
+          "number": 1
+        },
+        {
+          "id": "w10-deut-1-2-q02",
+          "question": "What episode functions as a paradigm of Israel rebellion in the lecture?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "The tower of Babel",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "The flood",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "The birth of Isaac",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "The golden calf",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "The golden calf is treated as an archetypal example of Israel stiff-necked rebellion from the exodus onward.",
+          "number": 2
+        },
+        {
+          "id": "w10-deut-1-2-q03",
+          "question": "What does Deuteronomy 10:16 reveal about Israel basic problem?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is an internal heart problem needing transformation",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "It is only a military problem",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "It is only a lack of land",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It is a shortage of priests",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The command to circumcise the heart diagnoses an inward spiritual problem, not merely an external behavior problem.",
+          "number": 3
+        },
+        {
+          "id": "w10-deut-1-2-q04",
+          "question": "How does the lecture describe the end point of Deuteronomy 28 curses?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Immediate worldwide peace",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "A return to an Egypt-like captivity",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "The end of covenant language",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "The replacement of Moses by Aaron",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The curses culminate in exile framed typologically as a return to Egypt-like captivity.",
+          "number": 4
+        },
+        {
+          "id": "w10-deut-1-2-q05",
+          "question": "What is significant about Deuteronomy 29:1?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It deletes the Sinai covenant",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "It names David as king",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "It introduces a Moab covenant besides the Horeb/Sinai covenant",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It denies covenant witnesses",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The lecture reads Deuteronomy 29:1 as introducing a covenant in Moab besides the covenant at Horeb.",
+          "number": 5
+        },
+        {
+          "id": "w10-deut-1-2-q06",
+          "question": "What does Deuteronomy 29:4 say Israel still lacks?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "A tabernacle",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "A written law",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "A tribal genealogy",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "A heart to know, eyes to see, and ears to hear",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "The verse reinforces that Israel lacks the God-given internal perception needed for true obedience.",
+          "number": 6
+        },
+        {
+          "id": "w10-deut-1-2-q07",
+          "question": "How broad is the covenant invitation in Deuteronomy 29?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It includes leaders, children, wives, sojourners, and even those not present",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Only priests are included",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Only warriors are included",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Only Moses family is included",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The lecture stresses the inclusive and forward-reaching scope of the Moab covenant.",
+          "number": 7
+        },
+        {
+          "id": "w10-deut-1-2-q08",
+          "question": "In the lecture, what does heart mean in the phrase circumcise your heart?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only physical emotion",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "The inner person or whole being",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "The temple altar",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "A tribal boundary marker",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Heart is explained as the inner person or whole being, not merely emotion or the physical organ.",
+          "number": 8
+        },
+        {
+          "id": "w10-deut-1-2-q09",
+          "question": "What remains unresolved after Deuteronomy 11-26 gives laws and warnings?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "The location of Egypt",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Whether Israel has any patriarchs",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "The heart problem diagnosed earlier",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "The identity of Moses mother",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The legal code is given, but the lecture emphasizes that Israel internal heart problem has not yet been solved.",
+          "number": 9
+        },
+        {
+          "id": "w10-deut-1-2-q10",
+          "question": "Which two topics from Deuteronomy 17-18 are briefly noted in the legal material?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sabbath meals and temple singers",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "The flood and Babel",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Roman taxes and census law",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "The king and the future prophet",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "The lecture notes the law of the king in Deuteronomy 17 and the promise of a prophet in Deuteronomy 18.",
+          "number": 10
+        }
+      ],
+      "groupId": "W10 Deut"
+    },
+    {
+      "id": "w10-deut-1-3",
+      "title": "W10 Quiz 3",
+      "description": "Deuteronomy 30 as future restoration, heart circumcision, and the near word",
+      "questions": [
+        {
+          "id": "w10-deut-1-3-q01",
+          "question": "How does the lecture characterize Deuteronomy 30?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "As a pivotal, future-oriented restoration chapter",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "As mostly backward-looking genealogy",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "As a list of priestly garments",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "As a denial of exile",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The lecture treats Deuteronomy 30 as a major future-looking chapter anticipating exile and restoration.",
+          "number": 1
+        },
+        {
+          "id": "w10-deut-1-3-q02",
+          "question": "What historical reality do the blessings and curses ultimately anticipate?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Moses becoming king",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Israel banishment among the nations",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "The end of all covenant promises",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "A permanent return to Eden before Joshua",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture connects the blessings and curses to Israel later exile and dispersion among the nations.",
+          "number": 2
+        },
+        {
+          "id": "w10-deut-1-3-q03",
+          "question": "What is the central divine action promised in Deuteronomy 30:6?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "God will cancel the Abrahamic promise",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "God will remove all written Scripture",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "God will circumcise Israel heart and the heart of their offspring",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "God will appoint Pharaoh over Israel",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "God promises to circumcise the heart so Israel can love Yahweh fully and live.",
+          "number": 3
+        },
+        {
+          "id": "w10-deut-1-3-q04",
+          "question": "Which restoration elements are highlighted in Deuteronomy 30:3-5?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only temple architecture",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Only military victory over Rome",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "A ban on all future prophecy",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Compassion, gathering, return to the land, and multiplication",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "The lecture emphasizes restoration of fortunes, compassion, gathering from dispersion, return, and increase.",
+          "number": 4
+        },
+        {
+          "id": "w10-deut-1-3-q05",
+          "question": "How does Deuteronomy 30 clarify physical circumcision?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is a sign pointing to God inward work",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "It has no relation to covenant",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "It replaces faith with merit",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It belongs only to Gentiles",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Physical circumcision is interpreted as a sign that points beyond itself to inward divine transformation.",
+          "number": 5
+        },
+        {
+          "id": "w10-deut-1-3-q06",
+          "question": "What does Deuteronomy 30:11-14 say about the commandment or word?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is inaccessible and hidden forever",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "It is near, in the mouth and heart, to do it",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "It is only in heaven and cannot be reached",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It belongs only across the sea",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The word is not too difficult or distant; it is near, in the mouth and heart, to be obeyed.",
+          "number": 6
+        },
+        {
+          "id": "w10-deut-1-3-q07",
+          "question": "Which Exodus motifs are used to interpret the contrasts in Deuteronomy 30:11-14?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only Joseph dreams",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Only the tabernacle colors",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Plagues, Sinai distance, mountain ascent, and sea crossing",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Only the census of Numbers 1",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The lecture connects wonderful, distant, heaven, and sea language with Exodus plagues, Sinai, Moses ascent, and sea-crossing imagery.",
+          "number": 7
+        },
+        {
+          "id": "w10-deut-1-3-q08",
+          "question": "How does Paul use Deuteronomy 30 in Romans 10 according to the lecture?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "As proof that Gentiles cannot be saved",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "As a rejection of Christ",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "As a command to rebuild Jericho",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "As the preached word of faith near in mouth and heart",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "The lecture reads Romans 10 as applying Deuteronomy 30 to the preached word of faith.",
+          "number": 8
+        },
+        {
+          "id": "w10-deut-1-3-q09",
+          "question": "Which later prophetic texts continue the restoration and heart-transformation theme?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Jeremiah 30-31 and Ezekiel 36",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Obadiah only",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Song of Songs only",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Ruth and Esther only",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Jeremiah and Ezekiel are noted as carrying forward restoration and internal renewal expectations.",
+          "number": 9
+        },
+        {
+          "id": "w10-deut-1-3-q10",
+          "question": "What contrast does the lecture draw at the end of the discussion?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Judah versus Benjamin only",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "External written code versus God internal enabling work",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Egyptian law versus Roman law",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Poetry versus prose only",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture contrasts an external code that cannot permanently enable obedience with God internal work that empowers love and obedience.",
+          "number": 10
+        }
+      ],
+      "groupId": "W10 Deut"
+    },
+    {
+      "id": "w10-deut-1-4",
+      "title": "W10 Quiz 4",
+      "description": "Deuteronomy 31-34, covenant witnesses, idolatry, Gentile jealousy, and Moses future hope",
+      "questions": [
+        {
+          "id": "w10-deut-1-4-q01",
+          "question": "What tension opens this lecture?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Moses enters Canaan, yet Joshua stays behind",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "The law disappears, yet kings obey perfectly",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "God promises future heart circumcision, yet Israel immediate future is rebellion",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Israel has no land promise, yet possesses land",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The lecture juxtaposes future heart renewal with the negative expectation that Israel will rebel and pursue idols.",
+          "number": 1
+        },
+        {
+          "id": "w10-deut-1-4-q02",
+          "question": "What does Deuteronomy 31 predict Israel will do?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Build the temple immediately",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Remain perfectly faithful forever",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Return voluntarily to Egypt before entering Canaan",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Pursue strange gods, forsake the LORD, and break covenant",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "Deuteronomy 31 explicitly predicts apostasy, covenant breaking, and pursuit of other gods.",
+          "number": 2
+        },
+        {
+          "id": "w10-deut-1-4-q03",
+          "question": "Which items function as covenant witnesses in Deuteronomy?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "The Book of the Law, Moses words, the Song, and heaven and earth",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Only Moses staff",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Only the ark cover",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Only foreign nations",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The lecture identifies multiple witnesses against Israel, including the written law, Moses words, the Song, and heaven and earth.",
+          "number": 3
+        },
+        {
+          "id": "w10-deut-1-4-q04",
+          "question": "How is Deuteronomy 31:29 described?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "As the appointment of Solomon",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "As a last-days statement about corruption and disaster from idolatry",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "As a census of the Levites",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "As the first Passover law",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The verse frames later corruption and evil in the last days as the result of provoking God by the work of their hands.",
+          "number": 4
+        },
+        {
+          "id": "w10-deut-1-4-q05",
+          "question": "What is the initial function of Deuteronomy 32:1-15?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It gives temple measurements",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "It lists Joshua battles",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "It serves as a historical review of God care and Israel abandonment",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It cancels the covenant",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The Song begins with God guidance and blessing before indicting Israel for abandonment and idolatry.",
+          "number": 5
+        },
+        {
+          "id": "w10-deut-1-4-q06",
+          "question": "Which earlier idolatry texts are echoed in Deuteronomy 32:16-21?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only Genesis 22",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Only Ruth 4",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Only 1 Kings 8",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Exodus 32, Deuteronomy 9, Leviticus 17, and Numbers 25",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "The lecture notes dense links to earlier Pentateuchal idolatry episodes and vocabulary.",
+          "number": 6
+        },
+        {
+          "id": "w10-deut-1-4-q07",
+          "question": "How does the lecture interpret not a people in Deuteronomy 32:21?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "As God turning to Gentiles rather than merely military defeat",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Only as a calendar note",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "As a reference to priests alone",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "As a denial of Israel existence",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The lecture argues that jealousy language fits God placing love on another people, later read as Gentile inclusion.",
+          "number": 7
+        },
+        {
+          "id": "w10-deut-1-4-q08",
+          "question": "How does Paul use Deuteronomy 32:21?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "To forbid all mission outside Judea",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "To explain Gentile inclusion that provokes Israel to jealousy",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "To deny resurrection",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "To prove Solomon fulfilled all promises",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Paul cites the passage in Romans to frame Gentile inclusion as part of God purpose toward Israel.",
+          "number": 8
+        },
+        {
+          "id": "w10-deut-1-4-q09",
+          "question": "What expectation remains at the end of Deuteronomy 34?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "The end of prophecy forever",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "A completed temple under Moses",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "A future prophet like Moses",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "The fall of Babylon",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Deuteronomy ends with Moses elevated and a forward-looking expectation for a prophet like him.",
+          "number": 9
+        },
+        {
+          "id": "w10-deut-1-4-q10",
+          "question": "What features of Deuteronomy 34 suggest a post-Mosaic perspective?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "A direct signature from Moses after death",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "A list of Roman rulers",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "A denial that Moses existed",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "The unknown grave and the statement that no prophet like Moses had arisen",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "The narrator knows Moses grave is unknown and looks back on the prophetic line, suggesting later framing.",
+          "number": 10
+        }
+      ],
+      "groupId": "W10 Deut"
+    }
+  ]
+}

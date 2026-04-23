@@ -1,0 +1,4370 @@
+[
+  {
+    "id": "333d189f-839b-4268-9872-bce27cbd5481",
+    "title": "W1 Quiz 1",
+    "description": "Transcript-derived midterm quiz Week 1",
+    "questions": [
+      {
+        "id": "4d9ed31a-c8cd-4809-920d-ea667d4d4f8a",
+        "question": "Why does Genesis 1\u201311 challenge the label 'history of Israel' for the Pentateuch?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "It lacks narrative"
+          },
+          {
+            "id": "B",
+            "option": "It precedes Israel\u2019s existence"
+          },
+          {
+            "id": "C",
+            "option": "It contains only poetry"
+          },
+          {
+            "id": "D",
+            "option": "It excludes covenant"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Genesis 1\u201311 occurs before Israel emerges, so 'history of Israel' is insufficient."
+      },
+      {
+        "id": "9a44274d-5774-4bb8-9d43-7cbdd9e2caae",
+        "question": "What interpretive danger does E.D. Hirsch\u2019s experiment illustrate?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Ignoring grammar"
+          },
+          {
+            "id": "B",
+            "option": "Titles shape interpretation"
+          },
+          {
+            "id": "C",
+            "option": "Translation errors"
+          },
+          {
+            "id": "D",
+            "option": "Canon differences"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Titles/frame assumptions shape how readers interpret texts."
+      },
+      {
+        "id": "8080dbd0-dc6a-48b1-8a68-da76f2d0b04c",
+        "question": "What does 'theopneustos' imply about Scripture?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Inspired ideas only"
+          },
+          {
+            "id": "B",
+            "option": "God-breathed words"
+          },
+          {
+            "id": "C",
+            "option": "Church-created authority"
+          },
+          {
+            "id": "D",
+            "option": "Oral tradition"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It means Scripture is God-breathed, emphasizing divine origin of written text."
+      },
+      {
+        "id": "d30d47a9-68e2-46fb-89ed-98dbd4582ecb",
+        "question": "Why is mechanical dictation rejected?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "It denies inspiration"
+          },
+          {
+            "id": "B",
+            "option": "It ignores human authorship"
+          },
+          {
+            "id": "C",
+            "option": "It removes canon"
+          },
+          {
+            "id": "D",
+            "option": "It rejects theology"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Scripture reflects real human authors with intention and style."
+      },
+      {
+        "id": "586315f3-9027-4c28-8e81-1d55f0d317ba",
+        "question": "What does 'all Scripture' primarily refer to in 2 Timothy 3:16 contextually?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "New Testament only"
+          },
+          {
+            "id": "B",
+            "option": "Old Testament"
+          },
+          {
+            "id": "C",
+            "option": "Church tradition"
+          },
+          {
+            "id": "D",
+            "option": "Apocrypha"
+          }
+        ],
+        "answer": "B",
+        "explanation": "At that time, 'Scripture' referred primarily to the Old Testament."
+      },
+      {
+        "id": "f87ff878-708d-481c-82a4-383647c70fc8",
+        "question": "What is moralizing in interpretation?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Ignoring theology"
+          },
+          {
+            "id": "B",
+            "option": "Turning narrative into direct moral lessons"
+          },
+          {
+            "id": "C",
+            "option": "Studying history"
+          },
+          {
+            "id": "D",
+            "option": "Using Hebrew"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It wrongly turns descriptive narrative into prescriptive moral application."
+      },
+      {
+        "id": "4a1e484a-e214-4eda-8216-6e50f10aff87",
+        "question": "What is hyper-historicism?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Ignoring history"
+          },
+          {
+            "id": "B",
+            "option": "Over-reconstructing background beyond text"
+          },
+          {
+            "id": "C",
+            "option": "Rejecting genre"
+          },
+          {
+            "id": "D",
+            "option": "Literal reading"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It imports speculative historical reconstructions not grounded in text."
+      },
+      {
+        "id": "7892a00b-894b-4adc-b693-a2ba4233c266",
+        "question": "What is allegorizing?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Literal reading"
+          },
+          {
+            "id": "B",
+            "option": "Replacing text meaning with symbolic substitutions"
+          },
+          {
+            "id": "C",
+            "option": "Ignoring genre"
+          },
+          {
+            "id": "D",
+            "option": "Studying grammar"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It substitutes meanings not grounded in the text itself."
+      }
+    ],
+    "groupId": "Misc"
+  },
+  {
+    "id": "568f7434-4cdc-42ba-8110-46e4c9a30e6c",
+    "title": "W1 Quiz 2",
+    "description": "Transcript-derived midterm quiz Week 1",
+    "questions": [
+      {
+        "id": "f580b79e-80d5-4742-8a86-3887fc3ec2db",
+        "question": "Why does Genesis 1\u201311 challenge the label 'history of Israel' for the Pentateuch?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "It lacks narrative"
+          },
+          {
+            "id": "B",
+            "option": "It precedes Israel\u2019s existence"
+          },
+          {
+            "id": "C",
+            "option": "It contains only poetry"
+          },
+          {
+            "id": "D",
+            "option": "It excludes covenant"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Genesis 1\u201311 occurs before Israel emerges, so 'history of Israel' is insufficient."
+      },
+      {
+        "id": "f2c58a8f-7863-491d-8f10-247fdbe9efdc",
+        "question": "What interpretive danger does E.D. Hirsch\u2019s experiment illustrate?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Ignoring grammar"
+          },
+          {
+            "id": "B",
+            "option": "Titles shape interpretation"
+          },
+          {
+            "id": "C",
+            "option": "Translation errors"
+          },
+          {
+            "id": "D",
+            "option": "Canon differences"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Titles/frame assumptions shape how readers interpret texts."
+      },
+      {
+        "id": "d9b97090-00c9-4459-be7f-2756397ff24e",
+        "question": "What does 'theopneustos' imply about Scripture?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Inspired ideas only"
+          },
+          {
+            "id": "B",
+            "option": "God-breathed words"
+          },
+          {
+            "id": "C",
+            "option": "Church-created authority"
+          },
+          {
+            "id": "D",
+            "option": "Oral tradition"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It means Scripture is God-breathed, emphasizing divine origin of written text."
+      },
+      {
+        "id": "561a7f2c-5198-4752-b7b6-2b8b0b2a3852",
+        "question": "Why is mechanical dictation rejected?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "It denies inspiration"
+          },
+          {
+            "id": "B",
+            "option": "It ignores human authorship"
+          },
+          {
+            "id": "C",
+            "option": "It removes canon"
+          },
+          {
+            "id": "D",
+            "option": "It rejects theology"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Scripture reflects real human authors with intention and style."
+      },
+      {
+        "id": "e59b0ccc-fb7e-4471-94e6-02a0416e00e2",
+        "question": "What does 'all Scripture' primarily refer to in 2 Timothy 3:16 contextually?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "New Testament only"
+          },
+          {
+            "id": "B",
+            "option": "Old Testament"
+          },
+          {
+            "id": "C",
+            "option": "Church tradition"
+          },
+          {
+            "id": "D",
+            "option": "Apocrypha"
+          }
+        ],
+        "answer": "B",
+        "explanation": "At that time, 'Scripture' referred primarily to the Old Testament."
+      },
+      {
+        "id": "1cd08008-f1c0-4ea7-8b7e-339b90d3a471",
+        "question": "What is moralizing in interpretation?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Ignoring theology"
+          },
+          {
+            "id": "B",
+            "option": "Turning narrative into direct moral lessons"
+          },
+          {
+            "id": "C",
+            "option": "Studying history"
+          },
+          {
+            "id": "D",
+            "option": "Using Hebrew"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It wrongly turns descriptive narrative into prescriptive moral application."
+      },
+      {
+        "id": "b2c04d8c-7d6f-469a-85c7-8d5d69f4407e",
+        "question": "What is hyper-historicism?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Ignoring history"
+          },
+          {
+            "id": "B",
+            "option": "Over-reconstructing background beyond text"
+          },
+          {
+            "id": "C",
+            "option": "Rejecting genre"
+          },
+          {
+            "id": "D",
+            "option": "Literal reading"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It imports speculative historical reconstructions not grounded in text."
+      },
+      {
+        "id": "cfc9fff9-661e-40a0-a408-2f208117760e",
+        "question": "What is allegorizing?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Literal reading"
+          },
+          {
+            "id": "B",
+            "option": "Replacing text meaning with symbolic substitutions"
+          },
+          {
+            "id": "C",
+            "option": "Ignoring genre"
+          },
+          {
+            "id": "D",
+            "option": "Studying grammar"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It substitutes meanings not grounded in the text itself."
+      }
+    ],
+    "groupId": "Misc"
+  },
+  {
+    "id": "a19eda0b-5249-4341-b738-f794d1ae0ac2",
+    "title": "W1 Quiz 3",
+    "description": "Transcript-derived midterm quiz Week 1",
+    "questions": [
+      {
+        "id": "f3a71e4d-edbe-4368-abff-d694376ce315",
+        "question": "Why does Genesis 1\u201311 challenge the label 'history of Israel' for the Pentateuch?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "It lacks narrative"
+          },
+          {
+            "id": "B",
+            "option": "It precedes Israel\u2019s existence"
+          },
+          {
+            "id": "C",
+            "option": "It contains only poetry"
+          },
+          {
+            "id": "D",
+            "option": "It excludes covenant"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Genesis 1\u201311 occurs before Israel emerges, so 'history of Israel' is insufficient."
+      },
+      {
+        "id": "9f5210d4-a5d4-4a68-b790-1713bd8dba4c",
+        "question": "What interpretive danger does E.D. Hirsch\u2019s experiment illustrate?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Ignoring grammar"
+          },
+          {
+            "id": "B",
+            "option": "Titles shape interpretation"
+          },
+          {
+            "id": "C",
+            "option": "Translation errors"
+          },
+          {
+            "id": "D",
+            "option": "Canon differences"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Titles/frame assumptions shape how readers interpret texts."
+      },
+      {
+        "id": "d524c690-a6de-4a26-b88c-2b73f9e4836d",
+        "question": "What does 'theopneustos' imply about Scripture?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Inspired ideas only"
+          },
+          {
+            "id": "B",
+            "option": "God-breathed words"
+          },
+          {
+            "id": "C",
+            "option": "Church-created authority"
+          },
+          {
+            "id": "D",
+            "option": "Oral tradition"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It means Scripture is God-breathed, emphasizing divine origin of written text."
+      },
+      {
+        "id": "acb009cd-e507-4ecf-9fda-9fb72bad53fb",
+        "question": "Why is mechanical dictation rejected?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "It denies inspiration"
+          },
+          {
+            "id": "B",
+            "option": "It ignores human authorship"
+          },
+          {
+            "id": "C",
+            "option": "It removes canon"
+          },
+          {
+            "id": "D",
+            "option": "It rejects theology"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Scripture reflects real human authors with intention and style."
+      },
+      {
+        "id": "77937516-f304-453c-975d-e871a4561ca8",
+        "question": "What does 'all Scripture' primarily refer to in 2 Timothy 3:16 contextually?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "New Testament only"
+          },
+          {
+            "id": "B",
+            "option": "Old Testament"
+          },
+          {
+            "id": "C",
+            "option": "Church tradition"
+          },
+          {
+            "id": "D",
+            "option": "Apocrypha"
+          }
+        ],
+        "answer": "B",
+        "explanation": "At that time, 'Scripture' referred primarily to the Old Testament."
+      },
+      {
+        "id": "4850ead5-e0aa-49a8-b350-271f1b5ed3fc",
+        "question": "What is moralizing in interpretation?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Ignoring theology"
+          },
+          {
+            "id": "B",
+            "option": "Turning narrative into direct moral lessons"
+          },
+          {
+            "id": "C",
+            "option": "Studying history"
+          },
+          {
+            "id": "D",
+            "option": "Using Hebrew"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It wrongly turns descriptive narrative into prescriptive moral application."
+      },
+      {
+        "id": "b06b319f-88d6-4c6e-92db-468f7c290e1d",
+        "question": "What is hyper-historicism?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Ignoring history"
+          },
+          {
+            "id": "B",
+            "option": "Over-reconstructing background beyond text"
+          },
+          {
+            "id": "C",
+            "option": "Rejecting genre"
+          },
+          {
+            "id": "D",
+            "option": "Literal reading"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It imports speculative historical reconstructions not grounded in text."
+      },
+      {
+        "id": "4c4d24a0-75ba-49dc-a832-42e76de33d7d",
+        "question": "What is allegorizing?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Literal reading"
+          },
+          {
+            "id": "B",
+            "option": "Replacing text meaning with symbolic substitutions"
+          },
+          {
+            "id": "C",
+            "option": "Ignoring genre"
+          },
+          {
+            "id": "D",
+            "option": "Studying grammar"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It substitutes meanings not grounded in the text itself."
+      }
+    ],
+    "groupId": "Misc"
+  },
+  {
+    "id": "89470485-4eb5-45ff-9dae-0371c6b8268d",
+    "title": "W2 Quiz 1",
+    "description": "Transcript-derived midterm quiz Week 2",
+    "questions": [
+      {
+        "id": "0fb595d7-7d3e-48a1-a51d-bf81273d1de1",
+        "question": "What is the significance of 'reshit' in Genesis 1:1?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "First in sequence"
+          },
+          {
+            "id": "B",
+            "option": "Beginning anticipating an end"
+          },
+          {
+            "id": "C",
+            "option": "Only temporal start"
+          },
+          {
+            "id": "D",
+            "option": "Narrative marker"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Reshit often contrasts with 'acharit' (end), implying a teleological direction."
+      },
+      {
+        "id": "ba3d1daa-b0ae-4015-a7cb-6ce630f46f58",
+        "question": "Which passages form the 'three poems' tied to 'last days'?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Gen 1, Ex 3, Lev 19"
+          },
+          {
+            "id": "B",
+            "option": "Gen 49, Num 24, Deut 33"
+          },
+          {
+            "id": "C",
+            "option": "Ex 20, Lev 10, Num 6"
+          },
+          {
+            "id": "D",
+            "option": "Gen 12, Ex 15, Deut 6"
+          }
+        ],
+        "answer": "B",
+        "explanation": "These three poems contain 'last days' and ruler imagery."
+      },
+      {
+        "id": "91db9552-07a9-4b2c-ad95-8ed83767cf70",
+        "question": "What imagery identifies the future ruler in Genesis 49?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Shepherd"
+          },
+          {
+            "id": "B",
+            "option": "Lion"
+          },
+          {
+            "id": "C",
+            "option": "Priest"
+          },
+          {
+            "id": "D",
+            "option": "Prophet"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Judah is described as a lion."
+      },
+      {
+        "id": "4a38f5ad-a0ed-4469-ae44-b9ff19e6f5a9",
+        "question": "What does 'acharit hayamim' mean?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Beginning days"
+          },
+          {
+            "id": "B",
+            "option": "Last days"
+          },
+          {
+            "id": "C",
+            "option": "Middle days"
+          },
+          {
+            "id": "D",
+            "option": "Festival days"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It refers to the latter days."
+      },
+      {
+        "id": "78edabbb-feae-4bfb-9765-852fc573d974",
+        "question": "What object represents kingship in Numbers 24?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Crown"
+          },
+          {
+            "id": "B",
+            "option": "Scepter"
+          },
+          {
+            "id": "C",
+            "option": "Altar"
+          },
+          {
+            "id": "D",
+            "option": "Ark"
+          }
+        ],
+        "answer": "B",
+        "explanation": "A scepter symbolizes rulership."
+      },
+      {
+        "id": "e31a97cd-d7ad-40a6-8b24-0eff881f78f4",
+        "question": "What is Balaam\u2019s role?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "King"
+          },
+          {
+            "id": "B",
+            "option": "False prophet only"
+          },
+          {
+            "id": "C",
+            "option": "Prophet who speaks God\u2019s words"
+          },
+          {
+            "id": "D",
+            "option": "Priest"
+          }
+        ],
+        "answer": "C",
+        "explanation": "He speaks what God gives him."
+      },
+      {
+        "id": "55f7a173-d9d2-4265-91d4-215b74ba0101",
+        "question": "What theme links Genesis 1 to later poems?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Law"
+          },
+          {
+            "id": "B",
+            "option": "Temple"
+          },
+          {
+            "id": "C",
+            "option": "Beginning \u2192 End trajectory"
+          },
+          {
+            "id": "D",
+            "option": "Sacrifice"
+          }
+        ],
+        "answer": "C",
+        "explanation": "Reshit anticipates acharit."
+      },
+      {
+        "id": "4ad90a06-b6bb-4fb8-85e3-3bfc87542550",
+        "question": "What does 'obedience of the peoples' imply?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Israel only"
+          },
+          {
+            "id": "B",
+            "option": "Multiple nations"
+          },
+          {
+            "id": "C",
+            "option": "Priests only"
+          },
+          {
+            "id": "D",
+            "option": "Angels"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It implies rule over multiple nations."
+      }
+    ],
+    "groupId": "Misc"
+  },
+  {
+    "id": "cc063c73-4434-4dfb-a6f5-1000da29def6",
+    "title": "W2 Quiz 2",
+    "description": "Transcript-derived midterm quiz Week 2",
+    "questions": [
+      {
+        "id": "8156ee04-435c-4fc7-86f2-a6d22d9d3838",
+        "question": "What is the significance of 'reshit' in Genesis 1:1?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "First in sequence"
+          },
+          {
+            "id": "B",
+            "option": "Beginning anticipating an end"
+          },
+          {
+            "id": "C",
+            "option": "Only temporal start"
+          },
+          {
+            "id": "D",
+            "option": "Narrative marker"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Reshit often contrasts with 'acharit' (end), implying a teleological direction."
+      },
+      {
+        "id": "50c28647-3643-4a9d-b689-37e2748525d9",
+        "question": "Which passages form the 'three poems' tied to 'last days'?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Gen 1, Ex 3, Lev 19"
+          },
+          {
+            "id": "B",
+            "option": "Gen 49, Num 24, Deut 33"
+          },
+          {
+            "id": "C",
+            "option": "Ex 20, Lev 10, Num 6"
+          },
+          {
+            "id": "D",
+            "option": "Gen 12, Ex 15, Deut 6"
+          }
+        ],
+        "answer": "B",
+        "explanation": "These three poems contain 'last days' and ruler imagery."
+      },
+      {
+        "id": "430892ae-98d2-45fc-9750-04b511d5330c",
+        "question": "What imagery identifies the future ruler in Genesis 49?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Shepherd"
+          },
+          {
+            "id": "B",
+            "option": "Lion"
+          },
+          {
+            "id": "C",
+            "option": "Priest"
+          },
+          {
+            "id": "D",
+            "option": "Prophet"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Judah is described as a lion."
+      },
+      {
+        "id": "26cd1c5f-fa37-4cc7-a031-fc0c17c92d6a",
+        "question": "What does 'acharit hayamim' mean?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Beginning days"
+          },
+          {
+            "id": "B",
+            "option": "Last days"
+          },
+          {
+            "id": "C",
+            "option": "Middle days"
+          },
+          {
+            "id": "D",
+            "option": "Festival days"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It refers to the latter days."
+      },
+      {
+        "id": "0db81d7c-c959-4d8a-8b2a-245dbbc930c4",
+        "question": "What object represents kingship in Numbers 24?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Crown"
+          },
+          {
+            "id": "B",
+            "option": "Scepter"
+          },
+          {
+            "id": "C",
+            "option": "Altar"
+          },
+          {
+            "id": "D",
+            "option": "Ark"
+          }
+        ],
+        "answer": "B",
+        "explanation": "A scepter symbolizes rulership."
+      },
+      {
+        "id": "5468db54-84f3-4497-8d9f-bf1f1af523fd",
+        "question": "What is Balaam\u2019s role?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "King"
+          },
+          {
+            "id": "B",
+            "option": "False prophet only"
+          },
+          {
+            "id": "C",
+            "option": "Prophet who speaks God\u2019s words"
+          },
+          {
+            "id": "D",
+            "option": "Priest"
+          }
+        ],
+        "answer": "C",
+        "explanation": "He speaks what God gives him."
+      },
+      {
+        "id": "644becc9-df5a-4b16-9b85-3153cb26d473",
+        "question": "What theme links Genesis 1 to later poems?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Law"
+          },
+          {
+            "id": "B",
+            "option": "Temple"
+          },
+          {
+            "id": "C",
+            "option": "Beginning \u2192 End trajectory"
+          },
+          {
+            "id": "D",
+            "option": "Sacrifice"
+          }
+        ],
+        "answer": "C",
+        "explanation": "Reshit anticipates acharit."
+      },
+      {
+        "id": "8d72f349-6c43-4d24-9c00-1805b6a2ec1f",
+        "question": "What does 'obedience of the peoples' imply?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Israel only"
+          },
+          {
+            "id": "B",
+            "option": "Multiple nations"
+          },
+          {
+            "id": "C",
+            "option": "Priests only"
+          },
+          {
+            "id": "D",
+            "option": "Angels"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It implies rule over multiple nations."
+      }
+    ],
+    "groupId": "Misc"
+  },
+  {
+    "id": "63a31030-f2be-4b00-934d-5fab3fbfccd4",
+    "title": "W2 Quiz 3",
+    "description": "Transcript-derived midterm quiz Week 2",
+    "questions": [
+      {
+        "id": "b63bc6a7-9def-46a6-a309-421c9eef1602",
+        "question": "What is the significance of 'reshit' in Genesis 1:1?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "First in sequence"
+          },
+          {
+            "id": "B",
+            "option": "Beginning anticipating an end"
+          },
+          {
+            "id": "C",
+            "option": "Only temporal start"
+          },
+          {
+            "id": "D",
+            "option": "Narrative marker"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Reshit often contrasts with 'acharit' (end), implying a teleological direction."
+      },
+      {
+        "id": "a1e72375-0655-457a-af38-7d52a53fcbf5",
+        "question": "Which passages form the 'three poems' tied to 'last days'?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Gen 1, Ex 3, Lev 19"
+          },
+          {
+            "id": "B",
+            "option": "Gen 49, Num 24, Deut 33"
+          },
+          {
+            "id": "C",
+            "option": "Ex 20, Lev 10, Num 6"
+          },
+          {
+            "id": "D",
+            "option": "Gen 12, Ex 15, Deut 6"
+          }
+        ],
+        "answer": "B",
+        "explanation": "These three poems contain 'last days' and ruler imagery."
+      },
+      {
+        "id": "9546d58a-6216-4ff8-b7d0-1863535aa3ad",
+        "question": "What imagery identifies the future ruler in Genesis 49?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Shepherd"
+          },
+          {
+            "id": "B",
+            "option": "Lion"
+          },
+          {
+            "id": "C",
+            "option": "Priest"
+          },
+          {
+            "id": "D",
+            "option": "Prophet"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Judah is described as a lion."
+      },
+      {
+        "id": "9c3c72f1-b3a6-4c00-93d6-5674fa026a65",
+        "question": "What does 'acharit hayamim' mean?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Beginning days"
+          },
+          {
+            "id": "B",
+            "option": "Last days"
+          },
+          {
+            "id": "C",
+            "option": "Middle days"
+          },
+          {
+            "id": "D",
+            "option": "Festival days"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It refers to the latter days."
+      },
+      {
+        "id": "b3a64ab8-21c6-4a89-b61b-9052db92b9f5",
+        "question": "What object represents kingship in Numbers 24?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Crown"
+          },
+          {
+            "id": "B",
+            "option": "Scepter"
+          },
+          {
+            "id": "C",
+            "option": "Altar"
+          },
+          {
+            "id": "D",
+            "option": "Ark"
+          }
+        ],
+        "answer": "B",
+        "explanation": "A scepter symbolizes rulership."
+      },
+      {
+        "id": "c08abd49-0473-449e-a814-c79d329491bf",
+        "question": "What is Balaam\u2019s role?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "King"
+          },
+          {
+            "id": "B",
+            "option": "False prophet only"
+          },
+          {
+            "id": "C",
+            "option": "Prophet who speaks God\u2019s words"
+          },
+          {
+            "id": "D",
+            "option": "Priest"
+          }
+        ],
+        "answer": "C",
+        "explanation": "He speaks what God gives him."
+      },
+      {
+        "id": "0aa1c2fb-7f73-4453-804e-35b418c127d5",
+        "question": "What theme links Genesis 1 to later poems?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Law"
+          },
+          {
+            "id": "B",
+            "option": "Temple"
+          },
+          {
+            "id": "C",
+            "option": "Beginning \u2192 End trajectory"
+          },
+          {
+            "id": "D",
+            "option": "Sacrifice"
+          }
+        ],
+        "answer": "C",
+        "explanation": "Reshit anticipates acharit."
+      },
+      {
+        "id": "cb0795dd-fd88-4035-b2de-9c1596668a34",
+        "question": "What does 'obedience of the peoples' imply?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Israel only"
+          },
+          {
+            "id": "B",
+            "option": "Multiple nations"
+          },
+          {
+            "id": "C",
+            "option": "Priests only"
+          },
+          {
+            "id": "D",
+            "option": "Angels"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It implies rule over multiple nations."
+      }
+    ],
+    "groupId": "Misc"
+  },
+  {
+    "id": "50148385-4c67-4501-bc0f-d30a5f520546",
+    "title": "W3 Quiz 1",
+    "description": "Refined transcript-level quiz Week 3",
+    "questions": [
+      {
+        "id": "fbc8a12f-e19b-4682-a7ed-f4f3892e866d",
+        "question": "Why is Genesis 1:1 best understood as an indicative statement?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "It summarizes later events"
+          },
+          {
+            "id": "B",
+            "option": "It reports a completed act of creation"
+          },
+          {
+            "id": "C",
+            "option": "It is poetic only"
+          },
+          {
+            "id": "D",
+            "option": "It is a title"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It states that God created the heavens and earth, not merely summarizing or labeling."
+      },
+      {
+        "id": "c563c94c-5361-469a-8272-67f82076fc9e",
+        "question": "What is meant by 'heavens and earth' as a merism?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Two locations"
+          },
+          {
+            "id": "B",
+            "option": "Totality of creation"
+          },
+          {
+            "id": "C",
+            "option": "Spiritual realm"
+          },
+          {
+            "id": "D",
+            "option": "Temple imagery"
+          }
+        ],
+        "answer": "B",
+        "explanation": "A merism uses two extremes to indicate the whole."
+      },
+      {
+        "id": "4be50aa5-a82e-4176-8c75-9116d7d145e2",
+        "question": "Why is 'eretz' often translated 'land' instead of 'earth'?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "It refers only to Israel"
+          },
+          {
+            "id": "B",
+            "option": "It fits Pentateuchal land theme"
+          },
+          {
+            "id": "C",
+            "option": "It means sky"
+          },
+          {
+            "id": "D",
+            "option": "It is poetic only"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It aligns Genesis with covenant land themes."
+      },
+      {
+        "id": "f159bbab-6347-405c-be1a-30b3f8fee3a4",
+        "question": "What does 'tohu vavohu' most likely describe?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Cosmic void"
+          },
+          {
+            "id": "B",
+            "option": "Uninhabitable wasteland"
+          },
+          {
+            "id": "C",
+            "option": "Heavenly realm"
+          },
+          {
+            "id": "D",
+            "option": "Moral evil"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It refers to wilderness/desolation needing preparation."
+      },
+      {
+        "id": "da0b92e2-9845-4ba6-b654-a1b34c0d725a",
+        "question": "Why is Day 1 called 'day one' (not 'first day')?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Translation error"
+          },
+          {
+            "id": "B",
+            "option": "Signals literary distinction"
+          },
+          {
+            "id": "C",
+            "option": "Numerical mistake"
+          },
+          {
+            "id": "D",
+            "option": "Chronology issue"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It may distinguish it from ordinal sequence and leave timing open."
+      },
+      {
+        "id": "00f060f5-6d2c-45ac-9be9-013f4ed6ea44",
+        "question": "What is the significance of 'let there be' vs 'create'?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Same meaning"
+          },
+          {
+            "id": "B",
+            "option": "Indicates ordering vs creation ex nihilo"
+          },
+          {
+            "id": "C",
+            "option": "Different languages"
+          },
+          {
+            "id": "D",
+            "option": "No significance"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Different verbs show ordering, appointing, or forming."
+      },
+      {
+        "id": "39c43346-227b-4fd7-a519-a0db87530368",
+        "question": "What structure exists between Days 1\u20133 and 4\u20136?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Random"
+          },
+          {
+            "id": "B",
+            "option": "Forming vs filling"
+          },
+          {
+            "id": "C",
+            "option": "Law vs covenant"
+          },
+          {
+            "id": "D",
+            "option": "Heaven vs earth"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Days 1\u20133 form; 4\u20136 fill and govern."
+      },
+      {
+        "id": "4a562c18-3f2d-4a23-bcd1-9c9192e9c0cb",
+        "question": "What is unique about Day 6?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "No creation"
+          },
+          {
+            "id": "B",
+            "option": "Crescendo with humanity"
+          },
+          {
+            "id": "C",
+            "option": "No blessing"
+          },
+          {
+            "id": "D",
+            "option": "Only animals"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It emphasizes humans as image-bearers and climax."
+      }
+    ],
+    "groupId": "Misc"
+  },
+  {
+    "id": "4b3534e2-663f-4554-9a51-17338d42a4e3",
+    "title": "W3 Quiz 2",
+    "description": "Refined transcript-level quiz Week 3",
+    "questions": [
+      {
+        "id": "c2c1aef7-39f2-40dc-a02c-857a5fea9028",
+        "question": "Why is Genesis 1:1 best understood as an indicative statement?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "It summarizes later events"
+          },
+          {
+            "id": "B",
+            "option": "It reports a completed act of creation"
+          },
+          {
+            "id": "C",
+            "option": "It is poetic only"
+          },
+          {
+            "id": "D",
+            "option": "It is a title"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It states that God created the heavens and earth, not merely summarizing or labeling."
+      },
+      {
+        "id": "44f50283-259c-45b5-98fc-a624871c7bf3",
+        "question": "What is meant by 'heavens and earth' as a merism?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Two locations"
+          },
+          {
+            "id": "B",
+            "option": "Totality of creation"
+          },
+          {
+            "id": "C",
+            "option": "Spiritual realm"
+          },
+          {
+            "id": "D",
+            "option": "Temple imagery"
+          }
+        ],
+        "answer": "B",
+        "explanation": "A merism uses two extremes to indicate the whole."
+      },
+      {
+        "id": "89feeb21-1198-43e3-964d-2370fe9b8807",
+        "question": "Why is 'eretz' often translated 'land' instead of 'earth'?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "It refers only to Israel"
+          },
+          {
+            "id": "B",
+            "option": "It fits Pentateuchal land theme"
+          },
+          {
+            "id": "C",
+            "option": "It means sky"
+          },
+          {
+            "id": "D",
+            "option": "It is poetic only"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It aligns Genesis with covenant land themes."
+      },
+      {
+        "id": "a2134126-db6e-4921-9fd4-547a4ebd310b",
+        "question": "What does 'tohu vavohu' most likely describe?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Cosmic void"
+          },
+          {
+            "id": "B",
+            "option": "Uninhabitable wasteland"
+          },
+          {
+            "id": "C",
+            "option": "Heavenly realm"
+          },
+          {
+            "id": "D",
+            "option": "Moral evil"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It refers to wilderness/desolation needing preparation."
+      },
+      {
+        "id": "8d4b27c2-681c-48a1-906d-fbed33a54f2f",
+        "question": "Why is Day 1 called 'day one' (not 'first day')?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Translation error"
+          },
+          {
+            "id": "B",
+            "option": "Signals literary distinction"
+          },
+          {
+            "id": "C",
+            "option": "Numerical mistake"
+          },
+          {
+            "id": "D",
+            "option": "Chronology issue"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It may distinguish it from ordinal sequence and leave timing open."
+      },
+      {
+        "id": "1ca09bc4-4076-4cc3-a47e-cf24106264e4",
+        "question": "What is the significance of 'let there be' vs 'create'?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Same meaning"
+          },
+          {
+            "id": "B",
+            "option": "Indicates ordering vs creation ex nihilo"
+          },
+          {
+            "id": "C",
+            "option": "Different languages"
+          },
+          {
+            "id": "D",
+            "option": "No significance"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Different verbs show ordering, appointing, or forming."
+      },
+      {
+        "id": "7b190c3b-d1f6-4d79-81c6-9291fbed7463",
+        "question": "What structure exists between Days 1\u20133 and 4\u20136?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Random"
+          },
+          {
+            "id": "B",
+            "option": "Forming vs filling"
+          },
+          {
+            "id": "C",
+            "option": "Law vs covenant"
+          },
+          {
+            "id": "D",
+            "option": "Heaven vs earth"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Days 1\u20133 form; 4\u20136 fill and govern."
+      },
+      {
+        "id": "b556bd75-b0fd-48cb-aa44-8fb9ca00136b",
+        "question": "What is unique about Day 6?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "No creation"
+          },
+          {
+            "id": "B",
+            "option": "Crescendo with humanity"
+          },
+          {
+            "id": "C",
+            "option": "No blessing"
+          },
+          {
+            "id": "D",
+            "option": "Only animals"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It emphasizes humans as image-bearers and climax."
+      }
+    ],
+    "groupId": "Misc"
+  },
+  {
+    "id": "dd68070b-71e7-4f6e-9a5a-cf1357597c4c",
+    "title": "W3 Quiz 3",
+    "description": "Refined transcript-level quiz Week 3",
+    "questions": [
+      {
+        "id": "8b769825-2270-4dd4-9fab-7705c1440be4",
+        "question": "Why is Genesis 1:1 best understood as an indicative statement?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "It summarizes later events"
+          },
+          {
+            "id": "B",
+            "option": "It reports a completed act of creation"
+          },
+          {
+            "id": "C",
+            "option": "It is poetic only"
+          },
+          {
+            "id": "D",
+            "option": "It is a title"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It states that God created the heavens and earth, not merely summarizing or labeling."
+      },
+      {
+        "id": "f4d56f13-caa4-4ebc-9c62-6a5e81e89cc6",
+        "question": "What is meant by 'heavens and earth' as a merism?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Two locations"
+          },
+          {
+            "id": "B",
+            "option": "Totality of creation"
+          },
+          {
+            "id": "C",
+            "option": "Spiritual realm"
+          },
+          {
+            "id": "D",
+            "option": "Temple imagery"
+          }
+        ],
+        "answer": "B",
+        "explanation": "A merism uses two extremes to indicate the whole."
+      },
+      {
+        "id": "64df4f6b-9d25-4d94-8e5a-243787da9aba",
+        "question": "Why is 'eretz' often translated 'land' instead of 'earth'?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "It refers only to Israel"
+          },
+          {
+            "id": "B",
+            "option": "It fits Pentateuchal land theme"
+          },
+          {
+            "id": "C",
+            "option": "It means sky"
+          },
+          {
+            "id": "D",
+            "option": "It is poetic only"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It aligns Genesis with covenant land themes."
+      },
+      {
+        "id": "259d643f-fd78-4ee1-8a7b-b012aed6d56b",
+        "question": "What does 'tohu vavohu' most likely describe?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Cosmic void"
+          },
+          {
+            "id": "B",
+            "option": "Uninhabitable wasteland"
+          },
+          {
+            "id": "C",
+            "option": "Heavenly realm"
+          },
+          {
+            "id": "D",
+            "option": "Moral evil"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It refers to wilderness/desolation needing preparation."
+      },
+      {
+        "id": "25469866-fd94-4c40-a4c9-a4c453b5a2e1",
+        "question": "Why is Day 1 called 'day one' (not 'first day')?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Translation error"
+          },
+          {
+            "id": "B",
+            "option": "Signals literary distinction"
+          },
+          {
+            "id": "C",
+            "option": "Numerical mistake"
+          },
+          {
+            "id": "D",
+            "option": "Chronology issue"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It may distinguish it from ordinal sequence and leave timing open."
+      },
+      {
+        "id": "72f72090-c510-41c7-bf94-0362805fac83",
+        "question": "What is the significance of 'let there be' vs 'create'?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Same meaning"
+          },
+          {
+            "id": "B",
+            "option": "Indicates ordering vs creation ex nihilo"
+          },
+          {
+            "id": "C",
+            "option": "Different languages"
+          },
+          {
+            "id": "D",
+            "option": "No significance"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Different verbs show ordering, appointing, or forming."
+      },
+      {
+        "id": "93700185-ed11-4295-8d31-658860d4aad5",
+        "question": "What structure exists between Days 1\u20133 and 4\u20136?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Random"
+          },
+          {
+            "id": "B",
+            "option": "Forming vs filling"
+          },
+          {
+            "id": "C",
+            "option": "Law vs covenant"
+          },
+          {
+            "id": "D",
+            "option": "Heaven vs earth"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Days 1\u20133 form; 4\u20136 fill and govern."
+      },
+      {
+        "id": "bf320472-e239-49d4-9933-4a83e0c7e4ad",
+        "question": "What is unique about Day 6?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "No creation"
+          },
+          {
+            "id": "B",
+            "option": "Crescendo with humanity"
+          },
+          {
+            "id": "C",
+            "option": "No blessing"
+          },
+          {
+            "id": "D",
+            "option": "Only animals"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It emphasizes humans as image-bearers and climax."
+      }
+    ],
+    "groupId": "Misc"
+  },
+  {
+    "id": "cc9c7e45-7648-43e4-bdd2-011dbc2f1c22",
+    "title": "W4 Quiz 1",
+    "description": "Refined transcript-level quiz Week 4",
+    "questions": [
+      {
+        "id": "a85ad243-2857-49d3-bea2-ec3e5dd4fc9e",
+        "question": "What literary device connects Genesis 2:25 and 3:1?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Parallelism"
+          },
+          {
+            "id": "B",
+            "option": "Hebrew wordplay (naked/crafty)"
+          },
+          {
+            "id": "C",
+            "option": "Chiasm"
+          },
+          {
+            "id": "D",
+            "option": "Alliteration"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Same spelling links nakedness and serpent craftiness."
+      },
+      {
+        "id": "e6c2d13b-e50f-4f43-a617-961fde87e7fb",
+        "question": "What shift occurs in Genesis 3 regarding 'good'?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "God stops creating"
+          },
+          {
+            "id": "B",
+            "option": "Humans define good"
+          },
+          {
+            "id": "C",
+            "option": "Creation ends"
+          },
+          {
+            "id": "D",
+            "option": "Law begins"
+          }
+        ],
+        "answer": "B",
+        "explanation": "The woman evaluates what is 'good,' taking God's role."
+      },
+      {
+        "id": "f07f942f-0bb1-4aea-856d-2251095fb803",
+        "question": "Why does God question the man first?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "He sinned first"
+          },
+          {
+            "id": "B",
+            "option": "Narrative responsibility order"
+          },
+          {
+            "id": "C",
+            "option": "He is stronger"
+          },
+          {
+            "id": "D",
+            "option": "Random"
+          }
+        ],
+        "answer": "B",
+        "explanation": "The structure emphasizes accountability."
+      },
+      {
+        "id": "fb64fb3c-b7e7-4cb5-b797-060a759c045f",
+        "question": "Who is directly cursed in Genesis 3?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Man"
+          },
+          {
+            "id": "B",
+            "option": "Woman"
+          },
+          {
+            "id": "C",
+            "option": "Serpent"
+          },
+          {
+            "id": "D",
+            "option": "All equally"
+          }
+        ],
+        "answer": "C",
+        "explanation": "The serpent is explicitly cursed."
+      },
+      {
+        "id": "97d5ee06-3957-4a8a-8bb5-eb7586808366",
+        "question": "What does Genesis 3:15 introduce?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Temple worship"
+          },
+          {
+            "id": "B",
+            "option": "Two lines of seed"
+          },
+          {
+            "id": "C",
+            "option": "Law code"
+          },
+          {
+            "id": "D",
+            "option": "Sacrifice"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It introduces enmity between two lines."
+      },
+      {
+        "id": "bfb0af9d-78b2-49c7-b726-9dc1e5359bc3",
+        "question": "What does Eve\u2019s name emphasize?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Judgment"
+          },
+          {
+            "id": "B",
+            "option": "Life/offspring"
+          },
+          {
+            "id": "C",
+            "option": "Law"
+          },
+          {
+            "id": "D",
+            "option": "Death"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It highlights continuation of life through her."
+      },
+      {
+        "id": "b88641b8-a992-4103-ab2f-029a242be874",
+        "question": "What does exile from Eden represent?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Geography only"
+          },
+          {
+            "id": "B",
+            "option": "Separation from God\u2019s presence"
+          },
+          {
+            "id": "C",
+            "option": "Punishment only"
+          },
+          {
+            "id": "D",
+            "option": "Loss of land"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It represents being cast out from God\u2019s presence."
+      },
+      {
+        "id": "95b899dc-ba5e-4cfc-8d11-b57cec5072e4",
+        "question": "What is Genesis 2 primarily about according to lecture?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Law"
+          },
+          {
+            "id": "B",
+            "option": "Marriage"
+          },
+          {
+            "id": "C",
+            "option": "Temple"
+          },
+          {
+            "id": "D",
+            "option": "Sacrifice"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It emphasizes marriage as foundational."
+      }
+    ],
+    "groupId": "Misc"
+  },
+  {
+    "id": "ae3564c8-9b18-4892-8e36-779387815532",
+    "title": "W4 Quiz 2",
+    "description": "Refined transcript-level quiz Week 4",
+    "questions": [
+      {
+        "id": "201cd8d9-b657-4424-ba66-6ed35033e65e",
+        "question": "What literary device connects Genesis 2:25 and 3:1?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Parallelism"
+          },
+          {
+            "id": "B",
+            "option": "Hebrew wordplay (naked/crafty)"
+          },
+          {
+            "id": "C",
+            "option": "Chiasm"
+          },
+          {
+            "id": "D",
+            "option": "Alliteration"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Same spelling links nakedness and serpent craftiness."
+      },
+      {
+        "id": "a1133c79-71cb-49a6-91e4-5f1d3b8df821",
+        "question": "What shift occurs in Genesis 3 regarding 'good'?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "God stops creating"
+          },
+          {
+            "id": "B",
+            "option": "Humans define good"
+          },
+          {
+            "id": "C",
+            "option": "Creation ends"
+          },
+          {
+            "id": "D",
+            "option": "Law begins"
+          }
+        ],
+        "answer": "B",
+        "explanation": "The woman evaluates what is 'good,' taking God's role."
+      },
+      {
+        "id": "273b77b6-c0a9-4ad1-9185-266092a4b31a",
+        "question": "Why does God question the man first?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "He sinned first"
+          },
+          {
+            "id": "B",
+            "option": "Narrative responsibility order"
+          },
+          {
+            "id": "C",
+            "option": "He is stronger"
+          },
+          {
+            "id": "D",
+            "option": "Random"
+          }
+        ],
+        "answer": "B",
+        "explanation": "The structure emphasizes accountability."
+      },
+      {
+        "id": "5ca0fc8f-e5c0-43bd-9fc3-0b4c2eff3489",
+        "question": "Who is directly cursed in Genesis 3?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Man"
+          },
+          {
+            "id": "B",
+            "option": "Woman"
+          },
+          {
+            "id": "C",
+            "option": "Serpent"
+          },
+          {
+            "id": "D",
+            "option": "All equally"
+          }
+        ],
+        "answer": "C",
+        "explanation": "The serpent is explicitly cursed."
+      },
+      {
+        "id": "698e761e-28e7-41e4-8c0e-fc0fc535e68b",
+        "question": "What does Genesis 3:15 introduce?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Temple worship"
+          },
+          {
+            "id": "B",
+            "option": "Two lines of seed"
+          },
+          {
+            "id": "C",
+            "option": "Law code"
+          },
+          {
+            "id": "D",
+            "option": "Sacrifice"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It introduces enmity between two lines."
+      },
+      {
+        "id": "f583457e-584a-4b6c-9cd2-9ab1f811cf55",
+        "question": "What does Eve\u2019s name emphasize?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Judgment"
+          },
+          {
+            "id": "B",
+            "option": "Life/offspring"
+          },
+          {
+            "id": "C",
+            "option": "Law"
+          },
+          {
+            "id": "D",
+            "option": "Death"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It highlights continuation of life through her."
+      },
+      {
+        "id": "64ce1472-fa14-4dc8-b37c-51cea192e7be",
+        "question": "What does exile from Eden represent?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Geography only"
+          },
+          {
+            "id": "B",
+            "option": "Separation from God\u2019s presence"
+          },
+          {
+            "id": "C",
+            "option": "Punishment only"
+          },
+          {
+            "id": "D",
+            "option": "Loss of land"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It represents being cast out from God\u2019s presence."
+      },
+      {
+        "id": "6dfddd64-3523-4fa9-b391-0b896594ef1d",
+        "question": "What is Genesis 2 primarily about according to lecture?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Law"
+          },
+          {
+            "id": "B",
+            "option": "Marriage"
+          },
+          {
+            "id": "C",
+            "option": "Temple"
+          },
+          {
+            "id": "D",
+            "option": "Sacrifice"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It emphasizes marriage as foundational."
+      }
+    ],
+    "groupId": "Misc"
+  },
+  {
+    "id": "54981500-15c1-465d-bd83-fde0a6d94977",
+    "title": "W4 Quiz 3",
+    "description": "Refined transcript-level quiz Week 4",
+    "questions": [
+      {
+        "id": "97f90653-9f1a-40a2-b323-499c00767a27",
+        "question": "What literary device connects Genesis 2:25 and 3:1?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Parallelism"
+          },
+          {
+            "id": "B",
+            "option": "Hebrew wordplay (naked/crafty)"
+          },
+          {
+            "id": "C",
+            "option": "Chiasm"
+          },
+          {
+            "id": "D",
+            "option": "Alliteration"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Same spelling links nakedness and serpent craftiness."
+      },
+      {
+        "id": "280d5bf3-0813-4535-9ae7-ba9bb3db0866",
+        "question": "What shift occurs in Genesis 3 regarding 'good'?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "God stops creating"
+          },
+          {
+            "id": "B",
+            "option": "Humans define good"
+          },
+          {
+            "id": "C",
+            "option": "Creation ends"
+          },
+          {
+            "id": "D",
+            "option": "Law begins"
+          }
+        ],
+        "answer": "B",
+        "explanation": "The woman evaluates what is 'good,' taking God's role."
+      },
+      {
+        "id": "ac87e058-33be-4a58-8046-e7470271090d",
+        "question": "Why does God question the man first?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "He sinned first"
+          },
+          {
+            "id": "B",
+            "option": "Narrative responsibility order"
+          },
+          {
+            "id": "C",
+            "option": "He is stronger"
+          },
+          {
+            "id": "D",
+            "option": "Random"
+          }
+        ],
+        "answer": "B",
+        "explanation": "The structure emphasizes accountability."
+      },
+      {
+        "id": "9b31d933-0ada-40d2-93a4-b5fd8b02dd8c",
+        "question": "Who is directly cursed in Genesis 3?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Man"
+          },
+          {
+            "id": "B",
+            "option": "Woman"
+          },
+          {
+            "id": "C",
+            "option": "Serpent"
+          },
+          {
+            "id": "D",
+            "option": "All equally"
+          }
+        ],
+        "answer": "C",
+        "explanation": "The serpent is explicitly cursed."
+      },
+      {
+        "id": "4a7f481d-c92b-4ccf-8b54-191dd9387f4f",
+        "question": "What does Genesis 3:15 introduce?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Temple worship"
+          },
+          {
+            "id": "B",
+            "option": "Two lines of seed"
+          },
+          {
+            "id": "C",
+            "option": "Law code"
+          },
+          {
+            "id": "D",
+            "option": "Sacrifice"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It introduces enmity between two lines."
+      },
+      {
+        "id": "529885d9-3f26-4a72-8ed7-32cc258c8052",
+        "question": "What does Eve\u2019s name emphasize?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Judgment"
+          },
+          {
+            "id": "B",
+            "option": "Life/offspring"
+          },
+          {
+            "id": "C",
+            "option": "Law"
+          },
+          {
+            "id": "D",
+            "option": "Death"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It highlights continuation of life through her."
+      },
+      {
+        "id": "ef897f11-f4b1-4d90-b865-2a8954fc3e4f",
+        "question": "What does exile from Eden represent?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Geography only"
+          },
+          {
+            "id": "B",
+            "option": "Separation from God\u2019s presence"
+          },
+          {
+            "id": "C",
+            "option": "Punishment only"
+          },
+          {
+            "id": "D",
+            "option": "Loss of land"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It represents being cast out from God\u2019s presence."
+      },
+      {
+        "id": "584b03fe-ceaa-4243-820b-e0940392154f",
+        "question": "What is Genesis 2 primarily about according to lecture?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Law"
+          },
+          {
+            "id": "B",
+            "option": "Marriage"
+          },
+          {
+            "id": "C",
+            "option": "Temple"
+          },
+          {
+            "id": "D",
+            "option": "Sacrifice"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It emphasizes marriage as foundational."
+      }
+    ],
+    "groupId": "Misc"
+  },
+  {
+    "id": "ca7eccf4-a753-410b-9e26-57de2c2db99b",
+    "title": "W5 Quiz 1",
+    "description": "Refined transcript-level quiz Week 5",
+    "questions": [
+      {
+        "id": "578ac132-9989-4468-8795-7067f64230ec",
+        "question": "What phrase describes sin\u2019s action toward Cain?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Walking behind"
+          },
+          {
+            "id": "B",
+            "option": "Crouching at the door"
+          },
+          {
+            "id": "C",
+            "option": "Flying above"
+          },
+          {
+            "id": "D",
+            "option": "Hidden in heart"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Sin is personified as crouching."
+      },
+      {
+        "id": "6f69d3bb-ecb9-4a58-ac7c-d1ae42abd346",
+        "question": "What two words are paired with Cain (Gen 4)?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Love/hate"
+          },
+          {
+            "id": "B",
+            "option": "Desire/rule"
+          },
+          {
+            "id": "C",
+            "option": "Life/death"
+          },
+          {
+            "id": "D",
+            "option": "Faith/fear"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Echoes Genesis 3 language."
+      },
+      {
+        "id": "501f093b-5b65-4113-aa1d-969d5e73e0b2",
+        "question": "What marks the climax of Cain\u2019s genealogy?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "City building"
+          },
+          {
+            "id": "B",
+            "option": "Lamech\u2019s violence"
+          },
+          {
+            "id": "C",
+            "option": "Worship"
+          },
+          {
+            "id": "D",
+            "option": "Flood"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Lamech escalates violence."
+      },
+      {
+        "id": "960f2776-e2cb-41ec-8940-ae9c580dadc5",
+        "question": "What distinguishes Seth\u2019s line?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Wealth"
+          },
+          {
+            "id": "B",
+            "option": "Worship of God"
+          },
+          {
+            "id": "C",
+            "option": "Kingship"
+          },
+          {
+            "id": "D",
+            "option": "Priesthood"
+          }
+        ],
+        "answer": "B",
+        "explanation": "They call on the name of the LORD."
+      },
+      {
+        "id": "256fe6aa-d8d4-452b-8891-81ef2d98ecbd",
+        "question": "What breaks the genealogy pattern in Genesis 5?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Noah"
+          },
+          {
+            "id": "B",
+            "option": "Enoch does not die"
+          },
+          {
+            "id": "C",
+            "option": "Adam"
+          },
+          {
+            "id": "D",
+            "option": "Seth"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Enoch is taken by God."
+      },
+      {
+        "id": "223ba6a7-8e62-47b3-8819-f878c1459ac4",
+        "question": "What does Noah\u2019s name relate to?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Kingship"
+          },
+          {
+            "id": "B",
+            "option": "Comfort/rest"
+          },
+          {
+            "id": "C",
+            "option": "Judgment"
+          },
+          {
+            "id": "D",
+            "option": "Law"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Wordplay connects to comfort from curse."
+      },
+      {
+        "id": "18a5d3ae-4ece-4535-98ee-5440235c8853",
+        "question": "What does Genesis 6:5 describe?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Partial sin"
+          },
+          {
+            "id": "B",
+            "option": "Total human wickedness"
+          },
+          {
+            "id": "C",
+            "option": "Only Cain\u2019s line"
+          },
+          {
+            "id": "D",
+            "option": "Only cities"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Every thought is evil continually."
+      },
+      {
+        "id": "706d1e2b-2686-45be-87d5-6e739de19a52",
+        "question": "What does 'chen' (grace) signify in Noah\u2019s story?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Judgment"
+          },
+          {
+            "id": "B",
+            "option": "Favor from God"
+          },
+          {
+            "id": "C",
+            "option": "Law"
+          },
+          {
+            "id": "D",
+            "option": "Kingship"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Noah finds grace despite widespread sin."
+      }
+    ],
+    "groupId": "Misc"
+  },
+  {
+    "id": "a7c7d320-79b2-4b77-8740-410e1e307d4e",
+    "title": "W5 Quiz 2",
+    "description": "Refined transcript-level quiz Week 5",
+    "questions": [
+      {
+        "id": "51116738-94e1-40f9-80d1-43829317d00e",
+        "question": "What phrase describes sin\u2019s action toward Cain?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Walking behind"
+          },
+          {
+            "id": "B",
+            "option": "Crouching at the door"
+          },
+          {
+            "id": "C",
+            "option": "Flying above"
+          },
+          {
+            "id": "D",
+            "option": "Hidden in heart"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Sin is personified as crouching."
+      },
+      {
+        "id": "26f5a70b-459a-419f-9132-80934dfc55cb",
+        "question": "What two words are paired with Cain (Gen 4)?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Love/hate"
+          },
+          {
+            "id": "B",
+            "option": "Desire/rule"
+          },
+          {
+            "id": "C",
+            "option": "Life/death"
+          },
+          {
+            "id": "D",
+            "option": "Faith/fear"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Echoes Genesis 3 language."
+      },
+      {
+        "id": "abafa6cd-3cd6-4bb4-8e6d-e0225afee8bc",
+        "question": "What marks the climax of Cain\u2019s genealogy?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "City building"
+          },
+          {
+            "id": "B",
+            "option": "Lamech\u2019s violence"
+          },
+          {
+            "id": "C",
+            "option": "Worship"
+          },
+          {
+            "id": "D",
+            "option": "Flood"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Lamech escalates violence."
+      },
+      {
+        "id": "a1a7dd94-9aba-4d65-847e-d6e2ef3af721",
+        "question": "What distinguishes Seth\u2019s line?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Wealth"
+          },
+          {
+            "id": "B",
+            "option": "Worship of God"
+          },
+          {
+            "id": "C",
+            "option": "Kingship"
+          },
+          {
+            "id": "D",
+            "option": "Priesthood"
+          }
+        ],
+        "answer": "B",
+        "explanation": "They call on the name of the LORD."
+      },
+      {
+        "id": "2856d2f3-3abe-463d-8511-fe02ce325809",
+        "question": "What breaks the genealogy pattern in Genesis 5?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Noah"
+          },
+          {
+            "id": "B",
+            "option": "Enoch does not die"
+          },
+          {
+            "id": "C",
+            "option": "Adam"
+          },
+          {
+            "id": "D",
+            "option": "Seth"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Enoch is taken by God."
+      },
+      {
+        "id": "68a6e921-7c23-49e3-8bc2-39352b403ba8",
+        "question": "What does Noah\u2019s name relate to?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Kingship"
+          },
+          {
+            "id": "B",
+            "option": "Comfort/rest"
+          },
+          {
+            "id": "C",
+            "option": "Judgment"
+          },
+          {
+            "id": "D",
+            "option": "Law"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Wordplay connects to comfort from curse."
+      },
+      {
+        "id": "cfa0a872-3a2d-4a95-83d7-f418bcaf79ff",
+        "question": "What does Genesis 6:5 describe?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Partial sin"
+          },
+          {
+            "id": "B",
+            "option": "Total human wickedness"
+          },
+          {
+            "id": "C",
+            "option": "Only Cain\u2019s line"
+          },
+          {
+            "id": "D",
+            "option": "Only cities"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Every thought is evil continually."
+      },
+      {
+        "id": "a53274c4-4b01-43c1-a566-9c097a740adc",
+        "question": "What does 'chen' (grace) signify in Noah\u2019s story?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Judgment"
+          },
+          {
+            "id": "B",
+            "option": "Favor from God"
+          },
+          {
+            "id": "C",
+            "option": "Law"
+          },
+          {
+            "id": "D",
+            "option": "Kingship"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Noah finds grace despite widespread sin."
+      }
+    ],
+    "groupId": "Misc"
+  },
+  {
+    "id": "28f8ac4a-b98f-47cb-b6dd-4fa8e28f32aa",
+    "title": "W5 Quiz 3",
+    "description": "Refined transcript-level quiz Week 5",
+    "questions": [
+      {
+        "id": "16823033-5443-4346-9297-3d554df2c883",
+        "question": "What phrase describes sin\u2019s action toward Cain?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Walking behind"
+          },
+          {
+            "id": "B",
+            "option": "Crouching at the door"
+          },
+          {
+            "id": "C",
+            "option": "Flying above"
+          },
+          {
+            "id": "D",
+            "option": "Hidden in heart"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Sin is personified as crouching."
+      },
+      {
+        "id": "41f62294-dcac-47b1-afac-1b9eaf7b5354",
+        "question": "What two words are paired with Cain (Gen 4)?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Love/hate"
+          },
+          {
+            "id": "B",
+            "option": "Desire/rule"
+          },
+          {
+            "id": "C",
+            "option": "Life/death"
+          },
+          {
+            "id": "D",
+            "option": "Faith/fear"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Echoes Genesis 3 language."
+      },
+      {
+        "id": "3e88ffaf-3cc2-41be-b67a-ba0f14b3ffb1",
+        "question": "What marks the climax of Cain\u2019s genealogy?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "City building"
+          },
+          {
+            "id": "B",
+            "option": "Lamech\u2019s violence"
+          },
+          {
+            "id": "C",
+            "option": "Worship"
+          },
+          {
+            "id": "D",
+            "option": "Flood"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Lamech escalates violence."
+      },
+      {
+        "id": "cb60f0d0-0cd0-46d2-b195-11cd4fa30d2c",
+        "question": "What distinguishes Seth\u2019s line?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Wealth"
+          },
+          {
+            "id": "B",
+            "option": "Worship of God"
+          },
+          {
+            "id": "C",
+            "option": "Kingship"
+          },
+          {
+            "id": "D",
+            "option": "Priesthood"
+          }
+        ],
+        "answer": "B",
+        "explanation": "They call on the name of the LORD."
+      },
+      {
+        "id": "169a1f9a-202c-42b9-9143-4e5389a6fcd9",
+        "question": "What breaks the genealogy pattern in Genesis 5?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Noah"
+          },
+          {
+            "id": "B",
+            "option": "Enoch does not die"
+          },
+          {
+            "id": "C",
+            "option": "Adam"
+          },
+          {
+            "id": "D",
+            "option": "Seth"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Enoch is taken by God."
+      },
+      {
+        "id": "9fe17673-1711-483b-80d5-7de07ac5c71e",
+        "question": "What does Noah\u2019s name relate to?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Kingship"
+          },
+          {
+            "id": "B",
+            "option": "Comfort/rest"
+          },
+          {
+            "id": "C",
+            "option": "Judgment"
+          },
+          {
+            "id": "D",
+            "option": "Law"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Wordplay connects to comfort from curse."
+      },
+      {
+        "id": "c42edf98-24fc-443e-9ce0-137e6aa7d8e0",
+        "question": "What does Genesis 6:5 describe?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Partial sin"
+          },
+          {
+            "id": "B",
+            "option": "Total human wickedness"
+          },
+          {
+            "id": "C",
+            "option": "Only Cain\u2019s line"
+          },
+          {
+            "id": "D",
+            "option": "Only cities"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Every thought is evil continually."
+      },
+      {
+        "id": "373dcf84-df72-44cd-a0af-41c777314589",
+        "question": "What does 'chen' (grace) signify in Noah\u2019s story?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Judgment"
+          },
+          {
+            "id": "B",
+            "option": "Favor from God"
+          },
+          {
+            "id": "C",
+            "option": "Law"
+          },
+          {
+            "id": "D",
+            "option": "Kingship"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Noah finds grace despite widespread sin."
+      }
+    ],
+    "groupId": "Misc"
+  },
+  {
+    "id": "69e6e041-f28b-4413-8540-64677b02d122",
+    "title": "W6 Quiz 1",
+    "description": "Refined transcript-level quiz Week 6",
+    "questions": [
+      {
+        "id": "3fe403e4-9ded-4d79-8613-d66d58ba37f1",
+        "question": "What does the rainbow signify?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Judgment"
+          },
+          {
+            "id": "B",
+            "option": "Covenant promise"
+          },
+          {
+            "id": "C",
+            "option": "Law"
+          },
+          {
+            "id": "D",
+            "option": "Temple"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It is the sign of the Noahic covenant."
+      },
+      {
+        "id": "eee06ab1-af3e-4e4d-8e51-ec53f8d319c4",
+        "question": "Why is blood prohibited in Genesis 9?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Health reasons"
+          },
+          {
+            "id": "B",
+            "option": "Blood represents life"
+          },
+          {
+            "id": "C",
+            "option": "Cultural rule"
+          },
+          {
+            "id": "D",
+            "option": "Temple ritual"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Life is in the blood."
+      },
+      {
+        "id": "a793e89b-a876-4962-b8cc-ad6c49904729",
+        "question": "What is Genesis 10 known as?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Law code"
+          },
+          {
+            "id": "B",
+            "option": "Table of nations"
+          },
+          {
+            "id": "C",
+            "option": "Poetry"
+          },
+          {
+            "id": "D",
+            "option": "Temple text"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It describes spread of nations."
+      },
+      {
+        "id": "ea8c5dc1-ff11-4ca5-94ca-25e7aaf30d53",
+        "question": "What is Babel\u2019s main sin?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Violence"
+          },
+          {
+            "id": "B",
+            "option": "Self-exalting unity"
+          },
+          {
+            "id": "C",
+            "option": "Idolatry"
+          },
+          {
+            "id": "D",
+            "option": "Law breaking"
+          }
+        ],
+        "answer": "B",
+        "explanation": "They seek to make a name for themselves."
+      },
+      {
+        "id": "bc1a011a-358d-4a96-8cf2-dc31ff88f26a",
+        "question": "What does God do at Babel?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Destroys them"
+          },
+          {
+            "id": "B",
+            "option": "Confuses language and disperses"
+          },
+          {
+            "id": "C",
+            "option": "Kills leaders"
+          },
+          {
+            "id": "D",
+            "option": "Sends flood"
+          }
+        ],
+        "answer": "B",
+        "explanation": "He scatters them by confusing language."
+      },
+      {
+        "id": "2a14d832-6888-468c-862d-eb967a7921b7",
+        "question": "What theme connects Genesis 10\u201312?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Law"
+          },
+          {
+            "id": "B",
+            "option": "Nations \u2192 one chosen line"
+          },
+          {
+            "id": "C",
+            "option": "Temple"
+          },
+          {
+            "id": "D",
+            "option": "Sacrifice"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Focus narrows to Abram."
+      },
+      {
+        "id": "fba3a17b-ab3a-4230-8cc0-80f6337e2dfa",
+        "question": "What problem is introduced with Sarah?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Sin"
+          },
+          {
+            "id": "B",
+            "option": "Barrenness"
+          },
+          {
+            "id": "C",
+            "option": "Exile"
+          },
+          {
+            "id": "D",
+            "option": "Idolatry"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It threatens the promise of seed."
+      },
+      {
+        "id": "52c44591-3adf-4172-96de-8ac987216413",
+        "question": "What does Genesis 12:3 promise?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Israel only"
+          },
+          {
+            "id": "B",
+            "option": "Blessing to all nations"
+          },
+          {
+            "id": "C",
+            "option": "Temple worship"
+          },
+          {
+            "id": "D",
+            "option": "Law"
+          }
+        ],
+        "answer": "B",
+        "explanation": "All families of earth will be blessed."
+      }
+    ],
+    "groupId": "Misc"
+  },
+  {
+    "id": "01ce55d8-8079-4d1c-8c57-26b18a27ffd6",
+    "title": "W6 Quiz 2",
+    "description": "Refined transcript-level quiz Week 6",
+    "questions": [
+      {
+        "id": "b35cefc3-2c10-4038-baf0-a455f5847524",
+        "question": "What does the rainbow signify?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Judgment"
+          },
+          {
+            "id": "B",
+            "option": "Covenant promise"
+          },
+          {
+            "id": "C",
+            "option": "Law"
+          },
+          {
+            "id": "D",
+            "option": "Temple"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It is the sign of the Noahic covenant."
+      },
+      {
+        "id": "da7dc11f-bd82-4787-a8bc-cbf53b5795f9",
+        "question": "Why is blood prohibited in Genesis 9?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Health reasons"
+          },
+          {
+            "id": "B",
+            "option": "Blood represents life"
+          },
+          {
+            "id": "C",
+            "option": "Cultural rule"
+          },
+          {
+            "id": "D",
+            "option": "Temple ritual"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Life is in the blood."
+      },
+      {
+        "id": "cd7894e8-7d15-4037-9ef9-542f1f71a58c",
+        "question": "What is Genesis 10 known as?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Law code"
+          },
+          {
+            "id": "B",
+            "option": "Table of nations"
+          },
+          {
+            "id": "C",
+            "option": "Poetry"
+          },
+          {
+            "id": "D",
+            "option": "Temple text"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It describes spread of nations."
+      },
+      {
+        "id": "b93fdaf7-4013-410e-87a6-1191342d1015",
+        "question": "What is Babel\u2019s main sin?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Violence"
+          },
+          {
+            "id": "B",
+            "option": "Self-exalting unity"
+          },
+          {
+            "id": "C",
+            "option": "Idolatry"
+          },
+          {
+            "id": "D",
+            "option": "Law breaking"
+          }
+        ],
+        "answer": "B",
+        "explanation": "They seek to make a name for themselves."
+      },
+      {
+        "id": "80a11574-fdbb-449b-a03f-8f333d12b620",
+        "question": "What does God do at Babel?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Destroys them"
+          },
+          {
+            "id": "B",
+            "option": "Confuses language and disperses"
+          },
+          {
+            "id": "C",
+            "option": "Kills leaders"
+          },
+          {
+            "id": "D",
+            "option": "Sends flood"
+          }
+        ],
+        "answer": "B",
+        "explanation": "He scatters them by confusing language."
+      },
+      {
+        "id": "22fcf8f7-2ef4-4401-9f0c-8fadc64b66d6",
+        "question": "What theme connects Genesis 10\u201312?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Law"
+          },
+          {
+            "id": "B",
+            "option": "Nations \u2192 one chosen line"
+          },
+          {
+            "id": "C",
+            "option": "Temple"
+          },
+          {
+            "id": "D",
+            "option": "Sacrifice"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Focus narrows to Abram."
+      },
+      {
+        "id": "9c6c6d4e-47a1-42e3-915c-af1e8ab3c865",
+        "question": "What problem is introduced with Sarah?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Sin"
+          },
+          {
+            "id": "B",
+            "option": "Barrenness"
+          },
+          {
+            "id": "C",
+            "option": "Exile"
+          },
+          {
+            "id": "D",
+            "option": "Idolatry"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It threatens the promise of seed."
+      },
+      {
+        "id": "5f77d954-5200-48bd-a43e-cf1081d6e7f0",
+        "question": "What does Genesis 12:3 promise?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Israel only"
+          },
+          {
+            "id": "B",
+            "option": "Blessing to all nations"
+          },
+          {
+            "id": "C",
+            "option": "Temple worship"
+          },
+          {
+            "id": "D",
+            "option": "Law"
+          }
+        ],
+        "answer": "B",
+        "explanation": "All families of earth will be blessed."
+      }
+    ],
+    "groupId": "Misc"
+  },
+  {
+    "id": "06935f54-6c3e-46a9-8bc4-eb214e2cc373",
+    "title": "W6 Quiz 3",
+    "description": "Refined transcript-level quiz Week 6",
+    "questions": [
+      {
+        "id": "8b8e3fa6-2e4b-4013-ae72-88b1d207f07d",
+        "question": "What does the rainbow signify?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Judgment"
+          },
+          {
+            "id": "B",
+            "option": "Covenant promise"
+          },
+          {
+            "id": "C",
+            "option": "Law"
+          },
+          {
+            "id": "D",
+            "option": "Temple"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It is the sign of the Noahic covenant."
+      },
+      {
+        "id": "c44a7565-4271-4a38-8de2-040eb6a3ebd1",
+        "question": "Why is blood prohibited in Genesis 9?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Health reasons"
+          },
+          {
+            "id": "B",
+            "option": "Blood represents life"
+          },
+          {
+            "id": "C",
+            "option": "Cultural rule"
+          },
+          {
+            "id": "D",
+            "option": "Temple ritual"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Life is in the blood."
+      },
+      {
+        "id": "b9ff7e9a-9191-4dc8-9334-c14d0509e1ad",
+        "question": "What is Genesis 10 known as?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Law code"
+          },
+          {
+            "id": "B",
+            "option": "Table of nations"
+          },
+          {
+            "id": "C",
+            "option": "Poetry"
+          },
+          {
+            "id": "D",
+            "option": "Temple text"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It describes spread of nations."
+      },
+      {
+        "id": "deca47a9-f749-4f35-ab79-41c81416bad9",
+        "question": "What is Babel\u2019s main sin?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Violence"
+          },
+          {
+            "id": "B",
+            "option": "Self-exalting unity"
+          },
+          {
+            "id": "C",
+            "option": "Idolatry"
+          },
+          {
+            "id": "D",
+            "option": "Law breaking"
+          }
+        ],
+        "answer": "B",
+        "explanation": "They seek to make a name for themselves."
+      },
+      {
+        "id": "5d29aefb-6f74-421d-ae58-e74db22c419f",
+        "question": "What does God do at Babel?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Destroys them"
+          },
+          {
+            "id": "B",
+            "option": "Confuses language and disperses"
+          },
+          {
+            "id": "C",
+            "option": "Kills leaders"
+          },
+          {
+            "id": "D",
+            "option": "Sends flood"
+          }
+        ],
+        "answer": "B",
+        "explanation": "He scatters them by confusing language."
+      },
+      {
+        "id": "c4bae0bb-ae3e-4545-a018-4471701a241b",
+        "question": "What theme connects Genesis 10\u201312?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Law"
+          },
+          {
+            "id": "B",
+            "option": "Nations \u2192 one chosen line"
+          },
+          {
+            "id": "C",
+            "option": "Temple"
+          },
+          {
+            "id": "D",
+            "option": "Sacrifice"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Focus narrows to Abram."
+      },
+      {
+        "id": "bb5e370d-9c69-4f57-a0da-f592dac050f0",
+        "question": "What problem is introduced with Sarah?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Sin"
+          },
+          {
+            "id": "B",
+            "option": "Barrenness"
+          },
+          {
+            "id": "C",
+            "option": "Exile"
+          },
+          {
+            "id": "D",
+            "option": "Idolatry"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It threatens the promise of seed."
+      },
+      {
+        "id": "d86d64f6-9305-4fa1-9b64-873fcdbebd35",
+        "question": "What does Genesis 12:3 promise?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Israel only"
+          },
+          {
+            "id": "B",
+            "option": "Blessing to all nations"
+          },
+          {
+            "id": "C",
+            "option": "Temple worship"
+          },
+          {
+            "id": "D",
+            "option": "Law"
+          }
+        ],
+        "answer": "B",
+        "explanation": "All families of earth will be blessed."
+      }
+    ],
+    "groupId": "Misc"
+  },
+  {
+    "id": "44ee3f07-8099-4b24-bffd-c3214acbbfb9",
+    "title": "W7 Quiz 1",
+    "description": "Refined transcript-level quiz Week 7",
+    "questions": [
+      {
+        "id": "c13401f1-1079-4727-ba06-e1628dac745f",
+        "question": "What does Exodus mean in Hebrew title?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Law"
+          },
+          {
+            "id": "B",
+            "option": "Names"
+          },
+          {
+            "id": "C",
+            "option": "Covenant"
+          },
+          {
+            "id": "D",
+            "option": "Journey"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Shemot = 'Names.'"
+      },
+      {
+        "id": "d146560f-a5cb-4cdd-b4f9-74da9c6e6c2c",
+        "question": "What Genesis language is repeated in Exodus 1?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Law"
+          },
+          {
+            "id": "B",
+            "option": "Creation language (multiply/fill)"
+          },
+          {
+            "id": "C",
+            "option": "Temple"
+          },
+          {
+            "id": "D",
+            "option": "Sacrifice"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Israel multiplies like creation."
+      },
+      {
+        "id": "3936e404-d8f7-4338-87b5-2b5a69753b9a",
+        "question": "What characterizes Pharaoh?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Faith"
+          },
+          {
+            "id": "B",
+            "option": "Fear and oppression"
+          },
+          {
+            "id": "C",
+            "option": "Wisdom"
+          },
+          {
+            "id": "D",
+            "option": "Mercy"
+          }
+        ],
+        "answer": "B",
+        "explanation": "He fears Israel and oppresses them."
+      },
+      {
+        "id": "6451f41a-471a-4b55-84e2-90abe8ab1aed",
+        "question": "What do the midwives demonstrate?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Fear of Pharaoh"
+          },
+          {
+            "id": "B",
+            "option": "Fear of God"
+          },
+          {
+            "id": "C",
+            "option": "Rebellion"
+          },
+          {
+            "id": "D",
+            "option": "Weakness"
+          }
+        ],
+        "answer": "B",
+        "explanation": "They fear God and act courageously."
+      },
+      {
+        "id": "76c5be7d-f610-441f-86e5-d5864109efd8",
+        "question": "What does 'I AM WHO I AM' emphasize?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Name only"
+          },
+          {
+            "id": "B",
+            "option": "God\u2019s presence and being"
+          },
+          {
+            "id": "C",
+            "option": "Law"
+          },
+          {
+            "id": "D",
+            "option": "Temple"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It emphasizes God's active presence."
+      },
+      {
+        "id": "8571dee7-919b-47f5-93a0-08a573324708",
+        "question": "What is the purpose of the plagues?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Punishment only"
+          },
+          {
+            "id": "B",
+            "option": "Reveal God's power globally"
+          },
+          {
+            "id": "C",
+            "option": "Law enforcement"
+          },
+          {
+            "id": "D",
+            "option": "Temple setup"
+          }
+        ],
+        "answer": "B",
+        "explanation": "They proclaim God's name."
+      },
+      {
+        "id": "3e6af0be-5a93-459e-9e0a-8f0a06e37f7e",
+        "question": "What pattern does Exodus follow from Genesis?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Temple"
+          },
+          {
+            "id": "B",
+            "option": "Exile and return"
+          },
+          {
+            "id": "C",
+            "option": "Law only"
+          },
+          {
+            "id": "D",
+            "option": "Sacrifice"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It continues exile \u2192 return pattern."
+      },
+      {
+        "id": "3f70ab90-df51-4b3a-816c-c72040cd32ed",
+        "question": "What major issue is raised about the law?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "It is ignored"
+          },
+          {
+            "id": "B",
+            "option": "Its ongoing application"
+          },
+          {
+            "id": "C",
+            "option": "Its origin"
+          },
+          {
+            "id": "D",
+            "option": "Its language"
+          }
+        ],
+        "answer": "B",
+        "explanation": "How/if it remains binding is questioned."
+      }
+    ],
+    "groupId": "Misc"
+  },
+  {
+    "id": "8709b745-ec28-4cd5-82ab-b523bb16463f",
+    "title": "W7 Quiz 2",
+    "description": "Refined transcript-level quiz Week 7",
+    "questions": [
+      {
+        "id": "e3d3cf3a-b606-4e97-aa99-4036a411163c",
+        "question": "What does Exodus mean in Hebrew title?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Law"
+          },
+          {
+            "id": "B",
+            "option": "Names"
+          },
+          {
+            "id": "C",
+            "option": "Covenant"
+          },
+          {
+            "id": "D",
+            "option": "Journey"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Shemot = 'Names.'"
+      },
+      {
+        "id": "e4373628-3e72-49b9-a4e7-5d1772cdf1a3",
+        "question": "What Genesis language is repeated in Exodus 1?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Law"
+          },
+          {
+            "id": "B",
+            "option": "Creation language (multiply/fill)"
+          },
+          {
+            "id": "C",
+            "option": "Temple"
+          },
+          {
+            "id": "D",
+            "option": "Sacrifice"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Israel multiplies like creation."
+      },
+      {
+        "id": "b6ee9227-7be4-4bc3-85f9-423f5ceb2b64",
+        "question": "What characterizes Pharaoh?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Faith"
+          },
+          {
+            "id": "B",
+            "option": "Fear and oppression"
+          },
+          {
+            "id": "C",
+            "option": "Wisdom"
+          },
+          {
+            "id": "D",
+            "option": "Mercy"
+          }
+        ],
+        "answer": "B",
+        "explanation": "He fears Israel and oppresses them."
+      },
+      {
+        "id": "335f463b-5f6a-4032-a516-3fe591ae502b",
+        "question": "What do the midwives demonstrate?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Fear of Pharaoh"
+          },
+          {
+            "id": "B",
+            "option": "Fear of God"
+          },
+          {
+            "id": "C",
+            "option": "Rebellion"
+          },
+          {
+            "id": "D",
+            "option": "Weakness"
+          }
+        ],
+        "answer": "B",
+        "explanation": "They fear God and act courageously."
+      },
+      {
+        "id": "e0c38f2d-e81b-489d-b859-dfb74005d494",
+        "question": "What does 'I AM WHO I AM' emphasize?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Name only"
+          },
+          {
+            "id": "B",
+            "option": "God\u2019s presence and being"
+          },
+          {
+            "id": "C",
+            "option": "Law"
+          },
+          {
+            "id": "D",
+            "option": "Temple"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It emphasizes God's active presence."
+      },
+      {
+        "id": "a135b5b8-14aa-45c3-bb06-dfae68527c74",
+        "question": "What is the purpose of the plagues?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Punishment only"
+          },
+          {
+            "id": "B",
+            "option": "Reveal God's power globally"
+          },
+          {
+            "id": "C",
+            "option": "Law enforcement"
+          },
+          {
+            "id": "D",
+            "option": "Temple setup"
+          }
+        ],
+        "answer": "B",
+        "explanation": "They proclaim God's name."
+      },
+      {
+        "id": "f2673aa0-0246-4695-9ec2-98fcf86b72be",
+        "question": "What pattern does Exodus follow from Genesis?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Temple"
+          },
+          {
+            "id": "B",
+            "option": "Exile and return"
+          },
+          {
+            "id": "C",
+            "option": "Law only"
+          },
+          {
+            "id": "D",
+            "option": "Sacrifice"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It continues exile \u2192 return pattern."
+      },
+      {
+        "id": "2a037343-b056-4a33-874d-6010d35cd279",
+        "question": "What major issue is raised about the law?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "It is ignored"
+          },
+          {
+            "id": "B",
+            "option": "Its ongoing application"
+          },
+          {
+            "id": "C",
+            "option": "Its origin"
+          },
+          {
+            "id": "D",
+            "option": "Its language"
+          }
+        ],
+        "answer": "B",
+        "explanation": "How/if it remains binding is questioned."
+      }
+    ],
+    "groupId": "Misc"
+  },
+  {
+    "id": "62e190f7-fb72-46e1-9323-b783a634fb61",
+    "title": "W7 Quiz 3",
+    "description": "Refined transcript-level quiz Week 7",
+    "questions": [
+      {
+        "id": "aa08eaaa-9d08-4257-986b-1741c3927054",
+        "question": "What does Exodus mean in Hebrew title?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Law"
+          },
+          {
+            "id": "B",
+            "option": "Names"
+          },
+          {
+            "id": "C",
+            "option": "Covenant"
+          },
+          {
+            "id": "D",
+            "option": "Journey"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Shemot = 'Names.'"
+      },
+      {
+        "id": "c81a23ff-9153-4ccb-994f-edb94a12f221",
+        "question": "What Genesis language is repeated in Exodus 1?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Law"
+          },
+          {
+            "id": "B",
+            "option": "Creation language (multiply/fill)"
+          },
+          {
+            "id": "C",
+            "option": "Temple"
+          },
+          {
+            "id": "D",
+            "option": "Sacrifice"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Israel multiplies like creation."
+      },
+      {
+        "id": "8a9fb9ea-49b5-4285-bdec-199d9fa627d9",
+        "question": "What characterizes Pharaoh?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Faith"
+          },
+          {
+            "id": "B",
+            "option": "Fear and oppression"
+          },
+          {
+            "id": "C",
+            "option": "Wisdom"
+          },
+          {
+            "id": "D",
+            "option": "Mercy"
+          }
+        ],
+        "answer": "B",
+        "explanation": "He fears Israel and oppresses them."
+      },
+      {
+        "id": "0b1195a3-d78a-4bff-9b1d-4a1175c7b932",
+        "question": "What do the midwives demonstrate?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Fear of Pharaoh"
+          },
+          {
+            "id": "B",
+            "option": "Fear of God"
+          },
+          {
+            "id": "C",
+            "option": "Rebellion"
+          },
+          {
+            "id": "D",
+            "option": "Weakness"
+          }
+        ],
+        "answer": "B",
+        "explanation": "They fear God and act courageously."
+      },
+      {
+        "id": "15c85641-51ac-4b7b-a893-6ae978542684",
+        "question": "What does 'I AM WHO I AM' emphasize?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Name only"
+          },
+          {
+            "id": "B",
+            "option": "God\u2019s presence and being"
+          },
+          {
+            "id": "C",
+            "option": "Law"
+          },
+          {
+            "id": "D",
+            "option": "Temple"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It emphasizes God's active presence."
+      },
+      {
+        "id": "574db52f-90d6-45e3-a6fe-d51cfa358aa9",
+        "question": "What is the purpose of the plagues?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Punishment only"
+          },
+          {
+            "id": "B",
+            "option": "Reveal God's power globally"
+          },
+          {
+            "id": "C",
+            "option": "Law enforcement"
+          },
+          {
+            "id": "D",
+            "option": "Temple setup"
+          }
+        ],
+        "answer": "B",
+        "explanation": "They proclaim God's name."
+      },
+      {
+        "id": "7bf44b78-208b-4eb1-9bbf-ad795b68b313",
+        "question": "What pattern does Exodus follow from Genesis?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "Temple"
+          },
+          {
+            "id": "B",
+            "option": "Exile and return"
+          },
+          {
+            "id": "C",
+            "option": "Law only"
+          },
+          {
+            "id": "D",
+            "option": "Sacrifice"
+          }
+        ],
+        "answer": "B",
+        "explanation": "It continues exile \u2192 return pattern."
+      },
+      {
+        "id": "4ef54773-9b90-4013-9766-e67649a4a186",
+        "question": "What major issue is raised about the law?",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "id": "A",
+            "option": "It is ignored"
+          },
+          {
+            "id": "B",
+            "option": "Its ongoing application"
+          },
+          {
+            "id": "C",
+            "option": "Its origin"
+          },
+          {
+            "id": "D",
+            "option": "Its language"
+          }
+        ],
+        "answer": "B",
+        "explanation": "How/if it remains binding is questioned."
+      }
+    ],
+    "groupId": "Misc"
+  }
+]

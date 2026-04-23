@@ -1,0 +1,929 @@
+{
+  "version": 1,
+  "quizzes": [
+    {
+      "id": "w12-judges-1-1",
+      "title": "W12 Quiz 1",
+      "description": "Judges authorship, dating, canonical authority, structure, and chronology",
+      "questions": [
+        {
+          "id": "w12-judges-1-1-q01",
+          "question": "What does Judges 11:26 suggest about the book composition?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "A long time horizon, since it refers to about 300 years",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "That Judges was written before Moses",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "That the book covers only one week",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "That no historical setting exists",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The 300-year reference implies significant distance from early events and supports later compilation.",
+          "number": 1
+        },
+        {
+          "id": "w12-judges-1-1-q02",
+          "question": "What do the no king in Israel refrains imply?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "That Israel never had tribes",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "A perspective aware of monarchy or its need",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "That Moses was still alive",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "That Judges is only about priests",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The repeated refrain suggests the author writes from a vantage point where kingship is known or desired as a remedy.",
+          "number": 2
+        },
+        {
+          "id": "w12-judges-1-1-q03",
+          "question": "Why is Judges 18:30 important for dating discussions?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It names the Roman emperor",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "It dates the book to the flood",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "It mentions captivity of the land",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It denies the exile",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The captivity reference may indicate later editorial updating or an exilic/captivity horizon.",
+          "number": 3
+        },
+        {
+          "id": "w12-judges-1-1-q04",
+          "question": "How does the lecture connect authorship and canon?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Unknown authorship removes authority",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Only books signed by Moses count",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Councils create inspiration",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Authority rests on Scripture being God-breathed, not knowing the human author",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "The lecture emphasizes theopneustos and pasagraphe: Scripture authority does not depend on identifying every human author.",
+          "number": 4
+        },
+        {
+          "id": "w12-judges-1-1-q05",
+          "question": "What cycle is introduced in Judges 2?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Disobedience, divine anger, repentance or groaning, and salvation",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Creation, flood, Babel, Abraham",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Birth, exile, return, temple",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Wisdom, poetry, law, gospel",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The lecture follows the recurring Judges cycle of sin, oppression, cry, and deliverance.",
+          "number": 5
+        },
+        {
+          "id": "w12-judges-1-1-q06",
+          "question": "Which sections function as concluding narrative units outside the main cycle?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Genesis 12-15",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Judges 17-18 and Judges 19-21",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "1 Kings 1-2",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Psalms 1-2",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Micah/Dan and the Levite concubine narratives are treated as independent concluding units.",
+          "number": 6
+        },
+        {
+          "id": "w12-judges-1-1-q07",
+          "question": "What does judge often mean in Judges?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "A temple architect",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "A foreign emperor",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Deliverer or war leader more than courtroom adjudicator",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "A census official only",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The lecture distinguishes the judges from modern legal judges, though Moses can serve as a contrast for adjudication.",
+          "number": 7
+        },
+        {
+          "id": "w12-judges-1-1-q08",
+          "question": "How are minor and major judges distinguished?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Minor judges are always children",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Major judges never fight",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Only minor judges are inspired",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Minor judges receive brief notices; major judges get extended narratives",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "The lecture notes the difference between brief mentions and fuller narratives such as Gideon.",
+          "number": 8
+        },
+        {
+          "id": "w12-judges-1-1-q09",
+          "question": "Why is Judges chronology difficult?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It uses many round numbers and does not align neatly with broader timelines such as 1 Kings 480 years",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "It has no numbers at all",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "It covers only the exile",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It gives exact modern dates for every event",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The prevalence of round numbers and tension with other chronological claims suggests non-precision.",
+          "number": 9
+        },
+        {
+          "id": "w12-judges-1-1-q10",
+          "question": "What does the lecture infer about the compiler of Judges?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "The compiler wrote only a neutral diary",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "The compiler selected and arranged traditions to communicate a theological message",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "The compiler ignored all earlier traditions",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "The compiler removed every pattern",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Judges is presented as a curated and arranged work with a structured theological message.",
+          "number": 10
+        }
+      ],
+      "groupId": "W12 Judges"
+    },
+    {
+      "id": "w12-judges-1-2",
+      "title": "W12 Quiz 2",
+      "description": "Judges 1-2 as continuity with Joshua, Judah leadership, incomplete conquest, and Bokim",
+      "questions": [
+        {
+          "id": "w12-judges-1-2-q01",
+          "question": "How does Judges deliberately link itself to Joshua?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It starts with David coronation",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "It quotes Isaiah first",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "It opens with after the death of Joshua",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It denies Joshua died",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The opening formula echoes Joshua and signals continuity with the preceding narrative.",
+          "number": 1
+        },
+        {
+          "id": "w12-judges-1-2-q02",
+          "question": "What is the function of the after the death of formula?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It always introduces poetry only",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "It marks a genealogy",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "It proves the next book is unrelated",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It links major narrative blocks compositionally",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "The lecture compares the formula to other transitions such as 2 Samuel 1:1.",
+          "number": 2
+        },
+        {
+          "id": "w12-judges-1-2-q03",
+          "question": "What leadership problem appears at the beginning of Judges?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Israel asks who will go up first",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "There are three kings at once",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Moses refuses to die",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "The priests disappear",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Unlike Moses-to-Joshua succession, Judges opens with a leadership vacuum.",
+          "number": 3
+        },
+        {
+          "id": "w12-judges-1-2-q04",
+          "question": "Which tribe does God appoint to lead?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Dan",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Judah",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Naphtali",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Levi only",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "God designates Judah to go up, framing Judah positively and foreshadowing later leadership themes.",
+          "number": 4
+        },
+        {
+          "id": "w12-judges-1-2-q05",
+          "question": "What complicates Judah positive portrayal?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Judah never fights",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Judah worships in Babylon immediately",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Even Judah has incomplete conquest, with iron chariots cited",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Judah rejects all land",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Judah has real success but does not fully drive out all inhabitants.",
+          "number": 5
+        },
+        {
+          "id": "w12-judges-1-2-q06",
+          "question": "Why are Caleb and Othniel material mentioned?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "They prove Judges is about Rome",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "They replace the need for Joshua",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "They show no connection to earlier books",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Judges reuses Joshua-era material to strengthen Judah favorable framing",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "The lecture notes reprise of Joshua 15 material, likely selected to reinforce Judah prominence.",
+          "number": 6
+        },
+        {
+          "id": "w12-judges-1-2-q07",
+          "question": "How is Benjamin portrayed in relation to Jerusalem?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Benjamin fails to dispossess the Jebusites, contrasting Judah success",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Benjamin builds the temple",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Benjamin conquers every city alone",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Benjamin becomes the priestly tribe",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The contrast may anticipate later Benjamin/Saul and Judah/David tensions.",
+          "number": 7
+        },
+        {
+          "id": "w12-judges-1-2-q08",
+          "question": "What do the failures of Manasseh and Ephraim help set up?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Immediate perfect obedience",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Ongoing Canaanite presence, conflict, and idolatry",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "The end of the covenant",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "A return to Eden",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The wider tribal failures establish the conditions for later trouble.",
+          "number": 8
+        },
+        {
+          "id": "w12-judges-1-2-q09",
+          "question": "What happens in Judges 2:1-5?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Solomon dedicates the temple",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Jeremiah writes a scroll",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "The messenger of the LORD rebukes covenant disobedience and warns of thorns and snares",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Israel crosses the Red Sea",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The messenger interprets the conquest failures theologically as covenant disobedience.",
+          "number": 9
+        },
+        {
+          "id": "w12-judges-1-2-q10",
+          "question": "Why is the place called Bokim?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Because Joshua is crowned there",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Because it means horses",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Because the ark is hidden there",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Because the people weep there",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "Bokim is explained etiologically from the Hebrew root for weeping.",
+          "number": 10
+        }
+      ],
+      "groupId": "W12 Judges"
+    },
+    {
+      "id": "w12-judges-1-3",
+      "title": "W12 Quiz 3",
+      "description": "Judges 2 as theological framework, idolatry cycle, relapse, and transition to Samuel",
+      "questions": [
+        {
+          "id": "w12-judges-1-3-q01",
+          "question": "What does Judges 2:6-9 repeat?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Joshua 24:28-31 nearly verbatim",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Genesis 1:1-5",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Psalm 23",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "1 Kings 8",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The repetition links Judges to Joshua and shows thematic recapitulation.",
+          "number": 1
+        },
+        {
+          "id": "w12-judges-1-3-q02",
+          "question": "What does the repeated Joshua death material suggest?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Joshua never died",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Judges is not arranged as strict modern chronology",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Judges has no literary purpose",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "The text is only a census",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture argues the repetition is a theological and literary bridge rather than a simple chronological sequence.",
+          "number": 2
+        },
+        {
+          "id": "w12-judges-1-3-q03",
+          "question": "What central problem begins in Judges 2:10?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Israel has too many faithful kings",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "The land disappears",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "A new generation does not know the LORD or his works",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Moses builds a palace",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The new generation forgetting Yahweh becomes the root of the cycle.",
+          "number": 3
+        },
+        {
+          "id": "w12-judges-1-3-q04",
+          "question": "Which idolatry language becomes a refrain in Judges?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Israel built the second temple",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Israel wrote Proverbs",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Israel obeyed perfectly",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Israel did evil in the sight of the LORD and served Baal and Asherah",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "The lecture highlights did evil in the sight of the LORD and service to Baal/Asherah as recurring language.",
+          "number": 4
+        },
+        {
+          "id": "w12-judges-1-3-q05",
+          "question": "How does God respond to Israel covenant unfaithfulness?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "He gives or sells them into enemy hands so they cannot stand before enemies",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "He makes every enemy vanish forever",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "He ends all warnings",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "He appoints Pharaoh as high priest",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Israel defeat reverses Joshua success because of covenant disobedience.",
+          "number": 5
+        },
+        {
+          "id": "w12-judges-1-3-q06",
+          "question": "What happens after each judge dies?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Israel remains permanently faithful",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Israel relapses, often worse than before",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "The monarchy begins immediately",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "All nations become Israel",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The cycle grows bleak because deliverance does not produce lasting heart-level obedience.",
+          "number": 6
+        },
+        {
+          "id": "w12-judges-1-3-q07",
+          "question": "Which phrases connect Judges to Exodus and Deuteronomy language?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Blessed are the poor in spirit",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "In the beginning was the Word",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Did not listen to my voice and turned aside quickly",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Render to Caesar",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The lecture links Judges phrasing to covenant warnings and golden calf language.",
+          "number": 7
+        },
+        {
+          "id": "w12-judges-1-3-q08",
+          "question": "Why does the LORD leave remaining nations in the land?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Because the land was never promised",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Because Joshua forgot the geography",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Because Judah asked for no land",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Because Israel transgressed the covenant and the nations become part of judgment/testing",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "The lecture reads remaining nations as a consequence of covenant breach and a testing context.",
+          "number": 8
+        },
+        {
+          "id": "w12-judges-1-3-q09",
+          "question": "What positive but limited theme appears with some judges?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "The Spirit of the LORD comes upon them for deliverance",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "They all keep the law perfectly",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "They all become Davidic kings",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "They all build temples",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Spirit empowerment highlights the need for divinely empowered leadership even in the dark cycles.",
+          "number": 9
+        },
+        {
+          "id": "w12-judges-1-3-q10",
+          "question": "How does Judges transition toward Samuel?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It ends with Solomon dedication",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "No king in Israel, Ephraim links, and Samuel as a judge prepare for monarchy",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "It resolves kingship with Saul already ruling",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It rejects all leadership questions",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture connects Judges to 1 Samuel through shared geography, themes, and Samuel role as judge.",
+          "number": 10
+        }
+      ],
+      "groupId": "W12 Judges"
+    }
+  ]
+}

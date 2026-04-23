@@ -1,6 +1,6 @@
 # QuizSpark SPA
 
-A fully client-side quizzes experience built with Vite, React, and TypeScript. Quizzes are loaded from a static JSON file and all attempt data persists in `localStorage`, making the app ideal for simple CDN or object-storage hosting.
+A fully client-side quizzes experience built with Vite, React, and TypeScript. Quizzes are loaded from static JSON files and all attempt data persists in `localStorage`, making the app ideal for simple CDN or object-storage hosting.
 
 ## Deployments
 - Hosting: [Firebase Project netware](https://console.firebase.google.com/u/0/project/netware-326600/hosting/sites)
@@ -25,7 +25,7 @@ npm run deploy:firebase:dev # build + deploy to Firebase dev site
 
 ## Architecture at a Glance
 
-- `QuizProvider` fetches `public/quizzes.json`, seeds attempts from `localStorage`, and exposes quiz data via `useQuizData`.
+- `QuizProvider` fetches every `public/quizzes_*.json` file listed in the generated `public/quizzes_manifest.json`, seeds attempts from `localStorage`, and exposes quiz data via `useQuizData`.
 - Routes:
   - `/` &mdash; dashboard with available and completed quizzes, export tools, and error handling for missing quiz data.
   - `/quiz/:quizId` &mdash; sequential quiz experience with per-question feedback, explanations, and result summaries.
@@ -53,13 +53,13 @@ npm run deploy:firebase:dev # build + deploy to Firebase dev site
 
 ## Data contracts
 
-The schemas for quiz content and attempt tracking live in `docs/schema.md`. The live quiz catalog sits in `public/quizzes.json`, and attempts are stored under the `quizAttempts` localStorage key.
+The schemas for quiz content and attempt tracking live in `docs/schema.md`. The live quiz catalog sits across `public/quizzes_*.json`, and attempts are stored under the `quizAttempts` localStorage key.
 
 ### Updating quizzes on a static host
 
-1. Edit `public/quizzes.json` locally (follow `docs/schema.md`).
-2. Deploy the updated JSON to the same folder on your static host/CDN.
-3. No JavaScript rebuild is necessary unless you change the schema version.
+1. Add or update any `public/quizzes_*.json` files locally (follow `docs/schema.md`).
+2. The manifest is regenerated automatically during `npm run dev` and `npm run build`.
+3. Deploy the updated static files to the same folder on your host/CDN.
 
 ### Exporting quiz data/results
 

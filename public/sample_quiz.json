@@ -1,0 +1,212 @@
+{
+    "version": 1,
+    "quizzes": [{
+            "id": "333d189f-839b-4268-9872-bce27cbd5481",
+            "title": "W1 Quiz 1",
+            "description": "Transcript-derived midterm quiz Week 1",
+            "questions": [{
+                    "id": "4d9ed31a-c8cd-4809-920d-ea667d4d4f8a",
+                    "question": "Why does Genesis 1–11 challenge the label 'history of Israel' for the Pentateuch?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "It lacks narrative",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "It precedes Israel’s existence",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "It contains only poetry",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "It excludes covenant",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "B",
+                    "explanation": "Genesis 1–11 occurs before Israel emerges, so 'history of Israel' is insufficient.",
+                    "number": 1
+                }, {
+                    "id": "9a44274d-5774-4bb8-9d43-7cbdd9e2caae",
+                    "question": "What interpretive danger does E.D. Hirsch’s experiment illustrate?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "Ignoring grammar",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "Titles shape interpretation",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "Translation errors",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "Canon differences",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "B",
+                    "explanation": "Titles/frame assumptions shape how readers interpret texts.",
+                    "number": 2
+                }, {
+                    "id": "8080dbd0-dc6a-48b1-8a68-da76f2d0b04c",
+                    "question": "What does 'theopneustos' imply about Scripture?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "Inspired ideas only",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "God-breathed words",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "Church-created authority",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "Oral tradition",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "B",
+                    "explanation": "It means Scripture is God-breathed, emphasizing divine origin of written text.",
+                    "number": 3
+                }, {
+                    "id": "d30d47a9-68e2-46fb-89ed-98dbd4582ecb",
+                    "question": "Why is mechanical dictation rejected?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "It denies inspiration",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "It ignores human authorship",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "It removes canon",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "It rejects theology",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "B",
+                    "explanation": "Scripture reflects real human authors with intention and style.",
+                    "number": 4
+                }, {
+                    "id": "586315f3-9027-4c28-8e81-1d55f0d317ba",
+                    "question": "What does 'all Scripture' primarily refer to in 2 Timothy 3:16 contextually?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "New Testament only",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "Old Testament",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "Church tradition",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "Apocrypha",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "B",
+                    "explanation": "At that time, 'Scripture' referred primarily to the Old Testament.",
+                    "number": 5
+                }, {
+                    "id": "f87ff878-708d-481c-82a4-383647c70fc8",
+                    "question": "What is moralizing in interpretation?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "Ignoring theology",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "Turning narrative into direct moral lessons",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "Studying history",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "Using Hebrew",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "B",
+                    "explanation": "It wrongly turns descriptive narrative into prescriptive moral application.",
+                    "number": 6
+                }, {
+                    "id": "4a1e484a-e214-4eda-8216-6e50f10aff87",
+                    "question": "What is hyper-historicism?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "Ignoring history",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "Over-reconstructing background beyond text",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "Rejecting genre",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "Literal reading",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "B",
+                    "explanation": "It imports speculative historical reconstructions not grounded in text.",
+                    "number": 7
+                }, {
+                    "id": "7892a00b-894b-4adc-b693-a2ba4233c266",
+                    "question": "What is allegorizing?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "Literal reading",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "Replacing text meaning with symbolic substitutions",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "Ignoring genre",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "Studying grammar",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "B",
+                    "explanation": "It substitutes meanings not grounded in the text itself.",
+                    "number": 8
+                }
+            ],
+            "groupId": "W01 Intro"
+        }
+    ]
+}

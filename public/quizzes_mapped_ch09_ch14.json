@@ -1,0 +1,837 @@
+{
+  "version": 1,
+  "quizzes": [
+    {
+      "id": "ef52f3f2-b50c-4cb8-853f-bd9c3d9c068d",
+      "title": "Ch 9 Quiz",
+      "description": "Ch. 9 Quiz mapped from the completed OTS.5110.ONL-2026SP attempt for March 30 - April 5.",
+      "questions": [
+        {
+          "id": "0c54c5b2-73f8-4cf7-b226-93a726f3a493",
+          "question": "The title of \"Deuteronomy\" is associated with \"second law.\"",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The correct answer is True.",
+          "number": 1
+        },
+        {
+          "id": "202c09c2-8048-4e39-ad30-db9a13d6939b",
+          "question": "The narrative setting of the book is on top of Mount Sinai.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The correct answer is False.",
+          "number": 2
+        },
+        {
+          "id": "f9617000-5232-4643-9c34-36278219cc48",
+          "question": "The narrative framework of the book is Moses' farewell address to the Israelites.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The correct answer is True.",
+          "number": 3
+        },
+        {
+          "id": "feb98bde-ea05-40eb-b78a-25448b954d0d",
+          "question": "Monotheism is the belief in the oneness and consistency of God.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The correct answer is True.",
+          "number": 4
+        },
+        {
+          "id": "5f4784ac-5259-4ae1-a884-3ffdcd2328bb",
+          "question": "The Shema is in Exodus 19:4.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The correct answer is False.",
+          "number": 5
+        },
+        {
+          "id": "9d81cdfd-d08a-4579-b8ee-4c3cd712b8f1",
+          "question": "Deuteronomy 28 describes the blessings and curses of the covenant.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The correct answer is True.",
+          "number": 6
+        },
+        {
+          "id": "2e73ccb9-4732-4feb-848f-b434ca4873ad",
+          "question": "Deuteronomic theology can be described as a theology of ecclesiology.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The correct answer is False.",
+          "number": 7
+        },
+        {
+          "id": "b79f81c4-ece0-4c62-96d4-1240c1ebbc1a",
+          "question": "The suzerainty treaties were political covenants between unequal partners.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The correct answer is True.",
+          "number": 8
+        },
+        {
+          "id": "7110de3a-edce-47db-8370-92b5bc1d5b91",
+          "question": "Joshua has a positive view of the Israelites' obedience at the end of the book.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The correct answer is False.",
+          "number": 9
+        },
+        {
+          "id": "a8ba5d18-9612-4ebb-88bc-4530edf2347c",
+          "question": "The Deuteronomistic History consists of Genesis, Exodus, Leviticus, Numbers, and Deuteronomy.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The correct answer is False.",
+          "number": 10
+        }
+      ],
+      "groupId": "OTS.5110 Historical Books"
+    },
+    {
+      "id": "02527eda-a6e0-440c-a0f4-c2a39efffc7f",
+      "title": "Ch 10 Quiz",
+      "description": "Ch. 10 Quiz mapped from the completed OTS.5110.ONL-2026SP attempt for April 6 - April 12.",
+      "questions": [
+        {
+          "id": "115b97e5-3f48-4336-9203-32fb28490f09",
+          "question": "The \"Historical Books\" are important in part because of their historical content.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The correct answer is True.",
+          "number": 1
+        },
+        {
+          "id": "7233d13c-d3a9-4d8f-9ddd-81e879a9290f",
+          "question": "These books describe Israel's history, but they are more than history or a mere record of historical facts.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The correct answer is True.",
+          "number": 2
+        },
+        {
+          "id": "d8c73542-6845-48a6-b0a3-e01a5ffec545",
+          "question": "The books Isaiah, Ezekiel, Jeremiah, and The Twelve are known as the Former Prophets.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The correct answer is False.",
+          "number": 3
+        },
+        {
+          "id": "eea6520f-cc1a-48a9-92e1-a37558c7c47e",
+          "question": "Heilsgeschichte is a German term that denotes \"salvation history.\"",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The correct answer is True.",
+          "number": 4
+        },
+        {
+          "id": "ff8c3d43-8515-4932-82d7-b21938bf8db5",
+          "question": "Judges is a happy book detailing Israel's single-minded devotion to God.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The correct answer is False.",
+          "number": 5
+        },
+        {
+          "id": "b582ea6a-6595-4164-a4b7-0aadb8f5a7be",
+          "question": "All of the historical books are authored by the same person after whom the book is titled.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The correct answer is False.",
+          "number": 6
+        },
+        {
+          "id": "bf6175bf-9fbb-4f35-a61e-6ec93be448ac",
+          "question": "The classic expression of the Deuteronomistic History was given by Martin Noth.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The correct answer is True.",
+          "number": 7
+        },
+        {
+          "id": "20f88026-633e-4f00-8ab1-70c78b0dace5",
+          "question": "The notion of a Deuteronomistic History is sometimes used to describe a single composition from Deuteronomy through Kings in the Hebrew order.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The correct answer is True.",
+          "number": 8
+        },
+        {
+          "id": "fb5fc17f-e33e-4b8a-9468-fd5489b2e778",
+          "question": "Acknowledging the overarching philosophy of retribution theology in history brings a certain unity to the historical books.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The correct answer is True.",
+          "number": 9
+        },
+        {
+          "id": "d8ebdecf-95a0-4f3d-93a8-ba1e76c6c3d0",
+          "question": "Chronicles, Ezra-Nehemiah, Ruth, and Esther are not in the same arranged order in the Hebrew order of the Bible as they are in the English order of the Bible.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The correct answer is True.",
+          "number": 10
+        }
+      ],
+      "groupId": "OTS.5110 Historical Books"
+    },
+    {
+      "id": "6af0553f-abfb-4298-872a-e85795c4aaed",
+      "title": "Ch 11-12 Quiz",
+      "description": "Ch. 11-12 Quiz mapped from the completed OTS.5110.ONL-2026SP attempt for April 13 - April 19.",
+      "questions": [
+        {
+          "id": "cfc19add-2cfa-4fcf-a05e-1d130395be18",
+          "question": "The outline for the book of Joshua was Israel Conquers the Land (1-12), Israel Divides the Land (13-21), and Israel Begins to Settle into the Land (22-24).",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The correct answer is True.",
+          "number": 1
+        },
+        {
+          "id": "e6cb91d3-a73c-42db-849a-c1d637dd1f47",
+          "question": "Joshua 24:13 indicates that Joshua is the author when it says, \"I, Joshua, write this greeting in my own hand.\"",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The correct answer is False.",
+          "number": 2
+        },
+        {
+          "id": "7d3e8668-bf9f-42a1-a7bb-e65b16f72f2a",
+          "question": "The mention of Jebusites in Jerusalem and Canaanites in Gezer suggest that the book was in its present form no later than Solomon's time.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The correct answer is True.",
+          "number": 3
+        },
+        {
+          "id": "c09739ce-20e5-4fad-9f68-ba0e5a43fd43",
+          "question": "The Davidic covenant is a theme of the book of Joshua according to the textbook.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The correct answer is False.",
+          "number": 4
+        },
+        {
+          "id": "9809a0cf-ef36-4819-b0db-98de47ec6464",
+          "question": "The expression \"in those days Israel had no king\" suggests the author's perspective was from the later vantage point of the monarchy.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The correct answer is True.",
+          "number": 5
+        },
+        {
+          "id": "aba2db0e-dc34-41a2-955f-0d7f05428adf",
+          "question": "The judges of the Bible act precisely as our contemporary judges act in America.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The correct answer is False.",
+          "number": 6
+        },
+        {
+          "id": "f802af57-82dd-4fd2-87ca-e16588ae0fd2",
+          "question": "The author of the book of Judges used a cycle of sin, war as judgment, repentance, and deliverance in order to introduce certain judges.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The correct answer is True.",
+          "number": 7
+        },
+        {
+          "id": "18e9540d-428e-4a11-bb39-2d83c6936aff",
+          "question": "Historical problems in the book of Judges include chronology and political structure.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The correct answer is True.",
+          "number": 8
+        },
+        {
+          "id": "1488d423-14b5-4690-a7ee-33a6a5b792ba",
+          "question": "Scholars have concluded that an amphictyony describes exactly what was occurring in the days of the judges.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The correct answer is False.",
+          "number": 9
+        },
+        {
+          "id": "8e865736-3cef-4f2d-a7c4-e2050462f4ed",
+          "question": "I read all of I Samuel.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The correct answer is True.",
+          "number": 10
+        }
+      ],
+      "groupId": "OTS.5110 Historical Books"
+    },
+    {
+      "id": "da49e783-6135-4ba7-b19f-93e95621d3a7",
+      "title": "Ch 13-14 Quiz",
+      "description": "Ch. 13-14 Quiz mapped from the completed OTS.5110.ONL-2026SP attempt for April 20 - April 26.",
+      "questions": [
+        {
+          "id": "f14e1f92-f623-448d-8c89-0f74562cc54a",
+          "question": "Saul was successful as king because he obeyed the commands of God.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The correct answer is False.",
+          "number": 1
+        },
+        {
+          "id": "22befc8a-4913-48b0-838a-e21d116320eb",
+          "question": "The textbook lists David's rise to prominence as a theme in 1 Samuel.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The correct answer is True.",
+          "number": 2
+        },
+        {
+          "id": "b5cdcdf6-3dd9-4530-bf44-e7472f7285a6",
+          "question": "The textbook indicates that the sentence in 1 Sam 27:6, \"Zigklag has belonged to the kings of Judah to this day\" suggests some time had elapsed since the division of the kingdom.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The correct answer is True.",
+          "number": 3
+        },
+        {
+          "id": "4a59c295-14eb-4ae5-ba04-43107e6fa17f",
+          "question": "The book of 1 Samuel reports that Samuel wrote the book.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The correct answer is False.",
+          "number": 4
+        },
+        {
+          "id": "c6ed537f-7bc9-4416-826d-4547892cd10d",
+          "question": "God looked at David's family lineage in order to choose him.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The correct answer is False.",
+          "number": 5
+        },
+        {
+          "id": "5b499914-cd65-4e30-b84d-dde53fa3d8a7",
+          "question": "The textbook lists God's covenant with David as a theme in 2 Samuel.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The correct answer is True.",
+          "number": 6
+        },
+        {
+          "id": "21ae1a8d-af2d-44d7-a295-9d0722dce0d6",
+          "question": "Jerusalem was Israel's spiritual center as well as its political center.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The correct answer is True.",
+          "number": 7
+        },
+        {
+          "id": "bcfaa9fe-7bfb-4bd9-a79c-0722ab8bc732",
+          "question": "David wanted to build God a house, but God told David he would build him a \"house\" of descendants.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The correct answer is True.",
+          "number": 8
+        },
+        {
+          "id": "80e41cb9-9f47-486a-b289-220fccfe8175",
+          "question": "The word \"covenant\" is not used in 2 Samuel 7.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The correct answer is True.",
+          "number": 9
+        },
+        {
+          "id": "98e4575e-66fa-4a3e-9049-93c98a943e97",
+          "question": "God's \"covenant\" with David included a provision to include Saul's son in the dynasty.",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "True",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "False",
+              "letter": "B"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The correct answer is False.",
+          "number": 10
+        }
+      ],
+      "groupId": "OTS.5110 Historical Books"
+    }
+  ]
+}

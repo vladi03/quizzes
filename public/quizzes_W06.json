@@ -1,0 +1,569 @@
+{
+  "version": 1,
+  "quizzes": [
+    {
+      "id": "36aa3110-e741-46d3-8077-3322c41915a2",
+      "title": "W6 Quiz 1",
+      "description": "Genesis 9 as a post-flood reset: blood, image of God, and the rainbow covenant",
+      "questions": [
+        {
+          "id": "91de70d2-8b13-4479-962b-2819b6253b91",
+          "question": "What major earlier chapter does Genesis 9 intentionally echo in its blessing to Noah and his sons?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Genesis 1",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Genesis 3",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Genesis 6",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Genesis 11",
+              "letter": "D"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Genesis 9 is presented as a reset that echoes Genesis 1, especially the blessing and command to multiply.",
+          "number": 1
+        },
+        {
+          "id": "b32445e4-e328-4aa7-b7db-3805073c3ee6",
+          "question": "Why is eating blood prohibited in Genesis 9 according to the lecture?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Because blood belongs only to priests",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Because blood represents life",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Because animals were still unclean",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Because sacrifice had ended",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture stresses that blood is identified with life, so it must not be consumed.",
+          "number": 2
+        },
+        {
+          "id": "2ff5aacb-87a8-4ee0-b50c-ba5fdbc1b992",
+          "question": "How does the lecture describe Genesis 9:4–6?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "A wisdom saying with no legal force",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "A later editorial addition about kingship",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Poetic emphasis that also functions like proto-legal language",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "A genealogy summary",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Genesis 9:4–6 is described as poetic material that also anticipates legal code by establishing accountability for bloodshed.",
+          "number": 3
+        },
+        {
+          "id": "0f8a50b5-0005-4d55-82a3-1b8d202030f5",
+          "question": "What theological reason is given for human accountability in murder?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Humans possess dominion over animals",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Humans are descendants of Noah",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Humans are made in the image of God",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Humans received the rainbow",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The accountability principle is grounded in humanity being made in God’s image.",
+          "number": 4
+        },
+        {
+          "id": "2b0921e8-8758-41d3-a69c-5d32ed48d032",
+          "question": "How does the lecture connect Genesis 9:4–6 to Genesis 4?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It repeats Abel’s sacrifice",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "It responds to Cain’s murder of Abel by placing a fence against renewed violence",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "It reverses Seth’s genealogy",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It explains Lamech’s poem",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The speaker reads the bloodshed principle as a divine restraint against the kind of violence seen in Cain’s murder of Abel.",
+          "number": 5
+        },
+        {
+          "id": "9f07d876-c93d-4dc4-b488-401141fc91db",
+          "question": "What sign marks the Noahic covenant?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Circumcision",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "The altar",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "The rainbow",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "The ark",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Genesis 9:9–17 is summarized with the rainbow as the covenant sign.",
+          "number": 6
+        }
+      ],
+      "groupId": "W06 Primeval to Patriarchs"
+    },
+    {
+      "id": "32d587cb-753a-4a60-92f1-bc2008e496b3",
+      "title": "W6 Quiz 2",
+      "description": "Genesis 10–12: Babel, Shem, and God’s promise of blessing to all families of the earth",
+      "questions": [
+        {
+          "id": "c1f17311-70dd-41d6-a48b-ccfe462a1201",
+          "question": "How is Genesis 10 primarily described in the lecture?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "A law code",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "A simple linear genealogy",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "A table of nations",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "A temple blueprint",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Genesis 10 is framed as a post-flood table of nations describing the spread of peoples.",
+          "number": 1
+        },
+        {
+          "id": "ad6de2d0-8926-42e6-afdf-db957816d634",
+          "question": "Which line does Genesis 10 and 11 especially keep in focus?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ham",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Japheth",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Shem",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Canaan",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The structure and repeated emphasis are said to funnel the narrative toward Shem.",
+          "number": 2
+        },
+        {
+          "id": "0c459137-a950-4215-83e1-1c205ed0e467",
+          "question": "What repeated categories in Genesis 10 show humanity’s post-flood division?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Kings, priests, prophets, judges",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Lands, languages, families, and nations",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Altars, sacrifices, covenants, and signs",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Cities, towers, fields, and rivers",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture highlights lands, tongues/languages, families, and nations as the repeated pattern.",
+          "number": 3
+        },
+        {
+          "id": "9e7f2090-c3f3-4fa4-9610-a8c4bbd37110",
+          "question": "What was Babel’s central human goal?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "To spread across the earth in obedience",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "To recover Eden’s garden",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "To make a name for themselves and avoid dispersion",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "To establish priestly worship",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Babel is interpreted as human unity and self-exaltation expressed in making a name and resisting dispersion.",
+          "number": 4
+        },
+        {
+          "id": "e954e0b6-6c4f-453c-8ec2-55069bd016a3",
+          "question": "What irony does the lecture observe in the Babel story?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "The city was already destroyed before it was built",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "The tower claimed to reach heaven, yet the Lord had to come down to see it",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "The people spoke many languages but wanted one",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Abram built Babel",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The story is ironic because the supposed heaven-reaching tower is so small God must come down to inspect it.",
+          "number": 5
+        },
+        {
+          "id": "ce3a24cd-4b3e-418b-ab01-de0645fcf31d",
+          "question": "How does Genesis 12:2–3 answer Babel according to the lecture?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "God abolishes all nations",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "God makes Abram build a better city",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "God promises Abram a great name and blessing for all families of the earth",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "God restricts blessing to Shem alone",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Genesis 12 reverses Babel’s self-made name with God’s gift of a great name and universal blessing through Abram.",
+          "number": 6
+        }
+      ],
+      "groupId": "W06 Primeval to Patriarchs"
+    },
+    {
+      "id": "f26846a0-d4d5-4404-af1a-760574a37b01",
+      "title": "W6 Quiz 3",
+      "description": "Genesis 12–50 and the Abrahamic covenant: land, seed, blessing, and the child of promise",
+      "questions": [
+        {
+          "id": "08dfa6fa-9227-4d2a-bc13-5ec37ebca4ce",
+          "question": "What three core elements define the Abrahamic covenant in the lecture?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Temple, priesthood, kingship",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Land, seed, and blessing",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Law, sacrifice, exile",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Faith, works, wisdom",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The covenant is repeatedly summarized as land, offspring/seed, and blessing to the nations.",
+          "number": 1
+        },
+        {
+          "id": "aaad8bfa-8532-4b69-934a-1d1952da56bd",
+          "question": "How are the patriarchal narratives in Genesis 12–50 described?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "As disconnected biographies",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "As stories that repeatedly test whether God will fulfill his covenant promises",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "As mainly legal material",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "As a record of Israel’s monarchy",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture frames Genesis 12–50 as a sustained exploration of threatened and reaffirmed covenant promise.",
+          "number": 2
+        },
+        {
+          "id": "85243a9a-047b-4513-a700-5c1be815d11b",
+          "question": "What imagery is used in Genesis to describe Abraham’s future offspring?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Cedars and rivers",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Dust of the earth and stars of heaven",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Mountains and valleys",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Silver and gold",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture highlights offspring like the dust of the earth and like the stars of heaven as key covenant phrases.",
+          "number": 3
+        },
+        {
+          "id": "5d89838a-26c7-40b8-9a7e-91c2a4d517e7",
+          "question": "Why is Genesis 15:6 emphasized in the lecture?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It establishes kingship in Israel",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "It introduces circumcision",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "It presents Abraham’s faith being reckoned as righteousness before later legal code",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It marks the birth of Isaac",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Genesis 15:6 is underscored as a foundational faith-and-righteousness statement prior to Sinai’s law.",
+          "number": 4
+        },
+        {
+          "id": "ff293781-751c-472e-a331-6991f2b9c4f8",
+          "question": "How does the lecture distinguish Isaac from Ishmael?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Isaac is older than Ishmael",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Ishmael inherits the covenant while Isaac receives land",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Isaac, not Ishmael, is the offspring of promise",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Both are equally covenant heirs in Genesis",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The speaker stresses that biological descent alone is insufficient; Isaac is the promised covenant heir.",
+          "number": 5
+        },
+        {
+          "id": "140ae1ec-64d9-451b-88cc-8282a580e45a",
+          "question": "What is circumcision called in Genesis 17 according to the lecture?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "The covenant itself",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "A sign of the covenant",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "A replacement for sacrifice",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "A law given first at Sinai",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture explicitly says circumcision is the sign of the covenant, not the covenant itself.",
+          "number": 6
+        }
+      ],
+      "groupId": "W06 Primeval to Patriarchs"
+    }
+  ]
+}
