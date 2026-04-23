@@ -4,6 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "generate:quiz-manifest": "node tasks/generate-quiz-manifest.mjs",
+    "predev": "npm run generate:quiz-manifest",
+    "prebuild": "npm run generate:quiz-manifest",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",

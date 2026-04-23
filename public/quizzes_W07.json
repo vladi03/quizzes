@@ -1,0 +1,381 @@
+{
+  "version": 1,
+  "quizzes": [
+    {
+      "id": "df0fc427-90f4-4c12-8617-045f94e36ab2",
+      "title": "W7 Quiz 1",
+      "description": "Exodus opening links to Genesis, Israel’s multiplication, Moses’ rise, and Yahweh’s self-revelation",
+      "questions": [
+        {
+          "id": "cbc2a8d9-25f9-4475-ba25-7a9ad9398b72",
+          "question": "What does the Hebrew title 'Shemot' mean in relation to Exodus?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Kings",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Names",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Covenants",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Wonders",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture notes that Exodus begins with 'These are the names' (Eleh Shemot), so the Hebrew title means 'Names.'",
+          "number": 1
+        },
+        {
+          "id": "c7406dfc-aea0-4ca1-94b8-33fee794ff64",
+          "question": "How does Exodus 1 intentionally echo Genesis according to the lecture?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "By repeating exile language only",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "By using creation language like fruitful, multiply, and fill",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "By retelling the flood story",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "By focusing on Judah’s kings",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Exodus 1:7 is said to echo Genesis with creation-like language describing Israel’s growth.",
+          "number": 2
+        },
+        {
+          "id": "8dfc3b31-6f99-41d1-a92b-1fe342b37291",
+          "question": "How does the narrative handle the years between Jacob’s family entering Egypt and Moses’ story?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It gives a detailed year-by-year account",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "It skips the period entirely and starts with Sinai",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "It compresses roughly 300–400 years into a few verses",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It turns the whole section into poetry",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The lecture emphasizes that Exodus compresses centuries in order to move quickly into the oppression and deliverance narrative.",
+          "number": 3
+        },
+        {
+          "id": "77897692-efc8-4ad1-9c2d-8248efe4e654",
+          "question": "What contrast is drawn between Pharaoh and the Hebrew midwives?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Pharaoh fears God, while the midwives fear Egypt",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Pharaoh is generous, while the midwives are violent",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Pharaoh is fearful and wicked, while the midwives fear God and act courageously",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Pharaoh and the midwives both resist God",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Pharaoh is portrayed as insecure and oppressive, while the midwives fear God and are blessed.",
+          "number": 4
+        },
+        {
+          "id": "b13c33d0-a342-4642-81a4-4bc4def007a2",
+          "question": "Which repeated verbs frame God’s covenant response near the end of Exodus 2 and into Exodus 3?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Spoke, wrote, judged",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Heard, saw, and knew",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Called, sent, and struck",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Blessed, fed, and guarded",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The summary highlights God's 'heard / saw / knew' language as a framing device for covenant action.",
+          "number": 5
+        },
+        {
+          "id": "d0d5b0ed-8a1d-4806-9333-b5875e1c13a2",
+          "question": "What is the main significance of God's name revelation 'I AM WHO I AM' in the lecture?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It shows that God is distant from Israel",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "It ties Yahweh to active, faithful presence with his people",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "It identifies God only as creator and not redeemer",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It cancels the patriarchal promises",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture connects 'I AM' to the verb 'to be' and to God's active presence with Moses and Israel in deliverance.",
+          "number": 6
+        }
+      ],
+      "groupId": "W07 Exodus"
+    },
+    {
+      "id": "f3d6af28-7182-45b6-952e-1efc9be2d5c4",
+      "title": "W7 Quiz 2",
+      "description": "Exodus as reversal of exile, display of divine sovereignty, and pattern for later salvation",
+      "questions": [
+        {
+          "id": "9e5c69b2-ab89-4a10-a274-3965f84a9368",
+          "question": "What large biblical pattern does the lecture say the Exodus reverses or answers?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Wisdom and folly",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Exile and return",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Temple and priesthood",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Kingship and monarchy",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture frames the Exodus as a reversal of the Bible’s exile motif, moving from bondage toward the promised land.",
+          "number": 1
+        },
+        {
+          "id": "420a1418-4d5c-4bc6-8663-1ec2b83c9d50",
+          "question": "According to the lecture, over which realms does Exodus especially display God's sovereignty?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only over Israel’s worship practices",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Only over heavenly beings",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Nature, rulers, and death",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Trade, cities, and architecture",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The plagues and sea crossing are presented as displays of God’s rule over creation, political powers, and mortality.",
+          "number": 2
+        },
+        {
+          "id": "08753e37-fb6c-4afb-990d-fbfcb711a821",
+          "question": "What is the stated purpose of the plagues in Exodus 9:16 as emphasized in the summary?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "To enrich Israel immediately",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "To train Egypt in farming",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "To proclaim God's name in all the earth",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "To establish Moses as king",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Exodus 9:16 is highlighted as a programmatic verse showing that God's acts proclaim his name throughout the earth.",
+          "number": 3
+        },
+        {
+          "id": "78a06af6-2230-4ca9-b806-ad3962c113bc",
+          "question": "How does the lecture connect Rahab to the Exodus story?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Rahab ignored the reports about Egypt",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Rahab’s faith arose after hearing what God did in Egypt",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Rahab is presented as one of the Hebrew midwives",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Rahab is used only as an example of disobedience",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The summary states that fear of God's acts in Egypt spread to Canaan and that Rahab’s faith was grounded in hearing those reports.",
+          "number": 4
+        },
+        {
+          "id": "1a9e0abf-bc97-4106-9bf3-8246258e7b84",
+          "question": "What caution does the lecture give about typology?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Typology should be avoided completely",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Only the New Testament may use types",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Who is doing the typing matters",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Every biblical event must symbolize baptism",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The lecture stresses that typology must be handled carefully and asks who within Scripture is making the typological connection.",
+          "number": 5
+        },
+        {
+          "id": "24f4ef89-9dee-443f-a298-e7498d2eb964",
+          "question": "What structural conclusion does the lecture draw from Israel before and after the Sinai year?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "The law instantly transforms Israel’s heart",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Israel after the law is basically the same as before the law",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Sinai ends the wilderness problems permanently",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "The law removes the need for covenant",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Using Sailhamer’s structural observation, the lecture argues that Israel after Sinai is essentially the same as before, showing the law did not transform the people’s disposition.",
+          "number": 6
+        }
+      ],
+      "groupId": "W07 Exodus"
+    }
+  ]
+}

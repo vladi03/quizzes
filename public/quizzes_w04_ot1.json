@@ -1,0 +1,569 @@
+{
+    "version": 1,
+    "quizzes": [
+        {
+            "id": "4ef260e0-6546-45af-9de5-50703ae258ec",
+            "title": "W4 Quiz 1",
+            "description": "Genesis 2 as a literary seam, zoomed creation account, and marriage-centered narrative",
+            "questions": [
+                {
+                    "id": "67df1809-e59b-4236-ba97-3734c3b05db8",
+                    "question": "What is one main reason the lecture gives for reading Genesis 2 as intentionally connected to Genesis 1?",
+                    "type": "multiple_choice",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Genesis 2 circulated independently first",
+                            "letter": "A"
+                        },
+                        {
+                            "id": "B",
+                            "text": "Genesis 1 and 2 are never found separated",
+                            "letter": "B"
+                        },
+                        {
+                            "id": "C",
+                            "text": "Genesis 2 denies Genesis 1",
+                            "letter": "C"
+                        },
+                        {
+                            "id": "D",
+                            "text": "Genesis 2 avoids creation themes",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "B",
+                    "explanation": "The lecture argues that Genesis 1 and 2 are always transmitted together, showing intentional placement.",
+                    "number": 1
+                },
+                {
+                    "id": "4b5874e3-4674-4790-b43e-3eb54ffb3107",
+                    "question": "How does the lecture describe Genesis 2:4?",
+                    "type": "multiple_choice",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "A contradiction marker",
+                            "letter": "A"
+                        },
+                        {
+                            "id": "B",
+                            "text": "A later editorial mistake",
+                            "letter": "B"
+                        },
+                        {
+                            "id": "C",
+                            "text": "A literary seam or toledot heading",
+                            "letter": "C"
+                        },
+                        {
+                            "id": "D",
+                            "text": "A hymn unrelated to the context",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "C",
+                    "explanation": "Genesis 2:4 is presented as a literary seam, using the toledot formula to link what comes before and after.",
+                    "number": 2
+                },
+                {
+                    "id": "a589a09d-be3f-4db5-af03-e8fa1d4f3e61",
+                    "question": "What image is used to describe Genesis 2 in relation to Genesis 1?",
+                    "type": "multiple_choice",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "A legal appendix",
+                            "letter": "A"
+                        },
+                        {
+                            "id": "B",
+                            "text": "An inset or zoomed-in map of the sixth day",
+                            "letter": "B"
+                        },
+                        {
+                            "id": "C",
+                            "text": "A replacement creation story",
+                            "letter": "C"
+                        },
+                        {
+                            "id": "D",
+                            "text": "A poetic summary of Babel",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "B",
+                    "explanation": "The lecture says Genesis 2 revisits the sixth-day setting like an inset map that zooms in on selected details.",
+                    "number": 3
+                },
+                {
+                    "id": "2d31e6dc-4cac-4707-88e8-c33a1b407ac1",
+                    "question": "According to the lecture, what repeated condition in Genesis 2:5–6 helps set up later fall themes?",
+                    "type": "multiple_choice",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "No kings and no temple",
+                            "letter": "A"
+                        },
+                        {
+                            "id": "B",
+                            "text": "No covenant and no altar",
+                            "letter": "B"
+                        },
+                        {
+                            "id": "C",
+                            "text": "No rain and no man to work the ground",
+                            "letter": "C"
+                        },
+                        {
+                            "id": "D",
+                            "text": "No animals and no rivers",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "C",
+                    "explanation": "Genesis 2:5–6 stresses 'not yet' conditions such as no rain and no human to work the ground, foreshadowing later toil and curse themes.",
+                    "number": 4
+                },
+                {
+                    "id": "cdaac376-c788-4dc9-96c1-b7b19fa33d50",
+                    "question": "Which later biblical theme does the lecture connect to Eden’s rivers, boundaries, and precious materials?",
+                    "type": "multiple_choice",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Only wisdom literature",
+                            "letter": "A"
+                        },
+                        {
+                            "id": "B",
+                            "text": "Promised Land and tabernacle/temple imagery",
+                            "letter": "B"
+                        },
+                        {
+                            "id": "C",
+                            "text": "Only monarchy",
+                            "letter": "C"
+                        },
+                        {
+                            "id": "D",
+                            "text": "Only exile in Babylon",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "B",
+                    "explanation": "The lecture links Eden’s geography and materials with Promised Land boundary language and tabernacle/temple imagery.",
+                    "number": 5
+                },
+                {
+                    "id": "72d54795-6491-48d3-9eb0-4f5892cfed91",
+                    "question": "What is the lecture’s main previewed thesis about Genesis 2?",
+                    "type": "multiple_choice",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "It is mainly about warfare",
+                            "letter": "A"
+                        },
+                        {
+                            "id": "B",
+                            "text": "It is mainly about sacrifice",
+                            "letter": "B"
+                        },
+                        {
+                            "id": "C",
+                            "text": "It is mainly about marriage",
+                            "letter": "C"
+                        },
+                        {
+                            "id": "D",
+                            "text": "It is mainly about kingship laws",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "C",
+                    "explanation": "The lecture previews Genesis 2 as centrally about marriage, while also connecting it to broader Pentateuchal themes.",
+                    "number": 6
+                }
+            ],
+            "groupId": "W04 Genesis 2–3 and Exodus 19"
+        },
+        {
+            "id": "9c11ca1b-1e6c-44e2-9a47-8b353f0464a6",
+            "title": "W4 Quiz 2",
+            "description": "Genesis 3: temptation, shame, judgment, and the promised seed",
+            "questions": [
+                {
+                    "id": "d7b69d48-efe0-4332-aa4c-12d76bb47c07",
+                    "question": "What literary connection does the lecture highlight between Genesis 2:25 and Genesis 3:1?",
+                    "type": "multiple_choice",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "A repeated genealogy formula",
+                            "letter": "A"
+                        },
+                        {
+                            "id": "B",
+                            "text": "A Hebrew pun linking 'naked' and 'crafty'",
+                            "letter": "B"
+                        },
+                        {
+                            "id": "C",
+                            "text": "A river boundary list",
+                            "letter": "C"
+                        },
+                        {
+                            "id": "D",
+                            "text": "A covenant oath formula",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "B",
+                    "explanation": "The lecture emphasizes a Hebrew wordplay connecting the couple’s nakedness with the serpent’s craftiness.",
+                    "number": 1
+                },
+                {
+                    "id": "740b3403-69b9-48bb-aa68-0b3fe1b07f5f",
+                    "question": "How is the serpent described in the lecture?",
+                    "type": "multiple_choice",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "An uncreated rival god",
+                            "letter": "A"
+                        },
+                        {
+                            "id": "B",
+                            "text": "A symbolic angel only",
+                            "letter": "B"
+                        },
+                        {
+                            "id": "C",
+                            "text": "A created beast of the field",
+                            "letter": "C"
+                        },
+                        {
+                            "id": "D",
+                            "text": "A human enemy in disguise",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "C",
+                    "explanation": "The serpent is presented as a created creature, not as an independent dualistic rival deity.",
+                    "number": 2
+                },
+                {
+                    "id": "db6ab69e-39b5-4e54-b64b-9f72af9af681",
+                    "question": "What change in the 'good' motif marks the fall narrative according to the lecture?",
+                    "type": "multiple_choice",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "God stops speaking",
+                            "letter": "A"
+                        },
+                        {
+                            "id": "B",
+                            "text": "The serpent defines what is good",
+                            "letter": "B"
+                        },
+                        {
+                            "id": "C",
+                            "text": "The woman begins evaluating what is good",
+                            "letter": "C"
+                        },
+                        {
+                            "id": "D",
+                            "text": "Animals are declared good again",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "C",
+                    "explanation": "The lecture notes the shift from God's declarations of what is good to the woman seeing that the tree was good.",
+                    "number": 3
+                },
+                {
+                    "id": "6e74a96d-2a85-40b3-addf-1bfc4ef5d2a9",
+                    "question": "In God’s questioning after the fall, what order does the lecture observe?",
+                    "type": "multiple_choice",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Serpent, woman, man",
+                            "letter": "A"
+                        },
+                        {
+                            "id": "B",
+                            "text": "Man, woman, serpent",
+                            "letter": "B"
+                        },
+                        {
+                            "id": "C",
+                            "text": "Woman, serpent, man",
+                            "letter": "C"
+                        },
+                        {
+                            "id": "D",
+                            "text": "Man, serpent, woman",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "B",
+                    "explanation": "The lecture highlights that God questions the man first, then the woman, then the serpent.",
+                    "number": 4
+                },
+                {
+                    "id": "6bffc265-45bd-4584-bd42-d9c637c77fbb",
+                    "question": "According to the lecture, who is explicitly cursed in Genesis 3, besides the cursed ground because of the man?",
+                    "type": "multiple_choice",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "The woman",
+                            "letter": "A"
+                        },
+                        {
+                            "id": "B",
+                            "text": "The man",
+                            "letter": "B"
+                        },
+                        {
+                            "id": "C",
+                            "text": "Both man and woman directly",
+                            "letter": "C"
+                        },
+                        {
+                            "id": "D",
+                            "text": "The serpent",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "D",
+                    "explanation": "The lecture stresses that the serpent is explicitly cursed, while the ground is cursed because of the man.",
+                    "number": 5
+                },
+                {
+                    "id": "c4dddb6c-6453-497e-8f8e-d4559fc8760f",
+                    "question": "What central hope does Genesis 3:15 introduce in the lecture’s interpretation?",
+                    "type": "multiple_choice",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Immediate return to Eden",
+                            "letter": "A"
+                        },
+                        {
+                            "id": "B",
+                            "text": "A future seed of the woman will defeat the serpent",
+                            "letter": "B"
+                        },
+                        {
+                            "id": "C",
+                            "text": "The law will remove death",
+                            "letter": "C"
+                        },
+                        {
+                            "id": "D",
+                            "text": "Human rule will end conflict",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "B",
+                    "explanation": "Genesis 3:15 is presented as a promise that the woman’s seed will ultimately crush the serpent.",
+                    "number": 6
+                }
+            ],
+            "groupId": "W04 Genesis 2–3 and Exodus 19"
+        },
+        {
+            "id": "60e64df3-1311-4280-a21a-31b1d52cfad3",
+            "title": "W4 Quiz 3",
+            "description": "Exodus 19 as the turning point from deliverance to law and preparation for composition criticism",
+            "questions": [
+                {
+                    "id": "0c27326a-0cfb-4038-89c3-8c03cf62f4e3",
+                    "question": "How does the lecture describe Exodus 19 within Exodus and the Pentateuch?",
+                    "type": "multiple_choice",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "A minor travel note",
+                            "letter": "A"
+                        },
+                        {
+                            "id": "B",
+                            "text": "A pivotal transition from deliverance to law",
+                            "letter": "B"
+                        },
+                        {
+                            "id": "C",
+                            "text": "A final summary of Genesis",
+                            "letter": "C"
+                        },
+                        {
+                            "id": "D",
+                            "text": "A hymn with no legal importance",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "B",
+                    "explanation": "Exodus 19 is presented as a key hinge moving from the exodus events to the giving of the law.",
+                    "number": 1
+                },
+                {
+                    "id": "57646deb-c688-45a1-ade5-27802c1603b2",
+                    "question": "Which commandment is used as the lecture’s main example of interpretive complexity in applying the law?",
+                    "type": "multiple_choice",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Do not murder",
+                            "letter": "A"
+                        },
+                        {
+                            "id": "B",
+                            "text": "Honor your father and mother",
+                            "letter": "B"
+                        },
+                        {
+                            "id": "C",
+                            "text": "The Sabbath",
+                            "letter": "C"
+                        },
+                        {
+                            "id": "D",
+                            "text": "Do not steal",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "C",
+                    "explanation": "The lecture uses Sabbath observance as the clearest example of how biblical law is not applied in a simplistic way.",
+                    "number": 2
+                },
+                {
+                    "id": "40cf59c2-f109-4a4f-904b-1e6629ce157c",
+                    "question": "What assignment are students told to complete for Exodus 19?",
+                    "type": "multiple_choice",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Memorize the Ten Commandments",
+                            "letter": "A"
+                        },
+                        {
+                            "id": "B",
+                            "text": "Write a sermon manuscript",
+                            "letter": "B"
+                        },
+                        {
+                            "id": "C",
+                            "text": "Make at least ten observations about the chapter",
+                            "letter": "C"
+                        },
+                        {
+                            "id": "D",
+                            "text": "Translate all of Exodus into Greek",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "C",
+                    "explanation": "Students are instructed to make at least ten observations about Exodus 19, focusing on oddities and questions.",
+                    "number": 3
+                },
+                {
+                    "id": "499d5d46-2492-41f1-9c29-6f2e1ded69e0",
+                    "question": "If students do not know Hebrew, what method does the lecture recommend?",
+                    "type": "multiple_choice",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Read only one paraphrase",
+                            "letter": "A"
+                        },
+                        {
+                            "id": "B",
+                            "text": "Compare at least three Bible translations",
+                            "letter": "B"
+                        },
+                        {
+                            "id": "C",
+                            "text": "Skip the assignment",
+                            "letter": "C"
+                        },
+                        {
+                            "id": "D",
+                            "text": "Use only a study Bible note",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "B",
+                    "explanation": "The lecture recommends comparing at least three translations to surface repetitions, gaps, and tensions.",
+                    "number": 4
+                },
+                {
+                    "id": "5848b495-f017-4b55-90fd-d987e32c5d47",
+                    "question": "What kinds of features are students supposed to notice in Exodus 19?",
+                    "type": "multiple_choice",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Only moral applications",
+                            "letter": "A"
+                        },
+                        {
+                            "id": "B",
+                            "text": "Only messianic predictions",
+                            "letter": "B"
+                        },
+                        {
+                            "id": "C",
+                            "text": "Repetitions, gaps, inconsistencies, and other oddities",
+                            "letter": "C"
+                        },
+                        {
+                            "id": "D",
+                            "text": "Only geography terms",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "C",
+                    "explanation": "The assignment focuses on textual features such as repetitions, holes, inconsistencies, and similar oddities.",
+                    "number": 5
+                },
+                {
+                    "id": "932096d8-ec10-4d57-a3ed-0fecc58a7eb7",
+                    "question": "What interpretive method will the next lecture apply to Exodus 19?",
+                    "type": "multiple_choice",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Allegory",
+                            "letter": "A"
+                        },
+                        {
+                            "id": "B",
+                            "text": "Composition criticism",
+                            "letter": "B"
+                        },
+                        {
+                            "id": "C",
+                            "text": "Textual emendation",
+                            "letter": "C"
+                        },
+                        {
+                            "id": "D",
+                            "text": "Canonical dismissal",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "B",
+                    "explanation": "The next lecture is said to use composition criticism to analyze how the material was selected, arranged, adapted, and written.",
+                    "number": 6
+                }
+            ],
+            "groupId": "W04 Genesis 2–3 and Exodus 19"
+        }
+    ]
+}

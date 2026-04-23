@@ -1,0 +1,419 @@
+{
+    "version": 1,
+    "quizzes": [{
+            "id": "d2c1d4a0-2d3f-4a89-9f4d-7f4b5a0d1e21",
+            "title": "W1 Quiz 2",
+            "description": "Transcript-derived midterm quiz Week 1",
+            "questions": [{
+                    "id": "5a2e8e10-6c8b-4d1a-a53c-6c31f13a7f01",
+                    "question": "Why does the label \"history of Israel\" fail to account fully for the Pentateuch?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "Because the Pentateuch contains no historical narrative",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "Because large sections before Abraham and Exodus precede Israel’s emergence",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "Because Israel is never mentioned in Genesis",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "Because the Pentateuch is only legal material",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "B",
+                    "explanation": "The lectures stressed that Genesis 1–11 and other early material come before Israel formally emerges, so \"history of Israel\" is too narrow.",
+                    "number": 1
+                }, {
+                    "id": "d9f6b1de-28ee-4e09-b0d8-7c6ea262a5c2",
+                    "question": "Why is \"God\" considered too broad as a one-word summary of the Pentateuch?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "Because God is absent from the Pentateuch",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "Because it is false but helpful",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "Because it is true but not specific enough to guide interpretation",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "Because it only applies to Deuteronomy",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "C",
+                    "explanation": "The lecture acknowledged that \"God\" is true, but too general to function as a strong interpretive description of the Pentateuch.",
+                    "number": 2
+                }, {
+                    "id": "78d4e1f0-c7e2-4e06-b0ae-cab5d05300f3",
+                    "question": "What concern did the lecture raise about the title \"Old Testament\"?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "It is the Hebrew title used by Moses",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "It may lead readers to think the text is obsolete or outdated",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "It proves the canon is Roman Catholic",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "It appears as a self-designation throughout the OT",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "B",
+                    "explanation": "The lecture argued that the word \"old\" can bias readers into thinking the Old Testament is obsolete or less valuable.",
+                    "number": 3
+                }, {
+                    "id": "7c76c4f1-1cf3-4e08-aaf9-92e02ebdb2f4",
+                    "question": "In the lecture, what point was made about the word \"testament\" in \"Old Testament\"?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "It is unrelated to covenant",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "It is a Greek term meaning prophecy",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "It comes through Latin usage and means covenant",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "It refers only to the Ten Commandments",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "C",
+                    "explanation": "The lecture explained that \"testament\" comes through Latin usage and corresponds to the idea of covenant.",
+                    "number": 4
+                }, {
+                    "id": "a8a84f41-363f-4af5-9d37-368ef6f987b5",
+                    "question": "According to the lecture, what does inerrancy need to be defined in terms of?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "What later commentators infer from Scripture",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "What Scripture affirms",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "What church councils declared",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "What modern science can verify",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "B",
+                    "explanation": "The lecture tied inerrancy carefully to what Scripture affirms, not to careless or overly broad claims.",
+                    "number": 5
+                }, {
+                    "id": "0f8aa23a-bc6d-4f97-a493-7db2bb8f93b6",
+                    "question": "What does the lecture say inspiration does NOT eliminate?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "Human authorship, personality, and literary intention",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "The authority of church tradition",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "The need for translation",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "The existence of canon questions",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "A",
+                    "explanation": "The lecture emphasized that God used real human authors with purpose, style, and literary strategy under divine supervision.",
+                    "number": 6
+                }, {
+                    "id": "f1e08472-b4c0-4312-9b72-4a0b3f13d9d7",
+                    "question": "What was the lecture’s main critique of reading David and Goliath mainly as \"your giants\"?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "It is too historical",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "It makes the passage primarily about the modern reader rather than the author’s purpose",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "It denies that David existed",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "It ignores all application",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "B",
+                    "explanation": "The lecture’s concern was that moralizing takes the interpretive key away from the author and turns the passage mainly into self-application.",
+                    "number": 7
+                }, {
+                    "id": "7ad81984-bb23-46c2-a422-1d6b22d54b18",
+                    "question": "According to the lecture, what is the basic hermeneutical principle for interpreting genre?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "Modern assumptions determine the meaning of ancient texts",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "The nature of the material determines the rules of interpretation",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "Every genre should be read the same way",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "Narrative should always be moralized",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "B",
+                    "explanation": "The lecture stated that the nature of the material determines the interpretive rules, so readers must attend to genre and ancient conventions.",
+                    "number": 8
+                }
+            ],
+            "groupId": "W01 Intro"
+        }, {
+            "id": "fd6076b4-26cf-49ba-82cb-103f2f0d2b34",
+            "title": "W1 Quiz 3",
+            "description": "Transcript-derived midterm quiz Week 1",
+            "questions": [{
+                    "id": "f6f5f6d5-a9b5-4bcb-a6ec-2b6dd2d29311",
+                    "question": "What observation by Jean Astruc helped launch source-critical study of Genesis?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "The use of poetry in Genesis 1",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "Alternating divine names such as Elohim and Yahweh",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "The absence of genealogies",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "The presence of legal material in Deuteronomy",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "B",
+                    "explanation": "Astruc noted divine-name patterns and proposed Moses used earlier sources, which later fed source criticism.",
+                    "number": 1
+                }, {
+                    "id": "95d6ea47-47b0-4cae-8c7d-f3dc1a1d1f62",
+                    "question": "Who systematized the Documentary Hypothesis into the classic JEDP model discussed in the lecture?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "E.D. Hirsch",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "Julius Wellhausen",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "John Sailhamer",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "Rolf Rendtorff",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "B",
+                    "explanation": "The lecture identified Julius Wellhausen as the major figure who formalized JEDP in its classic form.",
+                    "number": 2
+                }, {
+                    "id": "3ca15f2f-e6cb-4af4-81e0-80f0e0b9aa53",
+                    "question": "In the classic Documentary Hypothesis, which source is commonly linked to Josiah’s reforms and the law book discovery?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "J",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "E",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "D",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "P",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "C",
+                    "explanation": "The lecture associated D, the Deuteronomist source, with Josiah’s reforms and the discovered law book.",
+                    "number": 3
+                }, {
+                    "id": "ae24388e-0f41-4e7e-9498-c94c57624fd4",
+                    "question": "What is the main focus of form criticism as described in the lecture?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "Finding final canonical unity only",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "Identifying recurring forms and inferring their original Sitz im Leben",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "Rejecting all oral tradition",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "Dating every text to the exile",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "B",
+                    "explanation": "Form criticism studies repeated forms and tries to infer their original social setting or Sitz im Leben.",
+                    "number": 4
+                }, {
+                    "id": "62c99c90-0d18-4d1e-b273-e42e9c6db355",
+                    "question": "What limitation of form criticism did the lecture stress?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "It cannot read Hebrew poetry",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "There is no simple line from a reconstructed original setting to the final written text",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "It only applies to the New Testament",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "It ignores oral culture completely",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "B",
+                    "explanation": "The lecture stressed that many stages may intervene between a reconstructed setting and the final written form.",
+                    "number": 5
+                }, {
+                    "id": "873f9a15-f9f9-4954-a97f-f2d6bd322eb6",
+                    "question": "What does tradition criticism focus on?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "How smaller units were transmitted and combined into larger complexes",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "Only the final canonical order",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "Modern church usage of biblical texts",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "The doctrine of inerrancy only",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "A",
+                    "explanation": "Tradition criticism studies the transmission and growth of smaller units into larger narrative or literary complexes.",
+                    "number": 6
+                }, {
+                    "id": "83831ec5-3b07-4d55-97b7-b188a50f25c7",
+                    "question": "What does canon criticism emphasize?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "Only hypothetical earlier sources",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "The authority and significance of the Bible’s final canonical shape",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "That book order never affects interpretation",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "That councils created the canon’s authority",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "B",
+                    "explanation": "Canon criticism focuses on the authoritative final form and how the canonical arrangement shapes meaning.",
+                    "number": 7
+                }, {
+                    "id": "a94160f5-0bfc-4a0f-9cf2-876607d28fd8",
+                    "question": "How did the lecture define authorship in connection with composition criticism?",
+                    "type": "multiple_choice",
+                    "options": [{
+                            "id": "A",
+                            "text": "Copying earlier texts without purpose",
+                            "letter": "A"
+                        }, {
+                            "id": "B",
+                            "text": "Selecting, arranging, adapting, and writing material into a meaningful whole",
+                            "letter": "B"
+                        }, {
+                            "id": "C",
+                            "text": "Rejecting all prior sources",
+                            "letter": "C"
+                        }, {
+                            "id": "D",
+                            "text": "Using only oral recitation",
+                            "letter": "D"
+                        }
+                    ],
+                    "answer": "B",
+                    "explanation": "The lecture described authorship compositionally: authors select, arrange, adapt, and write material into a structured whole.",
+                    "number": 8
+                }
+            ],
+            "groupId": "W01 Intro"
+        }
+    ]
+}

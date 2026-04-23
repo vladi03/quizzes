@@ -1,0 +1,599 @@
+{
+  "version": 1,
+  "quizzes": [
+    {
+      "id": "f0a2d579-df65-4b8e-89ec-6783c6a69b77",
+      "title": "W3 Quiz 1",
+      "description": "Genesis 1:1–2, merism, land, and the opening interpretive framework of creation",
+      "questions": [
+        {
+          "id": "3c665571-8205-4e04-b502-7cebc18aeb9c",
+          "question": "How does the lecture ultimately classify Genesis 1:1?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "As a title",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "As a summary of the whole chapter",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "As an indicative statement",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "As a later editorial note",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The lecture argues Genesis 1:1 is best read as an indicative statement reporting God’s creation of the heavens and the earth.",
+          "number": 1
+        },
+        {
+          "id": "bdde9370-17b9-42e8-8614-522b20eb10d9",
+          "question": "What structural reason is given for rejecting Genesis 1:1 as a normal title?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is too short to be a title",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Genesis usually uses the Toledot formula for headings",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "It lacks a verb",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It appears in poetry",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture says Genesis commonly marks sections with the Toledot formula, so Genesis 1:1 does not function like the book’s standard headings.",
+          "number": 2
+        },
+        {
+          "id": "44905a43-57bf-450e-9b68-9293dc61627d",
+          "question": "In the lecture, 'heavens and earth' is treated as what kind of expression?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "A covenant formula",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "A proverb",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "A merism expressing totality",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "A title for Eden",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The phrase is explained as a merism, using two extremes to communicate the whole.",
+          "number": 3
+        },
+        {
+          "id": "0ac700d5-baf4-414c-a439-b0261a2b6d05",
+          "question": "Which rendering does the lecture prefer for 'eretz' as Genesis 1 narrows its focus?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Universe",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Land",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Planet",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Kingdom",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture argues 'land' better preserves the Pentateuch’s thematic connection to garden and promised-land themes.",
+          "number": 4
+        },
+        {
+          "id": "92b08fbe-cfc1-4b4a-8293-a78229436689",
+          "question": "How does the lecture interpret 'tohu vavohu' in Genesis 1:2?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "A fully formed paradise",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "A cosmic black hole",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "An uninhabitable wasteland or wilderness",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "A symbolic vision of exile",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The phrase is explained as waste and wilderness rather than a metaphysical void.",
+          "number": 5
+        },
+        {
+          "id": "bdc1b986-a807-4086-8eec-d5eee2329fff",
+          "question": "What role does the Spirit of God in Genesis 1:2 play in the lecture’s interpretation?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only a poetic image with no later significance",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "A sign that creation is complete already",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Part of God’s preparing a dwelling place fit for life",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Proof that Genesis 1 is only allegory",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The Spirit is presented as actively involved in preparing and ordering creation as a place for God’s purposes and human habitation.",
+          "number": 6
+        }
+      ],
+      "groupId": "W03 Genesis 1"
+    },
+    {
+      "id": "8e5e502a-d835-4482-ba0e-1dcd931a05de",
+      "title": "W3 Quiz 2",
+      "description": "Genesis 1 day structure, Hebrew wording, and the ordering of creation from days 1–6",
+      "questions": [
+        {
+          "id": "d3af93f3-498b-4f08-9697-20c20b7c39b3",
+          "question": "What is notable about the wording for the first day in Genesis 1:5 according to the lecture?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It uses the Hebrew ordinal for first",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "It uses a cardinal expression, 'day one'",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "It omits any numbering",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It uses a plural form for days",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture highlights that Genesis 1:5 says 'day one' with a cardinal number rather than an ordinal.",
+          "number": 1
+        },
+        {
+          "id": "6a910ad7-0fb7-46e1-965c-c396519abedc",
+          "question": "How does the lecture describe the phrase 'let there be' in Genesis 1:3?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "As a direct use of bara, create",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "As a covenant oath",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "As a Hebrew verb of being or presence",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "As a later scribal addition",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The lecture emphasizes that the wording points to being or appearance rather than explicitly using the verb 'create.'",
+          "number": 2
+        },
+        {
+          "id": "8d94cc4f-6483-4b7b-80a2-96d7d3e396a4",
+          "question": "What tension does the lecture call attention to in the sequence of creation days?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Land appearing before water",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Light appearing before the sun, moon, and stars",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Humans appearing before animals",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "The Sabbath appearing before work",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "A major interpretive issue raised is that light appears on day 1 while the luminaries are associated with day 4.",
+          "number": 3
+        },
+        {
+          "id": "d8638e44-9a4c-490b-8b5c-587f1019634c",
+          "question": "Why does the lecture suggest day 2 may lack the statement 'God saw that it was good'?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Because day 2 records no creative act",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Because the text is corrupted",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Because of a literary pattern aiming at seven total 'good' statements",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Because God judged day 2 negatively",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The proposed explanation is literary design, with double 'good' statements on days 3 and 6 helping create a sevenfold pattern.",
+          "number": 4
+        },
+        {
+          "id": "29c8ad1c-8ffe-49bc-8337-ff6c06547950",
+          "question": "How does the lecture describe the relationship between days 1–3 and days 4–6?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are unrelated units from different authors",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Days 1–3 form and separate; days 4–6 fill and govern",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Days 1–3 are historical, days 4–6 are symbolic",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Days 1–3 describe heaven, days 4–6 describe only earth",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture presents the week as symmetrical: the first triad forms or separates, and the second triad fills or governs.",
+          "number": 5
+        },
+        {
+          "id": "86a81669-b131-4e0a-bb12-d49849ae53d9",
+          "question": "How is dominion in Genesis 1 explained in the day six lecture?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "As permission for exploitation",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "As political monarchy over other humans",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "As stewardship and responsible management",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "As a command limited to Eden only",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The lecture frames rule and subdue language as stewardship rather than abuse or exploitation.",
+          "number": 6
+        },
+        {
+          "id": "d9f69287-f360-4632-9b0f-6c306615f620",
+          "question": "What literary feature especially spotlights humanity in Genesis 1:27?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "A legal code",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "A poetic section with repeated 'create' language",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "A genealogy",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "A lament formula",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Genesis 1:27 is treated as poetry, and the triple repetition of 'create' underscores humanity’s significance.",
+          "number": 7
+        }
+      ],
+      "groupId": "W03 Genesis 1"
+    },
+    {
+      "id": "585d3fd4-6095-4b04-be8f-23d210e01149",
+      "title": "W3 Quiz 3",
+      "description": "The seventh day, Sabbath rest, and the big idea of Genesis 1 within the Pentateuch",
+      "questions": [
+        {
+          "id": "8d805b37-6dc4-489a-ab47-296eca488b12",
+          "question": "What span does the lecture treat as the first major unit of the creation account?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Genesis 1:1–1:31",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Genesis 1:1–2:3",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Genesis 2:4–3:24",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Genesis 1:1–2:25",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture treats Genesis 1:1 through Genesis 2:3 as a coherent seven-day unit.",
+          "number": 1
+        },
+        {
+          "id": "b9712727-5ac2-4be9-b2c0-2737a0a7c923",
+          "question": "How is the seventh day said to differ structurally from days 1–6?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It repeats the normal evening-morning formula twice",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "It introduces a second creation of humanity",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "It breaks the repeated pattern found in the earlier days",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It contains only genealogical material",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Day seven is marked as unique because it lacks several of the standard repeated refrains used in days 1–6.",
+          "number": 2
+        },
+        {
+          "id": "c95f9cfc-0129-4701-ad9d-83e199890730",
+          "question": "Which theme is emphasized by the triple repetition noted in Genesis 2:1–3?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Judgment",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Completion of creation",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Covenant curses",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Exile from the garden",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture highlights repeated completion language to stress that God’s work had been completed.",
+          "number": 3
+        },
+        {
+          "id": "899d7e56-0028-402c-96b3-b98e15f77281",
+          "question": "What two actions especially mark the seventh day as holy?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "God names it and fills it",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "God hides it and tests humanity in it",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "God blesses it and sanctifies it",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "God ends it and replaces it",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The day is set apart through divine blessing and sanctification.",
+          "number": 4
+        },
+        {
+          "id": "45d0d402-8c8b-443b-a3c5-1673c2293bf1",
+          "question": "How does the lecture connect the Sabbath theme beyond Genesis 2?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It says the theme ends there",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "It points forward to Leviticus and Israel’s ongoing search for rest",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "It limits Sabbath only to Adam",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It applies only to kingship language",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture traces Sabbath and rest forward into the Pentateuch, especially Leviticus, and into Israel’s unresolved pursuit of rest.",
+          "number": 5
+        },
+        {
+          "id": "bc4f5612-009b-474a-94a6-772d0cf78d4e",
+          "question": "What interpretive question does the lecture raise at the end of the session?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Why Genesis uses Hebrew instead of Aramaic",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Why Genesis 1 should be read next to Genesis 2",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Whether Moses existed",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Whether the flood came before Eden",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture ends by asking how we know the author intended Genesis 1 and Genesis 2 to be read together.",
+          "number": 6
+        }
+      ],
+      "groupId": "W03 Genesis 1"
+    }
+  ]
+}

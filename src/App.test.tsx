@@ -8,6 +8,19 @@ import { QuizProvider } from './context/QuizContext'
 import { sampleQuiz } from './__mocks__/quizSample'
 
 const payload = { version: 1, quizzes: [sampleQuiz] }
+const manifest = { files: ['quizzes_sample.json'] }
+
+function resolveMockUrl(input: string | URL | Request) {
+  if (typeof input === 'string') {
+    return input
+  }
+
+  if (input instanceof URL) {
+    return input.pathname
+  }
+
+  return input.url
+}
 
 function setup() {
   return render(
@@ -31,10 +44,28 @@ afterEach(() => {
 
 describe('App integration', () => {
   it('renders the quiz list when data loads', async () => {
-    vi.spyOn(globalThis, 'fetch').mockResolvedValue({
-      ok: true,
-      json: () => Promise.resolve(payload),
-    } as Response)
+    vi.spyOn(globalThis, 'fetch').mockImplementation(async (input) => {
+      const url = resolveMockUrl(input)
+
+      if (url.endsWith('/quizzes_manifest.json')) {
+        return {
+          ok: true,
+          json: () => Promise.resolve(manifest),
+        } as Response
+      }
+
+      if (url.endsWith('/quizzes_sample.json')) {
+        return {
+          ok: true,
+          json: () => Promise.resolve(payload),
+        } as Response
+      }
+
+      return {
+        ok: false,
+        json: () => Promise.resolve(undefined),
+      } as Response
+    })
 
     setup()
 
@@ -53,10 +84,28 @@ describe('App integration', () => {
   })
 
   it('navigates to the export page from the header link', async () => {
-    vi.spyOn(globalThis, 'fetch').mockResolvedValue({
-      ok: true,
-      json: () => Promise.resolve(payload),
-    } as Response)
+    vi.spyOn(globalThis, 'fetch').mockImplementation(async (input) => {
+      const url = resolveMockUrl(input)
+
+      if (url.endsWith('/quizzes_manifest.json')) {
+        return {
+          ok: true,
+          json: () => Promise.resolve(manifest),
+        } as Response
+      }
+
+      if (url.endsWith('/quizzes_sample.json')) {
+        return {
+          ok: true,
+          json: () => Promise.resolve(payload),
+        } as Response
+      }
+
+      return {
+        ok: false,
+        json: () => Promise.resolve(undefined),
+      } as Response
+    })
 
     setup()
     await screen.findByText(/Available Quizzes/i)

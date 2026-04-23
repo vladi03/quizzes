@@ -4,14 +4,41 @@ import { loadQuizzes } from './quizzes'
 
 describe('loadQuizzes', () => {
   const originalFetch = globalThis.fetch
+  const manifest = {
+    files: ['quizzes_a.json', 'quizzes_b.json'],
+  }
 
   afterEach(() => {
     globalThis.fetch = originalFetch
     vi.restoreAllMocks()
   })
 
-  it('returns quizzes when every entry contains a groupId', async () => {
-    const payload: QuizCollection = {
+  function mockFetch(payloads: Record<string, unknown>) {
+    globalThis.fetch = vi.fn(async (input: string | URL | Request) => {
+      const url =
+        typeof input === 'string'
+          ? input
+          : input instanceof URL
+            ? input.pathname
+            : input.url
+
+      const payload = payloads[url]
+      if (!payload) {
+        return {
+          ok: false,
+          json: () => Promise.resolve(undefined),
+        } as Response
+      }
+
+      return {
+        ok: true,
+        json: () => Promise.resolve(payload),
+      } as Response
+    }) as unknown as typeof fetch
+  }
+
+  it('returns quizzes merged from every manifest entry when every entry contains a groupId', async () => {
+    const payloadA: QuizCollection = {
       version: 1,
       quizzes: [
         {
@@ -23,13 +50,28 @@ describe('loadQuizzes', () => {
         },
       ],
     }
-    globalThis.fetch = vi.fn().mockResolvedValue({
-      ok: true,
-      json: () => Promise.resolve(payload),
-    }) as unknown as typeof fetch
+    const payloadB: QuizCollection = {
+      version: 2,
+      quizzes: [
+        {
+          id: 'sample-2',
+          title: 'Sample Quiz 2',
+          description: 'Demo 2',
+          groupId: 'Election',
+          questions: [],
+        },
+      ],
+    }
+
+    mockFetch({
+      '/quizzes_manifest.json': manifest,
+      '/quizzes_a.json': payloadA,
+      '/quizzes_b.json': payloadB,
+    })
 
     const result = await loadQuizzes()
-    expect(result.quizzes).toHaveLength(1)
+    expect(result.version).toBe(2)
+    expect(result.quizzes).toHaveLength(2)
     expect(result.quizzes[0].groupId).toBe('Union with Christ')
   })
 
@@ -46,10 +88,11 @@ describe('loadQuizzes', () => {
         },
       ],
     }
-    globalThis.fetch = vi.fn().mockResolvedValue({
-      ok: true,
-      json: () => Promise.resolve(payload),
-    }) as unknown as typeof fetch
+
+    mockFetch({
+      '/quizzes_manifest.json': { files: ['quizzes_a.json'] },
+      '/quizzes_a.json': payload,
+    })
 
     const result = await loadQuizzes()
     expect(result.quizzes[0].groupId).toBe('Millennial Views')
@@ -67,11 +110,20 @@ describe('loadQuizzes', () => {
         },
       ],
     }
-    globalThis.fetch = vi.fn().mockResolvedValue({
-      ok: true,
-      json: () => Promise.resolve(payload),
-    }) as unknown as typeof fetch
+
+    mockFetch({
+      '/quizzes_manifest.json': { files: ['quizzes_a.json'] },
+      '/quizzes_a.json': payload,
+    })
 
     await expect(loadQuizzes()).rejects.toThrow(/groupId/)
+  })
+
+  it('throws when the manifest contains no matching files', async () => {
+    mockFetch({
+      '/quizzes_manifest.json': { files: [] },
+    })
+
+    await expect(loadQuizzes()).rejects.toThrow(/No quiz files/)
   })
 })

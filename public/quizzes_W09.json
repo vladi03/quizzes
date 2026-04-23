@@ -1,0 +1,569 @@
+{
+  "version": 1,
+  "quizzes": [
+    {
+      "id": "4b73c1a6-e658-41d7-a5e4-f0b711fb0ba4",
+      "title": "W09 Quiz 1",
+      "description": "Exodus 19 as a seam-filled Sinai chapter with conditional covenant language, priestly identity tension, and rising mediation",
+      "questions": [
+        {
+          "id": "09b13f16-d9ea-4816-9dfc-0ceffb59423d",
+          "question": "How does the lecture characterize Exodus 19:5?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "As an unconditional royal promise",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "As a conditional covenant statement before detailed stipulations are named",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "As a summary of the Holiness Code",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "As a rejection of covenant language",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture emphasizes that Exodus 19:5 is conditional—'if you listen/obey'—even though the detailed legal stipulations have not yet been laid out.",
+          "number": 1
+        },
+        {
+          "id": "e4a13721-945d-457c-9dcf-a74d8b61dd4f",
+          "question": "Which repeated wording at the opening of Exodus 19 is treated as a clue to emphasis or compilation?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "'Moses went up'",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "'The mountain smoked'",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "'They encamped there'",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "'The people trembled'",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The opening repetition of 'they encamped there' is highlighted as either rhetorical emphasis or evidence of compiled material.",
+          "number": 2
+        },
+        {
+          "id": "6aad63be-63ba-4924-9cbb-064ac577f419",
+          "question": "What tension does the lecture see in the phrase 'kingdom of priests'?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It conflicts with the Exodus chronology",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "It suggests all Israel is priestly, yet later priests are distinguished from the people",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "It denies Moses’ leadership",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It removes holiness language from Sinai",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture notes tension between all Israel as a 'kingdom of priests' and later references that distinguish priests from the people.",
+          "number": 3
+        },
+        {
+          "id": "e5da6b5f-959d-4da9-aaea-ab6ff728e22c",
+          "question": "Why is Exodus 19:9 called theologically striking in the lecture?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Because it denies God’s holiness",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Because it says the people will never hear God",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Because God comes so the people will hear and believe in Moses forever",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Because it replaces Moses with Aaron",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The purpose clause in 19:9 elevates Moses’ authority: God comes in the cloud so the people may hear and believe Moses forever.",
+          "number": 4
+        },
+        {
+          "id": "ebe38b90-721e-4497-aa73-8ebbf1eea625",
+          "question": "Which odd instruction in Exodus 19:15 is singled out as unexpected in the chapter?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Build an altar of uncut stones",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Do not go near your wives",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Offer incense on the mountain",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Choose seventy elders",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture flags the instruction not to go near wives as an unexpected addition not clearly grounded in a prior command in the chapter.",
+          "number": 5
+        },
+        {
+          "id": "f68f7ddd-75df-4680-97bb-6d80ae6f4367",
+          "question": "What narrative seam is noted between Exodus 19:25 and 20:1?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Moses dies before the Ten Commandments",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Aaron speaks instead of God",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "19:25 ends as if Moses will speak, but 20:1 continues with 'God spoke'",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "The people ascend the mountain with Moses",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The transition from 19:25 to 20:1 is treated as a seam suggesting rearrangement or layered composition.",
+          "number": 6
+        }
+      ],
+      "groupId": "W09 Exodus 19"
+    },
+    {
+      "id": "363bdb80-7f60-475d-bba5-aab3c83c200c",
+      "title": "W09 Quiz 2",
+      "description": "Exodus 19–24 as a narrative of increasing distance, the people’s request for Moses as mediator, and the framing of the legal corpus",
+      "questions": [
+        {
+          "id": "23d60da5-9cb4-42cc-be85-2e9c8e53863d",
+          "question": "What main trajectory does the lecture trace from Exodus 19 through Exodus 24?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Israel gains direct and easy access to Yahweh",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Distance between Yahweh and Israel increases, requiring mediation",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "The law replaces the covenant",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "The tabernacle eliminates all danger immediately",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture argues that Exodus 19–24 is arranged to show increasing distance between Yahweh and Israel and the growing necessity of mediation.",
+          "number": 1
+        },
+        {
+          "id": "b40c975c-5320-4e5d-9cba-34a6fc70d807",
+          "question": "How does Exodus 20:18–21 function in the lecture’s reading?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "As a contradiction of Exodus 19",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "As a resumptive repetition of Sinai theophany imagery that highlights fear and distance",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "As the formal close of Leviticus",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "As a song of Moses",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Exodus 20:18–21 reprises the Sinai imagery to reemphasize the people's fear and their distance from God.",
+          "number": 2
+        },
+        {
+          "id": "c1b1d1dd-04ac-4e0e-9447-acb1d5b54e22",
+          "question": "What request do the people make in Exodus 20:19 according to the lecture?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "That Aaron become king",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "That God stop giving laws",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "That Moses speak to them instead of God, lest they die",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "That they may all ascend the mountain",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The people ask for Moses to mediate the words because direct divine speech terrifies them.",
+          "number": 3
+        },
+        {
+          "id": "d77db2e6-e055-4936-ba1f-c53c2bf6a8bc",
+          "question": "Which passages are said to bracket the legal corpus in Exodus 20:22–23:33?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Exodus 19:1 and 25:1",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Exodus 20:22 and Exodus 24:1",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Exodus 18:1 and 24:12",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Exodus 21:1 and Leviticus 1:1",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture highlights a narrative and grammatical linkage between Exodus 20:22 and Exodus 24:1 as a frame around the laws.",
+          "number": 4
+        },
+        {
+          "id": "cdd97170-c8fa-4496-928e-fa1998c1eb11",
+          "question": "In Exodus 24, who alone draws near to Yahweh?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "All Israel",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Aaron and the seventy elders",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Nadab and Abihu",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Moses",
+              "letter": "D"
+            }
+          ],
+          "answer": "D",
+          "explanation": "Though others are included in layers of access, only Moses actually draws near, reinforcing mediation.",
+          "number": 5
+        },
+        {
+          "id": "d7e4ccfc-17bd-43a4-95ee-843efde35150",
+          "question": "What problem does the tabernacle address, yet not fully solve, in the lecture?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "A shortage of priests",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "The distance and presence problem of Yahweh dwelling among Israel",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "The lack of food in the wilderness",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "The absence of kingship",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The tabernacle is presented as an answer to the distance problem, but the golden calf and later restrictions show the problem persists.",
+          "number": 6
+        }
+      ],
+      "groupId": "W09 Exodus 19"
+    },
+    {
+      "id": "a15e3fa7-d2cf-4a0c-89f2-864496a939ae",
+      "title": "W09 Quiz 3",
+      "description": "Why God gave the law, how law functions in the Pentateuch’s literary structure, and why Moses’ mediation remains necessary",
+      "questions": [
+        {
+          "id": "82eaa9c8-a517-41ca-9d2e-d60f866faf3e",
+          "question": "What two guiding questions organize the lecture’s treatment of Exodus 19–Numbers 10 and beyond?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Who wrote the Pentateuch and when was it canonized",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Why God gave the law and how law functions in the Pentateuch’s narrative structure",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Why Israel wanted a king and how the temple was built",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "How the prophets used Genesis and why wisdom literature matters",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture explicitly frames the unit around why God gave the law and what role the law plays in the Pentateuch’s narrative design.",
+          "number": 1
+        },
+        {
+          "id": "4f2d66c7-e2c5-4e2a-b38f-f7d2e5d25dd2",
+          "question": "What contrast does the lecture make between reading the Pentateuch as 'window' and as 'structure'?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Window means fiction, structure means history",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Window emphasizes historical events, structure emphasizes crafted literary-theological design",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "Window means law, structure means gospel",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "Window focuses on Greek, structure on Hebrew",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture contrasts reading the text as a historical window with reading it as a literary-theological structure shaped to communicate meaning.",
+          "number": 2
+        },
+        {
+          "id": "020f6e42-28cd-49b0-8a7f-df596b615ac1",
+          "question": "How does the lecture treat common Christian categories like law/gospel or civil-ceremonial-moral divisions?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "As the Pentateuch’s own organizing logic",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "As irrelevant to Christian theology",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "As noted frameworks, but not the Pentateuch’s native organizing categories",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "As commands explicitly given in Exodus 19",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "These frameworks are acknowledged, but the lecture says they are not the Pentateuch’s own internal organizational scheme.",
+          "number": 3
+        },
+        {
+          "id": "d6380497-807f-4f9d-831b-9917bad73f26",
+          "question": "What major narrative-theological role of the law is emphasized?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "To abolish mediation",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "To highlight Moses as mediator and expose Israel’s need for a mediator",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "To replace covenant promises with ritual",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "To teach Israel military strategy",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "A central function of the law in the narrative is to elevate Moses’ mediatorial role and reveal the people's need for mediation.",
+          "number": 4
+        },
+        {
+          "id": "8a3336de-66ce-4c72-9f57-0ad56d32c0b8",
+          "question": "How does the lecture describe the law’s effect within the Pentateuchal narrative?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "It fully transforms Israel’s obedience",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "It is useless and ungracious",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "It is gracious and wise, yet limited in its power to sanctify Israel",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "It matters only for priests",
+              "letter": "D"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The law is presented as gracious and wise for Israel’s historical setting, but the narrative shows its limited power to change the heart.",
+          "number": 5
+        },
+        {
+          "id": "dc338f0e-b94e-483a-a048-1294512cfa8f",
+          "question": "Which later Numbers sequence is highlighted near the end of the lecture’s overview?",
+          "type": "multiple_choice",
+          "options": [
+            {
+              "id": "A",
+              "text": "Deborah’s song and Gideon’s fleece",
+              "letter": "A"
+            },
+            {
+              "id": "B",
+              "text": "Balaam’s poems and Israel’s idolatry with Baal in Numbers 25",
+              "letter": "B"
+            },
+            {
+              "id": "C",
+              "text": "The rebuilding of the temple",
+              "letter": "C"
+            },
+            {
+              "id": "D",
+              "text": "The anointing of Saul",
+              "letter": "D"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The lecture points to Balaam’s oracles in Numbers 23–24 and Israel’s Baal-related idolatry in Numbers 25 as part of the continuing narrative arc.",
+          "number": 6
+        }
+      ],
+      "groupId": "W09 Exodus 19"
+    }
+  ]
+}
