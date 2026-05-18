@@ -1,0 +1,342 @@
+{
+    "version": 1,
+    "quizzes": [{
+            "id": "isaiah-prophets-true-false",
+            "title": "Isaiah and Prophets Quiz",
+            "description": "True/false quiz based on Introduction to the Prophets and Isaiah questions",
+            "groupId": "OT 2 Book",
+            "questions": [{
+                    "id": "isaiah-prophets-q01",
+                    "question": "True or False: The Hittites were one of the major empires which formed the backdrop of classical prophecy.",
+                    "type": "true_false",
+                    "options": [{
+                            "id": "true",
+                            "letter": "T",
+                            "text": "True"
+                        }, {
+                            "id": "false",
+                            "letter": "F",
+                            "text": "False"
+                        }
+                    ],
+                    "answer": "false",
+                    "explanation": "The three major empires forming the backdrop of classical prophecy were Assyria, Babylon, and Persia.",
+                    "number": 1
+                }, {
+                    "id": "isaiah-prophets-q02",
+                    "question": "True or False: The Babylonians were one of the major empires which formed the backdrop of classical prophecy.",
+                    "type": "true_false",
+                    "options": [{
+                            "id": "true",
+                            "letter": "T",
+                            "text": "True"
+                        }, {
+                            "id": "false",
+                            "letter": "F",
+                            "text": "False"
+                        }
+                    ],
+                    "answer": "true",
+                    "explanation": "Babylon was one of the three major empires that formed the historical backdrop of the classical prophets.",
+                    "number": 2
+                }, {
+                    "id": "isaiah-prophets-q03",
+                    "question": "True or False: The Persian king Cyrus showed favor to the various people's social and religious customs and allowed Jews to return to Jerusalem.",
+                    "type": "true_false",
+                    "options": [{
+                            "id": "true",
+                            "letter": "T",
+                            "text": "True"
+                        }, {
+                            "id": "false",
+                            "letter": "F",
+                            "text": "False"
+                        }
+                    ],
+                    "answer": "true",
+                    "explanation": "Cyrus allowed the Jews to return to Judah and rebuild.",
+                    "number": 3
+                }, {
+                    "id": "isaiah-prophets-q04",
+                    "question": "True or False: An important prophetic theme is the Messiah.",
+                    "type": "true_false",
+                    "options": [{
+                            "id": "true",
+                            "letter": "T",
+                            "text": "True"
+                        }, {
+                            "id": "false",
+                            "letter": "F",
+                            "text": "False"
+                        }
+                    ],
+                    "answer": "true",
+                    "explanation": "The Messiah is listed as one of the major themes of biblical prophecy.",
+                    "number": 4
+                }, {
+                    "id": "isaiah-prophets-q05",
+                    "question": "True or False: An important prophetic theme is the kingdom of Solomon.",
+                    "type": "true_false",
+                    "options": [{
+                            "id": "true",
+                            "letter": "T",
+                            "text": "True"
+                        }, {
+                            "id": "false",
+                            "letter": "F",
+                            "text": "False"
+                        }
+                    ],
+                    "answer": "false",
+                    "explanation": "The major prophetic themes listed are covenant obligations, the Day of the Lord, and the Messiah.",
+                    "number": 5
+                }, {
+                    "id": "isaiah-prophets-q06",
+                    "question": "True or False: An important prophetic theme is covenant obligations.",
+                    "type": "true_false",
+                    "options": [{
+                            "id": "true",
+                            "letter": "T",
+                            "text": "True"
+                        }, {
+                            "id": "false",
+                            "letter": "F",
+                            "text": "False"
+                        }
+                    ],
+                    "answer": "true",
+                    "explanation": "Covenant obligations are one of the major repeated themes in the prophets.",
+                    "number": 6
+                }, {
+                    "id": "isaiah-prophets-q07",
+                    "question": "True or False: The prophets were often hysterical babblers who did not know what they were saying but were in a trance.",
+                    "type": "true_false",
+                    "options": [{
+                            "id": "true",
+                            "letter": "T",
+                            "text": "True"
+                        }, {
+                            "id": "false",
+                            "letter": "F",
+                            "text": "False"
+                        }
+                    ],
+                    "answer": "false",
+                    "explanation": "The text specifically rejects the idea that the prophets were hysterical babblers or uncontrolled fanatics.",
+                    "number": 7
+                }, {
+                    "id": "isaiah-prophets-q08",
+                    "question": "True or False: The prophets were creative individuals who used a variety of literary and oral techniques to communicate their messages.",
+                    "type": "true_false",
+                    "options": [{
+                            "id": "true",
+                            "letter": "T",
+                            "text": "True"
+                        }, {
+                            "id": "false",
+                            "letter": "F",
+                            "text": "False"
+                        }
+                    ],
+                    "answer": "true",
+                    "explanation": "The prophets used literary techniques such as parables, songs, laments, rhetorical questions, and symbolism.",
+                    "number": 8
+                }, {
+                    "id": "isaiah-prophets-q09",
+                    "question": "True or False: Isaiah is not mentioned by name after chapter 39.",
+                    "type": "true_false",
+                    "options": [{
+                            "id": "true",
+                            "letter": "T",
+                            "text": "True"
+                        }, {
+                            "id": "false",
+                            "letter": "F",
+                            "text": "False"
+                        }
+                    ],
+                    "answer": "true",
+                    "explanation": "Isaiah's name is not explicitly mentioned after chapter 39 of the book.",
+                    "number": 9
+                }, {
+                    "id": "isaiah-prophets-q10",
+                    "question": "True or False: Two important kings in the book of Isaiah are Solomon and Jeroboam.",
+                    "type": "true_false",
+                    "options": [{
+                            "id": "true",
+                            "letter": "T",
+                            "text": "True"
+                        }, {
+                            "id": "false",
+                            "letter": "F",
+                            "text": "False"
+                        }
+                    ],
+                    "answer": "false",
+                    "explanation": "The important kings connected to Isaiah's ministry include Uzziah, Jotham, Ahaz, and Hezekiah.",
+                    "number": 10
+                }
+            ]
+        }, {
+            "id": "isaiah-true-false-review-01",
+            "title": "Isaiah True/False Review",
+            "description": "True/False review questions based on Isaiah course materials and the books of Isaiah and Jeremiah.",
+            "groupId": "OT 2 Book",
+            "questions": [{
+                    "id": "isaiah-tf-q01",
+                    "number": 1,
+                    "question": "Isaiah had a son whose name meant, \"A remnant shall return.\"",
+                    "type": "true_false",
+                    "options": [{
+                            "id": "true",
+                            "letter": "T",
+                            "text": "True"
+                        }, {
+                            "id": "false",
+                            "letter": "F",
+                            "text": "False"
+                        }
+                    ],
+                    "answer": "true",
+                    "explanation": "Isaiah had a son named Shear-Jashub, whose name means \"A remnant shall return.\""
+                }, {
+                    "id": "isaiah-tf-q02",
+                    "number": 2,
+                    "question": "The naming of children is not a significant factor in understanding the Book of Isaiah.",
+                    "type": "true_false",
+                    "options": [{
+                            "id": "true",
+                            "letter": "T",
+                            "text": "True"
+                        }, {
+                            "id": "false",
+                            "letter": "F",
+                            "text": "False"
+                        }
+                    ],
+                    "answer": "false",
+                    "explanation": "The symbolic names of Isaiah's children communicate prophetic themes and are important to understanding the book."
+                }, {
+                    "id": "isaiah-tf-q03",
+                    "number": 3,
+                    "question": "Isaiah gave Ahaz the sign that he would have victory over Babylon.",
+                    "type": "true_false",
+                    "options": [{
+                            "id": "true",
+                            "letter": "T",
+                            "text": "True"
+                        }, {
+                            "id": "false",
+                            "letter": "F",
+                            "text": "False"
+                        }
+                    ],
+                    "answer": "false",
+                    "explanation": "Isaiah gave Ahaz the sign of Immanuel concerning the defeat of Syria and Israel, not Babylon."
+                }, {
+                    "id": "isaiah-tf-q04",
+                    "number": 4,
+                    "question": "The book indicated that Isaiah 36-39 acted as a link between the first part of the book of Isaiah (1-39) and the second part of Isaiah (40-66).",
+                    "type": "true_false",
+                    "options": [{
+                            "id": "true",
+                            "letter": "T",
+                            "text": "True"
+                        }, {
+                            "id": "false",
+                            "letter": "F",
+                            "text": "False"
+                        }
+                    ],
+                    "answer": "true",
+                    "explanation": "Isaiah 36-39 serves as a transition between the Assyrian-focused first section and the Babylon-focused second section."
+                }, {
+                    "id": "isaiah-tf-q05",
+                    "number": 5,
+                    "question": "Isaiah 38-39 chronologically precedes Isaiah 36-37.",
+                    "type": "true_false",
+                    "options": [{
+                            "id": "true",
+                            "letter": "T",
+                            "text": "True"
+                        }, {
+                            "id": "false",
+                            "letter": "F",
+                            "text": "False"
+                        }
+                    ],
+                    "answer": "true",
+                    "explanation": "The material notes that the events of Isaiah 38-39 occurred before those of Isaiah 36-37 chronologically."
+                }, {
+                    "id": "isaiah-tf-q06",
+                    "number": 6,
+                    "question": "The word \"servant\" may denote an individual Israelite.",
+                    "type": "true_false",
+                    "options": [{
+                            "id": "true",
+                            "letter": "T",
+                            "text": "True"
+                        }, {
+                            "id": "false",
+                            "letter": "F",
+                            "text": "False"
+                        }
+                    ],
+                    "answer": "true",
+                    "explanation": "The servant theme in Isaiah can refer to an individual Israelite."
+                }, {
+                    "id": "isaiah-tf-q07",
+                    "number": 7,
+                    "question": "Isaiah declares that God's restoration includes men and women from the nations.",
+                    "type": "true_false",
+                    "options": [{
+                            "id": "true",
+                            "letter": "T",
+                            "text": "True"
+                        }, {
+                            "id": "false",
+                            "letter": "F",
+                            "text": "False"
+                        }
+                    ],
+                    "answer": "true",
+                    "explanation": "Isaiah teaches that foreigners and people from all nations will become part of God's restored people."
+                }, {
+                    "id": "isaiah-tf-q08",
+                    "number": 8,
+                    "question": "The word \"servant\" may denote the Messiah.",
+                    "type": "true_false",
+                    "options": [{
+                            "id": "true",
+                            "letter": "T",
+                            "text": "True"
+                        }, {
+                            "id": "false",
+                            "letter": "F",
+                            "text": "False"
+                        }
+                    ],
+                    "answer": "true",
+                    "explanation": "Isaiah uses the term servant to refer to the Messiah, especially in the suffering servant passages."
+                }, {
+                    "id": "isaiah-tf-q09",
+                    "number": 9,
+                    "question": "The word \"servant\" may denote a remnant of Israel.",
+                    "type": "true_false",
+                    "options": [{
+                            "id": "true",
+                            "letter": "T",
+                            "text": "True"
+                        }, {
+                            "id": "false",
+                            "letter": "F",
+                            "text": "False"
+                        }
+                    ],
+                    "answer": "true",
+                    "explanation": "The servant in Isaiah may refer to the faithful remnant within Israel."
+                }
+            ]
+        }
+    ]
+}

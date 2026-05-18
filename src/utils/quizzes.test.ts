@@ -15,12 +15,13 @@ describe('loadQuizzes', () => {
 
   function mockFetch(payloads: Record<string, unknown>) {
     globalThis.fetch = vi.fn(async (input: string | URL | Request) => {
-      const url =
+      const rawUrl =
         typeof input === 'string'
           ? input
           : input instanceof URL
             ? input.pathname
             : input.url
+      const url = rawUrl.split('?')[0]
 
       const payload = payloads[url]
       if (!payload) {

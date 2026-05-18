@@ -11,15 +11,17 @@ const payload = { version: 1, quizzes: [sampleQuiz] }
 const manifest = { files: ['quizzes_sample.json'] }
 
 function resolveMockUrl(input: string | URL | Request) {
+  let rawUrl: string
+
   if (typeof input === 'string') {
-    return input
+    rawUrl = input
+  } else if (input instanceof URL) {
+    rawUrl = input.pathname
+  } else {
+    rawUrl = input.url
   }
 
-  if (input instanceof URL) {
-    return input.pathname
-  }
-
-  return input.url
+  return rawUrl.split('?')[0]
 }
 
 function setup() {
